@@ -101,7 +101,7 @@ def main(argv=None):
     ap.add_argument("--public", action="store_true",
                     help="build a read-only site into --site-dir (no correction tools; corrections baked in)")
     ap.add_argument("--site-dir", default="docs", help="output folder for --public (default: docs/, which GitHub Pages can serve directly)")
-    ap.add_argument("--issues-url", default="", help="optional link for readers to report mistakes (public build)")
+    ap.add_argument("--issues-url", default="https://github.com/scouttyg/hn-agentic-setups/issues/new", help="optional link for readers to report mistakes (public build)")
     ap.add_argument("--site-url", default="https://scouttyg.github.io/hn-agentic-setups/",
                     help="public URL of the site, for canonical/og:url tags and sitemap.xml (public build)")
     ap.add_argument("--utm-source", default="hn-agentic-setups", help="utm_source added to outbound tool-website links")

@@ -44,12 +44,12 @@
     {
       "n": "{anyn:api_or_model}",
       "label": "use models outside a subscription",
-      "text": "**Open-weight models dominate.** DeepSeek, Qwen and GLM lead the model tree, mostly their cheap \"Flash\" variants."
+      "text": "**Open-weight models dominate.** DeepSeek, Qwen and GLM lead the model tree. DeepSeek and GLM users mostly run the cheap \"Flash\" variants."
     },
     {
       "n": "{route:api_or_model:router}",
       "label": "go through a router",
-      "text": "**OpenRouter carries almost all of it.** Pay-as-you-go straight from Anthropic or OpenAI is comparatively rare."
+      "text": "**OpenRouter is the most common route.** Pay-as-you-go straight from Anthropic or OpenAI is comparatively rare."
     },
     {
       "n": "{route:api_or_model:local}",
@@ -74,7 +74,7 @@
     {
       "n": "{fam:DeepSeek}",
       "label": "name a DeepSeek model",
-      "text": "DeepSeek mentions are overwhelmingly **V4.1 Flash**, the go-to cheap workhorse."
+      "text": "When people give a DeepSeek version, it is almost always **V4.1 Flash**, the go-to cheap workhorse."
     }
   ],
   "harness": [
@@ -120,7 +120,7 @@
     {
       "n": "{n:platform:None}",
       "label": "use AI but no agent platform",
-      "text": "The main reason is **security**: handing an agent your email and credentials. Cost and unclear value come next."
+      "text": "Reasons split between **no clear use for one** and **security** (handing an agent your email and credentials). A few mention cost."
     },
     {
       "n": "{n:platform:Custom assistant}",

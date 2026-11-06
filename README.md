@@ -83,7 +83,7 @@ Merges the parsed comments with everything in `extraction/` and writes the data 
 | `--public` | Builds the read-only site in `--site-dir`: the page, assets, icons, data, `404.html` and `sitemap.xml`. Corrections are already applied |
 | `--site-dir DIR` | Where `--public` writes (default `docs`) |
 | `--site-url URL` | The public URL, used for the canonical link, social-preview tags, `404.html` and the sitemap (default `https://scouttyg.github.io/hn-agentic-setups/`) |
-| `--issues-url URL` | Optional link where readers can report mistakes |
+| `--issues-url URL` | Where readers report mistakes, shown in the help dialog (default: this repo's GitHub new-issue page; pass `""` to hide it) |
 | `--utm-source`, `--utm-campaign` | UTM tags added to outbound links to tool websites. Hacker News and GitHub links are left alone |
 | `-o FILE` | Where the working copy's data file goes (default `report/data.js`) |
 

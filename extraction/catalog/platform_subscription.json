@@ -373,17 +373,15 @@
     "sources": []
   },
   "Pickle": {
-    "description": "Likely Pickle (getpickle.ai), a startup offering AI clones/personal AI you can talk to, which the commenter uses to make calls while driving; exact product unverified.",
-    "vendor": "Pickle",
-    "website": "https://getpickle.ai",
+    "description": "A personal AI assistant one commenter uses to make calls while driving. The exact product couldn't be identified.",
+    "vendor": null,
+    "website": null,
     "github": null,
     "harness_type": null,
     "interface": null,
     "open_source": false,
     "confidence": "low",
-    "sources": [
-      "https://indexator.ai/startups/pickle"
-    ]
+    "sources": []
   },
   "Meta AI": {
     "description": "Meta's Meta AI assistant and its paid AI subscription tiers (introduced 2026 under the Meta One brand, $7.99/$19.99 per month).",
