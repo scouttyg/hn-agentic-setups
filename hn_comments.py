@@ -24,9 +24,11 @@ from __future__ import annotations
 
 import argparse
 import csv
+import datetime as dt
 import html
 import io
 import json
+import os
 import re
 import sys
 from dataclasses import dataclass, field, asdict
@@ -73,6 +75,7 @@ class Story:
     timestamp: str | None
     comment_count: int | None      # as reported by HN
     text: str | None
+    captured_at: str | None = None  # when the page was saved (UTC); comments posted later aren't in it
 
 
 # --------------------------------------------------------------------------- #
@@ -341,7 +344,8 @@ def to_markdown(story: Story, roots: list[Comment], include_html: bool) -> str:
     meta = [f"{story.points} points" if story.points is not None else None,
             f"by {story.author}" if story.author else None,
             story.timestamp,
-            f"{story.comment_count} comments" if story.comment_count is not None else None]
+            f"{story.comment_count} comments" if story.comment_count is not None else None,
+            f"captured {story.captured_at}" if story.captured_at else None]
     lines += [" | ".join(m for m in meta if m), ""]
     if story.text:
         lines += [story.text, "", "---", ""]
@@ -386,6 +390,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("-o", "--output", help="output file (default: stdout)")
     ap.add_argument("--include-html", action="store_true",
                     help="include each comment's original HTML")
+    ap.add_argument("--captured-at",
+                    help="when the page was saved, ISO 8601 (default: the input file's creation time)")
     ap.add_argument("--exclude-dead", action="store_true",
                     help="drop dead/flagged/deleted comments that have no surviving replies")
     args = ap.parse_args(argv)
@@ -397,6 +403,7 @@ def main(argv: list[str] | None = None) -> int:
             page = fh.read()
 
     story = parse_story(page)
+    story.captured_at = args.captured_at or (None if args.input == "-" else _file_time(args.input))
     roots = parse_comments(page)
 
     if args.exclude_dead:
@@ -416,6 +423,13 @@ def main(argv: list[str] | None = None) -> int:
     else:
         sys.stdout.write(out if out.endswith("\n") else out + "\n")
     return 0
+
+
+def _file_time(path: str) -> str:
+    """Creation time of a saved page (falls back to modification time), as UTC ISO 8601."""
+    st = os.stat(path)
+    ts = getattr(st, "st_birthtime", None) or st.st_mtime
+    return dt.datetime.fromtimestamp(ts, dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def _prune_dead(nodes: list[Comment]) -> list[Comment]:

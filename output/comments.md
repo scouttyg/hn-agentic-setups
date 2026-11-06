@@ -1,6 +1,6 @@
 # Ask HN: What's your current AI agentic setup?
 
-537 points | by eggbrain | 2026-11-04T14:37:22 | 754 comments
+537 points | by eggbrain | 2026-11-04T14:37:22 | 754 comments | captured 2026-11-06T18:34:11Z
 
 I'm curious how people on HN are using AI day to day, and came up with a list of questions I thought could be interesting to know. No need to answer every question of course, just wanted to get a gut feel how people are using AI.
 

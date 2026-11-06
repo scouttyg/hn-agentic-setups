@@ -1,0 +1,16 @@
+{
+  "name": "Ask HN: What's your AI agentic setup? Answers, analyzed",
+  "short_name": "HN AI setups",
+  "description": "What Hacker News developers use for AI coding, grouped and counted from the Ask HN thread.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f5ee",
+  "theme_color": "#ff6600",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"}
+  ]
+}

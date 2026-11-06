@@ -329,13 +329,31 @@ def main(argv=None):
         import shutil
         site = os.path.join(ROOT, args.site_dir)
         os.makedirs(site, exist_ok=True)
-        for f in ("styles.css", "app.js"):
+        for f in ("styles.css", "app.js", "icon.svg", "favicon.ico", "apple-touch-icon.png", "icon-192.png",
+                  "icon-512.png", "icon-maskable-512.png", "site.webmanifest", "og-image.jpg"):
             shutil.copyfile(os.path.join(ROOT, "report", f), os.path.join(site, f))
         url = args.site_url.rstrip("/") + "/"
         page = open(os.path.join(ROOT, "report", "index.html"), encoding="utf-8").read()
-        page = page.replace("<!--site-url-->", f'<link rel="canonical" href="{url}">\n<meta property="og:url" content="{url}">')
+        page = page.replace("<!--site-url-->", (
+            f'<link rel="canonical" href="{url}">\n<meta property="og:url" content="{url}">\n'
+            f'<meta property="og:image" content="{url}og-image.jpg">\n<meta property="og:image:width" content="1200">\n'
+            '<meta property="og:image:height" content="630">\n'
+            f'<meta property="og:image:alt" content="Ask HN: What&#39;s your AI agentic setup? Answers from {story.get("comment_count")} comments, grouped and counted.">\n'
+            f'<meta name="twitter:image" content="{url}og-image.jpg">'))
         with open(os.path.join(site, "index.html"), "w", encoding="utf-8") as fh:
             fh.write(page)
+        # GitHub Pages serves this for any unknown path under the site, so links must be absolute
+        with open(os.path.join(site, "404.html"), "w", encoding="utf-8") as fh:
+            fh.write(f'''<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found</title><meta name="robots" content="noindex"><link rel="icon" href="{url}icon.svg" type="image/svg+xml">
+<style>body{{margin:0;background:#f5f5ee;color:#16140f;font:16px/1.5 "Avenir Next",Avenir,system-ui,sans-serif}}
+.band{{background:#ff6600;padding:6px 16px;font:bold 14px Verdana,sans-serif}}.band a{{color:#000;text-decoration:none}}
+main{{max-width:560px;margin:64px auto;padding:0 16px}}h1{{font:600 28px Georgia,serif;margin:0 0 8px}}a{{color:#16140f}}</style></head>
+<body><div class="band"><a href="{url}">Thread analysis</a></div>
+<main><h1>There's no page here</h1><p>The whole analysis is on one page: <a href="{url}">go to the Ask HN agentic setup analysis</a>.</p></main>
+</body></html>
+''')
         with open(os.path.join(site, "sitemap.xml"), "w", encoding="utf-8") as fh:
             fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                      f"  <url><loc>{url}</loc><lastmod>{dt.date.today().isoformat()}</lastmod></url>\n</urlset>\n")

@@ -628,7 +628,13 @@ function renderHeader() {
   const s = DATA.story;
   document.getElementById("title").innerHTML = `<a href="${esc(s.url)}" style="text-decoration:none">${esc(s.title)}</a>`;
   const when = s.timestamp ? new Date(s.timestamp + "Z").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : "";
-  document.getElementById("meta").innerHTML = `${s.points} points by ${esc(s.author)} on ${when} <span class="pipe">|</span> ${s.comment_count} comments <span class="pipe">|</span> <a href="${esc(s.url)}">open the thread</a>`;
+  // the thread was saved once; points and comment counts are as of then, later comments aren't included
+  const asOf = s.captured_at ? new Date(s.captured_at).toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", timeZoneName: "short" }) : "";
+  document.getElementById("meta").innerHTML = `${s.points} points by ${esc(s.author)} on ${when} <span class="pipe">|</span> ${s.comment_count} comments${asOf ? ` as of ${esc(asOf)}` : ""} <span class="pipe">|</span> <a href="${esc(s.url)}">open the thread</a>`;
+  document.querySelectorAll("[data-captured]").forEach(el => {
+    el.hidden = !asOf;
+    el.innerHTML = `It's a snapshot: the thread was saved on ${esc(asOf)}, when it had ${s.comment_count} comments. Anything posted or edited after that isn't included.`;
+  });
 }
 function renderStats() {
   const elig = DATA.comments.filter(eligible);
