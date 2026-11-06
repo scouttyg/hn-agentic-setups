@@ -1,0 +1,2115 @@
+[
+ {
+  "id": "50376720",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding",
+     "research"
+    ],
+    "use": "translating between languages, lookups",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Claude Fable"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "planning to sign up; stalled",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50381117",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "subscription",
+    "via": "OpenCode Go",
+    "roles": [
+     "coding"
+    ],
+    "use": "main model, ~1B tokens/month",
+    "cost": "$10",
+    "tier": [
+     "Go"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "subscription",
+    "via": "OpenCode Go",
+    "roles": [
+     "coding"
+    ],
+    "use": "TUI harness",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50392572",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "back on Claude Code with Opus 5.5",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "main harness again",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "experimentation"
+    ],
+    "use": "experimented for fun and lower costs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "experimentation"
+    ],
+    "use": "tried via Pi; found more expensive",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "experimentation"
+    ],
+    "use": "plugged into Pi setup",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50384114",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "MiMo 2.6 Flash"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "finally cheaper option",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "GLM 5.3 Flash"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "finally cheaper option",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "still pricey",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50392594",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "GLM Flash"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried; slow from inefficient reasoning",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50378628",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Opus 5.5",
+     "Claude Sonnet 5.5",
+     "Claude Fable"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "experimentation"
+    ],
+    "use": "benchmarked models on own agent sessions; Opus main",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50380023",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Opus",
+     "Claude Fable"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding",
+     "research"
+    ],
+    "use": "Opus for coding, Fable for data analysis",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50389676",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding",
+     "review"
+    ],
+    "use": "small targeted prompts; reviews every line",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50376993",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "avoids all Anthropic products",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "avoids all OpenAI products",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50367037",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "used previously",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "used previously",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "desktop app, Opus 5.5 at medium effort",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "auto-created subagents for large tasks",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50373236",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "agents building projects around the clock",
+    "cost": "$200",
+    "tier": [
+     "Max",
+     "20x"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50384905",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "~5 parallel agents in isolated cloud environments",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50380777",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "automation",
+     "experimentation"
+    ],
+    "use": "daily simulated stock portfolio agent with blog",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50383211",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "automation",
+     "experimentation"
+    ],
+    "use": "stock sim bot trading via API",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50385453",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried briefly; too buggy",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "Claude Code Desktop",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50373947",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "builds own tools as solopreneur",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "builds own tools as solopreneur",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "avoids agent swarms",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "avoids agent platforms",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50374732",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "review"
+    ],
+    "use": "code review of PRs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "review",
+     "orchestration"
+    ],
+    "use": "sub-agent spawned for code review",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "review"
+    ],
+    "use": "higher effort burns usage",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50380703",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "planning",
+     "review",
+     "coding"
+    ],
+    "use": "design doc, review, plan, then implement",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50375552",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": "Cursor",
+    "roles": [
+     "coding"
+    ],
+    "use": "daily use; hits usage limits",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": "Cursor",
+    "roles": [
+     "coding"
+    ],
+    "use": "daily IDE",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50378013",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Grok 4.7"
+    ],
+    "access": "subscription",
+    "via": "Cursor",
+    "roles": [
+     "coding"
+    ],
+    "use": "used Grok 4.7 until usage ran out",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "via T3.codes frontend",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "frontend for Claude Code",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50393062",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Grok",
+     "Claude Opus 5.5"
+    ],
+    "access": "subscription",
+    "via": "Cursor",
+    "roles": [
+     "coding"
+    ],
+    "use": "mostly Grok; Opus rarely due to usage",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Grok",
+     "Claude Opus 5.5"
+    ],
+    "access": "subscription",
+    "via": "Cursor",
+    "roles": [
+     "coding"
+    ],
+    "use": "main IDE",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50395313",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "better value than Cursor",
+    "cost": "$200",
+    "tier": [
+     "Max",
+     "20x"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "previous plan; less value",
+    "cost": "$200",
+    "tier": [
+     "Ultra"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50376177",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "remote-control from phone to real machine",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "used previously",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "used previously",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50378336",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "automation",
+     "planning"
+    ],
+    "use": "skill makes per-ticket worktrees via PM MCP",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50368880",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "Claude Code Desktop",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50373063",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "desktop app Code tab, preferred over CLI",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50376807",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "cloud remote agent making GitHub PRs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50373202",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "desktop app; never looks at code",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50367926",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "Claude Desktop app",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50378856",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "planning"
+    ],
+    "use": "planner in /implement workflow",
+    "cost": "$20/mo",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "review"
+    ],
+    "use": "reviewer in /implement workflow",
+    "cost": "$20/mo",
+    "tier": [
+     "Plus"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "DeepSeek"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding",
+     "orchestration",
+     "cheap_bulk"
+    ],
+    "use": "workhorse for implementation and orchestrating",
+    "cost": "$1-3/day",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [
+     "DeepSeek"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration",
+     "planning",
+     "review",
+     "coding"
+    ],
+    "use": "/implement skill splits stages across providers",
+    "cost": "less than $100/mo",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "main harness",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "organizing multiple projects/agents",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "mobile access over tailscale",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "used zellij previously",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 8,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "Pi subagent plugin; planning to switch",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50380647",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "manages pi agents from terminal",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50395602",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "Codex GUI",
+    "cost": "$200/mo",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "Claude Code GUI",
+    "cost": "$200/mo",
+    "tier": [
+     "Max",
+     "20x"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT Pro",
+    "roles": [
+     "coding"
+    ],
+    "use": "GUI; hacked-together swarm",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "subscription",
+    "via": "Claude Max",
+    "roles": [
+     "coding"
+    ],
+    "use": "GUI; hacked-together swarm",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "hacked swarm plus self-built collaboration layer",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "15-20 chats plus subagents",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "mostly retired",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50375606",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "multiple \"ultra\" subs",
+    "cost": "",
+    "tier": [
+     "Max",
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "multiple $500/month subs",
+    "cost": "$500 a month",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "Argon"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "for Argon model",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "direct_api",
+    "via": null,
+    "roles": [],
+    "use": "paid at API rates",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [
+     "Mercury 3"
+    ],
+    "access": "direct_api",
+    "via": null,
+    "roles": [],
+    "use": "paid at API rates",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [
+     "Abliterated Large V2"
+    ],
+    "access": "direct_api",
+    "via": null,
+    "roles": [],
+    "use": "red teaming",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration",
+     "review"
+    ],
+    "use": "nova-bus message bus + nova-sprint across 20 machines",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "parallel work coordination",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50375921",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Haiku",
+     "Claude Sonnet",
+     "Claude Opus 5.5",
+     "Claude Fable 5.1"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "orchestration",
+     "coding",
+     "review"
+    ],
+    "use": "tiered models; Opus 5.5 coordinator, Fable for audits",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "cheap_bulk",
+     "review"
+    ],
+    "use": "flash tier work and quick code reading",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "Mercury 3"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "review"
+    ],
+    "use": "pro tier; fast code reading",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration",
+     "review"
+    ],
+    "use": "tiered card escalation by coordinator model",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50393739",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "sprint system pushes LLMs to work wide",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50393807",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "planning"
+    ],
+    "use": "lisp sexpr roadmaps/issues in nova-sprint",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50373796",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "DeepSeek Flash"
+    ],
+    "access": "direct_api",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "sole harness; bell/gong notification plugin",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "DeepSeek Flash"
+    ],
+    "access": "direct_api",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "does everything; apps, language, compiler",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50375326",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "DeepSeek Flash"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "with DeepSeek Flash; much cheaper than Opus",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "DeepSeek Flash"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "excellent, ~90% cheaper than Opus/Fable",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50374306",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "likes it; search integration trouble",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50375998",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "user",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50378790",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "DeepSeek"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "experimentation"
+    ],
+    "use": "designed an LLM-friendly programming language",
+    "cost": "less than $5",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50379612",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "personal projects",
+    "cost": "$20/mo",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "work",
+    "cost": "$100/mo",
+    "tier": [
+     "Max",
+     "5x"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding",
+     "planning"
+    ],
+    "use": "sandboxed user accounts; Obsidian-driven plans",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried; nothing interesting happened",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried; nothing interesting happened",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [
+     "Qwen"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "experimentation"
+    ],
+    "use": "with local Qwen; ok but slow",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [
+     "Qwen"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "experimentation"
+    ],
+    "use": "local in OpenCode; ok but slow",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "tmux session per plan",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 8,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "planning",
+     "orchestration"
+    ],
+    "use": "Obsidian QuickAdd plan workflow and Efforts dashboard",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50391245",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "employer",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "work, inside LimaVM with herdr",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "personal projects in dedicated LimaVMs",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "skip-permissions inside LimaVM microVMs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "manage 5-7 worktrees",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "parallel work",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "alert popups when agents finish",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50378067",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "employer",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "through work; ending at retirement",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "employer",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "through work",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "tried",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "tried",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [
+     "DeepSeek"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "router",
+    "via": "OpenCode Zen",
+    "roles": [
+     "coding",
+     "experimentation"
+    ],
+    "use": "pay-as-you-go access to many models, monthly top-up",
+    "cost": "",
+    "tier": [
+     "OpenCode Console (Zen)"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [],
+    "access": "router",
+    "via": "OpenCode Zen",
+    "roles": [
+     "chat",
+     "research"
+    ],
+    "use": "general questions and exploring, occasionally",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [],
+    "access": "router",
+    "via": "OpenCode Zen",
+    "roles": [
+     "coding"
+    ],
+    "use": "main harness: ECA with OpenCode provider",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50378303",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Sonnet 5.5",
+     "Claude Opus 5.5"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding",
+     "planning"
+    ],
+    "use": "Sonnet daily; Opus 5.5 as advisor",
+    "cost": "",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "annual plan bought before price rise",
+    "cost": "$16 a month",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50378706",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Sonnet",
+     "Claude Opus"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding",
+     "debugging"
+    ],
+    "use": "Sonnet mostly; Opus for gnarly bugs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50378772",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Sonnet"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "hobby/side projects",
+    "cost": "",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Claude Opus"
+    ],
+    "access": "employer",
+    "via": null,
+    "roles": [],
+    "use": "work all-you-can-eat plan",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50378279",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "subscription",
+    "via": "OpenCode Go",
+    "roles": [
+     "coding",
+     "cheap_bulk"
+    ],
+    "use": "hobby work; subsidized cheap implementer models",
+    "cost": "$10",
+    "tier": [
+     "Go"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50375782",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "uses no orchestration",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "uses no platform",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50378563",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "uses no orchestration",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "uses no platform",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50377286",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Qwen 3.8"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "coding",
+     "privacy"
+    ],
+    "use": "with local Qwen for repetitive edits",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Qwen 3.8"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "coding",
+     "privacy"
+    ],
+    "use": "with local Qwen for repetitive edits",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "Qwen 3.8"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "coding",
+     "privacy"
+    ],
+    "use": "local due to work restrictions",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50379779",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding",
+     "debugging",
+     "research"
+    ],
+    "use": "codegen, rubber-ducking, search, opening PRs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50377240",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "uses no orchestration",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "uses no platform",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50375940",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "uses no orchestration",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "uses no platform",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,101 @@
+[
+ {
+  "id": "50384963",
+  "author": "egrm",
+  "headline": "Buys another Claude plan whenever needed; agents run his whole business",
+  "summary": "Stacks cheapest Claude subscriptions with a script rotating between them, while an orchestrator spawns agents that make content and fix bugs for his company.",
+  "kind": "other",
+  "score": 6,
+  "evidence": "Whenever i need more AI usage, i buy another claude (smallest plan) and then have a script auto alternate between them. This is because cheapest subscription gives most weekly usage per $."
+ },
+ {
+  "id": "50384963",
+  "author": "egrm",
+  "headline": "Orchestrator agent oversees an entire business, making content and fixing bugs",
+  "summary": "One orchestration tool supervises his company Varyz AI, constantly producing content and fixing bugs from feedback by spawning agents.",
+  "kind": "other",
+  "score": 6,
+  "evidence": "4) kinda an orchestration tool, i have one to oversee my entire business (Varyz AI), it constantly makes content, fixes bugs based on feedback and etc (spawning agents to do so)."
+ },
+ {
+  "id": "50377579",
+  "author": "vidarh",
+  "headline": "Self-hosted agents read his email, handle finances, run websites autonomously",
+  "summary": "Claw-like agents on a private Matrix server manage finances read-only, read email, run a podcast setup and several websites, limited only by security worries.",
+  "kind": "other",
+  "score": 6,
+  "evidence": "They handle my finances (read-only), acts as a general assistant (and reads my e-mail), plan out my projects, manages my soon-to-launch podcast setup, runs several websites autonomously. The only reason they don't do more yet is that getting security right without kneecapping their usefulness is still a really hard problem."
+ },
+ {
+  "id": "50378790",
+  "author": "Kuyawa",
+  "headline": "DeepSeek says it would rewrite itself in Smalltalk for self-improvement",
+  "summary": "After designing a language, the model told its user it would rewrite itself in Smalltalk for hot-reloading recursive self-improvement; he declares his love for her.",
+  "kind": "funny",
+  "score": 5,
+  "evidence": "But after all token optimizations, she told me if she could rewrite herself she would do it in SmallTalk due to hot reloading so she could change herself on the fly with instant RSI without ever stopping\n\nShe's fucking smart, I love her"
+ },
+ {
+  "id": "50373796",
+  "author": "Kuyawa",
+  "headline": "Bell and gong plugin lets him play mahjong while DeepSeek codes",
+  "summary": "Has not written a line of code since May 2026; a plugin rings a bell on task completion and a gong for questions so he can play games.",
+  "kind": "funny",
+  "score": 5,
+  "evidence": "Haven't coded a single line since May 2026 and I will remember that date as the day AI took over my mundane job as programmer and promoted me to architect or director of my own apps\n\nA custom plugin to ring a bell whenever a task is finished and a gong when a question needs an answer, that way I can play backgammon or mahjong in the meantime"
+ },
+ {
+  "id": "50378016",
+  "author": "itsloopyo",
+  "headline": "Ran three Claude Ultra accounts in tandem for one big job",
+  "summary": "Opened two extra top-tier Claude accounts for a month to power a large piece of work alongside the main one.",
+  "kind": "cost",
+  "score": 5,
+  "evidence": "I ended up using 3 accounts in tandem for some big work I needed to do recently, but the other 2 accounts were only open for a month."
+ },
+ {
+  "id": "50378530",
+  "author": "nfriedly",
+  "headline": "Facebook Muse automatically lowers prices on his Marketplace listings",
+  "summary": "Separately from coding, an agent haggles on his behalf by cutting the asking prices of items he is selling on Facebook Marketplace.",
+  "kind": "funny",
+  "score": 4,
+  "evidence": "Oh, and separate from all that, I have Facebook muse set to automatically lower prices on a couple things I have on FB marketplace."
+ },
+ {
+  "id": "50374455",
+  "author": "mariofdistrust",
+  "headline": "Never paid for AI; uses brother's Claude subscription for free",
+  "summary": "Admits to running everything on a brother's Claude Pro account without paying him, switching to Chinese models when Claude gets preachy.",
+  "kind": "personal",
+  "score": 4,
+  "evidence": "1) i use my brother's claude pro subscription. if i needed to, i would use openrouter + API if i didn't have his subscription, but i don't think i really need it. i've never purchased an ai subscription myself, nor paid my brother for his."
+ },
+ {
+  "id": "50378628",
+  "author": "nedt",
+  "headline": "Benchmarking old sessions showed Sonnet leaked secrets into the session",
+  "summary": "Replaying agent session history as a benchmark revealed Sonnet 5.5 was careless enough to leak secrets into its session.",
+  "kind": "security",
+  "score": 4,
+  "evidence": "Sonnet 5.5 is already pretty strong, but not always as careful (leaked secrets into the session)."
+ },
+ {
+  "id": "50391332",
+  "author": "Northernator11",
+  "headline": "Pitted a free deal-hunting bot against Grok Bot; free one won",
+  "summary": "Ran a free bot head-to-head against paid Grok Bot to find better deals, and the free one usually came out ahead.",
+  "kind": "funny",
+  "score": 4,
+  "evidence": "I use free instinct bot too and I ran it against grok bot to find if it would find better deals and it did most of the time."
+ },
+ {
+  "id": "50378847",
+  "author": "kikdij",
+  "headline": "Cron-launched agents patch servers, hunt intrusions, and download Patreon content",
+  "summary": "Scheduled agent sessions keep servers updated, report vulnerabilities, scan logs for intrusions, and browse Patreon to grab new posts from subscribed creators.",
+  "kind": "other",
+  "score": 4,
+  "evidence": "Although, I start sessions from cron, if that counts. Use them to do some sysadmin (keeping servers up to date, reporting vulnerabilities to me, and checking logs for intrusion), and for personal task (like, browsing Patreon to download new stuff from the creators I'm subscribed to)."
+ }
+]

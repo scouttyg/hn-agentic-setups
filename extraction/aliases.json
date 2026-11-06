@@ -1,0 +1,74 @@
+{
+  "harness": {
+    "DSH": "DeepSeek Harness",
+    "maki": "Maki",
+    "Nodecode": "NodeCode",
+    "OMP": "Pi",
+    "Kiro CLI": "Kiro",
+    "ThinkRail": "JetBrains Thinkrail",
+    "Kimi CLI": "Kimi Code",
+    "Oh My Pi": "Pi"
+  },
+  "orchestration": {
+    "herdr": "Herdr"
+  },
+  "api_or_model": {
+    "Local model (unspecified)": "Local models (unspecified)",
+    "Local models": "Local models (unspecified)",
+    "Open models (unspecified)": "Local models (unspecified)",
+    "Muse Glimmer": "Muse",
+    "Local model": "Local models (unspecified)",
+    "Self-hosted model": "Local models (unspecified)",
+    "Nvidia NIM": "NVIDIA NIM",
+    "Mercury 3": "Mercury",
+    "Muse Spark": "Muse",
+    "API (unspecified)": "Various API providers"
+  },
+  "platform": {
+    "Instinct bot": "Instinct"
+  },
+  "tiers": {
+    "Claude": {
+      "Ultra": [
+        "Max",
+        "20x / Ultra"
+      ],
+      "Max \u203a 20x": [
+        "Max",
+        "20x / Ultra"
+      ],
+      "Max \u203a Ultra": [
+        "Max",
+        "20x / Ultra"
+      ]
+    }
+  },
+  "models": {
+    "DeepSeek V4.1 Flash 1017": "DeepSeek V4.1 Flash",
+    "Sol 6.1": "GPT-6.1 Sol",
+    "Argon": "Gemini Argon",
+    "Gemini Argon 4": "Gemini Argon",
+    "Luna": "GPT Luna",
+    "ChatGPT": "GPT",
+    "MiMo 2.6 Flash": "Xiaomi MiMo V2.6 Flash",
+    "MiMo V2.6 Flash": "Xiaomi MiMo V2.6 Flash",
+    "Mimo V2.6 Pro": "Xiaomi MiMo V2.6 Pro",
+    "Qwen Flash Next": "Qwen 3.8 Flash Next",
+    "Q3.8-FN": "Qwen 3.8 Flash Next",
+    "QFN": "Qwen 3.8 Flash Next"
+  },
+  "via": {
+    "DeepSeek API": "DeepSeek",
+    "DeepSeek Platform": "DeepSeek",
+    "OpenAI API": "OpenAI",
+    "Anthropic API": "Anthropic",
+    "Google": "Google",
+    "Gemini API": "Google",
+    "Google / Gemini API": "Google",
+    "oMLX": "MLX",
+    "OpenRouter / OpenCode Zen": "OpenRouter",
+    "Nvidia NIM": "NVIDIA NIM",
+    "OpenWebUI": "Open WebUI",
+    "unnamed discount provider": "Unnamed discount provider"
+  }
+}

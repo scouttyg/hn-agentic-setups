@@ -1,0 +1,817 @@
+{
+  "3code": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "MIT-style OSS CLI; use API keys or existing subscriptions"
+  },
+  "Aider": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": ""
+  },
+  "Amp": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "free Hobby tier pay-as-you-go; Individual $20/mo; self-hostable orbs"
+  },
+  "Antigravity": {
+    "pricing": "freemium",
+    "runs": [
+      "local"
+    ],
+    "note": "free for individuals; Google AI plans raise limits"
+  },
+  "Belfry": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "MIT tmux front-end; no models involved"
+  },
+  "Briefkin": {
+    "pricing": "freemium",
+    "runs": [
+      "hosted"
+    ],
+    "note": "free open beta; $10/mo per workspace planned"
+  },
+  "Circus Chief": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "Apache-2.0; uses your agent subscriptions or API keys"
+  },
+  "Claude Code": {
+    "pricing": "bundled",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "included in Claude Pro/Max/Team plans; or API billing"
+  },
+  "Claude Cowork": {
+    "pricing": "bundled",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "included in paid Claude plans"
+  },
+  "Claude Desktop": {
+    "pricing": "freemium",
+    "runs": [
+      "local"
+    ],
+    "note": "free app; works with free or paid Claude plans"
+  },
+  "Cline": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "free extension; enterprise tier paid"
+  },
+  "CodeBuddy": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "Tencent; free tier plus Pro plans"
+  },
+  "Codealong": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "Apache-2.0; no paid tier; team cloud planned"
+  },
+  "Codex": {
+    "pricing": "bundled",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "included in ChatGPT plans; CLI also works with API key"
+  },
+  "Collie": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "Apache-2.0 iOS app for Herdr agents"
+  },
+  "Comet": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "free browser; some agent features need Perplexity paid plans"
+  },
+  "Conductor": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "free local app per third parties; paid Cloud/Pro tiers"
+  },
+  "Contextify": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "self_host",
+      "hosted"
+    ],
+    "note": "free personal; commercial $8/seat/mo; Cloud Pro $12/mo"
+  },
+  "Corgi": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "MIT; runs your existing agent CLIs"
+  },
+  "CrewAI": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "self_host",
+      "hosted"
+    ],
+    "note": "OSS framework free BYOK; paid hosted CrewAI AMP platform"
+  },
+  "Ctlflow": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "unclear; site shows no pricing; self-run fleet, best guess"
+  },
+  "Cursor": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "free Hobby tier; Pro from $20/mo"
+  },
+  "DeepSeek Harness": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "MIT; mainly DeepSeek API models"
+  },
+  "DeepSeek Superagent": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "MIT research prototype; bring DeepSeek API key"
+  },
+  "DevArch": {
+    "pricing": "paid",
+    "runs": [
+      "local"
+    ],
+    "note": "paid annual license; requires Claude Code"
+  },
+  "Devin": {
+    "pricing": "freemium",
+    "runs": [
+      "hosted"
+    ],
+    "note": "free light quota; Pro $20/mo, Max $200/mo"
+  },
+  "Dirge": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": ""
+  },
+  "Dots": {
+    "pricing": "bundled",
+    "runs": [
+      "hosted"
+    ],
+    "note": "part of ChatGPT plans; plan availability unverified"
+  },
+  "Duet": {
+    "pricing": "bundled",
+    "runs": [
+      "hosted"
+    ],
+    "note": "research preview for Claude Pro/Max subscribers"
+  },
+  "Emacs (gptel etc.)": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "free packages; bring API keys or local models"
+  },
+  "FreeBuff": {
+    "pricing": "free",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "$0, ad-supported; models provided by Codebuff servers"
+  },
+  "Gas Town": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "uses your Claude Code/agent subscriptions"
+  },
+  "Gemini CLI": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "free Gemini quota via Google login; paid plans raise limits"
+  },
+  "GitHub Copilot": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "Copilot Free tier; Pro $10/mo and up"
+  },
+  "Goose": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": ""
+  },
+  "Grok CLI": {
+    "pricing": "bundled",
+    "runs": [
+      "local"
+    ],
+    "note": "Grok Build needs SuperGrok/X Premium+ or per-token xAI API"
+  },
+  "Halogen": {
+    "pricing": "free",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "proprietary EULA but royalty-free; weights obtained separately"
+  },
+  "Hangar": {
+    "pricing": "free",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "MIT, self-hosted; drives your existing agent subscriptions"
+  },
+  "Hax": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": ""
+  },
+  "Herdr": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "Apache-2.0; runs your existing agent CLIs"
+  },
+  "Hermes Agent": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "MIT; optional Nous Portal subscription for models/tools"
+  },
+  "JetBrains AI / Junie": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "AI Free tier; AI Pro/Ultimate paid; BYOK supported"
+  },
+  "JetBrains Thinkrail": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "Apache-2.0 incubator project around pi"
+  },
+  "Juggler": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "AGPL; no account; bring subscriptions or API keys"
+  },
+  "Kapitsa": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "Apache-2.0 local inference engine"
+  },
+  "Kepler": {
+    "pricing": "freemium",
+    "runs": [
+      "local"
+    ],
+    "note": "private preview; pricing unannounced, guessed from GitKraken model"
+  },
+  "Kilo Code": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "free extension; optional Kilo gateway credits and paid plans"
+  },
+  "Kimi Code": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "uses Kimi membership login or Moonshot API key"
+  },
+  "Kiro": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "free tier with limited credits; Pro plans paid"
+  },
+  "Kiro Crew": {
+    "pricing": "bundled",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "Apache-2.0 app but requires a Kiro plan for inference"
+  },
+  "LM Studio": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "free for personal and work use"
+  },
+  "LangGraph": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "self_host",
+      "hosted"
+    ],
+    "note": "OSS library free; paid LangGraph Platform/LangSmith deployment"
+  },
+  "Letta": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "self_host",
+      "hosted"
+    ],
+    "note": "OSS server free BYOK; Letta Cloud has paid plans"
+  },
+  "LoopX": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "Apache-2.0; drives your agent runtimes"
+  },
+  "Lyre": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "free 1 host; Pro $15/mo; Lyre AI $100/mo"
+  },
+  "MLX": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "MIT framework; oMLX server also free"
+  },
+  "MTPLX": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "Apache-2.0 local runtime"
+  },
+  "Maki": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": ""
+  },
+  "MetaGPT": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "OSS framework; Atoms/MGX hosted products are separate"
+  },
+  "MiMo Code": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "OpenCode fork; MiMo API or other providers"
+  },
+  "Mistral Vibe": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "Mistral API key or Le Chat plan"
+  },
+  "Munder Difflin": {
+    "pricing": "freemium",
+    "runs": [
+      "local"
+    ],
+    "note": "free OSS core; Pro $150/yr; uses your subscriptions"
+  },
+  "Muse": {
+    "pricing": "freemium",
+    "runs": [
+      "hosted"
+    ],
+    "note": "free Muse app; Muse Code plans from $5/mo"
+  },
+  "Muse Code": {
+    "pricing": "paid",
+    "runs": [
+      "local"
+    ],
+    "note": "plans from $5/month"
+  },
+  "Muster": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "OSS terminal workspace; runs your agent CLIs"
+  },
+  "NanoClaw": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "needs Claude subscription/API key; free account for downloads"
+  },
+  "NodeCode": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "MIT; your provider key"
+  },
+  "Ollama": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "free local runtime; paid Ollama Cloud plans for hosted models"
+  },
+  "Open Agent Harness (OAH)": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "MIT; uses Claude Code/Codex subscriptions"
+  },
+  "Open WebUI": {
+    "pricing": "free_byok",
+    "runs": [
+      "self_host"
+    ],
+    "note": "free self-host; enterprise license paid"
+  },
+  "OpenBot": {
+    "pricing": "free_byok",
+    "runs": [
+      "self_host"
+    ],
+    "note": "MIT self-hosted; bring API keys or subscriptions"
+  },
+  "OpenChamber": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "UI for OpenCode; you supply models"
+  },
+  "OpenClaw": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "MIT self-hosted; bring model keys or subscriptions"
+  },
+  "OpenCode": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "free CLI; optional paid Zen/Go model subscriptions"
+  },
+  "OpenHands": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "self_host",
+      "hosted"
+    ],
+    "note": "OSS free BYOK; OpenHands Cloud has paid tiers"
+  },
+  "OpenRig": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "Apache-2.0; uses Claude Code/Codex accounts"
+  },
+  "OpenSWE": {
+    "pricing": "free_byok",
+    "runs": [
+      "self_host"
+    ],
+    "note": "OSS framework you deploy; bring model keys"
+  },
+  "Orca": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "free OSS; uses your agent subscriptions; enterprise offering"
+  },
+  "Ori": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "assumed free CLI billed via OpenRouter credits; pricing unstated"
+  },
+  "Osaurus": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "MIT; local models free or cloud provider keys"
+  },
+  "Paperclip": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "MIT self-hosted; hosted cloud on waitlist"
+  },
+  "Paseo": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "self-hosted daemon; uses your agent subscriptions"
+  },
+  "Paseo / Orca / Superset": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "group; Paseo/Orca free OSS; Superset pricing unchecked"
+  },
+  "Pi": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": ""
+  },
+  "Pickle": {
+    "pricing": "paid",
+    "runs": [
+      "hosted"
+    ],
+    "note": "unverified; directories list ~$24/mo subscription"
+  },
+  "Rakazo": {
+    "pricing": "free_byok",
+    "runs": [
+      "self_host"
+    ],
+    "note": "Apache-2.0 self-hosted; bring model keys"
+  },
+  "Raven": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "Apache-2.0 pre-alpha"
+  },
+  "Rex": {
+    "pricing": "free",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "maker says always free; self-hostable servers; closed source"
+  },
+  "Scion": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "OSS; runs your agent harnesses with your credentials"
+  },
+  "Strata": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "MIT local inference engine"
+  },
+  "Swival": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": ""
+  },
+  "T3 Code": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "drives your installed agents and subscriptions"
+  },
+  "Termic": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "AGPL; uses your existing agent CLI subscriptions"
+  },
+  "VS Code": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "free editor; AI extensions priced separately"
+  },
+  "Volt": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "MIT CLI BYOK; optional Volt Pro relay/notification service"
+  },
+  "WanGP": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "free to run locally"
+  },
+  "Warp": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "free tier pay-as-you-go; Build $20/mo, Max $200/mo"
+  },
+  "ZCode": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "uses GLM Coding Plan or Z.ai API key; app price unstated"
+  },
+  "Zed": {
+    "pricing": "freemium",
+    "runs": [
+      "local"
+    ],
+    "note": "free editor BYOK; Zed Pro for hosted models"
+  },
+  "ZeroStack": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": ""
+  },
+  "agent-swarm.dev": {
+    "pricing": "freemium",
+    "runs": [
+      "self_host",
+      "hosted"
+    ],
+    "note": "MIT self-host; paid hosted cloud"
+  },
+  "agentcron.ai": {
+    "pricing": "freemium",
+    "runs": [
+      "hosted"
+    ],
+    "note": "free plan; paid tiers not confirmed"
+  },
+  "clawpatrol": {
+    "pricing": "free",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "MIT security proxy; no models needed"
+  },
+  "cmux": {
+    "pricing": "freemium",
+    "runs": [
+      "local",
+      "hosted"
+    ],
+    "note": "GPL, free; cmux Pro adds cloud VMs, iOS app"
+  },
+  "epiq": {
+    "pricing": "free",
+    "runs": [
+      "local"
+    ],
+    "note": "git-native, no server or account"
+  },
+  "llama-swap": {
+    "pricing": "free",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": ""
+  },
+  "llama.cpp": {
+    "pricing": "free",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": ""
+  },
+  "llm-desktop-electron": {
+    "pricing": "free_byok",
+    "runs": [
+      "local"
+    ],
+    "note": "needs your own Claude Desktop bundle; OpenRouter etc. keys"
+  },
+  "yaac": {
+    "pricing": "free_byok",
+    "runs": [
+      "local",
+      "self_host"
+    ],
+    "note": "MIT; containerizes your agents"
+  }
+}

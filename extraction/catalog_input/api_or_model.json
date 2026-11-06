@@ -1,0 +1,1353 @@
+[
+ {
+  "name": "OpenRouter",
+  "count": 64,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385812",
+    "evidence": "OpenRouter is for those times when I want access to a different model",
+    "detail": "for access to other models"
+   },
+   {
+    "comment_id": "50374298",
+    "evidence": "No openrouter (yet) but that will definitely happen.",
+    "detail": ""
+   },
+   {
+    "comment_id": "50375407",
+    "evidence": "I do have some OpenRouter credits",
+    "detail": "credits for trying open weight models"
+   },
+   {
+    "comment_id": "50373324",
+    "evidence": "I use other models via Open Router",
+    "detail": "other models"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Qwen",
+  "count": 58,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379612",
+    "evidence": "I tried OpenCode with a local Qwen model and it was ok, but slow",
+    "detail": "local; ok but slow"
+   },
+   {
+    "comment_id": "50377286",
+    "evidence": "Qwen3.8",
+    "detail": "Qwen3.8, local (work restriction)"
+   },
+   {
+    "comment_id": "50378847",
+    "evidence": "Qwen-3.8 27B and Qwen-3.8 Flash Next on my homelabs",
+    "detail": "Qwen-3.8 27B and Qwen-3.8 Flash Next on homelab P40s for coding"
+   },
+   {
+    "comment_id": "50374298",
+    "evidence": "Qwen 3.8 27B occasionally",
+    "detail": "Qwen 3.8 27B"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "GLM",
+  "count": 31,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50384114",
+    "evidence": "glm 5.3 flash seem to finally be cheaper",
+    "detail": "glm 5.3 flash"
+   },
+   {
+    "comment_id": "50392594",
+    "evidence": "I found GLM Flash competitive price wise but then my tasks took twice as long",
+    "detail": "GLM Flash; slow"
+   },
+   {
+    "comment_id": "50367557",
+    "evidence": "GLM5.3, GLM5.3 Flash",
+    "detail": "GLM5.3 and GLM5.3 Flash"
+   },
+   {
+    "comment_id": "50376262",
+    "evidence": "Previously I used GLM 5.2 a lot",
+    "detail": "GLM 5.2, previously"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Anthropic API",
+  "count": 16,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50392971",
+    "evidence": "Opus used for the final design/architecture reviews",
+    "detail": "Opus for design/architecture reviews and complex RCA fixes (access method not stated)"
+   },
+   {
+    "comment_id": "50376262",
+    "evidence": "I typically use Claude Sonnet for document-related tasks",
+    "detail": "Claude Sonnet for document tasks"
+   },
+   {
+    "comment_id": "50377263",
+    "evidence": "use APIs for Claude, gpt6 or DeepSeek via atlascloud",
+    "detail": ""
+   },
+   {
+    "comment_id": "50368106",
+    "evidence": "I also keep money in the API service",
+    "detail": "prepaid credits for apps"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "OpenAI API",
+  "count": 15,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378847",
+    "evidence": "talk with it through API",
+    "detail": "used early on via API with own harness"
+   },
+   {
+    "comment_id": "50376357",
+    "evidence": "with some OpenAI usage",
+    "detail": "some usage"
+   },
+   {
+    "comment_id": "50367744",
+    "evidence": "GPT-6-luna using their batch API",
+    "detail": "GPT-6-luna batch API"
+   },
+   {
+    "comment_id": "50377263",
+    "evidence": "use APIs for Claude, gpt6 or DeepSeek via atlascloud",
+    "detail": "gpt6"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Local models (unspecified)",
+  "count": 14,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50392572",
+    "evidence": "I found the open models more expensive",
+    "detail": "open models via Pi; found more expensive"
+   },
+   {
+    "comment_id": "50367423",
+    "evidence": "I'm running a 125B A3B model at 30 tok/s using SSD Streaming",
+    "detail": "125B A3B model at 30 tok/s via SSD streaming on M1 Max"
+   },
+   {
+    "comment_id": "50377746",
+    "evidence": "I also dabbled with self-hosting",
+    "detail": "self-hosting abliterated models out of curiosity"
+   },
+   {
+    "comment_id": "50367571",
+    "evidence": "Couple of local hosted models for quick stuff",
+    "detail": "for text formatting, TTS"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Gemma",
+  "count": 12,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378847",
+    "evidence": "Gemma-4 31B as general conversational model",
+    "detail": "Gemma-4 31B conversational; Gemma-4 E4B on laptop, mail classification"
+   },
+   {
+    "comment_id": "50374298",
+    "evidence": "Gemma 4 12B QAT",
+    "detail": "Gemma 4 12B QAT for creative/planning work"
+   },
+   {
+    "comment_id": "50374774",
+    "evidence": "I'm locally hosting variants of Qwen and Gemma 4",
+    "detail": "Gemma 4 local"
+   },
+   {
+    "comment_id": "50376782",
+    "evidence": "Qwen 27B and Gemma",
+    "detail": "local"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Google / Gemini API",
+  "count": 10,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50392971",
+    "evidence": "Gemini Argon for everything else including code gen",
+    "detail": "Gemini Argon for everything else including code gen (access method not stated)"
+   },
+   {
+    "comment_id": "50378479",
+    "evidence": "I reach for Gemini 3.5 Flash Lite",
+    "detail": "Gemini 3.5 Flash Lite for summaries at scale"
+   },
+   {
+    "comment_id": "50375302",
+    "evidence": "use latest DeepSeek or Gemini",
+    "detail": "via OpenRouter"
+   },
+   {
+    "comment_id": "50380232",
+    "evidence": "spend an additional $20-40/month to Google for Gemini model API access",
+    "detail": "$20-40/month; Argon for bigger projects"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Ollama",
+  "count": 10,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50368106",
+    "evidence": "I use those with ollama and hermes",
+    "detail": ""
+   },
+   {
+    "comment_id": "50380213",
+    "evidence": "have used cursor and ollama in the past",
+    "detail": "past"
+   },
+   {
+    "comment_id": "50380371",
+    "evidence": "Local ollama server running qwen",
+    "detail": "local server with qwen etc"
+   },
+   {
+    "comment_id": "50379663",
+    "evidence": "mostly Qwen and Gemma via Ollama",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "MLX",
+  "count": 7,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374261",
+    "evidence": "oMLX on my MacBook",
+    "detail": "oMLX on MacBook"
+   },
+   {
+    "comment_id": "50380633",
+    "evidence": "custom inference engine (MLX)",
+    "detail": "custom inference engine"
+   },
+   {
+    "comment_id": "50379350",
+    "evidence": "running oMLX",
+    "detail": "oMLX on Mac mini M6"
+   },
+   {
+    "comment_id": "50376810",
+    "evidence": "Mostly using Gemma through oMLX",
+    "detail": "oMLX"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "llama.cpp",
+  "count": 6,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378847",
+    "evidence": "handle llama-server from llama.cpp",
+    "detail": "llama-server"
+   },
+   {
+    "comment_id": "50374298",
+    "evidence": "occasionally direct llama.cpp",
+    "detail": "occasionally direct"
+   },
+   {
+    "comment_id": "50374705",
+    "evidence": "I use a nix one-liner to run llama.cpp on M5",
+    "detail": "nix-run llama-server on M5"
+   },
+   {
+    "comment_id": "50385840",
+    "evidence": "recompiling the whole thing",
+    "detail": "with ROCm, recompiled for HIP 5.7"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "LM Studio",
+  "count": 4,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374298",
+    "evidence": "LM Studio",
+    "detail": "on M1 Max"
+   },
+   {
+    "comment_id": "50377697",
+    "evidence": "sometimes i connect to lm-studio",
+    "detail": "fallback / local models"
+   },
+   {
+    "comment_id": "50373286",
+    "evidence": "Ollama or LM Studio on the same machine",
+    "detail": "local"
+   },
+   {
+    "comment_id": "50375970",
+    "evidence": "Qwen running locally through Ollama/LM Studio",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "AWS Bedrock",
+  "count": 4,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378946",
+    "evidence": "various models through Bedrock",
+    "detail": "batch tasks and automated systems"
+   },
+   {
+    "comment_id": "50368106",
+    "evidence": "Professionally I use an unlimited Claude via AWS Bedrock",
+    "detail": "unlimited Claude at work"
+   },
+   {
+    "comment_id": "50373740",
+    "evidence": "At work I use AWS Bedrock w/ Anthropic + OpenAI models",
+    "detail": "at work, Anthropic + OpenAI models"
+   },
+   {
+    "comment_id": "50379663",
+    "evidence": "Pay-as-you-go on Bedrock for benchmarks and side projects",
+    "detail": "Claude models at work; pay-as-you-go for benchmarks and side projects"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Mercury",
+  "count": 3,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375606",
+    "evidence": "mercury 3",
+    "detail": "Mercury 3"
+   },
+   {
+    "comment_id": "50375921",
+    "evidence": "I find mercury is very good at reading quickly",
+    "detail": "pro tier, fast code reading"
+   },
+   {
+    "comment_id": "50374417",
+    "evidence": "that I use for Mercury 3 at this point",
+    "detail": "for tokens per second"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Nemotron",
+  "count": 3,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374298",
+    "evidence": "experimenting with Nemotron Bolt 74B-9B",
+    "detail": "Nemotron Bolt 74B-9B experiments"
+   },
+   {
+    "comment_id": "50373811",
+    "evidence": "nemotron-3.5.-super-vl.120b-a12b",
+    "detail": "3.5 super vl 120b"
+   },
+   {
+    "comment_id": "50373357",
+    "evidence": "Nemotron does the time insensitive stuff",
+    "detail": "time-insensitive summarizing"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Strata",
+  "count": 3,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375773",
+    "evidence": "via Strata",
+    "detail": "local inference"
+   },
+   {
+    "comment_id": "50378530",
+    "evidence": "Qwen 3.8 Flash Next, Strata, and OpenCode/OpenChamber",
+    "detail": ""
+   },
+   {
+    "comment_id": "50376810",
+    "evidence": "through Strata",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Parakeet",
+  "count": 3,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50381098",
+    "evidence": "parakeet-ulta for ASR",
+    "detail": "ASR"
+   },
+   {
+    "comment_id": "50380334",
+    "evidence": "patching onnx myself to run parakeet model",
+    "detail": "local speech-to-text via patched onnx"
+   },
+   {
+    "comment_id": "50374502",
+    "evidence": "local voice-to-text w/Parakeet Unified EN 0.6B via Handy",
+    "detail": "local speech-to-text via Handy"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "MiMo",
+  "count": 2,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50384114",
+    "evidence": "mimo 2.6 flash and glm 5.3 flash seem to finally be cheaper",
+    "detail": "mimo 2.6 flash"
+   },
+   {
+    "comment_id": "50373811",
+    "evidence": "mimo-v2.6-flash",
+    "detail": "mimo-v2.6-flash free/trial"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Exa",
+  "count": 2,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367423",
+    "evidence": "exa for searching",
+    "detail": "search"
+   },
+   {
+    "comment_id": "50379882",
+    "evidence": "Exa for web search",
+    "detail": "web search"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "DeepInfra",
+  "count": 2,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380281",
+    "evidence": "cheap models on DeepInfra",
+    "detail": "cheap models"
+   },
+   {
+    "comment_id": "50375145",
+    "evidence": "DS v4.1 Flash @ deepinfra.com",
+    "detail": "hosting DeepSeek"
+   }
+  ],
+  "urls_in_comments": [
+   "https://deepinfra.com/"
+  ]
+ },
+ {
+  "name": "Whisper",
+  "count": 2,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379352",
+    "evidence": "I do use local specialty models for Whisper and Chatterbox",
+    "detail": "local specialty models (Whisper, Chatterbox)"
+   },
+   {
+    "comment_id": "50374449",
+    "evidence": "auxiliary services like whisper",
+    "detail": "local on 7900 XTX"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "MiniMax",
+  "count": 2,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373811",
+    "evidence": "minimax-m3.1-flash",
+    "detail": "minimax-m3.1-flash"
+   },
+   {
+    "comment_id": "50377455",
+    "evidence": "moss-image/minimax h3",
+    "detail": "minimax h3 via ComfyUI for image/video"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Atlas Cloud",
+  "count": 2,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377579",
+    "evidence": "Atlas and OpenRouter pay-as-you-go",
+    "detail": "pay-as-you-go"
+   },
+   {
+    "comment_id": "50377263",
+    "evidence": "DeepSeek via atlascloud",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Argon",
+  "count": 2,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377814",
+    "evidence": "I’m giving Argon a try",
+    "detail": "when out of tokens, for research"
+   },
+   {
+    "comment_id": "50376279",
+    "evidence": "I tried Argon but it really didn’t work for me",
+    "detail": "didn't work"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Jev",
+  "count": 2,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380310",
+    "evidence": "+ Deepseek + JEV",
+    "detail": ""
+   },
+   {
+    "comment_id": "50379119",
+    "evidence": "previously used Jev",
+    "detail": "previously"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Various API providers",
+  "count": 2,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378737",
+    "evidence": "I also use a few pay per token endpoints from various providers",
+    "detail": "pay per token endpoints, testing"
+   },
+   {
+    "comment_id": "50380504",
+    "evidence": "+ API usage, <$100 total",
+    "detail": "API usage"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Kilo Credits",
+  "count": 2,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374637",
+    "evidence": "with Kilo credits that gives access to hundreds of models at API pricing",
+    "detail": "access to hundreds of models at API pricing"
+   },
+   {
+    "comment_id": "50383792",
+    "evidence": "I'm doing that just to use a number of models without needing to manage separate accounts for the model providers",
+    "detail": "multiple models without separate accounts"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "NVIDIA NIM",
+  "count": 2,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376145",
+    "evidence": "nvidia nim",
+    "detail": ""
+   },
+   {
+    "comment_id": "50373357",
+    "evidence": "Nvivia NIM free tier models",
+    "detail": "free tier"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Llama",
+  "count": 2,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380946",
+    "evidence": "tried some llama stuff",
+    "detail": ""
+   },
+   {
+    "comment_id": "50377935",
+    "evidence": "Ollama (llama3.3) for local/offline work",
+    "detail": "llama3.3 local"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Abliterated models",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375606",
+    "evidence": "abliterated large v2 for red teaming",
+    "detail": "abliterated large v2 for red teaming"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "TensorX",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376642",
+    "evidence": "I was on tensorx.ai first",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Entrim",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367557",
+    "evidence": "use Entrim pay-as-you-go API",
+    "detail": "pay-as-you-go API"
+   }
+  ],
+  "urls_in_comments": [
+   "https://entrim.ai"
+  ]
+ },
+ {
+  "name": "LiteLLM",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50368111",
+    "evidence": "I think it's litellm and a big enough nvidia card",
+    "detail": "hosting GLM Flash at work"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Requesty",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376352",
+    "evidence": "connect to Requesty for my hobby projects",
+    "detail": "router for hobby projects; Haiku 5, Opus 5.5, Google Argon 4"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Discount provider (unnamed)",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375312",
+    "evidence": "found a discount provider that offers a 2/3 discount",
+    "detail": "2/3 discount"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Baseten",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374774",
+    "evidence": "tried inference services such as baseten and novita",
+    "detail": "inconsistent performance/pricing"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Novita",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374774",
+    "evidence": "tried inference services such as baseten and novita",
+    "detail": "inconsistent performance/pricing"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "MTPLX",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385925",
+    "evidence": "serving with MTPLX",
+    "detail": "serving runtime"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Together",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373698",
+    "evidence": "I have API usage via Together",
+    "detail": "API for toys built for kid"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "IFM K2 Horizon",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380633",
+    "evidence": "IFM K2 Horizon 7B with speculative decoding",
+    "detail": "7B with speculative decoding"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "gpt-oss",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373811",
+    "evidence": "gpt-oss:120b",
+    "detail": "120b"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Kokoro",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50381098",
+    "evidence": "bespoke g2p with kokoro",
+    "detail": "TTS with bespoke g2p"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Venice",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385740",
+    "evidence": "I use Venice.ai with its DIEM token",
+    "detail": "DIEM token daily credits"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Flux",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380232",
+    "evidence": "local ComfyUI + Flux + some LoRAs for image work",
+    "detail": "local ComfyUI + Flux + LoRAs for images"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "OpenCode Big Pickle",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375575",
+    "evidence": "OpenCode BigPickle and deepseek v1",
+    "detail": "free via OpenCode"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Other API models",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379150",
+    "evidence": "I throw in other models in the mix when I want to play around",
+    "detail": "via API keys for experimentation"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "API (work)",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375539",
+    "evidence": "At my day job I spend about $1000/mo at API prices",
+    "detail": "~$1000/mo at API prices at day job"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "WanGP",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50368043",
+    "evidence": "API operated locally through WanGP",
+    "detail": "local open source model host"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Bivia",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379119",
+    "evidence": "APIs for Bivia (previously used Jev)",
+    "detail": "API (previously Jev)"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "BYO API keys",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377903",
+    "evidence": "I bring my own API credits.",
+    "detail": "own API credits"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Luna",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367272",
+    "evidence": "OpenRouter, DeepSeek, Luna",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Friendli",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375145",
+    "evidence": "GLM 5.3 @ friendli.ai",
+    "detail": "hosting GLM"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Hugging Face API",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378077",
+    "evidence": "Some HuggingFace API use when I need a specific model",
+    "detail": "for specific models"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Hetzner Inference API",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376941",
+    "evidence": "(currently free) Hetzner Inference API",
+    "detail": "currently free"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "freellmapi",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379530",
+    "evidence": "I use freellmapi",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/tashfeenahmed/freellmapi"
+  ]
+ },
+ {
+  "name": "Mistral / Devstral",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367965",
+    "evidence": "Currently using Mistral.",
+    "detail": "currently"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Vercel AI Gateway",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367976",
+    "evidence": "Pay-per-token for work through Vercel AI Gateway",
+    "detail": "pay-per-token at work, incl. Grok"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Abliterated.ai",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373770",
+    "evidence": "Abliterated.ai as needed",
+    "detail": "as needed"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Desert Ant / Laya",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380509",
+    "evidence": "serve small models like Desert Ant, Laya",
+    "detail": "small models on own GPU VPS"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Tailscale Aperture",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374722",
+    "evidence": "I purchase periodic credits through Tailscale Aperture",
+    "detail": "periodic credits"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Halogen",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377761",
+    "evidence": "with Halogen inference server",
+    "detail": "inference server"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Clef",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376601",
+    "evidence": "Clef (for model routing and decisions)",
+    "detail": "local model routing"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Ornith",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376601",
+    "evidence": "Qwen-35B-A3B and Ornith-1.5-35B",
+    "detail": "Ornith-1.5-35B"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Kapitsa",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373065",
+    "evidence": "kapitsa is the inference engine",
+    "detail": "inference engine"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "GPT Luna",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373357",
+    "evidence": "I've been using GPT Luna 6 a lot",
+    "detail": "GPT Luna 6, cheap"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "ElevenLabs",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379882",
+    "evidence": "ElevenLabs for voice",
+    "detail": "voice, pay per token"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Fal.ai",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379882",
+    "evidence": "fal.ai for images and video",
+    "detail": "images and video"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Chinese open-weight models",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379882",
+    "evidence": "Last month we tested 6 Chinese models on a real coding job",
+    "detail": "tested 6 on a coding job, did not switch"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "llama-swap",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50384031",
+    "evidence": "llama-swap fronts several engines behind one endpoint",
+    "detail": "self-hosted, multiple engines on AMD BC-250 Vulkan rig"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Azure AI Foundry",
+  "count": 1,
+  "categories": [
+   "api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376686",
+    "evidence": "it runs on Azure AI Foundry, pay-as-you-go",
+    "detail": "pay-as-you-go for their product"
+   }
+  ],
+  "urls_in_comments": []
+ }
+]

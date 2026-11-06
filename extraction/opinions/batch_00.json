@@ -1,0 +1,638 @@
+[
+ {
+  "id": "50376720",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "GitHub Copilot",
+    "sentiment": "mixed",
+    "point": "fine for translation and lookups, not trusted for code",
+    "quote": "I've used Github Copilot to translate between languages and look things up, but haven't trusted it to write new code or fix anything."
+   },
+   {
+    "i": 1,
+    "name": "Claude",
+    "sentiment": "mixed",
+    "point": "Fable now good enough, but Anthropic's business practices scary",
+    "quote": "Claude Fable is now good enough that I should be using it… But Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support."
+   }
+  ]
+ },
+ {
+  "id": "50381117",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "OpenCode Go/Zen",
+    "sentiment": "positive",
+    "point": "huge token volume for a fraction of $10",
+    "quote": "This month I used 1 billion tokens (including cache) with DS4.1 flash and it cost me 7% of my $10 opencode go sub."
+   }
+  ]
+ },
+ {
+  "id": "50392572",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "positive",
+    "point": "Opus ahead and usage more generous than OpenAI",
+    "quote": "Then I realised OpenAI is way behind Opus 5.5 and their subscription is far less generous with usage, so I've come full circle and am back on Claude Code."
+   },
+   {
+    "i": 3,
+    "name": "Open models (unspecified)",
+    "sentiment": "negative",
+    "point": "more expensive than expected",
+    "quote": "Been using Claude since day one and wanted to experiment with Pi for fun, and try to get my costs down. I found the open models more expensive"
+   },
+   {
+    "i": 4,
+    "name": "ChatGPT / Codex",
+    "sentiment": "mixed",
+    "point": "good value with Pi, but behind Opus and stingier",
+    "quote": "[I] eventually had to plug my Pi set up into an OpenAI subscription, that was the only way to get good value… Then I realised OpenAI is way behind Opus 5.5 and their subscription is far less generous with usage"
+   }
+  ]
+ },
+ {
+  "id": "50384114",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "MiMo",
+    "sentiment": "positive",
+    "point": "finally cheaper",
+    "quote": "i found they were [more expensive] until recently. mimo 2.6 flash and glm 5.3 flash seem to finally be cheaper."
+   },
+   {
+    "i": 1,
+    "name": "GLM",
+    "sentiment": "positive",
+    "point": "finally cheaper",
+    "quote": "i found they were [more expensive] until recently. mimo 2.6 flash and glm 5.3 flash seem to finally be cheaper."
+   },
+   {
+    "i": 2,
+    "name": "DeepSeek",
+    "sentiment": "negative",
+    "point": "still on the expensive side",
+    "quote": "mimo 2.6 flash and glm 5.3 flash seem to finally be cheaper. i find ds4.1 flash still on the high side."
+   }
+  ]
+ },
+ {
+  "id": "50392594",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "GLM",
+    "sentiment": "negative",
+    "point": "not actually cheaper; slow, inefficient reasoning",
+    "quote": "I found GLM Flash competitive price wise but then my tasks took twice as long to complete… you then lose out on speed because of the insane amounts of inefficient reasoning."
+   }
+  ]
+ },
+ {
+  "id": "50380023",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "mixed",
+    "point": "Fable goes deeper, but subscription gives far more Opus",
+    "quote": "Fable can go deeper than Opus in my experience… That said one gets much more Opus for a subscription than one does Fable, so obviously benchmark your own cases"
+   }
+  ]
+ },
+ {
+  "id": "50389676",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "tuned prompts get what they want; writes 5% of code",
+    "quote": "I know exactly what I want and I've got my prompts and claude.MD [for Claude Code] at a point where it gives me that most of the time. I probably only write 5% of the code now."
+   }
+  ]
+ },
+ {
+  "id": "50376993",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "negative",
+    "point": "doesn't trust them; uses zero Anthropic products",
+    "quote": "based on your current level of \"trust\" in these things (justifiably very low, I use zero openai or anthropic products myself)"
+   },
+   {
+    "i": 1,
+    "name": "ChatGPT / Codex",
+    "sentiment": "negative",
+    "point": "doesn't trust them; uses zero OpenAI products",
+    "quote": "based on your current level of \"trust\" in these things (justifiably very low, I use zero openai or anthropic products myself)"
+   }
+  ]
+ },
+ {
+  "id": "50367037",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "vague high-level requests come back as magic",
+    "quote": "since Opus 5.5 came out, I just use the Claude IDE. I got rid of all my skills and just set it to medium. Then I vaguely talk to it about very high-end things that I want, and it comes back with magic."
+   }
+  ]
+ },
+ {
+  "id": "50384905",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Cloud agents",
+    "sentiment": "positive",
+    "point": "each agent runs in its own isolated environment",
+    "quote": "I'm pretty pilled on cloud agents these days. If I've got 5 agents going at once, each is in their own dedicated, isolated cloud environment."
+   }
+  ]
+ },
+ {
+  "id": "50380777",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Custom assistant",
+    "sentiment": "positive",
+    "point": "daily blog makes the unattended agent easy to track",
+    "quote": "So mine [portfolio agent] runs every morning to read the news… A daily blog for status and reasons for decision making works pretty well for tracking an agent that works unattended."
+   }
+  ]
+ },
+ {
+  "id": "50385453",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "T3 Code",
+    "sentiment": "negative",
+    "point": "too buggy and missing features",
+    "quote": "I tried a T3 code for a hot second, but found it too buggy and missing features I missed from Claude Code Desktop."
+   },
+   {
+    "i": 1,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "Desktop has features T3 Code lacked",
+    "quote": "I tried a T3 code for a hot second, but found it too buggy and missing features I missed from Claude Code Desktop."
+   }
+  ]
+ },
+ {
+  "id": "50373947",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "covers all needs, no reason to look elsewhere",
+    "quote": "[Of Claude Code and Codex,] I'm a user of both and don't really see the need to go anywhere else. It all just sounds like mumbo jumbo."
+   },
+   {
+    "i": 1,
+    "name": "Codex",
+    "sentiment": "positive",
+    "point": "covers all needs, no reason to look elsewhere",
+    "quote": "[Of Claude Code and Codex,] I'm a user of both and don't really see the need to go anywhere else. It all just sounds like mumbo jumbo."
+   }
+  ]
+ },
+ {
+  "id": "50374732",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "mixed",
+    "point": "code reviews work well but always find something",
+    "quote": "I just ask Claude code to do a code review of PR X… it works quite well… it almost always inevitably finds something wrong, even if you just ran it in another window and fixed everything it found."
+   },
+   {
+    "i": 2,
+    "name": "Claude",
+    "sentiment": "negative",
+    "point": "security reviews raise effort and burn usage",
+    "quote": "If I hint it might be security sensitive code, [Claude Code] bumps the effort level and burns my usage."
+   }
+  ]
+ },
+ {
+  "id": "50375552",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Cursor",
+    "sentiment": "negative",
+    "point": "hits usage limits before month ends",
+    "quote": "Claude Desktop's UI seems pretty similar to Cursor now… I'm still on Cursor but if I use it daily I often hit usage limits before the end of the month."
+   }
+  ]
+ },
+ {
+  "id": "50378013",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Cursor",
+    "sentiment": "negative",
+    "point": "ran out of usage",
+    "quote": "I switched from Cursor to Claude Code (via T3.codes) because I was running out of usage on Grok 4.7."
+   },
+   {
+    "i": 1,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "Opus much better; regrets not switching sooner",
+    "quote": "I switched from Cursor to Claude Code (via T3.codes) because I was running out of usage on Grok 4.7. I regret not making the switch sooner, Opus 5.5 is much better than Grok"
+   }
+  ]
+ },
+ {
+  "id": "50393062",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Cursor",
+    "sentiment": "negative",
+    "point": "Opus burns through usage in Cursor",
+    "quote": "Opus 5.5 burns through a ton of usage in Cursor so I rarely use it."
+   }
+  ]
+ },
+ {
+  "id": "50395313",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "positive",
+    "point": "far more value than Cursor at same price",
+    "quote": "My $200 Anthropic subscription is giving me way more value than my $200 Cursor subscription was."
+   },
+   {
+    "i": 1,
+    "name": "Cursor",
+    "sentiment": "negative",
+    "point": "less value than Anthropic at same price",
+    "quote": "My $200 Anthropic subscription is giving me way more value than my $200 Cursor subscription was."
+   }
+  ]
+ },
+ {
+  "id": "50376177",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "remote-control from phone keeps them on it",
+    "quote": "Claude Code is fine; the remote-control feature is why I stick with it now… remote-control is by far the easiest way to do that from my phone."
+   }
+  ]
+ },
+ {
+  "id": "50373063",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "desktop Code tab now good, preferred over CLI",
+    "quote": "I used to hate the Claude desktop app's Code tab, but it's actually pretty good nowadays. I actually prefer it now over claude CLI."
+   }
+  ]
+ },
+ {
+  "id": "50376807",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "nicer UI, real sandboxing, doesn't tie up computer",
+    "quote": "I use Claude Code Web almost exclusively for personal projects… Nicer UI than a terminal, real sandboxing, and it doesn't tie up my computer."
+   }
+  ]
+ },
+ {
+  "id": "50373202",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "surprisingly great to use",
+    "quote": "I rejected those no-code IDEs [like Claude Code Desktop] for a long time, but now I never look at code anyway, and they are surprisingly great to use."
+   }
+  ]
+ },
+ {
+  "id": "50378856",
+  "opinions": [
+   {
+    "i": 3,
+    "name": "Custom orchestration",
+    "sentiment": "mixed",
+    "point": "low-defect code under $100/mo, but 3x slower",
+    "quote": "A standard /implement skill creates separate agents for different parts of the workflow… I can produce a significant amount of low-defect production quality code while keeping costs less than $100/mo. It is probably at least 3x slower"
+   },
+   {
+    "i": 7,
+    "name": "tmux / zellij",
+    "sentiment": "positive",
+    "point": "happy using zellij before",
+    "quote": "I have also been happy using zellij previously and might go back to it if the experimental Collie integration works."
+   },
+   {
+    "i": 8,
+    "name": "Subagents (built-in)",
+    "sentiment": "negative",
+    "point": "current Pi subagent plugin confuses herdr and Collie",
+    "quote": "I need to switch to a different sub agent plugin for Pi (or leave Pi for a different harness) because herdr/collie are confused by the current subagents."
+   }
+  ]
+ },
+ {
+  "id": "50375606",
+  "opinions": [
+   {
+    "i": 6,
+    "name": "Custom orchestration",
+    "sentiment": "mixed",
+    "point": "high throughput, but code becomes a multi-model pastiche",
+    "quote": "[The nova-sprint system:] It's been very effective at getting high throughput, but afterwards I find that the resulting code can be a bit of a pastiche from different models working in isolation"
+   }
+  ]
+ },
+ {
+  "id": "50375921",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "DeepSeek",
+    "sentiment": "positive",
+    "point": "very good at fast code reading",
+    "quote": "Each card has multiple readers (code review). I find mercury is very good at reading quickly. Deepseek as well."
+   },
+   {
+    "i": 2,
+    "name": "Mercury",
+    "sentiment": "positive",
+    "point": "very good at fast code reading",
+    "quote": "Each card has multiple readers (code review). I find mercury is very good at reading quickly. Deepseek as well."
+   }
+  ]
+ },
+ {
+  "id": "50393739",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Custom orchestration",
+    "sentiment": "positive",
+    "point": "keeps LLMs working at width without forgetting tasks",
+    "quote": "by putting everything into mechanical structure (sprint system that drives all the LLMs via push notifications), they will more reliably remember to work at width, they will not forget anything they were assigned to work on"
+   }
+  ]
+ },
+ {
+  "id": "50393807",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Custom orchestration",
+    "sentiment": "positive",
+    "point": "storing work as lisp data structures is effective",
+    "quote": "It's a really effective thing, storing all your work in a data structure [in nova-sprint], and then being able to manipulate that data structure. beats having to hammer the GitHub API"
+   }
+  ]
+ },
+ {
+  "id": "50373796",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "DeepSeek Harness",
+    "sentiment": "positive",
+    "point": "does everything; hasn't coded a line since",
+    "quote": "DeepSeek Harness using DeepSeek Flash API… Haven't coded a single line since May 2026… I can't be happier"
+   },
+   {
+    "i": 1,
+    "name": "DeepSeek",
+    "sentiment": "positive",
+    "point": "smart, never hallucinates, never disappoints",
+    "quote": "DeepSeek Harness using DeepSeek Flash API… DS is smart enough to do everything I ask for and more, never hallucinates and never disappoints."
+   }
+  ]
+ },
+ {
+  "id": "50375326",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Pi",
+    "sentiment": "positive",
+    "point": "excellent with DeepSeek and ~90% cheaper",
+    "quote": "I've found Pi with DeepSeek Flash is excellent, and seems to be about 90% cheaper than Opus or Fable."
+   },
+   {
+    "i": 1,
+    "name": "DeepSeek",
+    "sentiment": "positive",
+    "point": "excellent in Pi and ~90% cheaper",
+    "quote": "I've found Pi with DeepSeek Flash is excellent, and seems to be about 90% cheaper than Opus or Fable."
+   }
+  ]
+ },
+ {
+  "id": "50374306",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "DeepSeek Harness",
+    "sentiment": "mixed",
+    "point": "deserves more attention, but search hard to set up",
+    "quote": "+1 for DSH, it really should be getting more attention here. The only problem I have with it is getting search to work"
+   }
+  ]
+ },
+ {
+  "id": "50378790",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "DeepSeek",
+    "sentiment": "positive",
+    "point": "smart; designed a language for under $5",
+    "quote": "I asked DeepSeek to design a language… Sort of like a simplified Rust with better syntax (all for less than $5 in just a couple of hours)… She's fucking smart, I love her"
+   }
+  ]
+ },
+ {
+  "id": "50379612",
+  "opinions": [
+   {
+    "i": 3,
+    "name": "OpenClaw",
+    "sentiment": "negative",
+    "point": "couldn't get anything interesting to happen",
+    "quote": "These days, I'm just running Opus 5.5 in Claude Code. I've tried OpenClaw and Hermes and didn't get anything interesting to happen."
+   },
+   {
+    "i": 4,
+    "name": "Hermes Agent",
+    "sentiment": "negative",
+    "point": "couldn't get anything interesting to happen",
+    "quote": "These days, I'm just running Opus 5.5 in Claude Code. I've tried OpenClaw and Hermes and didn't get anything interesting to happen."
+   },
+   {
+    "i": 5,
+    "name": "OpenCode",
+    "sentiment": "mixed",
+    "point": "ok with local Qwen, but slow",
+    "quote": "[After trying OpenClaw and Hermes,] I tried OpenCode with a local Qwen model and it was ok, but slow."
+   },
+   {
+    "i": 6,
+    "name": "Qwen",
+    "sentiment": "mixed",
+    "point": "ok locally in OpenCode, but slow",
+    "quote": "[After trying OpenClaw and Hermes,] I tried OpenCode with a local Qwen model and it was ok, but slow."
+   }
+  ]
+ },
+ {
+  "id": "50378067",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "GitHub Copilot",
+    "sentiment": "mixed",
+    "point": "not bad, but personal plan lacks preferred models",
+    "quote": "I use Github Copilot through work, which is actually not bad, but the affordable personal subscription doesn't include many of the models I like to use."
+   },
+   {
+    "i": 5,
+    "name": "OpenCode Go/Zen",
+    "sentiment": "mixed",
+    "point": "Console offers almost any model; Go too limited",
+    "quote": "OpenCode Console (I think this used to be called Zen). It's a pay-as-you-go system, but I get access to almost any model at open market rates… I looked at OpenCode Go, but that had the same issue as Copilot: access to only a subset of the cheaper models."
+   },
+   {
+    "i": 7,
+    "name": "Emacs (gptel etc.)",
+    "sentiment": "mixed",
+    "point": "go-to harness, though setup was fiddly",
+    "quote": "I mostly use Editor Code Assistant… with Emacs as my go-to harness. I've set up ECA to use OpenCode as a provider, which was a little fiddly compared with more mainstream options, but it's working now."
+   }
+  ]
+ },
+ {
+  "id": "50378303",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "positive",
+    "point": "basic plan with Sonnet rarely hits limits",
+    "quote": "I'm getting a ton done with Sonnet 5.5 basic Claude subscription… I do hours a day on Claude on medium effort and I have rarely hit any limits."
+   }
+  ]
+ },
+ {
+  "id": "50378706",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "with Sonnet, works 99% of the time",
+    "quote": "Sonnet with harness (Claude Code), a good project structure and a decent prompt works for me 99% of the time."
+   }
+  ]
+ },
+ {
+  "id": "50378772",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "positive",
+    "point": "good enough; no need to chase models",
+    "quote": "I typically use Sonnet on a basic Claude subscription for my hobby / side projects, and Opus on an all-you-can-eat subscription from work… these are good enough for me."
+   },
+   {
+    "i": 1,
+    "name": "Claude",
+    "sentiment": "positive",
+    "point": "good enough; no need to chase models",
+    "quote": "I typically use Sonnet on a basic Claude subscription for my hobby / side projects, and Opus on an all-you-can-eat subscription from work… these are good enough for me."
+   }
+  ]
+ },
+ {
+  "id": "50378279",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "OpenCode Go/Zen",
+    "sentiment": "positive",
+    "point": "$10 sub goes far for hobby work",
+    "quote": "The 10$ sub [for OpenCode Go] gets me quite a bit of distance for hobby work, though might run out for you if you program for longer periods."
+   }
+  ]
+ },
+ {
+  "id": "50377286",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "not using it means missing a great tool",
+    "quote": "Then I again tried Claude Code and OpenCode with a local… Qwen3.8 and behold: my current stance now is that _not_ using something like that, if you can, is missing out on a great tool."
+   },
+   {
+    "i": 1,
+    "name": "OpenCode",
+    "sentiment": "positive",
+    "point": "not using it means missing a great tool",
+    "quote": "Then I again tried Claude Code and OpenCode with a local… Qwen3.8 and behold: my current stance now is that _not_ using something like that, if you can, is missing out on a great tool."
+   },
+   {
+    "i": 2,
+    "name": "Qwen",
+    "sentiment": "positive",
+    "point": "local model good enough to be a great tool",
+    "quote": "Then I again tried Claude Code and OpenCode with a local… Qwen3.8 and behold: my current stance now is that _not_ using something like that, if you can, is missing out on a great tool."
+   }
+  ]
+ },
+ {
+  "id": "50379779",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "got better; now happily used for many tasks",
+    "quote": "A few weeks ago something clicked between Claude Code getting better and my expectations about what it can and can't do becoming more realistic. Now I happily use it for code generation, rubber duck debugging, search tasks"
+   }
+  ]
+ }
+]

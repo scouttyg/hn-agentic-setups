@@ -1,0 +1,141 @@
+{
+  "_help": "Insight rows per section. Each row: {n, label, text}. n is a live token, computed with the current filters (omit it for a text-only row). The text should add context the number doesn't already say. Tokens: {n:<cat>:<name>} people, {pct:<cat>:<name>} % of people who described a setup, {anyn:<cat>} people with any item in a category, {pair:<cat>:<A>:<B>} people with both, {route:<cat>:<access>} people using an access route, {fam:<family>} people naming a model family, {htype:<type>} people using a harness type, {modeln} people naming any model, {answerers}, {commenters}, {multiprov}, {employer}, {stopped:<cat>:<name>}, {tried:<cat>:<name>}. **bold** works in text. Each numbered row also shows its share of everyone who described a setup; set \"pct\": false to hide it. 'None' items mean 'nothing for this question'; people who don't use AI at all are the separate {noai} group (extraction/no_ai.json).",
+  "overall": [
+    {
+      "text": "**Extracted from prose.** Almost nobody followed the question format, so every answer was read out of free-form comments. Every count links back to the quotes it came from."
+    },
+    {
+      "n": "{pair:subscription:Claude:ChatGPT / Codex}",
+      "label": "pay for both Claude and ChatGPT",
+      "text": "The typical setup is **a Claude subscription used through Claude Code**, often with Codex alongside it as a second opinion or a fallback when limits run out."
+    },
+    {
+      "n": "{anyn:api_or_model}",
+      "label": "use models outside a subscription",
+      "text": "This is mostly the **cost-conscious crowd** running cheap open-weight models (DeepSeek, Qwen, GLM) through OpenRouter or locally."
+    },
+    {
+      "n": "{n:platform:None}",
+      "label": "use AI but no agent platform",
+      "text": "**Orchestration is DIY or nothing**, and always-on agent platforms are the most divisive topic in the thread."
+    }
+  ],
+  "subscription": [
+    {
+      "n": "{n:subscription:Claude}",
+      "label": "pay for Claude",
+      "text": "**Two providers dominate**: Claude and ChatGPT/Codex. Everything else is a long tail, led by the budget OpenCode Go plan."
+    },
+    {
+      "n": "{multiprov}",
+      "label": "pay for 2+ providers",
+      "text": "Claude + ChatGPT is by far the most common combination. People use one for planning or review and the other for execution, or swap when they hit limits."
+    },
+    {
+      "n": "{employer}",
+      "label": "have a plan paid by their employer",
+      "text": "The question asked about personal spend, but many people mentioned plans their employer pays for. They're counted, and the tier chart shows which plans."
+    },
+    {
+      "text": "**Tiers are often unstated.** Claude Max users who did give a level lean toward 20x, which commenters say is now also sold as \"Ultra\". ChatGPT payers split between Plus and Pro."
+    }
+  ],
+  "api_or_model": [
+    {
+      "n": "{anyn:api_or_model}",
+      "label": "use models outside a subscription",
+      "text": "**Open-weight models dominate.** DeepSeek, Qwen and GLM lead the model tree, mostly their cheap \"Flash\" variants."
+    },
+    {
+      "n": "{route:api_or_model:router}",
+      "label": "go through a router",
+      "text": "**OpenRouter carries almost all of it.** Pay-as-you-go straight from Anthropic or OpenAI is comparatively rare."
+    },
+    {
+      "n": "{route:api_or_model:local}",
+      "label": "run models locally",
+      "text": "Mostly Qwen and Gemma on Apple Silicon via Ollama, MLX or llama.cpp, chosen for privacy, offline use or work restrictions."
+    },
+    {
+      "text": "**The common pattern:** a frontier model plans or reviews, and a cheap \"workhorse\" model does the bulk of the coding."
+    }
+  ],
+  "models": [
+    {
+      "n": "{modeln}",
+      "label": "named a specific model",
+      "text": "Model names come from subscriptions, APIs, harnesses and local setups alike. Versions are normalized, e.g. \"DS4.1 flash\" becomes DeepSeek › Flash › V4.1."
+    },
+    {
+      "n": "{fam:Claude}",
+      "label": "name a Claude model",
+      "text": "**Opus 5.5 is the single most-named model** in the thread. Many people just say \"Claude\" or \"Opus\" without a version."
+    },
+    {
+      "n": "{fam:DeepSeek}",
+      "label": "name a DeepSeek model",
+      "text": "DeepSeek mentions are overwhelmingly **V4.1 Flash**, the go-to cheap workhorse."
+    }
+  ],
+  "harness": [
+    {
+      "n": "{n:harness:Claude Code}",
+      "label": "use Claude Code",
+      "text": "**The default harness**, with Codex second. The lab-made tools reach the most people."
+    },
+    {
+      "n": "{htype:third_party}",
+      "label": "use a third-party harness",
+      "text": "**Pi and OpenCode lead.** OpenCode also has the most people who tried it and moved on, citing quality, security or messy code."
+    },
+    {
+      "n": "{htype:custom}",
+      "label": "built their own harness",
+      "text": "Usually to get exactly the workflow they want, or one that suits local models with small context windows."
+    },
+    {
+      "n": "{moves:official_to_third_party+official_to_own}",
+      "label": "moved off an official harness",
+      "text": "**To a third-party tool or their own harness**, usually for cheaper models, a lighter tool, or one harness that drives several providers. About as many went the other way: {moves:third_party_to_official} moved from a third-party harness to an official one, mostly for model quality. The from → to pairs are under “Moves between harnesses”."
+    }
+  ],
+  "orchestration": [
+    {
+      "n": "{n:orchestration:Custom orchestration}",
+      "label": "built their own orchestration",
+      "text": "Scripts, planner → implementer → reviewer pipelines, and kanban or ticket loops."
+    },
+    {
+      "n": "{n:orchestration:None}",
+      "label": "use AI but no orchestration",
+      "text": "**The skeptics' argument:** one well-directed agent beats a swarm whose output nobody can review."
+    },
+    {
+      "n": "{n:orchestration:Herdr}",
+      "label": "use Herdr",
+      "text": "**The standout off-the-shelf tool.** The tools named in the post (Gas Town, Ruflo, Munder Difflin) barely appear."
+    }
+  ],
+  "platform": [
+    {
+      "n": "{n:platform:None}",
+      "label": "use AI but no agent platform",
+      "text": "The main reason is **security**: handing an agent your email and credentials. Cost and unclear value come next."
+    },
+    {
+      "n": "{n:platform:Custom assistant}",
+      "label": "built their own assistant",
+      "text": "Often Claude Code driven by cron, reachable over Telegram, Slack or Signal."
+    },
+    {
+      "n": "{n:platform:Hermes Agent}",
+      "label": "use Hermes Agent",
+      "text": "**The leading packaged platform.** Several people moved to it from OpenClaw."
+    },
+    {
+      "n": "{stopped:platform:OpenClaw}",
+      "label": "stopped using OpenClaw",
+      "text": "**More people dropped OpenClaw than use it now**, citing instability, breaking updates and agents \"spiraling\"."
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+[
+ {
+  "id": "50388717",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Custom orchestration",
+    "sentiment": "positive",
+    "point": "scout/chef split made the biggest difference",
+    "quote": "Splitting read-only research ('scouts' on a fast/cheap model) from code changes ('chefs' running in isolated git worktrees that must pass a deterministic check before merging) made the biggest difference for me."
+   }
+  ]
+ },
+ {
+  "id": "50379882",
+  "opinions": [
+   {
+    "i": 5,
+    "name": "Chinese open-weight models",
+    "sentiment": "mixed",
+    "point": "wrote correct code, but saved no money",
+    "quote": "Last month we tested 6 Chinese models on a real coding job. All of them wrote correct code, but since we're on flat-rate plans, none saved us money, so we didn't switch."
+   },
+   {
+    "i": 6,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "stock CLI plus skills was enough",
+    "quote": "Stock Claude Code CLI, in tmux on a server… Never switched. The default plus skills got us there."
+   },
+   {
+    "i": 11,
+    "name": "OpenClaw",
+    "sentiment": "negative",
+    "point": "nowhere near their Claude Code-based system",
+    "quote": "We tried OpenClaw, Hermes Agent and Grok Bot. None of them came close to what we built on Claude Code, so we dropped them."
+   },
+   {
+    "i": 12,
+    "name": "Hermes Agent",
+    "sentiment": "negative",
+    "point": "nowhere near their Claude Code-based system",
+    "quote": "We tried OpenClaw, Hermes Agent and Grok Bot. None of them came close to what we built on Claude Code, so we dropped them."
+   },
+   {
+    "i": 13,
+    "name": "Grok bot",
+    "sentiment": "negative",
+    "point": "nowhere near their Claude Code-based system",
+    "quote": "We tried OpenClaw, Hermes Agent and Grok Bot. None of them came close to what we built on Claude Code, so we dropped them."
+   }
+  ]
+ },
+ {
+  "id": "50380516",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "OpenCode",
+    "sentiment": "positive",
+    "point": "open source, switch models and providers freely",
+    "quote": "OpenCode as the coding agent. Moved off Claude Code mostly because it's open source and I can switch models/providers and use subscriptions I already pay for."
+   },
+   {
+    "i": 1,
+    "name": "Claude Code",
+    "sentiment": "negative",
+    "point": "ties the workflow to one vendor",
+    "quote": "Moved off Claude Code mostly because it's open source [OpenCode]… I don't want my whole workflow tied to one vendor when models change every few months."
+   },
+   {
+    "i": 2,
+    "name": "Herdr",
+    "sentiment": "positive",
+    "point": "shows which parallel session needs attention",
+    "quote": "herdr to keep parallel sessions alive… terminal tabs fell apart fast. The useful part is seeing which session is working, which is blocked, and which needs me."
+   }
+  ]
+ },
+ {
+  "id": "50379329",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "plain setup that works for a solo project",
+    "quote": "Fairly boring setup, but it works for a solo project: - Claude Code in the project folder, nothing fancy on top."
+   }
+  ]
+ },
+ {
+  "id": "50373286",
+  "opinions": [
+   {
+    "i": 3,
+    "name": "Custom orchestration",
+    "sentiment": "negative",
+    "point": "coordinator agents narrate instead of working",
+    "quote": "I've tried coordinator agents; they spend more tokens narrating progress than working, and the review burden does not go away."
+   },
+   {
+    "i": 4,
+    "name": "Lyre",
+    "sentiment": "positive",
+    "point": "keeps app preview live while agent edits",
+    "quote": "Lyre runs the agent and the preview as separate lifecycles, which is what puts device testing inside the edit loop instead of after it."
+   }
+  ]
+ },
+ {
+  "id": "50378839",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "LangGraph",
+    "sentiment": "mixed",
+    "point": "right control for devs, opaque to non-developers",
+    "quote": "settled on LangGraph for anything serious… For a developer it's the right level of control. Where it falls down is the moment a non-developer needs to own a workflow"
+   }
+  ]
+ },
+ {
+  "id": "50367038",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "hooks wire agent into the machine deterministically",
+    "quote": "Claude Code's hooks (UserPromptSubmit / PostToolUse / Stop / SessionEnd) and Cursor's hooks.json let you wire the agent into the rest of your machine deterministically, which turned out to matter more to me than the UI."
+   },
+   {
+    "i": 2,
+    "name": "Cursor",
+    "sentiment": "positive",
+    "point": "good diff review UI and hooks",
+    "quote": "Cursor when I want the diff review UI… Cursor's hooks.json let you wire the agent into the rest of your machine deterministically"
+   },
+   {
+    "i": 4,
+    "name": "Git worktrees",
+    "sentiment": "positive",
+    "point": "unglamorous but survives crashes",
+    "quote": "Multiple terminal tabs and git worktrees, which is unglamorous but survives a crash better than anything clever I tried."
+   }
+  ]
+ },
+ {
+  "id": "50379393",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "negative",
+    "point": "weekly usage limits are the biggest pain",
+    "quote": "I mostly use Claude Code (the desktop app), on a Max plan… Biggest pain: weekly usage limits."
+   }
+  ]
+ },
+ {
+  "id": "50376686",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "used most of the day, beyond coding",
+    "quote": "Honestly, Claude Code is where I spend most of my day now, and not only for code."
+   },
+   {
+    "i": 6,
+    "name": "Custom orchestration",
+    "sentiment": "mixed",
+    "point": "writing code easy, self-verification was hard",
+    "quote": "We did build an internal agent that takes a GitHub issue, implements it… Biggest surprise: getting it to write code was easy. Getting it to verify its own work and stop to ask when unsure took most of the effort."
+   }
+  ]
+ },
+ {
+  "id": "50387241",
+  "opinions": [
+   {
+    "i": 4,
+    "name": "Subagents (built-in)",
+    "sentiment": "negative",
+    "point": "subagents caused surprise costs",
+    "quote": "The number I actually watch is cost per session, subagents included, that is where the surprises were."
+   }
+  ]
+ },
+ {
+  "id": "50375777",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "positive",
+    "point": "couldn't go back; Opus covers everything",
+    "quote": "got a free Max trial coupon and couldn't go back… No, Opus 5.5 covers basically everything."
+   }
+  ]
+ },
+ {
+  "id": "50375956",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "Custom assistant",
+    "sentiment": "mixed",
+    "point": "good for privacy, but Whisper hallucinations",
+    "quote": "Local voice stack… Works well for privacy-sensitive use cases. But auditing it revealed a nasty failure mode: Whisper hallucinating \"Amara.org\" subtitle credits on near-silence"
+   }
+  ]
+ },
+ {
+  "id": "50379558",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "LangGraph",
+    "sentiment": "negative",
+    "point": "agents loop endlessly without custom safeguards",
+    "quote": "we've been running a mix of LangGraph and CrewAI… the hardest part hasn't been getting them to work, it's been stopping them from working too much… it feels like something that should just be built into the frameworks by now."
+   },
+   {
+    "i": 1,
+    "name": "CrewAI",
+    "sentiment": "negative",
+    "point": "agents loop endlessly without custom safeguards",
+    "quote": "we've been running a mix of LangGraph and CrewAI… the hardest part hasn't been getting them to work, it's been stopping them from working too much… it feels like something that should just be built into the frameworks by now."
+   }
+  ]
+ },
+ {
+  "id": "50374804",
+  "opinions": [
+   {
+    "i": 3,
+    "name": "cmux",
+    "sentiment": "positive",
+    "point": "faster than Warp; sessions can talk",
+    "quote": "I used to use Warp, but switched to cmux. It feels faster, and it lets Claude sessions running on different accounts talk to each other."
+   }
+  ]
+ },
+ {
+  "id": "50384979",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Anthropic API",
+    "sentiment": "positive",
+    "point": "Haiku cheap for loops, Opus for planning",
+    "quote": "for the boring loops i just drop to haiku 5.5 ($0.10/$0.50 per 1m) and keep opus for planning. same harness, way less burn"
+   }
+  ]
+ },
+ {
+  "id": "50373549",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "Custom orchestration",
+    "sentiment": "positive",
+    "point": "coordinator keeps track across many sessions",
+    "quote": "I never trusted the multi-agent hype, but now that I use it I have a hard time going back… After several weeks of one agent coordinating tens of sessions… it still doesn't seem to lose track of what anyone worked on."
+   }
+  ]
+ },
+ {
+  "id": "50377482",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "Hermes Agent",
+    "sentiment": "mixed",
+    "point": "useful continuity, but unreliable and needs maintenance",
+    "quote": "Reliability is still a weak point [with Hermes]. I've had interrupted scheduled jobs, gateway hangs and unexplained host restarts… I get enough useful work out of the setup to keep using it, but it also creates maintenance work."
+   }
+  ]
+ }
+]

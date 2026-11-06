@@ -1,0 +1,533 @@
+{
+  "Claude": {
+    "description": "Anthropic's Claude model family (Opus, Sonnet, Haiku, Fable) and the Claude.ai Pro/Max subscriptions that also cover Claude Code usage.",
+    "vendor": "Anthropic",
+    "website": "https://claude.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://claude.com/pricing"
+    ]
+  },
+  "ChatGPT / Codex": {
+    "description": "OpenAI's ChatGPT subscriptions (Plus $20/mo, Pro $200/mo), which also include usage of the Codex coding agent and OpenAI's GPT models.",
+    "vendor": "OpenAI",
+    "website": "https://chatgpt.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://chatgpt.com/pricing"
+    ]
+  },
+  "DeepSeek": {
+    "description": "Chinese AI lab DeepSeek's models (e.g. DeepSeek 4.1 and its Flash variant), used via its low-cost pay-per-token API or third-party providers.",
+    "vendor": "DeepSeek",
+    "website": "https://www.deepseek.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://www.deepseek.com"
+    ]
+  },
+  "OpenCode Go/Zen": {
+    "description": "OpenCode's model-access offerings: Go, a $10/month subscription for open coding models (GLM, DeepSeek, Kimi, etc.), and Zen (now the OpenCode Console), a pay-as-you-go prepaid-credit model gateway.",
+    "vendor": "Anomaly (OpenCode)",
+    "website": "https://opencode.ai/go",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://opencode.ai/docs/go.md",
+      "https://opencode.ai/v2/docs/console/"
+    ]
+  },
+  "Custom assistant": {
+    "description": "Bucket for self-built personal assistant agents and bots (e.g. cron-started agent sessions, custom daemons, stock-simulation bots) rather than a specific product.",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "high",
+    "sources": []
+  },
+  "OpenClaw": {
+    "description": "Open-source, self-hosted personal AI agent (formerly Clawdbot/Moltbot) created by Peter Steinberger that connects chat apps like WhatsApp, Telegram and Signal to an LLM agent that can run tasks.",
+    "vendor": "OpenClaw (open-source foundation; created by Peter Steinberger)",
+    "website": "https://openclaw.ai",
+    "github": "openclaw/openclaw",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://www.digitalocean.com/resources/article/what-is-openclaw",
+      "https://www.unomaha.edu/ai-ccore/blogs/openclaw-explained-what-it-is-why-it-matters-and-how-nebraska-can-use-it.php"
+    ]
+  },
+  "Gemini": {
+    "description": "Google's Gemini models and Google AI subscriptions (AI Pro/Ultra, also bundled in Workspace plans) that include the Gemini app, Gemini CLI and Antigravity usage.",
+    "vendor": "Google",
+    "website": "https://gemini.google.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://gemini.google/subscriptions/"
+    ]
+  },
+  "Grok bot": {
+    "description": "xAI's Grok Bot, an always-on agent (beta from August 2026) that runs on its own cloud computer, connects to your apps and performs multi-step tasks; available with SuperGrok plans and via macOS/iOS apps.",
+    "vendor": "xAI",
+    "website": "https://grok.com",
+    "github": null,
+    "harness_type": null,
+    "interface": "multiple",
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://www.mindstudio.ai/blog/grokbot-xai-agent-app",
+      "https://www.bleap.finance/en-us/blog/grok-bot-guide-how-it-works-pricing-uses"
+    ]
+  },
+  "Kimi": {
+    "description": "Moonshot AI's Kimi models (e.g. Kimi K-series) and Kimi subscriptions/API, also widely available through providers like OpenRouter.",
+    "vendor": "Moonshot AI",
+    "website": "https://www.kimi.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://www.kimi.com"
+    ]
+  },
+  "Z.ai (GLM)": {
+    "description": "Z.ai (Zhipu AI) and its GLM model family, offered through the GLM Coding Plan subscriptions (Lite/Pro/Max) and API.",
+    "vendor": "Z.ai (Zhipu AI)",
+    "website": "https://z.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://z.ai/subscribe"
+    ]
+  },
+  "Dots": {
+    "description": "OpenAI's dots, always-on agents in ChatGPT (launched at DevDay, September 2026) that have their own cloud computer and memory, connect to your apps, and can own projects and multi-step tasks.",
+    "vendor": "OpenAI",
+    "website": "https://chatgpt.com",
+    "github": null,
+    "harness_type": null,
+    "interface": "multiple",
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://www.notebookcheck.net/OpenAI-launches-Dots-always-on-AI-workers-with-their-own-cloud-computers.1411258.0.html",
+      "https://www.eesel.ai/blog/dots-for-project-management"
+    ]
+  },
+  "Ollama Cloud": {
+    "description": "Ollama's hosted cloud model service (Free/Pro/Max plans on ollama.com) for running large open models such as GLM and DeepSeek through the Ollama API and app.",
+    "vendor": "Ollama",
+    "website": "https://ollama.com/cloud",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://ollama.com/pricing"
+    ]
+  },
+  "Melious": {
+    "description": "Melious, a Saarbrücken, Germany-based AI inference platform that serves open-weight models through an OpenAI/Anthropic-compatible API, routing only to European hosting partners, with pay-per-token pricing.",
+    "vendor": "Melious",
+    "website": "https://melious.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": "web",
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://melious.ai/docs",
+      "https://european-alternatives.eu/product/melious"
+    ]
+  },
+  "Mistral": {
+    "description": "Mistral AI's Le Chat subscriptions (Pro ~$14.99/mo) and model access from the French AI lab Mistral.",
+    "vendor": "Mistral AI",
+    "website": "https://mistral.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://mistral.ai/pricing"
+    ]
+  },
+  "Perplexity": {
+    "description": "Perplexity's AI answer engine and its Pro/Max subscriptions, which include multi-model access and the Perplexity Computer agent.",
+    "vendor": "Perplexity AI",
+    "website": "https://www.perplexity.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": "multiple",
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://www.perplexity.ai/pro",
+      "https://itdaily.com/news/cloud/perplexity-ai-launches-perplexity-computer/"
+    ]
+  },
+  "Instinct": {
+    "description": "Instinct, an invite-only personal AI agent that you text over iMessage/SMS to handle errands like bookings, email and planning, with its own email address and group-chat support.",
+    "vendor": "Instinct",
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://www.eesel.ai/es/blog/instinct-ai-analisis",
+      "https://mager.co/blog/2026-09-12-instinct/"
+    ]
+  },
+  "NanoClaw": {
+    "description": "Lightweight open-source alternative to OpenClaw that runs agents in isolated containers on the Claude Agent SDK and connects to WhatsApp, Telegram, Slack and other messengers.",
+    "vendor": "Qwibit AI",
+    "website": "https://nanoclaw.dev",
+    "github": "qwibitai/nanoclaw",
+    "harness_type": null,
+    "interface": "cli",
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://gittrend.io/repo/qwibitai/nanoclaw",
+      "https://www.producthunt.com/products/nanoclaw"
+    ]
+  },
+  "Duet": {
+    "description": "Claude Duet, Anthropic's proactive always-on agent app (research preview from October 2026, waitlist invitations for US Pro/Max users) that monitors connected apps and works on tasks in the background.",
+    "vendor": "Anthropic",
+    "website": "https://claude.com",
+    "github": null,
+    "harness_type": null,
+    "interface": "multiple",
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet.md",
+      "https://runtimewire.com/article/anthropic-claude-duet-waitlist-access"
+    ]
+  },
+  "OpenBot": {
+    "description": "Open-source, self-hosted platform for running a team of AI bots with tools, long-term memory and persistent inboxes in shared threads; created by GitHub user regnull as an open alternative to Grok Bot.",
+    "vendor": "regnull",
+    "website": null,
+    "github": "regnull/openbot",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://github.com/regnull/openbot"
+    ]
+  },
+  "Osaurus": {
+    "description": "Osaurus, an open-source native macOS (Apple Silicon) app for running local and cloud AI models with agents, memory and tools on your Mac.",
+    "vendor": "Osaurus (osaurus-ai)",
+    "website": "https://osaurus.ai",
+    "github": "osaurus-ai/osaurus",
+    "harness_type": null,
+    "interface": "desktop",
+    "open_source": true,
+    "confidence": "medium",
+    "sources": [
+      "https://awesome.ecosyste.ms/projects/github.com%2Fosaurus-ai%2Fosaurus"
+    ]
+  },
+  "Letta": {
+    "description": "Letta (formerly MemGPT), an open-source platform and cloud service for building stateful agents with long-term memory.",
+    "vendor": "Letta",
+    "website": "https://www.letta.com",
+    "github": "letta-ai/letta",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://github.com/letta-ai/letta"
+    ]
+  },
+  "Rakazo": {
+    "description": "Rakazo, an open-source (Apache 2.0) self-hosted platform for persistent AI bots that sign into your tools and complete tasks with sandboxed browser/shell, memory and routines; built by Inbox Zero as an open alternative to Grok Bot.",
+    "vendor": "Inbox Zero Inc.",
+    "website": null,
+    "github": "elie222/rakazo",
+    "harness_type": null,
+    "interface": "multiple",
+    "open_source": true,
+    "confidence": "medium",
+    "sources": [
+      "https://github.com/elie222/rakazo",
+      "https://openalternative.co/rakazo"
+    ]
+  },
+  "Command Code": {
+    "description": "Command Code, a terminal-first AI coding agent from Langbase with low-cost model plans; GOAT is its $10/month tier with credits across many open and closed coding models.",
+    "vendor": "Langbase, Inc.",
+    "website": "https://commandcode.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": "cli",
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://commandcode.ai/pricing",
+      "https://www.mindstudio.ai/blog/command-code-goat-plan-pricing/"
+    ]
+  },
+  "Agenta": {
+    "description": "Agenta, an open-source LLMOps platform for prompt management, evaluation and observability of LLM applications; the commenter's own product.",
+    "vendor": "Agenta",
+    "website": "https://agenta.ai",
+    "github": "agenta-ai/agenta",
+    "harness_type": null,
+    "interface": "web",
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://agenta.ai",
+      "https://github.com/agenta-ai/agenta"
+    ]
+  },
+  "Kagi": {
+    "description": "Kagi, a paid ad-free search engine; the Ultimate plan adds the Kagi Assistant with access to multiple LLMs.",
+    "vendor": "Kagi Inc.",
+    "website": "https://kagi.com",
+    "github": null,
+    "harness_type": null,
+    "interface": "web",
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://kagi.com/pricing"
+    ]
+  },
+  "Nous Research": {
+    "description": "Nous Research's Nous Portal subscription (Plus ~$20/month in credits) giving access to its Hermes models and hundreds of other models, used with the Hermes Agent.",
+    "vendor": "Nous Research",
+    "website": "https://portal.nousresearch.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://hermes-agent.nousresearch.com/docs/integrations/nous-portal"
+    ]
+  },
+  "Claude Cowork": {
+    "description": "Claude Cowork, Anthropic's agent mode in the Claude desktop app (launched January 2026) that works on local files and connected apps to complete non-coding tasks.",
+    "vendor": "Anthropic",
+    "website": "https://claude.com",
+    "github": null,
+    "harness_type": null,
+    "interface": "desktop",
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://aibusiness.com/agentic-ai/anthropic-introduces-claude-cowork",
+      "https://www.tomsguide.com/ai/i-tested-claude-cowork-anthropics-new-ai-feels-more-like-a-coworker-than-a-chatbot"
+    ]
+  },
+  "Other providers": {
+    "description": "Bucket for unspecified subscriptions to cheaper tiers of various other model providers.",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "high",
+    "sources": []
+  },
+  "Pickle": {
+    "description": "Likely Pickle (getpickle.ai), a startup offering AI clones/personal AI you can talk to, which the commenter uses to make calls while driving; exact product unverified.",
+    "vendor": "Pickle",
+    "website": "https://getpickle.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "low",
+    "sources": [
+      "https://indexator.ai/startups/pickle"
+    ]
+  },
+  "Meta AI": {
+    "description": "Meta's Meta AI assistant and its paid AI subscription tiers (introduced 2026 under the Meta One brand, $7.99/$19.99 per month).",
+    "vendor": "Meta",
+    "website": "https://www.meta.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://aiweekly.co/alerts/meta-one-debuts-paid-ai-tiers-at-799-and-1999"
+    ]
+  },
+  "OpenSWE": {
+    "description": "Open SWE, LangChain's open-source framework for internal asynchronous coding agents, built on LangGraph/Deep Agents and invokable from Slack or GitHub to open PRs.",
+    "vendor": "LangChain",
+    "website": "https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents",
+    "github": "langchain-ai/open-swe",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents"
+    ]
+  },
+  "Xiaomi MiMo": {
+    "description": "Xiaomi's MiMo model family (e.g. MiMo-V2.5/V2.6 Pro) and its Token Plan subscriptions for use in coding tools.",
+    "vendor": "Xiaomi",
+    "website": "https://mimo.mi.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "medium",
+    "sources": [
+      "https://platform.xiaomimimo.com/docs/en-US/tokenplan/subscription",
+      "https://cntechpost.com/2026/04/03/xiaomis-mimo-ai-model-hits-1-trillion-daily-token-milestone-launches-coding-plan"
+    ]
+  },
+  "Charm Hyper": {
+    "description": "Hyper, Charm's model inference service for coding (initially private beta), usable from Charm's Crush terminal agent or other tools.",
+    "vendor": "Charm",
+    "website": "https://hyper.charm.land",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://newreleases.io/project/github/charmbracelet/crush/release/v0.65.2"
+    ]
+  },
+  "Synthetic": {
+    "description": "Synthetic (synthetic.new), a subscription/pay-per-use provider hosting open models (GLM, Kimi, DeepSeek, Qwen) for coding agents.",
+    "vendor": "Synthetic",
+    "website": "https://synthetic.new",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://synthetic.new/blog/subscriptions",
+      "https://blog.patshead.com/2026/02/opencode-on-a-budget-synthetic-dot-new-chutes-dot-ai-and-z-dot-ai.html"
+    ]
+  },
+  "Comet": {
+    "description": "Comet, Perplexity's AI-powered web browser with a built-in agent that can browse and act on websites for the user.",
+    "vendor": "Perplexity AI",
+    "website": "https://www.perplexity.ai/comet",
+    "github": null,
+    "harness_type": null,
+    "interface": "desktop",
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://www.perplexity.ai/comet"
+    ]
+  },
+  "NBClaw": {
+    "description": "NBClaw, a small Python daemon (on PyPI) that puts a Swival agent behind a Signal conversation via signal-cli, giving an OpenClaw-like assistant that can run shell commands and edit files.",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": "cli",
+    "open_source": true,
+    "confidence": "medium",
+    "sources": [
+      "https://pypi.org/project/nbclaw/"
+    ]
+  },
+  "exe.dev": {
+    "description": "exe.dev, a subscription service for fast persistent Linux cloud VMs for developers and coding agents, with a built-in web coding agent (Shelley).",
+    "vendor": "exe.dev",
+    "website": "https://exe.dev",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://blog.exe.dev/meet-exe.dev",
+      "https://flaviocopes.com/exe-dev/"
+    ]
+  },
+  "Claude Desktop": {
+    "description": "Anthropic's Claude desktop app (macOS/Windows) with MCP connectors, used by the commenter as an agent platform.",
+    "vendor": "Anthropic",
+    "website": "https://claude.com/download",
+    "github": null,
+    "harness_type": null,
+    "interface": "desktop",
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://claude.com/download"
+    ]
+  },
+  "Vantegrate": {
+    "description": "Unidentified; per the comment, a tool/platform used to run production agents on Salesforce.",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "low",
+    "sources": []
+  },
+  "LongCat": {
+    "description": "Meituan's LongCat model family (e.g. LongCat-Flash, LongCat 2.0), available via Meituan's API and third-party providers.",
+    "vendor": "Meituan",
+    "website": "https://longcat.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "medium",
+    "sources": [
+      "https://openrouter.ai/meituan",
+      "https://venturebeat.com/ai/chinese-food-delivery-firm-meituans-open-source-ai-model-longcat-flash"
+    ]
+  }
+}

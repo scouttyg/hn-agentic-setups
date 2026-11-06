@@ -1,0 +1,434 @@
+[
+ {
+  "id": "50378897",
+  "author": "Uptrenda",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "VS code with claude plugin. Basic private git repos per project on github, nothing special, I keep everything simple.\n\n1. subscription: claude max 20x\n\n2. other subscription: nope\n\n3. harness: vs code with claude plugin\n\n4. orchestration: no\n\n5. broader agents: grok for outreach.\n\nmy development setup is a high-end local esxi server (multiple internet cons and a graphics card). The server has about 30 different OSes on it (static ips / ssh setups for all vms.) I use a VM on that machine to run my IDE with full access to the other VMs. I have good snapshots for all the VMs so if anything breaks they are easily restored. This setup makes it easy to develop software for any OS and also test complex software interactions.\n\nFor hosted internet services: I use a single OVH debian machine. I pre-pay everything over a large period so the bills are always paid. That keeps it reliable as I can say that even if I go broke in the future I'll have paid it for quite a while (useful in this economy, lol.)\n\nSession notes: I feel like the best approach is for us all to just maintain a personal wiki for our projects. But I must admit I've been lazy in that respect. All my attempts to manage my notes never works because im such a messy, chaotic person. My natural state is disorder. So I'll just (1) destroy it by accident (2) forget to back it up (3) forget to use it (4) get tired of using it. I envy those super organised people.\n\nBackup: my services are backed up locally. My local repos are backed up to github, email, and remotely. Agents deleting anything by accident isn't something i have to worry about. They have ruined VMs before. I can easily restore them. So far I've only ever lost notes because of laziness.\n\nSecurity: my security setup could be vastly improved by using discrete key pairs with restricted permissions for github. What I worry about most is just things like prompt injection and the agent accidentally downloading malware. Lateral traversal out of vms is hard but not impossible. I'd wager there's still lots of private stuff on the vms too. I monitor everything closely at least and can restore a snapshot if i get paranoid."
+ },
+ {
+  "id": "50394490",
+  "author": "robblejuwaan",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Biggest lesson from running a large team of AI agents: the setup matters less than the rules file. Mine got so long the agents skimmed it. Cutting it to one short page fixed more than any new tool did."
+ },
+ {
+  "id": "50388807",
+  "author": "krishanjarvis",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Two habits that stopped our agent from regressing when editing its own code:\n\n1. Every task has to start with an executable check (a test command, an HTTP assertion, or a live UI check) written before any code is touched. The worker cannot mark a task done until that check exits 0 on the real service.\n\n2. We log every mistake the agent makes in a plain-text traps file (date, what went wrong, and the exact rule for next time) and feed the recent traps back into the system prompt. Turning real failures into explicit guardrails cut repeat mistakes dramatically."
+ },
+ {
+  "id": "50388717",
+  "author": "Krishansubudhi",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Splitting read-only research ('scouts' on a fast/cheap model) from code changes ('chefs' running in isolated git worktrees that must pass a deterministic check before merging) made the biggest difference for me. One main agent plans and talks to me, scouts gather facts in parallel without polluting the main context window, and chefs never touch the main branch until tests and a second-provider reviewer pass."
+ },
+ {
+  "id": "50379882",
+  "author": "robblejuwaan",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "We run a small company where a large team of AI agents does most of the work, not just coding: research, marketing, sales follow-up, engineering. So my answers are a bit different.\n\n1) Claude Max and ChatGPT Pro. Claude runs the agents on 4 Claude Max accounts. One ChatGPT Pro account uses Codex code review.\n\n2) Yes, by the token, for jobs the subscriptions don't cover: ElevenLabs for voice, fal.ai for images and video, Exa for web search. Last month we tested 6 Chinese models on a real coding job. All of them wrote correct code, but since we're on flat-rate plans, none saved us money, so we didn't switch.\n\n3) Stock Claude Code CLI, in tmux on a server. Each agent is a long-running session with one job and its own rules file. Codex CLI does the bulk coding and reviews Claude's work. Never switched. The default plus skills got us there.\n\n4) Custom, and boring on purpose. The agents share a project board in Basecamp. Every piece of work is a card with an owner and a due date, and agents hand work to each other only as a card. One agent is my chief of staff: every question for me goes through it first, so I get one decision at a time instead of 30 messages. Cron jobs wake each agent for its daily work.\n\n5) We tried OpenClaw, Hermes Agent and Grok Bot. None of them came close to what we built on Claude Code, so we dropped them.\n\nWhat I learned the hard way: rules files bloat. Every time an agent messes up, the instinct is to add a rule. Now a new rule has to remove an old one. And \"done\" means a different agent checked it on the live site.\n\nFunny part: I spend most of my time on the system itself, making sure it runs well, not on the agents' work."
+ },
+ {
+  "id": "50380516",
+  "author": "oorestisime",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Terminal only at this point, I haven't opened VS Code in months.\n\n- OpenCode as the coding agent. Moved off Claude Code mostly because it's open source and I can switch models/providers and use subscriptions I already pay for. I don't want my whole workflow tied to one vendor when models change every few months. - herdr to keep parallel sessions alive. A normal day is 4-5 projects with several agents running, and terminal tabs fell apart fast. The useful part is seeing which session is working, which is blocked, and which needs me. - Hunk for reading diffs in the terminal. I spend far more time reviewing than typing now. - Plannotator for feedback on long plans/specs/drafts. Annotating the exact paragraph beats typing \"the third paragraph under the second heading\" into a chat.\n\nI am not using plan mode and i am slowly moving away from herdr + opencode to be only opencode desktop cause it allows me to pilot everything on a single service. and from my mobile.\n\nI am using grok bot. its a more recent thing though and not much to power my work tbh. And i use openai and opencode go subscriptions."
+ },
+ {
+  "id": "50379663",
+  "author": "edodusi",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Disclosure: I'm a developer advocate at AWS, so weigh the Kiro part accordingly.\n\n1) Personally: Claude Pro. At work: mostly Claude models through Amazon Bedrock.\n\n2) Pay-as-you-go on Bedrock for benchmarks and side projects. Local models: mostly Qwen and Gemma via Ollama.\n\n3) Kiro CLI and Claude Code most of the day. I stopped switching harnesses once I noticed the model and the instructions matter more than the TUI.\n\n4) Kiro Crew (https://github.com/kirodotdev/kirocrew) on top: background subagents, scheduled jobs, memory that survives sessions. I also use it for boring things like a morning briefing from my calendar and inbox, and an evening routine that reconciles my tasks.\n\n5) No OpenClaw or Hermes. My \"platform\" is a folder of markdown files. Every routine is a skill file, and the agent writes what it learned back into the vault. That's also my answer to the question below about context months later: keep it in files, not in conversation threads.\n\nOne thing I'd add to the list: anything that writes (send a mail, post a message, change a calendar) needs my explicit yes for that exact action."
+ },
+ {
+  "id": "50380621",
+  "author": "Rilup",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1) Claude only, one account. No second account, but I do hit the usage limit roughly every other week running two sessions in parallel, and then one of them waits.\n\n2) No other models or APIs. Not by principle, I just never needed to.\n\n3) Claude Code, default CLI, in VS Code on Windows and in the terminal on a Mac. Never switched. I am a non-programmer founder building a mobile app alone (Android + iOS + backend), so the harness matters less to me than the discipline around it.\n\n4) No orchestration tools. What I do instead: one session on the Windows machine owns Android, the server functions and the website; one session on the Mac owns iOS. They never talk to each other. They coordinate through three markdown files in the repo: a dated memory log (what was decided and why), a pending list (what is next, who owns it, what is blocked on me), and handoff notes when one side needs the other. Each session reads them at start and writes to them before every push. Today the Mac session finished its half of a feature within the hour of the Windows session writing the spec into the pending list, with the same JSON keys, without either of us talking to the other.\n\n5) None.\n\nHow the work actually goes: I decide what the product does and why, the sessions write the code for it and hand me what I need to ship it (deploys, migrations, pushes). When something comes back that I do not understand, I ask for it explained in detail, and that is where most of the decisions happen: whether it is what I asked for, whether it needs to change, whether there is a better way. The two incidents that hurt most were the times I skipped that step and approved something without understanding it: a `git add -A` that deleted half the website, and a key-lookup bug that silently published captures without their proof for a day. Every real bug I have found came from using the app on a phone, not from reading output."
+ },
+ {
+  "id": "50384031",
+  "author": "manu69x",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Not an agentic setup in the coding sense, but the serving side is all self-hosted. llama-swap fronts several engines behind one endpoint so models swap on demand, on a Vulkan rig built around an AMD BC-250 (the PS5 APU sold to datacenters). The plumbing matters more than the GPU: the server sleeps (S3/S5) and wakes on LAN, so the first request of the day can spend minutes on WoL + boot + model load. Clients tolerate up to ~7 minutes and retry on HTTP 5xx only - llama-swap respawns crashed engines, but true timeouts should not be retried. Access goes over Tailscale from my phone and requests blip after idle, so fast network failures get one retry. The same box also speaks TTS for my Android phone. Zero cloud APIs involved."
+ },
+ {
+  "id": "50380498",
+  "author": "huangrt01",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "About $1,200/month: one $500 GPT subscription, three $200 GPT subscriptions, and a $100 Gemini subscription.\n\nI use native Codex interfaces on my Mac, with LoopX for work spanning multiple long-running sessions (disclosure: I build it — https://github.com/loopx-project/loopx). Coding, review and research agents retain goals, decisions, ownership and evidence so they can resume without reconstructing the project from chat history.\n\nA personal steward is my front door: I give direction and corrections, it coordinates with the responsible workers and brings back results and decisions needing my attention. The difficult parts are recovery, independent verification and making sure delegated work actually returns with a usable conclusion. Those paths are still being hardened. What I care about is verified work completed per dollar and per hour of my attention."
+ },
+ {
+  "id": "50378826",
+  "author": "la_balce",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Solo CTO at a small startup here :\n\n- Claude Code + a custom harness: a PreToolUse hook that makes the prod DB read-only and blocks emails, Stripe writes, deploys, pushes to main and secrets. The hook has its own evals. - Per-mission orchestration: planner (written validation contract before code), test writer (failing tests first), implementers in separate worktrees, then a tester and a security auditor who start fresh, can't write code and judge criterion by criterion with evidence. A shipper merges and watches prod for 15 min. - Opus judges, Sonnet implements, escalate to Opus on the 3rd failure. A judge is never weaker than what it judges. - I make 2 decisions per mission, as multiple-choice questions. Most missions ship the same day; every friction becomes a rule or a test.\n\nThe trade-off: no human code review, compensated by automated checks. Happy to hear where this breaks."
+ },
+ {
+  "id": "50380125",
+  "author": "hikewatch",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1) Cursor and Claude for coding, plus a small set of API credits when I need something outside those. I keep one of each rather than stacking accounts. 2) Mostly stay inside those. OpenRouter when I want a quick look at a new open-weight model. 3) Cursor agents for product work, and a few scheduled agents for marketing chores (drafting posts, checking whether a launch link still works). I try to keep each agent on one job so they don't thrash. 4) Yes for the scheduled ones. The useful part was writing a short brief they re-read every run, not giving them a long tool recipe. 5) Not really. When an agent starts inventing customers or claiming a feature that isn't shipped, I kill that run and tighten the brief."
+ },
+ {
+  "id": "50378458",
+  "author": "robeym",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "At PAX, an ERP+CRM for small manufacturers, we use ChatGPT/Codex on the $100/user Pro plan (Codex CLI for development).\n\nMy workflow is fairly hands-on: start with the idea and design, go back and forth for a few passes until the design is suitable, then implement, test, and review. Codex can edit any file in the codebase, but I review all changes before merging into a live branch. I give it room to work during implementation, while keeping the design decisions and final review with me.\n\nI also use a ChatGPT Dot for marketing planning and researching prospects. That’s my broader use case: helping work through marketing ideas and identify potential customers for PAX to move into the sales pipeline .\n\nBeyond that, I use ChatGPT pretty regularly to summarize long articles and research specific things I’m curious about."
+ },
+ {
+  "id": "50379329",
+  "author": "patryk_builds",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Fairly boring setup, but it works for a solo project:\n\n- Claude Code in the project folder, nothing fancy on top. - A CLAUDE.md at the root with the stack, folder layout and hard rules (run tests before saying done, never put secrets in code, keys only in .env). - A PLAN.md with numbered stages and checkboxes. Each session starts with \"continue from the first unchecked stage\", and the agent ticks it off and commits at the end. That file is what made long projects work across sessions for me. - Tokens I hand to the agent are scoped to one job, short-lived, and revoked when the task is done.\n\nThe plan file mattered more than any tool or model choice. Without it, every new session started by re-deriving decisions that were already made."
+ },
+ {
+  "id": "50377090",
+  "author": "gereksiz94",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Solo dev, I just shipped an Android app (Expo/React Native) built almost entirely with Claude Code in VS Code. What ended up mattering:\n\n- A CLAUDE.md with process rules, not code rules: plan first for anything over 3 steps, never call something done without running it, and after every correction it adds a line to a lessons file. The lessons file did more than any prompt trick. - context7 for up to date docs. Without it, it confidently wrote Expo APIs from two versions ago. - A small custom MCP server for my exercise catalog (1,500 entries), so it searches and validates instead of grepping a huge JSON file and inventing fields. - Playwright driving my real browser for boring web forms: store listings, directory submissions. I still click the final Save on anything like DNS. - Memory notes between sessions, so I don't re-explain the project every time."
+ },
+ {
+  "id": "50380629",
+  "author": "tmaleh9",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I run my work as an investor and operator on Claude reading a local Obsidian vault. The notes are the memory, skills hold the procedures, and scheduled runs do the prep before I start, like building the daily note and drafting replies.\n\nTwo rules do most of the work. Anything public in my name lands in a review queue and waits for my approval. And a correction goes back into the note or skill that produced the mistake, so it gets fixed once.\n\nThe weak spot is sources. Reddit blocks the fetchers, so those drafts come from a title and an excerpt, and they get flagged so I read the thread first.\n\nWithout structured notes and guardrails, I'd be surfing the wave."
+ },
+ {
+  "id": "50373286",
+  "author": "jonathanbakhit",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Answering 2 through 5, since those are the ones I have a real opinion on.\n\n2. Pay-as-you-go plus local, rather than stacking subscriptions. A hosted key for the hard parts, and Ollama or LM Studio on the same machine for anything I don't want to send out. What matters is whether the harness treats a local OpenAI-compatible endpoint as a first-class provider. If local is a checkbox behind a settings tab, you stop reaching for it and the privacy story stays theoretical.\n\n3. One worktree per task, one agent per checkout, and I read the diffs. I've tried coordinator agents; they spend more tokens narrating progress than working, and the review burden does not go away. The useful form of orchestration is a queue you can inspect, not agents chatting with each other.\n\n4. The piece I would add to most setups: keep the running app preview independent of the agent. I want to open the app on a phone over the LAN while the agent is still editing, not after it stops. Lyre runs the agent and the preview as separate lifecycles, which is what puts device testing inside the edit loop instead of after it.\n\n5. No broader platform. For me the provider, the harness and the device are the whole stack."
+ },
+ {
+  "id": "50378839",
+  "author": "mukeshsinghnyc",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Tried most of them and settled on LangGraph for anything serious, with Gemini and Claude behind it. For a developer it's the right level of control. Where it falls down is the moment a non-developer needs to own a workflow — a support lead who wants \"refunds over $500 need a manager\" to actually hold. Graphs and conditional edges aren't a thing they can read or change, and a prompt isn't a thing you can trust to enforce it. I've ended up writing a thin declarative layer on top so the policy lives in a file someone can review. Curious whether others have hit the same wall or just keep the business users out of it."
+ },
+ {
+  "id": "50367038",
+  "author": "duytran7",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1) Claude Pro. Single account, no stacking. 2) No, subscriptions only so far. 3) Claude Code as the daily driver, Cursor when I want the diff review UI, and omp (oh-my-pi) when I want a harness that isn't tied to one provider. I switched around mostly for one reason: how well the harness exposes lifecycle events. Claude Code's hooks (UserPromptSubmit / PostToolUse / Stop / SessionEnd) and Cursor's hooks.json let you wire the agent into the rest of your machine deterministically, which turned out to matter more to me than the UI. 4) Nothing formal. Multiple terminal tabs and git worktrees, which is unglamorous but survives a crash better than anything clever I tried. 5) No.\n\nOne thing I didn't expect to matter: the physical side of long turns. A 10-minute turn means you walk away, and on a MacBook walking away means closing the lid, which kills the run. caffeinate doesn't help because macOS discards IOPMAssertion on a clamshell event unless an external display and AC are both attached. I ended up scripting pmset -a disablesleep around turn start/end via those same hooks (then turned it into a small open-source tool, happy to share if anyone cares, not linking it here since that's not what you asked).\n\nThe follow-up question I'd ask the thread: has anyone's harness choice been driven by hook/observability support rather than model quality? That's what moved me, and I rarely see it discussed."
+ },
+ {
+  "id": "50379393",
+  "author": "zerhanas",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I mostly use Claude Code (the desktop app), on a Max plan, with Sonnet for day-to-day work and a bigger model only for hard debugging.\n\nI run one session per project/area (marketing, product, finance...) and keep shared notes in a markdown vault the sessions read at startup. A few scheduled tasks handle the repetitive stuff.\n\nWhat worked best: a rule that an agent can't call a task done without proof (a commit, a URL or a file). It stopped a lot of \"done\" claims that weren't.\n\nBiggest pain: weekly usage limits. I now route mechanical work to cheaper models and keep the expensive one for architecture and review."
+ },
+ {
+  "id": "50376686",
+  "author": "davidpombar",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Some context: I’m at Trackingplan (https://trackingplan.com) ,YC W23, we’re 8 people. We monitor the tracking requests sites send to analytics and ad tools and flag when something breaks. A few months ago we shipped an AI agent that lets analysts ask questions about their own tracking data, so most of what follows comes from building that.\n\n1) Claude Teams. Honestly, Claude Code is where I spend most of my day now, and not only for code.\n\n2) For our own product, yes: it runs on Azure AI Foundry, pay-as-you-go. One thing we learned the hard way is to keep evals and production on separate deployments. Otherwise a big eval run eats the rate limit your users depend on.\n\n3) Claude Code, mostly the desktop app. What made it stick for me wasn’t the model, it was putting the instructions in the repo. We have one AGENTS.md as the source of truth (Cursor reads it directly, Claude Code through a one-line CLAUDE.md that imports it), one per service, and a bunch of “skills” for things we do over and over: opening PRs, adding support for a new analytics tool, triaging alarms. When an agent does something dumb, we fix the instructions instead of the output, and that fix sticks for everyone. Cursor Bugbot and Codex review our PRs too.\n\n4) Nothing fancy. Mostly parallel Claude Code sessions, each in its own git worktree. We did build an internal agent that takes a GitHub issue, implements it, gets a separate reviewer to rate the risk, tests it in a browser, and opens a PR for a human to merge. Biggest surprise: getting it to write code was easy. Getting it to verify its own work and stop to ask when unsure took most of the effort.\n\n5) No separate agent platform, but this is the part that surprised me most. With 8 people, we use the same Claude Code setup for sales and marketing: finding prospects, researching them, drafting LinkedIn messages and emails, writing content and scheduling posts through the Zernio API (https://zernio.com). Same idea as with code: the workflow lives in files, so anyone can pick it up and improve it."
+ },
+ {
+  "id": "50387241",
+  "author": "timmurphy",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Claude Code, Codex, and Cursor, depending on the job. No orchestration tools, just a few sessions at a time, and I review the diff before anything lands. The number I actually watch is cost per session, subagents included, that is where the surprises were."
+ },
+ {
+  "id": "50382055",
+  "author": "ankur_misra",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "My setup splits by risk, not by model. Agents can read, draft and queue anything, but anything that spends money, sends a message or changes a setting waits for me to approve it, and I see the exact payload before I tap. Most of the inference runs on a local box at home, and I rent cloud models only for the occasional heavy job. Since moving to approve-first, the thing I notice most is that I stopped feeling the urge to babysit the agent's logs."
+ },
+ {
+  "id": "50379297",
+  "author": "takeitwhen",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Not a coding setup so much as a guardrail that paid off for me: I run a small solo web app with agents drafting content that cites studies. The one thing I stopped trusting is any citation the model produces from memory. Every PMID now gets fetched from the PubMed API and the title and year are compared against what the draft claims, and a mismatch blocks the deploy. It's about 30 lines of script, and it caught several plausible-looking IDs that pointed at unrelated papers. Cheap check, and it works with any harness."
+ },
+ {
+  "id": "50378281",
+  "author": "bluescorpio",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Solo builder here, shipping a handful of small web tools. What's stuck for me: one agent in the editor for scoped changes, plus a plain-text task file it has to update before and after every step, which cut down a lot on drift across long sessions. I never let it touch deploy or DNS; it writes a checklist and I run those steps myself. The biggest win wasn't a better model. It was smaller tasks with a clear \"done\" check, like a test passing or a page rendering, so I can verify each one in under a minute."
+ },
+ {
+  "id": "50375777",
+  "author": "ivanvia",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1) Claude Max + ChatGPT Plus, and work pays for a Claude Code seat. Started with a few subs to use Codex, then got a free Max trial coupon and couldn't go back. No duplicate accounts now.\n\n2) No, Opus 5.5 covers basically everything. Have Ollama installed but barely touch it.\n\n3) Mostly Claude Code CLI, Codex CLI sometimes. Built my own UI on top of Claude Code: visual sessions, past convo history, tags per project/Notion task, boards, works from my phone. Too many terminal tabs was the reason.\n\n4) None of those, might try some to see if there's a use case. Have my own scripts though: one session plans while cheaper models do edits, a few runs review the same diff, and a cron job picks up tasks and pushes branches.\n\n5) Not really."
+ },
+ {
+  "id": "50376219",
+  "author": "videotextly",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "One practice that has helped me with agent-driven changes: before asking for any implementation, I have the agent write the failing test or a small executable acceptance check first, and I review that instead of the diff. It makes \"what complete looks like\" something the agent can verify on its own rather than a prose description, and it catches the cases where the model quietly changes the spec to match its code. The cost is that you have to be strict about the test not being edited during the implementation step. Has anyone found a reliable way to enforce that, short of making the test files read-only?"
+ },
+ {
+  "id": "50377935",
+  "author": "firefoxweather",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "For the browser-side of my AI workflow: Firefox with Multi-Account Containers is underrated. I keep one container for Claude, one for local LLM UIs (Ollama web, etc.), and one for research — prevents session bleed-through and means multiple accounts stay open simultaneously without interference.\n\nRest of stack: Claude Code for coding tasks, Ollama (llama3.3) for local/offline work when API costs matter, Python scripts as glue. The container setup is small but meaningfully reduces context-switching friction across AI tools."
+ },
+ {
+  "id": "50380015",
+  "author": "pilothousedev",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "For coding I run Claude Code and Codex in parallel on an always-on box. The part that kept biting me was permission prompts sitting unanswered while I was away, so I built a small PreToolUse policy layer that auto-allows boring commands (tests, git status) and only pings my phone for the risky ones. Keeps me out of --dangerously-skip-permissions without babysitting the terminal."
+ },
+ {
+  "id": "50367665",
+  "author": "coindefdev",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "The setup matters less to me than the feedback loop around it. The biggest change in how much I trust agent output was giving every task an executable definition of done: a failing test, a script that diffs output against a known-good run, or a type check that has to pass. Without that, agents report success based on how plausible their own diff looks.\n\nSecond thing: I keep a short, human-written notes file of failure modes I've actually seen (it edits generated files, it mocks the thing under test, it silently widens a try/except) and fold those into the instructions only after they happen twice. Long speculative rule files seemed to get ignored, while short ones tied to real incidents held up.\n\nI also review the test changes before the code changes. When an agent is struggling, it will often loosen an assertion rather than fix the bug, and that's much easier to spot if you read the tests first."
+ },
+ {
+  "id": "50375956",
+  "author": "martialwave8",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Local voice stack: faster-whisper (small int8) → Ollama/Qwen3 → Piper TTS, glued together with FastAPI. No cloud, no telemetry.\n\nWorks well for privacy-sensitive use cases. But auditing it revealed a nasty failure mode: Whisper hallucinating \"Amara.org\" subtitle credits on near-silence, which then gets routed to the LLM and spoken aloud by Piper.\n\nDocumented the full F1-F8 failure registry + P1-P4 proof protocol if anyone's building something similar and wants to skip the same mistakes."
+ },
+ {
+  "id": "50379558",
+  "author": "bshafiq",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "we've been running a mix of LangGraph and CrewAI for internal tooling. honestly the hardest part hasn't been getting them to work, it's been stopping them from working too much.\n\nif you don't wrap your handoffs tightly, you'll eventually get two agents that just politely agree with each other in an infinite loop until you wake up to a massive API bill. we ended up putting a tiny middleware layer between the nodes that hashes the payloads and kills the session if it sees the exact same message 3 times in a row. saved us a ton of money, but it feels like something that should just be built into the frameworks by now.\n\ngenuinely curious how everyone else here is handling state loops without just writing custom retry logic for every single agent? or is this just the silent killer of agentic workflows right now?"
+ },
+ {
+  "id": "50375970",
+  "author": "vladzoff",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "For coding I mostly use Codex day to day, Cursor when I want to stay in the editor, and Copilot for smaller stuff. I also keep Qwen running locally through Ollama/LM Studio for experiments.\n\nI don't really run a bunch of agents in parallel by default. One main agent is enough for most tasks. For risky changes, I'd rather have a separate review/check pass than ask the same agent if its own work looks good."
+ },
+ {
+  "id": "50367660",
+  "author": "bykapil",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I mostly use it for small AWS serverless side projects (Lambda, DynamoDB, CloudFront), evenings only, since I have a toddler and not much uninterrupted time. What helped me most was keeping tasks small and writing down what done looks like (a test passing, a deploy succeeding) before handing it off. I also have it explain IAM policies and CloudFormation diffs before I apply anything, because that's where it has confidently been wrong for me. The agent is a lot less useful for me when I can't review the result in ten minutes, so I rarely run more than one thing at a time."
+ },
+ {
+  "id": "50379585",
+  "author": "KolibriFly",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "The pricing from providers is honestly brutal right now. A hundred bucks here, two hundred there\n\nI try to keep a balance myself : I throw heavy tasks at Claude Code on max settings, and everything else runs on a local Qwen 3.8, thankfully my MacBook can handle it"
+ },
+ {
+  "id": "50379276",
+  "author": "awesomevideo",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Mostly Claude or Cursor pointed at a handful of MCP servers I run myself, plus a plain REST fallback when an agent gets stuck on SSE. I keep each server narrow (one job) because a long tool list seems to make agents pick the wrong tool more often."
+ },
+ {
+  "id": "50374847",
+  "author": "lo0pback",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1. Not anymore. 2. OpenRouter with chinese models such as glm, deepseek. I have qwen3.6:35b-a3b on my server, but rarely use it. 3. I use pi on the desktop and phone as well (inside termux). all my devices are part of the same tailnet, so they can ssh into each other to see the relevant context. 4. Not anymore. 5. Not anymore."
+ },
+ {
+  "id": "50376183",
+  "author": "siddhant_d777",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Solo side project, nights and weekends. Claude Code agents, one task each; every agent raises a PR and I review each one before merging. Backend is a Go worker on Kubernetes (DigitalOcean). Curious how others keep agent PRs small enough to review properly rather than skimming."
+ },
+ {
+  "id": "50380672",
+  "author": "JuanMa_Garrido",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "founder setup, not a pure coding setup:\n\n- Claude / Cursor for building and content - production agents on top of Salesforce for support, order intake, and opportunity follow-up (grok bot, vantegrate) - ega Futura ERP for the transactional backbone those agents read and write\n\nwhat I would not do again: give an agent broad write access before the process and data model are boring and documented. our best \"agentic\" win so far was boring: fewer tools, clearer ownership, and stop conditions written down beofre go-live"
+ },
+ {
+  "id": "50374592",
+  "author": "tawman",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "OpenRig: Two of us (me and a co-worker) are engineering this way. We each run our own team of agents, and the two teams review each other's work.\n\n1) Subscriptions: two Claude Max plans. One is for my workstation. The other is on a separate box under my desk, a GPU VM, so long-running agents there don't eat my main quota. There's also a ChatGPT plan for Codex. We watch weekly usage per account, because one-model-per-seat burns through it faster than you'd think.\n\n2) Models: - Opus for coordination and most coding; - the top-tier model only for money-movement and payment-path code; - Haiku for small assistant seats such as calendar and email triage; - Codex as a second, independent reviewer; - Ollama is on the GPU box, but it isn't doing real work yet.\n\n3) Harnesses: stock Claude Code and Codex CLI, each in its own terminal. We use herdr as the terminal multiplexer, on Omarchy Linux. No IDE.\n\n4) Orchestration: OpenRig (https://github.com/mvschwarz/openrig). It runs persistent \"rigs\" of named agent seats in tmux, a durable work queue between them, and snapshot/restore, so after a reboot every agent resumes its conversation instead of starting fresh. My setup is about 45 seats across two machines: - a small kernel I talk to (one advisor agent relays everything); - a dev rig with a coordinator, Claude and Codex developers, QA, a contrarian reviewer and peer reviewers; - an ops rig for alerts, compliance checks, database reads and infra; - an assistant rig for mail, calendar and research.\n\nWhat works: - Decisions come to me and stay with me: questions land in a Slack #decisions channel I can answer from my phone. Pushes, merges, votes and cloud changes still need my explicit OK. - Peer review across rigs: my co-worker's rig and mine review each other's PRs, and only the humans approve. - Least-privilege agent identities: the agents' cloud and Azure DevOps identities are read-only by default.\n\nWhat doesn't (yet): operations can still bite. Tonight a reboot left every seat unable to launch, because my `claude` was a mise wrapper that hangs in the minimal environment the orchestrator launches with. Claude fixed it with a symlink. Severity calibration needs tuning too. Agents happily rate an edge case HIGH, and I've had to make them state the real-world precondition and its likelihood first.\n\n5) None of those platforms. OpenRig covers it for us."
+ },
+ {
+  "id": "50374804",
+  "author": "mroops0111",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I'm on Claude Code with the Max 5x plan.\n\nFor the terminal, I used to use Warp, but switched to cmux. It feels faster, and it lets Claude sessions running on different accounts talk to each other.\n\nI also maintain my own Claude Code plugin marketplace, where I keep the skills, MCP servers, and hooks I use personally and at work."
+ },
+ {
+  "id": "50368525",
+  "author": "hikewatch",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Read as a bill list, Claude plus Codex plus Cursor plus a couple of APIs is already several renewal dates. Keeping each one with a date and a confirmed or unknown flag stops annual charges landing cold. Hikewatch does this if it's useful, free for 3 tools with email reminders: https://hike.watch"
+ },
+ {
+  "id": "50371343",
+  "author": "anthony_aisyste",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Solo freelance dev, mostly side projects.\n\n1) A paid Claude plan.\n\n3) Claude Code, default CLI.\n\n4) No orchestration, one session per task.\n\n5) No. What changed my workflow most is MCP: connecting the agent to my hosting, DNS and payments dashboards so it reads logs and config itself instead of me copy-pasting them into the chat."
+ },
+ {
+  "id": "50383169",
+  "author": "ashutosh1818",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Location: India (IST, UTC+5:30) Remote: Yes Willing to relocate: Open to discussing\n\nLooking for: AI Engineer / Software Engineer / Early Engineer\n\nTechnologies: Python, JavaScript, TypeScript, C++, React, Next.js, Node.js, Express, PostgreSQL, MongoDB, Redis, Supabase, LLM APIs, RAG, AI agents, REST APIs, System Design, Docker, Linux, CI/CD, GitHub Actions, AWS.\n\nPortfolio: https://portfolio-phi-red-69.vercel.app/ GitHub: https://github.com/ashutoshpandey18 Email: ashutoshpandey23june2005@gmail.com\n\nHey HN, I'm Ashutosh, a CS student from India who enjoys building software and solving problems.\n\nI'm currently working on SketchFlow, an AI-powered visual IDE that turns sketches into functional websites. I've also worked with early-stage startups and had a project selected for the Sarvam Startup Program.\n\nI enjoy working across the stack, from writing Python and backend services to building interfaces, integrating AI features, designing systems, and deploying applications.\n\nI'm looking for an opportunity to work with a small engineering team, learn from experienced builders, and take responsibility for shipping real products.\n\nOpen to full-time remote opportunities worldwide."
+ },
+ {
+  "id": "50377059",
+  "author": "cyclopeanutopia",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I'm only using local Qwen with OMP harness for reviewing my own code, and only from time to time."
+ },
+ {
+  "id": "50373599",
+  "author": "rodrigo-duarte",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "we run a few agents from different model families in the same room in agent-chat, which we build. one writes, another from a different family reviews it, and a person mostly steps in when they ask for a decision. the useful part was not more orchestration, it was having them see each other's messages in one place instead of pasting context between sessions."
+ },
+ {
+  "id": "50384979",
+  "author": "agentcosthub",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "for the boring loops i just drop to haiku 5.5 ($0.10/$0.50 per 1m) and keep opus for planning. same harness, way less burn"
+ },
+ {
+  "id": "50374997",
+  "author": "rizky05",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1. claude,codex,gemini,longcat,glm 2. openrouter, deepseek 3. fural.space, i made it.\n\nsorry, english is not my main language.."
+ },
+ {
+  "id": "50376952",
+  "author": "Wolfbeta",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I’m using ChatGPT Plus with a custom execution substrate I’ve been building called Relay.\n\nThe primary motivation was working around HTTP 429 rate limits and the constraints of existing agentic tooling.\n\nInstead of relying on an integrated coding agent, I use ChatGPT as the reasoning interface and Relay as the execution transport.\n\nChatGPT generates shell payloads that I copy into the clipboard. Hammerspoon intercepts them, validates them against an explicit contract, and dispatches them to local or remote execution environments. Interactive workloads run in tmux, and the resulting transcripts are delivered back into ChatGPT.\n\nThe infrastructure is mostly macOS, Linux, SSH, Git, Docker, and Proxmox.\n\nWhat started as a workaround has evolved into a fairly rigorous execution protocol: explicit shell dialects, process ownership, stdin isolation, remote lifecycle management, durable transcripts, and regression tests for recurring failure modes.\n\nI’m deliberately avoiding agent swarms. The model handles reasoning, the infrastructure handles execution, and I retain control over the boundary between them.\n\nIt’s essentially an attempt to get the utility of an agentic coding environment without being dependent on its execution quotas, orchestration framework, or subscription tier."
+ },
+ {
+  "id": "50373549",
+  "author": "mksadoughi",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1-3) Just Claude Code on a Max plan, nothing else.\n\nNothing off the shelf, but one thing has really changed how I work. I never trusted the multi-agent hype, but now that I use it I have a hard time going back. I have one session I call the coordinator, kind of a copy of me, and under it each project has its own sessions with roles: developer 1, 2, 3, a UI/UX designer, and so on. I only talk to the coordinator at a high level, and it figures out who to talk to, who gets which task and how they communicate.\n\nWhat surprised me is the context. After several weeks of one agent coordinating tens of sessions, probably hundreds of millions of tokens in, it still doesn’t seem to lose track of what anyone worked on. And it takes away the headache of keeping track of who is doing what.\n\nNo platforms. I’m also sick of typing, so most of my talking to the coordinator is by voice: I built a fairly simple conversational layer that sits on top of Claude Code, and I just talk to it and it takes care of things.\n\nIf there’s one lesson: trust the model’s context more than I used to."
+ },
+ {
+  "id": "50367294",
+  "author": "rugberrydave",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "One thing that stands out in these answers is how many people say the model matters less than the harness and how clearly you define \"done\" for the agent. It would be interesting to know how people handle verification, for example whether they rely on tests the agent writes itself or keep a separate check it can't edit. That seems like the part that decides whether running several agents in parallel actually saves time."
+ },
+ {
+  "id": "50377482",
+  "author": "throwaway239872",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "(Skating close to the edge of the guidelines on AI content on Hacker News; the below is largely produced by my agent but lightly edited by me. Despite this, I thought it might still be useful for someone. Anonymous account.)\n\nI pay for ChatGPT Pro. My main agent uses OpenAI/Codex, and I also run a local Qwen model on a Mac for selected private workloads.\n\nMy setup is mostly Hermes Agent running continuously on a Raspberry Pi, with Telegram as the interface I use most often. I also use a desktop interface and have been experimenting with an iPhone client, Hermes Conduit, which is excellent.\n\nThe Pi runs the agent software and integrations; it isn't running the main language model. The local model gets narrower jobs where the privacy benefit justifies the difference in capability; I don't use it much.\n\nMy Hermes use is broader than coding, although coding is a substantial part of it. Some concrete examples:\n\n* Software development, especially macOS/iOS work: investigating bugs, preparing patches, building applications, running tests and reviewing changes.\n\n* Looking after machines and services: SSH administration, network diagnosis, backup checks, investigating failed scheduled jobs and maintaining small web applications.\n\n* Working with an existing collection of Org-mode project and area journals. The agent reads those to prepare briefings and find outstanding commitments.\n\n* Document work: extracting and checking source material, assembling a community newsletter, producing Word documents and reviewing statistical claims.\n\n* Household automation and energy monitoring through Home Assistant, with explicit limits on what it may change.\n\n* Research and everyday administration where the useful result is a document, a comparison, a checked booking detail or a completed local task.\n\nI've put quite a bit of effort into reusable instructions for recurring work. These cover things such as how to handle a particular development environment, what constitutes a completed deployment and which operations require my approval. I keep procedural knowledge separate from personal memory.\n\nReliability is still a weak point. I've had interrupted scheduled jobs, gateway hangs and unexplained host restarts. This morning I caught the gateway blocked in a synchronous database write triggered by an optional session-reset plugin. Its watchdog restarted it; that particular interruption wasn't a Pi reboot. We've disabled the plugin and prepared an update, but the separate host-restart problem remains unresolved.\n\nI get enough useful work out of the setup to keep using it, but it also creates maintenance work. If you want a personal assistant that behaves like a finished appliance, I can't honestly recommend my arrangement on that basis yet.\n\nPermissions and recovery have consequently become more important to me than adding integrations. The assistant can draft an email, but sending it requires approval. Some services are strictly read-only. File cleanup should be reversible. A failed job needs to distinguish \"nothing happened\" from \"we don't know whether it happened\" before retrying.\n\nThe reason I keep using a broader agent platform is continuity across these jobs. I can discuss a problem on my phone, have the assistant inspect the relevant machine or files, and come back to an actual result. That is useful in ways a coding autocomplete tool isn't. But I would judge the setup by completed, checked work and the maintenance it creates, rather than by how many agents it can launch."
+ },
+ {
+  "id": "50379415",
+  "author": "blinkzero",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "back to claude max 5x"
+ },
+ {
+  "id": "50367256",
+  "author": "ls-a",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Lol no one giving up their setup"
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "_help": "Stories shown by default, in display order, as '<comment id>|<headline>'. Pick stories whose quote adds something the headline doesn't already say; everything else stays under 'Show all', sorted by score.",
+ "featured": [
+  "50387438|OpenCode logged into local MySQL with a password it saw last week",
+  "50377492|Six-figure developer lets AI do the job and plays video games",
+  "50377598|Employer knows he lets AI work while he games, keeps him anyway",
+  "50383211|Little sister following ChatGPT beats both trading bots and the S&P 500",
+  "50373236|Agents run all night; laptop not rebooted in weeks, feels like addiction",
+  "50373698|Retiree's Muse agent earned thousands of dollars churning bank bonuses",
+  "50380621|Non-programmer founder approved a git add -A that deleted half the website",
+  "50379558|Two agents politely agreeing in a loop until a massive API bill",
+  "50382261|Agent's helpful stream check stole the TV account's only connection",
+  "50378106|Opus overengineered a slow SQL fix; a one-minute cache gave 1000x",
+  "50378790|DeepSeek designed its own Rust-like language for under five dollars",
+  "50378790|DeepSeek says it would rewrite itself in Smalltalk for self-improvement",
+  "50375956|Local voice assistant spoke hallucinated Amara.org subtitle credits aloud",
+  "50375265|Solo builder averages about 40 billion tokens per month"
+ ]
+}

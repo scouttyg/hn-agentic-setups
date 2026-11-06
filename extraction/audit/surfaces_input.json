@@ -1,0 +1,794 @@
+[
+ {
+  "name": "3code",
+  "kind": "harness",
+  "description": "Open-source single-binary command-line coding agent by Carlo Capocasa, focused on token economy (chunked mode, goal files) and built-in sandboxing.",
+  "website": "https://3code.capocasa.dev",
+  "github": "capocasa/3code",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Aider",
+  "kind": "harness",
+  "description": "Open-source AI pair-programming tool for the terminal that edits code in a git repo using many model providers.",
+  "website": "https://aider.chat",
+  "github": "Aider-AI/aider",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Amp",
+  "kind": "harness",
+  "description": "Agentic coding tool from Amp (spun out of Sourcegraph), available as a CLI and editor extension, with cloud runners.",
+  "website": "https://ampcode.com",
+  "github": null,
+  "current_primary": "cli"
+ },
+ {
+  "name": "Antigravity",
+  "kind": "harness",
+  "description": "Google's agent-first IDE/development platform (often abbreviated AGY) built around Gemini models, with an agent manager for running multiple agents.",
+  "website": "https://antigravity.google",
+  "github": null,
+  "current_primary": "ide"
+ },
+ {
+  "name": "Belfry",
+  "kind": "orchestration",
+  "description": "Open-source native macOS/iOS front-end for tmux showing hosts, sessions and windows in a sidebar with the live terminal, locally or over SSH; by Rob Gough.",
+  "website": "https://belfry.robgough.net",
+  "github": "robgough/belfry",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Briefkin",
+  "kind": "orchestration",
+  "description": "Hosted dashboard and notification service where coding agents (Claude Code, Codex, Cursor, scripts) report progress and blockers to a card board, with Telegram alerts when input is needed; in open beta.",
+  "website": "https://briefkin.dev",
+  "github": null,
+  "current_primary": "web"
+ },
+ {
+  "name": "Circus Chief",
+  "kind": "orchestration",
+  "description": "Open-source meta-harness for orchestrating Claude Code, OpenAI Codex and Gemini CLI agents, with subscription fallback tiers; published on npm.",
+  "website": "https://www.npmjs.com/package/circuschief",
+  "github": "ferrislucas/Circus-Chief",
+  "current_primary": null
+ },
+ {
+  "name": "Claude Code",
+  "kind": "harness",
+  "description": "Anthropic's agentic coding tool for Claude models, available as a terminal CLI, IDE extensions, a desktop app and on the web.",
+  "website": "https://code.claude.com/docs/en/overview",
+  "github": "anthropics/claude-code",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Claude Cowork",
+  "kind": "platform",
+  "description": "Claude Cowork, Anthropic's agent mode in the Claude desktop app (launched January 2026) that works on local files and connected apps to complete non-coding tasks.",
+  "website": "https://claude.com",
+  "github": null,
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Claude Desktop",
+  "kind": "platform",
+  "description": "Anthropic's Claude desktop app (macOS/Windows) with MCP connectors, used by the commenter as an agent platform.",
+  "website": "https://claude.com/download",
+  "github": null,
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Cline",
+  "kind": "harness",
+  "description": "Open-source autonomous coding agent, mainly used as a VS Code extension, also available as a CLI and SDK; bring-your-own model.",
+  "website": "https://cline.bot",
+  "github": "cline/cline",
+  "current_primary": "ide"
+ },
+ {
+  "name": "CodeBuddy",
+  "kind": "harness",
+  "description": "Tencent's AI coding assistant, offered as an IDE, editor plugins and CLI with free and Pro tiers and access to multiple models.",
+  "website": "https://www.codebuddy.ai",
+  "github": null,
+  "current_primary": "ide"
+ },
+ {
+  "name": "Codealong",
+  "kind": "orchestration",
+  "description": "Free, open-source macOS/Linux app that shows every coding agent you run (Claude Code, Codex, OpenCode, Antigravity, Cursor) in one window across accounts and machines.",
+  "website": "https://www.codealong.com",
+  "github": "codealong/codealong",
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Codex",
+  "kind": "harness",
+  "description": "OpenAI's coding agent, offered as an open-source terminal CLI plus IDE extension, desktop app and cloud agent, used with OpenAI models via ChatGPT plans or API.",
+  "website": "https://developers.openai.com/codex",
+  "github": "openai/codex",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Collie",
+  "kind": "orchestration",
+  "description": "Open-source iOS app for remotely controlling Herdr-managed coding agents (used over Tailscale).",
+  "website": null,
+  "github": "rbstp/collie",
+  "current_primary": null
+ },
+ {
+  "name": "Comet",
+  "kind": "platform",
+  "description": "Comet, Perplexity's AI-powered web browser with a built-in agent that can browse and act on websites for the user.",
+  "website": "https://www.perplexity.ai/comet",
+  "github": null,
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Conductor",
+  "kind": "orchestration",
+  "description": "Mac app for running parallel Claude Code, Codex and Cursor agents in isolated git-worktree workspaces and reviewing/merging their changes, by Melty Labs.",
+  "website": "https://www.conductor.build",
+  "github": null,
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Contextify",
+  "kind": "orchestration",
+  "description": "macOS companion app for Claude Code and Codex CLI that monitors coding sessions with a timeline and LLM summaries, letting past session context be reused.",
+  "website": "https://contextify.sh",
+  "github": "PeterPym/contextify",
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Corgi",
+  "kind": "orchestration",
+  "description": "Open-source terminal multiplexer/agent manager built on Ghostty and inspired by herdr, for running Claude Code, Codex, Pi and OpenCode sessions.",
+  "website": "https://corgi.computer",
+  "github": "tals/corgi",
+  "current_primary": "cli"
+ },
+ {
+  "name": "CrewAI",
+  "kind": "orchestration",
+  "description": "Open-source Python framework (and commercial platform) for orchestrating role-playing autonomous AI agents that collaborate on tasks.",
+  "website": "https://crewai.com",
+  "github": "crewAIInc/crewAI",
+  "current_primary": null
+ },
+ {
+  "name": "Ctlflow",
+  "kind": "orchestration",
+  "description": "System for running a self-defined fleet of AI agents locally that people talk to through Matrix chat rooms, with a server (crossfire), local controller (fleetd) and CLI (fleet).",
+  "website": "https://www.ctlflow.com",
+  "github": null,
+  "current_primary": "cli"
+ },
+ {
+  "name": "Cursor",
+  "kind": "harness",
+  "description": "Proprietary AI code editor (VS Code fork) with built-in agents, plus a Cursor CLI and cloud agents, sold by subscription by Anysphere.",
+  "website": "https://cursor.com",
+  "github": null,
+  "current_primary": "ide"
+ },
+ {
+  "name": "DeepSeek Harness",
+  "kind": "harness",
+  "description": "DeepSeek's open-source (MIT) coding agent harness 'dsh', where every component is a plugin; runs as a CLI, web UI or headless and is used mainly with DeepSeek models. Released August 2026.",
+  "website": "https://deepseek.com/harness",
+  "github": "deepseek-ai/deepseek-harness",
+  "current_primary": "cli"
+ },
+ {
+  "name": "DeepSeek Superagent",
+  "kind": "orchestration",
+  "description": "DeepSeek's open-source research prototype of an autonomous Router/Worker 'super-agent' built on DeepSeek Harness that responds to and fixes issues in a repository; published October 2026.",
+  "website": "https://deepseek.com/harness",
+  "github": "deepseek-ai/dsh-superagent-prototype",
+  "current_primary": "cli"
+ },
+ {
+  "name": "DevArch",
+  "kind": "orchestration",
+  "description": "Commercial layer for Claude Code that adds directives, agents, hooks and skills to enforce engineering discipline (quality gates, session continuity, ADRs), by David Cornelson; paid annual license.",
+  "website": "https://devarch.ai",
+  "github": null,
+  "current_primary": "cli"
+ },
+ {
+  "name": "Devin",
+  "kind": "harness",
+  "description": "Cognition's autonomous AI software engineer, used through a web app (with IDE/desktop and Slack integrations).",
+  "website": "https://devin.ai",
+  "github": null,
+  "current_primary": "web"
+ },
+ {
+  "name": "Dirge",
+  "kind": "harness",
+  "description": "Minimal open-source Rust coding agent inspired by pi, opencode and maki, with role-based multi-provider routing, persistent memory and safeguards for cheaper models.",
+  "website": "https://docs.rs/crate/dirge-agent",
+  "github": "dirge-code/dirge",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Dots",
+  "kind": "platform",
+  "description": "OpenAI's dots, always-on agents in ChatGPT (launched at DevDay, September 2026) that have their own cloud computer and memory, connect to your apps, and can own projects and multi-step tasks.",
+  "website": "https://chatgpt.com",
+  "github": null,
+  "current_primary": "multiple"
+ },
+ {
+  "name": "Duet",
+  "kind": "platform",
+  "description": "Claude Duet, Anthropic's proactive always-on agent app (research preview from October 2026, waitlist invitations for US Pro/Max users) that monitors connected apps and works on tasks in the background.",
+  "website": "https://claude.com",
+  "github": null,
+  "current_primary": "multiple"
+ },
+ {
+  "name": "Emacs (gptel etc.)",
+  "kind": "harness",
+  "description": "Bucket for using Emacs as the AI/agent environment, via packages such as gptel (LLM client) and Editor Code Assistant (ECA, eca.dev).",
+  "website": "https://eca.dev",
+  "github": "editor-code-assistant/eca",
+  "current_primary": "ide"
+ },
+ {
+  "name": "FreeBuff",
+  "kind": "harness",
+  "description": "Free, ad-supported terminal coding agent from the Codebuff team (YC F24) using open models.",
+  "website": "https://freebuff.com",
+  "github": "CodebuffAI/freebuff",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Gas Town",
+  "kind": "orchestration",
+  "description": "Steve Yegge's open-source multi-agent workspace manager for coordinating many Claude Code-style agents on a codebase.",
+  "website": null,
+  "github": "gastownhall/gastown",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Gemini CLI",
+  "kind": "harness",
+  "description": "Google's open-source terminal coding agent for Gemini models.",
+  "website": "https://geminicli.com",
+  "github": "google-gemini/gemini-cli",
+  "current_primary": "cli"
+ },
+ {
+  "name": "GitHub Copilot",
+  "kind": "harness",
+  "description": "GitHub's AI coding assistant, available as IDE extensions, the Copilot CLI and a cloud coding agent, with access to models from several labs via subscription.",
+  "website": "https://github.com/features/copilot",
+  "github": "github/copilot-cli",
+  "current_primary": "ide"
+ },
+ {
+  "name": "Goose",
+  "kind": "harness",
+  "description": "Open-source, extensible AI agent with desktop app and CLI that works with any LLM; originally created by Block, now under the aaif-goose organization.",
+  "website": "https://goose-docs.ai",
+  "github": "aaif-goose/goose",
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Grok CLI",
+  "kind": "harness",
+  "description": "Terminal coding agent for xAI's Grok models; most likely xAI's official Grok Build CLI (an unofficial open-source grok-cli by superagent-ai also exists).",
+  "website": "https://x.ai",
+  "github": null,
+  "current_primary": "cli"
+ },
+ {
+  "name": "Hangar",
+  "kind": "orchestration",
+  "description": "Open-source, self-hosted app that puts Claude Code, Codex, Pi, omp and Kimi Code agents in one place, on desktop and phone.",
+  "website": "https://hangar.dev.br",
+  "github": "jeffer1312/hangar",
+  "current_primary": "multiple"
+ },
+ {
+  "name": "Hax",
+  "kind": "harness",
+  "description": "Minimalist open-source (MIT) terminal-native coding agent written in C by Oleksandr Chekhovskyi.",
+  "website": "https://usehax.dev",
+  "github": "OleksandrChekhovskyi/hax",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Herdr",
+  "kind": "orchestration",
+  "description": "Open-source runtime and workspace for running many coding agents: a native desktop app (macOS, Linux, Windows) plus the original terminal multiplexer TUI, with per-pane agent status and a socket API; agents run in a local herdr-core server.",
+  "website": "https://herdr.dev",
+  "github": "herdrdev/herdr",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Hermes Agent",
+  "kind": "platform",
+  "description": "Open-source, self-improving general-purpose AI agent from Nous Research that builds skills and memory from use, runs from the terminal or messaging gateways, and works with many model providers.",
+  "website": "https://hermes-agent.nousresearch.com",
+  "github": "NousResearch/hermes-agent",
+  "current_primary": "cli"
+ },
+ {
+  "name": "JetBrains AI / Junie",
+  "kind": "harness",
+  "description": "JetBrains' AI Assistant and Junie coding agent integrated into JetBrains IDEs.",
+  "website": "https://www.jetbrains.com/junie/",
+  "github": null,
+  "current_primary": "ide"
+ },
+ {
+  "name": "JetBrains Thinkrail",
+  "kind": "harness",
+  "description": "JetBrains incubator project: an open-source agentic IDE (desktop and mobile) built as a thin layer around the pi coding agent, with per-chat git worktrees and SPEC.md-based project memory.",
+  "website": "https://thinkrail.ai",
+  "github": "JetBrains/thinkrail",
+  "current_primary": "ide"
+ },
+ {
+  "name": "Juggler",
+  "kind": "orchestration",
+  "description": "Open-source desktop/browser workbench for AI coding agents by Julian Storer (creator of JUCE), with tree-structured persistent sessions and a headless server for remote machines; vendor-neutral.",
+  "website": "https://juggler.studio",
+  "github": "juggler-ai/juggler",
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Kepler",
+  "kind": "harness",
+  "description": "GitKraken's agentic development environment that turns issues from trackers (Jira, Linear, GitHub etc.) into tasks run by ACP agents in worktrees, with a Kanban view.",
+  "website": "https://gitkraken.com/lp/project-kepler",
+  "github": null,
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Kilo Code",
+  "kind": "harness",
+  "description": "Open-source agentic coding extension for VS Code and JetBrains IDEs (plus CLI) from Kilo, with access to many models.",
+  "website": "https://kilo.ai",
+  "github": "Kilo-Org/kilocode",
+  "current_primary": "ide"
+ },
+ {
+  "name": "Kimi Code",
+  "kind": "harness",
+  "description": "Moonshot AI's open-source terminal coding agent (Kimi Code CLI, successor to Kimi CLI) for Kimi models.",
+  "website": "https://www.kimi.com/code/docs/",
+  "github": "MoonshotAI/kimi-code",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Kiro",
+  "kind": "harness",
+  "description": "Amazon/AWS's agentic IDE and CLI centred on spec-driven development.",
+  "website": "https://kiro.dev",
+  "github": "kirodotdev/Kiro",
+  "current_primary": "ide"
+ },
+ {
+  "name": "Kiro Crew",
+  "kind": "orchestration",
+  "description": "Open-source companion to Amazon's Kiro providing a persistent, self-improving workspace with background subagents, scheduled jobs and persistent memory that continues beyond one session.",
+  "website": "https://kiro.dev/crew/",
+  "github": "kirodotdev/KiroCrew",
+  "current_primary": null
+ },
+ {
+  "name": "LangGraph",
+  "kind": "orchestration",
+  "description": "LangChain's open-source framework for building stateful, graph-structured LLM agents and multi-agent workflows.",
+  "website": "https://www.langchain.com/langgraph",
+  "github": "langchain-ai/langgraph",
+  "current_primary": null
+ },
+ {
+  "name": "Letta",
+  "kind": "platform",
+  "description": "Letta (formerly MemGPT), an open-source platform and cloud service for building stateful agents with long-term memory.",
+  "website": "https://www.letta.com",
+  "github": "letta-ai/letta",
+  "current_primary": null
+ },
+ {
+  "name": "LoopX",
+  "kind": "orchestration",
+  "description": "Open-source, local-first control plane and research workbench for long-running agent teams that span multiple sessions and runtimes.",
+  "website": "https://loopx-project.github.io/loopx/",
+  "github": "loopx-project/loopx",
+  "current_primary": null
+ },
+ {
+  "name": "Lyre",
+  "kind": "orchestration",
+  "description": "Lyre Studio's AI workspace for running coding agents across your own computers, with live app previews on phones; builds on Paseo's open-source code.",
+  "website": "https://lyrestudio.net",
+  "github": null,
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Maki",
+  "kind": "harness",
+  "description": "Open-source (MIT) Rust terminal coding agent by Tony Solomonik focused on low context usage (tree-sitter index, sandboxed code execution), extendable with Lua plugins; supports many providers and ACP.",
+  "website": "https://maki.sh",
+  "github": "tontinton/maki",
+  "current_primary": "cli"
+ },
+ {
+  "name": "MetaGPT",
+  "kind": "orchestration",
+  "description": "Open-source multi-agent framework that simulates a software company of LLM roles; from FoundationAgents/DeepWisdom.",
+  "website": "https://atoms.dev",
+  "github": "FoundationAgents/MetaGPT",
+  "current_primary": "cli"
+ },
+ {
+  "name": "MiMo Code",
+  "kind": "harness",
+  "description": "Xiaomi's open-source terminal coding agent (an OpenCode fork tuned for MiMo models), released June 2026.",
+  "website": "https://mimo.xiaomi.com/mimocode",
+  "github": "XiaomiMiMo/MiMo-Code",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Mistral Vibe",
+  "kind": "harness",
+  "description": "Mistral AI's minimal open-source terminal coding agent for Mistral (and other) models.",
+  "website": "https://mistral.ai",
+  "github": "mistralai/mistral-vibe",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Munder Difflin",
+  "kind": "orchestration",
+  "description": "Open-source local multi-agent harness that runs an 'office' of Claude Code/Codex-style agents on your laptop or sandboxes using existing subscriptions.",
+  "website": "https://munderdiffl.in",
+  "github": "HarnessMD/munder-difflin",
+  "current_primary": null
+ },
+ {
+  "name": "Muse",
+  "kind": "platform",
+  "description": "Meta's Muse AI family: the Muse Spark/Glimmer models, the Muse personal agent app, and Muse Code, Meta's coding agent with monthly plans starting at $5/month. Commenters used it as a coding model/subscription and personal assistant.",
+  "website": "https://developer.meta.com/ai/products/muse-code/",
+  "github": null,
+  "current_primary": "multiple"
+ },
+ {
+  "name": "Muse Code",
+  "kind": "harness",
+  "description": "Meta's terminal coding agent powered by its Muse Spark models, launched August 2026 with plans from $5/month.",
+  "website": "https://developer.meta.com/ai/lp/muse-code/",
+  "github": null,
+  "current_primary": "cli"
+ },
+ {
+  "name": "Muster",
+  "kind": "orchestration",
+  "description": "Open-source native macOS workspace for AI coding agents built on libghostty, with real splits, agent state at a glance, local and SSH agents, and sessions that outlive the app.",
+  "website": null,
+  "github": "amterp/muster",
+  "current_primary": "desktop"
+ },
+ {
+  "name": "NanoClaw",
+  "kind": "platform",
+  "description": "Lightweight open-source alternative to OpenClaw that runs agents in isolated containers on the Claude Agent SDK and connects to WhatsApp, Telegram, Slack and other messengers.",
+  "website": "https://nanoclaw.dev",
+  "github": "nanocoai/nanoclaw",
+  "current_primary": "cli"
+ },
+ {
+  "name": "NodeCode",
+  "kind": "harness",
+  "description": "Open-source self-modifying agent written in Common Lisp (SBCL) that runs as one long-lived process with a single 'evaluate Lisp' tool.",
+  "website": "https://nodecode.ai",
+  "github": "nodecode-ai/nodecode",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Open Agent Harness (OAH)",
+  "kind": "orchestration",
+  "description": "Open-source multi-agent development harness for macOS and Windows that coordinates Claude Code and Codex, with file leases and task history.",
+  "website": "https://oah.rodeo",
+  "github": "KenSuh/open-agent-harness",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Open WebUI",
+  "kind": "harness",
+  "description": "Open-source, self-hostable web chat interface for Ollama and OpenAI-compatible APIs, extensible with plugins.",
+  "website": "https://openwebui.com",
+  "github": "open-webui/open-webui",
+  "current_primary": "web"
+ },
+ {
+  "name": "OpenBot",
+  "kind": "platform",
+  "description": "Open-source, self-hosted platform for running a team of AI bots with tools, long-term memory and persistent inboxes in shared threads; created by GitHub user regnull as an open alternative to Grok Bot.",
+  "website": null,
+  "github": "regnull/openbot",
+  "current_primary": null
+ },
+ {
+  "name": "OpenChamber",
+  "kind": "harness",
+  "description": "Open-source fan-made desktop, web/PWA and VS Code interface for the OpenCode agent.",
+  "website": "https://openchamber.dev",
+  "github": "openchamber/openchamber",
+  "current_primary": "desktop"
+ },
+ {
+  "name": "OpenClaw",
+  "kind": "platform",
+  "description": "Open-source, self-hosted personal AI agent (formerly Clawdbot/Moltbot) created by Peter Steinberger that connects chat apps like WhatsApp, Telegram and Signal to an LLM agent that can run tasks.",
+  "website": "https://openclaw.ai",
+  "github": "openclaw/openclaw",
+  "current_primary": null
+ },
+ {
+  "name": "OpenCode",
+  "kind": "harness",
+  "description": "Open-source, provider-agnostic coding agent with a terminal UI plus desktop and web clients; also sells the OpenCode Go/Zen model subscriptions. Made by Anomaly (formerly SST).",
+  "website": "https://opencode.ai",
+  "github": "anomalyco/opencode",
+  "current_primary": "cli"
+ },
+ {
+  "name": "OpenHands",
+  "kind": "harness",
+  "description": "Open-source AI software-development agent platform (formerly OpenDevin) with CLI, local GUI and cloud versions.",
+  "website": "https://openhands.dev",
+  "github": "OpenHands/OpenHands",
+  "current_primary": "web"
+ },
+ {
+  "name": "OpenRig",
+  "kind": "orchestration",
+  "description": "Open-source tool for building persistent teams of Claude Code, Codex and Pi agents with roles, shared context and owned work, running in tmux.",
+  "website": "https://openrig.dev",
+  "github": "mvschwarz/openrig",
+  "current_primary": "cli"
+ },
+ {
+  "name": "OpenSWE",
+  "kind": "platform",
+  "description": "Open SWE, LangChain's open-source framework for internal asynchronous coding agents, built on LangGraph/Deep Agents and invokable from Slack or GitHub to open PRs.",
+  "website": "https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents",
+  "github": "langchain-ai/open-swe",
+  "current_primary": null
+ },
+ {
+  "name": "Orca",
+  "kind": "orchestration",
+  "description": "Open-source desktop app (with CLI and mobile companion) for running a fleet of coding agents such as Claude Code and Codex in parallel terminals, each in its own git worktree. Made by Stably AI.",
+  "website": "https://www.onorca.dev",
+  "github": "stablyai/orca",
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Ori",
+  "kind": "harness",
+  "description": "OpenRouter's family of agent tools: Ori Code, a native terminal coding agent, and Ori Harness, which runs existing agents (Claude Code, Codex, OpenCode) through OpenRouter models.",
+  "website": "https://openrouter.ai/ori",
+  "github": null,
+  "current_primary": "cli"
+ },
+ {
+  "name": "Osaurus",
+  "kind": "platform",
+  "description": "Osaurus, an open-source native macOS (Apple Silicon) app for running local and cloud AI models with agents, memory and tools on your Mac.",
+  "website": "https://osaurus.ai",
+  "github": "osaurus-ai/osaurus",
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Paperclip",
+  "kind": "orchestration",
+  "description": "Open-source app for managing AI agents at work, coordinating multiple agents on tasks.",
+  "website": "https://paperclip.ing",
+  "github": "paperclipai/paperclip",
+  "current_primary": "web"
+ },
+ {
+  "name": "Paseo",
+  "kind": "orchestration",
+  "description": "Open-source, self-hosted daemon plus desktop, mobile, web and CLI clients for orchestrating multiple coding agents (Claude Code, Codex, OpenCode, Pi and others) with worktrees and diff review.",
+  "website": "https://paseo.sh",
+  "github": "getpaseo/paseo",
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Paseo / Orca / Superset",
+  "kind": "orchestration",
+  "description": "Group of 'harness aggregator' apps for running multiple coding agents in parallel: Paseo (desktop and mobile), Orca by Stably AI (desktop/mobile/remote, MIT) and Superset (superset.sh).",
+  "website": "https://paseo.sh",
+  "github": "stablyai/orca",
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Pi",
+  "kind": "harness",
+  "description": "Minimal, extensible open-source terminal coding agent (pi / pi-mono) by Mario Zechner, with a small toolset, TypeScript extensions and support for many model providers; now hosted under Earendil Works.",
+  "website": "https://pi.dev",
+  "github": "earendil-works/pi",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Pickle",
+  "kind": "platform",
+  "description": "Likely Pickle (getpickle.ai), a startup offering AI clones/personal AI you can talk to, which the commenter uses to make calls while driving; exact product unverified.",
+  "website": "https://getpickle.ai",
+  "github": null,
+  "current_primary": null
+ },
+ {
+  "name": "Rakazo",
+  "kind": "platform",
+  "description": "Rakazo, an open-source (Apache 2.0) self-hosted platform for persistent AI bots that sign into your tools and complete tasks with sandboxed browser/shell, memory and routines; built by Inbox Zero as an open alternative to Grok Bot.",
+  "website": null,
+  "github": "elie222/rakazo",
+  "current_primary": "multiple"
+ },
+ {
+  "name": "Raven",
+  "kind": "orchestration",
+  "description": "EverMind AI's open-source 'harness of harnesses' that plans tasks as a dependency graph and delegates nodes to its own agents or to third-party harnesses like Claude Code and Codex (via ACP/CLI/APIs); pre-alpha.",
+  "website": "https://raven.evermind.ai",
+  "github": "EverMind-AI/Raven",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Rex",
+  "kind": "orchestration",
+  "description": "Combined native terminal emulator and multiplexer (built on libghostty) from Mitchell Hashimoto's company Superlogical, with built-in sessions, splits and persistence; macOS client in public testing since Oct 2026.",
+  "website": "https://superlogical.com",
+  "github": null,
+  "current_primary": "cli"
+ },
+ {
+  "name": "Scion",
+  "kind": "orchestration",
+  "description": "Google Cloud's experimental open-source orchestrator that runs multiple coding agents (Claude Code, Gemini CLI, Codex) in parallel, each in its own container with separate credentials and git worktree.",
+  "website": null,
+  "github": "GoogleCloudPlatform/scion",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Swival",
+  "kind": "harness",
+  "description": "Small open-source (MIT) Python CLI coding agent aimed at open and local models, with memory, review loops, MCP and A2A support.",
+  "website": "https://swival.dev",
+  "github": "Swival/swival",
+  "current_primary": "cli"
+ },
+ {
+  "name": "T3 Code",
+  "kind": "harness",
+  "description": "Open-source 'agent harness control surface' from T3 Tools (Theo Browne) - desktop (Electron), web and mobile apps that drive locally installed agents like Claude Code, Codex, Cursor, OpenCode and Antigravity.",
+  "website": "https://t3.codes",
+  "github": "pingdotgg/t3code",
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Termic",
+  "kind": "orchestration",
+  "description": "Open-source (AGPL) Conductor.build alternative that runs the real Claude, Gemini and Codex CLIs in real terminals for switching between parallel agents.",
+  "website": "https://termic.dev",
+  "github": "simion/termic",
+  "current_primary": "cli"
+ },
+ {
+  "name": "VS Code",
+  "kind": "harness",
+  "description": "Microsoft's open-source code editor, used here as the host for AI agents (Copilot, Claude Code, Cline etc.) and extensions.",
+  "website": "https://code.visualstudio.com",
+  "github": "microsoft/vscode",
+  "current_primary": "ide"
+ },
+ {
+  "name": "Volt",
+  "kind": "harness",
+  "description": "Open-source (MIT) fork of the Pi coding agent by Jordan Hans: a terminal coding agent with planning, code review, subagents, Pi-compatible extensions and an iOS companion.",
+  "website": "https://volt-cli.dev",
+  "github": "volt-hq/Volt",
+  "current_primary": "cli"
+ },
+ {
+  "name": "Warp",
+  "kind": "harness",
+  "description": "Agentic development environment built around a modern terminal, with built-in agents, from Warp.",
+  "website": "https://warp.dev",
+  "github": "warpdotdev/warp",
+  "current_primary": "cli"
+ },
+ {
+  "name": "ZCode",
+  "kind": "harness",
+  "description": "Z.ai (Zhipu AI)'s desktop coding-agent app for its GLM models, used with the GLM Coding Plan.",
+  "website": "https://docs.z.ai/devpack/tool/zcode",
+  "github": null,
+  "current_primary": "desktop"
+ },
+ {
+  "name": "Zed",
+  "kind": "harness",
+  "description": "Open-source, high-performance code editor written in Rust by Zed Industries, with built-in AI agent panel and support for external agents via the Agent Client Protocol (ACP).",
+  "website": "https://zed.dev",
+  "github": "zed-industries/zed",
+  "current_primary": "ide"
+ },
+ {
+  "name": "ZeroStack",
+  "kind": "harness",
+  "description": "Lightweight open-source coding agent written in Rust by gi-dellav, optimized for low memory use, with multiple providers, prompt modes, worktrees and ACP support.",
+  "website": "https://gi-dellav.github.io/zerostack/",
+  "github": "gi-dellav/zerostack",
+  "current_primary": "cli"
+ },
+ {
+  "name": "agent-swarm.dev",
+  "kind": "orchestration",
+  "description": "Agent Swarm: MIT-licensed, self-hostable multi-agent system where a lead agent delegates goals to worker agents such as Claude Code or Codex; a paid hosted cloud version also exists. By Desplega Labs.",
+  "website": "https://agent-swarm.dev",
+  "github": "desplega-ai/agent-swarm",
+  "current_primary": "web"
+ },
+ {
+  "name": "agentcron.ai",
+  "kind": "orchestration",
+  "description": "AgentCron, a team collaboration workspace (chat, projects/kanban, docs, files) usable with AI agents such as ChatGPT, Claude and Grok, e.g. via MCP.",
+  "website": "https://agentcron.ai",
+  "github": null,
+  "current_primary": "web"
+ },
+ {
+  "name": "clawpatrol",
+  "kind": "orchestration",
+  "description": "Deno's open-source security firewall/proxy for AI agents that enforces action-approval rules and manages credentials.",
+  "website": "https://clawpatrol.dev",
+  "github": "denoland/clawpatrol",
+  "current_primary": "cli"
+ },
+ {
+  "name": "cmux",
+  "kind": "orchestration",
+  "description": "Open-source Ghostty-based native macOS terminal for running multiple AI coding agents, with vertical workspace tabs, notifications when agents need input, and a CLI/socket API.",
+  "website": "https://cmux.com",
+  "github": "manaflow-ai/cmux",
+  "current_primary": "cli"
+ },
+ {
+  "name": "epiq",
+  "kind": "orchestration",
+  "description": "Open-source, Git-native distributed issue tracker and workflow manager for agentic teams, with a terminal UI and no server or account needed.",
+  "website": "https://epiq.sh",
+  "github": "ljtn/epiq",
+  "current_primary": "cli"
+ },
+ {
+  "name": "llm-desktop-electron",
+  "kind": "harness",
+  "description": "Small open-source Electron app by mkornreich for running a Claude Desktop-style chat UI with non-Claude models (e.g. via OpenRouter).",
+  "website": null,
+  "github": "mkornreich/llm-desktop-electron",
+  "current_primary": "desktop"
+ },
+ {
+  "name": "yaac",
+  "kind": "orchestration",
+  "description": "Open-source tool by the commenter that auto-containerizes coding agents (gVisor containers) and provides inter-agent orchestration.",
+  "website": "https://yaac.dev",
+  "github": "bsklaroff/yaac",
+  "current_primary": "cli"
+ }
+]

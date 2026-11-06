@@ -1,0 +1,920 @@
+{
+  "OpenRouter": {
+    "description": "Hosted API router that gives one OpenAI-compatible endpoint and one bill for hundreds of models from many providers.",
+    "vendor": "OpenRouter",
+    "website": "https://openrouter.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://openrouter.ai"
+    ]
+  },
+  "Qwen": {
+    "description": "Alibaba's Qwen family of LLMs, many released as open weights (e.g. Qwen3.8 27B and the 125B-A6B Qwen3.8-Flash-Next released Aug 2026); widely run locally and via APIs.",
+    "vendor": "Alibaba (Qwen team)",
+    "website": "https://qwen.ai",
+    "github": "QwenLM/Qwen3",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://datanorth.ai/news/alibaba-releases-qwen3-8-flash-next",
+      "https://thenewstack.io/qwen38-flash-previews-qwen4/"
+    ]
+  },
+  "GLM": {
+    "description": "Z.ai's (formerly Zhipu AI) GLM family of LLMs, including GLM 5.x and the cheaper GLM Flash variants; open-weight releases are also served by third-party hosts.",
+    "vendor": "Z.ai (Zhipu AI)",
+    "website": "https://z.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "medium",
+    "sources": [
+      "https://z.ai"
+    ]
+  },
+  "Anthropic API": {
+    "description": "Anthropic's paid API for its Claude models (Haiku, Sonnet, Opus); this bucket covers direct pay-per-token Claude use outside a subscription.",
+    "vendor": "Anthropic",
+    "website": "https://www.anthropic.com/api",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://docs.anthropic.com"
+    ]
+  },
+  "OpenAI API": {
+    "description": "OpenAI's paid API for its GPT models (e.g. GPT-6 Sol/Luna), including the Batch API; covers direct pay-per-token OpenAI use.",
+    "vendor": "OpenAI",
+    "website": "https://platform.openai.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://platform.openai.com/docs"
+    ]
+  },
+  "Local models (unspecified)": {
+    "description": "Bucket for commenters who run open-weight models on their own hardware without naming the specific model or runtime.",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "high",
+    "sources": []
+  },
+  "Gemma": {
+    "description": "Google DeepMind's family of open-weight models (Gemma 4 in sizes such as E4B, 12B, 26B-A4B and 31B), commonly run locally.",
+    "vendor": "Google DeepMind",
+    "website": "https://ai.google.dev/gemma",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://ai.google.dev/gemma"
+    ]
+  },
+  "Google / Gemini API": {
+    "description": "Google's API (Gemini API / AI Studio / Vertex AI) for its Gemini models, such as Gemini 3.5 Flash Lite and Gemini 4 Argon.",
+    "vendor": "Google",
+    "website": "https://ai.google.dev",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://ai.google.dev",
+      "https://forklog.com/en/google-launches-gemini-4-argon-ai-model/"
+    ]
+  },
+  "Ollama": {
+    "description": "Open-source tool for downloading and running open-weight LLMs locally, with a CLI and a local OpenAI-compatible server.",
+    "vendor": "Ollama",
+    "website": "https://ollama.com",
+    "github": "ollama/ollama",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://github.com/ollama/ollama"
+    ]
+  },
+  "MLX": {
+    "description": "Apple's open-source array/ML framework for Apple Silicon, plus MLX-based local inference servers; most mentions here are oMLX (jundot/omlx), an OpenAI/Anthropic-compatible MLX server with a tiered RAM+SSD KV cache and a menu-bar app.",
+    "vendor": "Apple (MLX); jundot (oMLX)",
+    "website": "https://github.com/ml-explore/mlx",
+    "github": "ml-explore/mlx",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://github.com/ml-explore/mlx",
+      "https://pinggy.io/blog/omlx_local_llm_server_pinggy/"
+    ]
+  },
+  "llama.cpp": {
+    "description": "Open-source C/C++ LLM inference engine for GGUF models on CPU and GPU, including the llama-server OpenAI-compatible server; started by Georgi Gerganov.",
+    "vendor": "ggml-org",
+    "website": "https://github.com/ggml-org/llama.cpp",
+    "github": "ggml-org/llama.cpp",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://github.com/ggml-org/llama.cpp"
+    ]
+  },
+  "LM Studio": {
+    "description": "Desktop app for discovering, downloading and running local LLMs, with a built-in chat UI and a local OpenAI-compatible server.",
+    "vendor": "Element Labs (LM Studio)",
+    "website": "https://lmstudio.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://lmstudio.ai"
+    ]
+  },
+  "AWS Bedrock": {
+    "description": "Amazon Web Services' managed service for calling foundation models (Anthropic Claude, OpenAI, Meta, Mistral, Amazon Nova and others) through AWS APIs and billing.",
+    "vendor": "Amazon Web Services",
+    "website": "https://aws.amazon.com/bedrock/",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://aws.amazon.com/bedrock/"
+    ]
+  },
+  "Mercury": {
+    "description": "Inception's Mercury family of diffusion LLMs, which generate tokens in parallel for very high throughput; Mercury 3 (Oct 2026) is a closed-weights model available via Inception's API, OpenRouter and others.",
+    "vendor": "Inception",
+    "website": "https://www.inceptionlabs.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://www.eesel.ai/blog/inception-mercury-3",
+      "https://letsdatascience.com/news/inception-releases-mercury-3-diffusion-llm-claiming-1000-tok-cb32df3e"
+    ]
+  },
+  "Nemotron": {
+    "description": "NVIDIA's family of open-weight LLMs, e.g. Nemotron 3.5 Super VL 120B-A12B and Nemotron 3.5 Bolt 74B-A9B (Oct 2026), a 2-bit-quantized MoE built for local agents.",
+    "vendor": "NVIDIA",
+    "website": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://thenewstack.io/nvidia-nemotron-bolt-laptop/?p=22840568",
+      "https://www.buildmvpfast.com/blog/nvidia-nemotron-3-5-super-vl-bolt-open-models-2026"
+    ]
+  },
+  "Strata": {
+    "description": "MIT-licensed local inference engine (built on llama.cpp/ggml) that runs the 125B Qwen3.8-Flash-Next on consumer PCs by splitting work across GPU, RAM, CPU and SSD, with OpenAI/Anthropic-compatible local APIs.",
+    "vendor": "Niko1221",
+    "website": "https://github.com/Niko1221/Strata",
+    "github": "Niko1221/Strata",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "medium",
+    "sources": [
+      "https://smartscope.blog/en/blog/strata-local-llm-engine-qwen3-8-flash-next-2026/",
+      "https://www.everydev.ai/tools/strata"
+    ]
+  },
+  "Parakeet": {
+    "description": "NVIDIA's Parakeet family of open speech-recognition (ASR) models, commonly run locally for speech-to-text (e.g. via Handy or ONNX).",
+    "vendor": "NVIDIA",
+    "website": "https://huggingface.co/nvidia",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "medium",
+    "sources": [
+      "https://huggingface.co/nvidia"
+    ]
+  },
+  "MiMo": {
+    "description": "Xiaomi's MiMo family of LLMs (e.g. MiMo-V2.6-Flash), offered as open weights and via API.",
+    "vendor": "Xiaomi",
+    "website": "https://huggingface.co/XiaomiMiMo",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "medium",
+    "sources": [
+      "https://huggingface.co/XiaomiMiMo"
+    ]
+  },
+  "Exa": {
+    "description": "Web search API built for AI applications and agents, returning search results and page contents.",
+    "vendor": "Exa",
+    "website": "https://exa.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://exa.ai"
+    ]
+  },
+  "DeepInfra": {
+    "description": "Pay-per-token cloud inference provider hosting many open-weight models (DeepSeek, Qwen, Llama, etc.) behind an OpenAI-compatible API.",
+    "vendor": "DeepInfra",
+    "website": "https://deepinfra.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://deepinfra.com/"
+    ]
+  },
+  "Whisper": {
+    "description": "OpenAI's open-source speech-recognition model, widely run locally (e.g. via whisper.cpp) for transcription.",
+    "vendor": "OpenAI",
+    "website": "https://github.com/openai/whisper",
+    "github": "openai/whisper",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://github.com/openai/whisper"
+    ]
+  },
+  "MiniMax": {
+    "description": "Chinese AI lab MiniMax and its models: MiniMax-M LLMs (some open-weight) plus image/video generation models (e.g. Hailuo), available via API.",
+    "vendor": "MiniMax",
+    "website": "https://www.minimax.io",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "medium",
+    "sources": [
+      "https://www.minimax.io"
+    ]
+  },
+  "Atlas Cloud": {
+    "description": "Pay-as-you-go inference platform offering an OpenAI-compatible API for many models, including the DeepSeek lineup.",
+    "vendor": "Atlas Cloud",
+    "website": "https://www.atlascloud.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://www.atlascloud.ai/docs/en/models/llm",
+      "https://atlascloud.ai/models/deepseek"
+    ]
+  },
+  "Argon": {
+    "description": "Gemini 4 Argon, Google's flagship Gemini 4 reasoning model announced Sept 30, 2026 and broadly available via API, Gemini app and Antigravity from Oct 13, 2026.",
+    "vendor": "Google",
+    "website": "https://ai.google.dev",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://forklog.com/en/google-launches-gemini-4-argon-ai-model/",
+      "https://ppc.land/google-prices-gemini-4-argon-at-2-per-million-tokens-paid-users-only/"
+    ]
+  },
+  "Jev": {
+    "description": "TypeSafe AI's non-generative 'decision model': it takes a state plus typed questions (boolean, choice, score) and returns answers with probabilities instead of text; hosted closed-weight API, launched Sept 2026.",
+    "vendor": "TypeSafe AI",
+    "website": "https://typesafe.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://apidog.com/blog/what-is-jev/",
+      "https://docs.venice.ai/models/jev"
+    ]
+  },
+  "Various API providers": {
+    "description": "Bucket for unspecified pay-per-token API endpoints from assorted providers.",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "high",
+    "sources": []
+  },
+  "Kilo Credits": {
+    "description": "Prepaid credits for Kilo Code's Kilo Gateway, which gives access to 500+ models at provider list prices on one bill.",
+    "vendor": "Kilo Code",
+    "website": "https://kilo.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://kilo.ai/docs/providers/kilocode",
+      "https://kilo.ai/models/inference"
+    ]
+  },
+  "NVIDIA NIM": {
+    "description": "NVIDIA's inference microservices and hosted API catalog (build.nvidia.com), which includes free-tier access to many open models.",
+    "vendor": "NVIDIA",
+    "website": "https://build.nvidia.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://build.nvidia.com"
+    ]
+  },
+  "Llama": {
+    "description": "Meta's family of open-weight LLMs (e.g. Llama 3.3), commonly run locally via Ollama or llama.cpp.",
+    "vendor": "Meta",
+    "website": "https://www.llama.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://www.llama.com"
+    ]
+  },
+  "Abliterated models": {
+    "description": "Bucket for 'abliterated' open-weight models, i.e. community variants with refusal behavior removed via weight editing, used e.g. for red teaming.",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": []
+  },
+  "TensorX": {
+    "description": "Dublin-based European inference provider offering zero-retention, OpenAI-compatible API access to 50+ open-source models on its own NVIDIA GPUs.",
+    "vendor": "TensorX",
+    "website": "https://tensorx.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://pulse2.com/tensorx-raises-e8-million-seed-round-to-build-european-sovereign-ai-infrastructure/",
+      "https://opper.ai/provider/tensorx"
+    ]
+  },
+  "Entrim": {
+    "description": "Serverless inference provider offering an OpenAI-compatible API for open models with low per-token pricing.",
+    "vendor": "Entrim",
+    "website": "https://entrim.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://entrim.ai",
+      "https://entrim.ai/llm-inference/"
+    ]
+  },
+  "LiteLLM": {
+    "description": "Open-source Python SDK and proxy server that exposes 100+ LLM providers through one OpenAI-compatible interface, with keys, budgets and logging.",
+    "vendor": "BerriAI",
+    "website": "https://www.litellm.ai",
+    "github": "BerriAI/litellm",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://github.com/BerriAI/litellm"
+    ]
+  },
+  "Requesty": {
+    "description": "Hosted LLM router/gateway giving one API across many model providers, with routing, fallbacks and cost tracking.",
+    "vendor": "Requesty",
+    "website": "https://www.requesty.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://www.requesty.ai"
+    ]
+  },
+  "Discount provider (unnamed)": {
+    "description": "Bucket for an unnamed third-party API reseller the commenter said offers about a 2/3 discount on model pricing.",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "high",
+    "sources": []
+  },
+  "Baseten": {
+    "description": "Cloud inference platform for deploying and serving models, including hosted APIs for popular open-weight LLMs.",
+    "vendor": "Baseten",
+    "website": "https://www.baseten.co",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://www.baseten.co"
+    ]
+  },
+  "Novita": {
+    "description": "Novita AI, a cloud provider offering pay-per-token APIs for open-weight LLMs plus GPU instances.",
+    "vendor": "Novita AI",
+    "website": "https://novita.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://novita.ai"
+    ]
+  },
+  "MTPLX": {
+    "description": "Apache-2.0 MLX-based runtime (Mac app and CLI) for Apple Silicon that speeds local inference using a model's built-in multi-token-prediction heads for speculative decoding, with an OpenAI-compatible server.",
+    "vendor": "Youssofal",
+    "website": "https://pypi.org/project/mtplx/",
+    "github": "youssofal/MTPLX",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "medium",
+    "sources": [
+      "https://pypi.org/project/mtplx/",
+      "https://instagit.com/youssofal/MTPLX/mtplx-documentation/"
+    ]
+  },
+  "Together": {
+    "description": "Together AI, a cloud platform offering pay-per-token APIs for open-weight models plus fine-tuning and GPU clusters.",
+    "vendor": "Together AI",
+    "website": "https://www.together.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://www.together.ai"
+    ]
+  },
+  "IFM K2 Horizon": {
+    "description": "K2 Horizon, a family of fully open models from MBZUAI's Institute of Foundation Models (IFM); the 7B is a dense Apache-2.0 model with 512K context aimed at agentic coding, released Sept 2026.",
+    "vendor": "MBZUAI Institute of Foundation Models",
+    "website": "https://huggingface.co/IFM",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://docs.vultr.com/models/ifm-k2-horizon/k2-horizon-7b",
+      "https://recipes.vllm.ai/IFM/K2-Horizon-7B"
+    ]
+  },
+  "gpt-oss": {
+    "description": "OpenAI's open-weight models gpt-oss-120b and gpt-oss-20b (Apache 2.0), often run locally.",
+    "vendor": "OpenAI",
+    "website": "https://openai.com/index/introducing-gpt-oss/",
+    "github": "openai/gpt-oss",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://github.com/openai/gpt-oss"
+    ]
+  },
+  "Kokoro": {
+    "description": "Kokoro-82M, a small open-weight text-to-speech model popular for local TTS.",
+    "vendor": "hexgrad",
+    "website": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "github": "hexgrad/kokoro",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://huggingface.co/hexgrad/Kokoro-82M"
+    ]
+  },
+  "Venice": {
+    "description": "Venice.ai, a privacy-focused AI chat app and API for open models; staking its DIEM token yields $1/day of API credit per token.",
+    "vendor": "Venice.ai",
+    "website": "https://venice.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://docs.venice.ai/overview/vvv-diem.md"
+    ]
+  },
+  "Flux": {
+    "description": "Black Forest Labs' FLUX family of text-to-image models, some with open weights, often run locally in ComfyUI.",
+    "vendor": "Black Forest Labs",
+    "website": "https://bfl.ai",
+    "github": "black-forest-labs/flux",
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "high",
+    "sources": [
+      "https://github.com/black-forest-labs/flux"
+    ]
+  },
+  "OpenCode Big Pickle": {
+    "description": "'Big Pickle', a free stealth coding model served through OpenCode Zen (opencode/big-pickle); its underlying model is undisclosed.",
+    "vendor": "OpenCode (SST)",
+    "website": "https://opencode.ai/docs/zen",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://opencode.ai/docs/zen",
+      "https://docs.docker.com/ai/docker-agent/providers/opencode-zen.md"
+    ]
+  },
+  "Other API models": {
+    "description": "Bucket for unspecified additional models used via API keys for experimentation.",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "high",
+    "sources": []
+  },
+  "API (work)": {
+    "description": "Bucket for employer-paid, pay-per-token API usage at the commenter's day job (provider not specified).",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "high",
+    "sources": []
+  },
+  "WanGP": {
+    "description": "WanGP (Wan2GP), an open-source low-VRAM web UI for local image/video generation models (Wan, Hunyuan Video, LTX, Flux, Qwen Image) with an internal API, by DeepBeepMeep.",
+    "vendor": "DeepBeepMeep",
+    "website": "https://github.com/deepbeepmeep/Wan2GP",
+    "github": "deepbeepmeep/Wan2GP",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://deepwiki.com/deepbeepmeep/Wan2GP",
+      "https://alternativeto.net/software/wangp/about"
+    ]
+  },
+  "Bivia": {
+    "description": "Articul8's multimodal 'decision model' available via API, returning calibrated typed decisions (choice, boolean, score, set, span) rather than generated text; positioned as a Jev competitor.",
+    "vendor": "Articul8",
+    "website": "https://www.articul8.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://www.orcarouter.ai/blog/articul8-bivia-decision-model-explained",
+      "https://cxotoday.com/media-coverage/articul8-launches-bivia-to-bring-domain-specific-decision-intelligence-to-enterprise-ai-agents/"
+    ]
+  },
+  "BYO API keys": {
+    "description": "Bucket for users who bring their own API keys/credits to a tool rather than using a subscription.",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "high",
+    "sources": []
+  },
+  "Luna": {
+    "description": "Most likely OpenAI's GPT-6 Luna, the low-cost, fast tier of the GPT-6 lineup released Sept 2026; listed by the commenter only as 'Luna' alongside OpenRouter and DeepSeek.",
+    "vendor": "OpenAI",
+    "website": "https://platform.openai.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "low",
+    "sources": [
+      "https://openrouter.ai/models/openai/gpt-6-luna-20260922"
+    ]
+  },
+  "Friendli": {
+    "description": "FriendliAI, an inference provider offering serverless and dedicated endpoints for open-weight models (e.g. GLM).",
+    "vendor": "FriendliAI",
+    "website": "https://friendli.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://friendli.ai"
+    ]
+  },
+  "Hugging Face API": {
+    "description": "Hugging Face's hosted inference offerings (Inference Providers / Inference Endpoints) for calling models from the Hub.",
+    "vendor": "Hugging Face",
+    "website": "https://huggingface.co/inference",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://huggingface.co/docs/inference-providers"
+    ]
+  },
+  "Hetzner Inference API": {
+    "description": "Experimental OpenAI-compatible inference API from Hetzner, free while in experimental status (now limited to small Qwen models).",
+    "vendor": "Hetzner",
+    "website": "https://docs.hetzner.com/de/general/company-and-policy/experiments/inference/",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://docs.hetzner.com/de/general/company-and-policy/experiments/inference/",
+      "https://sliplane.io/blog/hetzner-inference"
+    ]
+  },
+  "freellmapi": {
+    "description": "Self-hostable MIT-licensed router that puts many free-tier LLM providers behind one OpenAI-compatible endpoint with automatic failover.",
+    "vendor": "Tashfeen Ahmed",
+    "website": "https://github.com/tashfeenahmed/freellmapi",
+    "github": "tashfeenahmed/freellmapi",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://github.com/tashfeenahmed/freellmapi"
+    ]
+  },
+  "Mistral / Devstral": {
+    "description": "Mistral AI's models and API, including the Devstral coding models.",
+    "vendor": "Mistral AI",
+    "website": "https://mistral.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "high",
+    "sources": [
+      "https://mistral.ai"
+    ]
+  },
+  "Vercel AI Gateway": {
+    "description": "Vercel's hosted gateway giving one API and bill for many model providers, with no token markup.",
+    "vendor": "Vercel",
+    "website": "https://vercel.com/ai-gateway",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://vercel.com/ai-gateway"
+    ]
+  },
+  "Abliterated.ai": {
+    "description": "Likely abliteration.ai, a paid OpenAI-compatible API serving uncensored (abliterated) open-weight models.",
+    "vendor": "abliteration.ai",
+    "website": "https://abliteration.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "medium",
+    "sources": [
+      "https://www.abliteration.ai/"
+    ]
+  },
+  "Desert Ant / Laya": {
+    "description": "Small self-hostable models: Desert Ant Labs' on-device audio/vision/text models (source-available license, Sept 2026) and Convai Innovations' Laya, an open-weight ~421M-parameter ModernBERT-based decision model (pip install laya).",
+    "vendor": "Desert Ant Labs; Convai Innovations",
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "medium",
+    "sources": [
+      "https://mer.vin/news/desert-ant-labs-on-device-ai-models/",
+      "https://mer.vin/news/laya-the-33ms-open-source-decision-model-beating-jev/"
+    ]
+  },
+  "Tailscale Aperture": {
+    "description": "Aperture by Tailscale, an AI gateway (built on Vercel AI Gateway) for centralizing LLM access, keys and spending across a tailnet, with purchasable token credits.",
+    "vendor": "Tailscale",
+    "website": "https://tailscale.com/docs/aperture",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://tailscale.com/docs/aperture",
+      "https://tailscale.com/docs/aperture/manage-spending"
+    ]
+  },
+  "Halogen": {
+    "description": "halogen-flash-server, a single-model inference server from Peonist that runs Qwen3.8-Flash-Next on AMD Strix Halo hardware, shipped as a container with an OpenAI-compatible API.",
+    "vendor": "Peonist",
+    "website": "https://github.com/peonist-ai/halogen-flash-server",
+    "github": "peonist-ai/halogen-flash-server",
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "medium",
+    "sources": [
+      "https://raw.githubusercontent.com/peonist-ai/halogen-flash-server/main/README.md"
+    ]
+  },
+  "Clef": {
+    "description": "Cloudflare's open-weight (Apache-2.0) decision models, Clef (27B) and Clef-flash (9B), built on Qwen and Jev-API-compatible; they answer typed questions with probabilities and can run locally or on Workers AI.",
+    "vendor": "Cloudflare",
+    "website": "https://developers.cloudflare.com/workers-ai/",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://letsdatascience.com/news/cloudflare-releases-open-weight-clef-decision-models-c52886d6",
+      "https://flaviocopes.com/clef/"
+    ]
+  },
+  "Ornith": {
+    "description": "Ornith-1.5, an MIT-licensed open-weight model family released Aug 2026; Ornith-1.5-35B-A3B is a MoE aimed at coding agents and tool use.",
+    "vendor": "Ornith AI (DeepReinforce)",
+    "website": "https://huggingface.co/ornith-ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "medium",
+    "sources": [
+      "https://gigazine.net/news/20260820-ornith-1-5",
+      "https://ai-tldr.dev/models/ornith-1-5-35b-a3b/"
+    ]
+  },
+  "Kapitsa": {
+    "description": "Apache-2.0 local inference engine for Apple Silicon by Nace AI, aimed at coding agents; serves OpenAI/Anthropic-compatible APIs, uses tree speculative decoding and can launch Claude Code, Codex, OpenCode or Pi on a local model.",
+    "vendor": "Nace AI",
+    "website": "https://github.com/nace-ai/kapitsa",
+    "github": "nace-ai/kapitsa",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "medium",
+    "sources": [
+      "https://github.com/nace-ai/kapitsa/wiki",
+      "https://www.everydev.ai/tools/kapitsa"
+    ]
+  },
+  "GPT Luna": {
+    "description": "GPT-6 Luna, OpenAI's low-cost, fast tier of the GPT-6 lineup (released Sept 22, 2026), available via API, ChatGPT and Codex.",
+    "vendor": "OpenAI",
+    "website": "https://platform.openai.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://openrouter.ai/models/openai/gpt-6-luna-20260922",
+      "https://technews.tw/2026/09/23/openai-launches-gpt-6-sol-and-luna-boasting-lower-cost-and-fewer-mistakes/"
+    ]
+  },
+  "ElevenLabs": {
+    "description": "ElevenLabs, a commercial voice AI company offering text-to-speech, voice cloning and speech-to-text APIs.",
+    "vendor": "ElevenLabs",
+    "website": "https://elevenlabs.io",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://elevenlabs.io"
+    ]
+  },
+  "Fal.ai": {
+    "description": "fal, a generative media platform with pay-per-use APIs for image, video and audio models.",
+    "vendor": "fal",
+    "website": "https://fal.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://fal.ai"
+    ]
+  },
+  "Chinese open-weight models": {
+    "description": "Bucket for open-weight models from Chinese labs (Qwen, DeepSeek, GLM, Kimi, MiniMax, etc.) evaluated as a group.",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": []
+  },
+  "llama-swap": {
+    "description": "Open-source proxy that fronts multiple local inference servers (llama.cpp, vLLM, etc.) behind one OpenAI-compatible endpoint, swapping models on demand.",
+    "vendor": "mostlygeek",
+    "website": "https://github.com/mostlygeek/llama-swap",
+    "github": "mostlygeek/llama-swap",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": [
+      "https://github.com/mostlygeek/llama-swap"
+    ]
+  },
+  "Azure AI Foundry": {
+    "description": "Microsoft Azure's platform for deploying and calling AI models (OpenAI and others) with pay-as-you-go billing.",
+    "vendor": "Microsoft",
+    "website": "https://azure.microsoft.com/en-us/products/ai-foundry",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": [
+      "https://azure.microsoft.com/en-us/products/ai-foundry"
+    ]
+  }
+}

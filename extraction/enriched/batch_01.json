@@ -1,0 +1,2942 @@
+[
+ {
+  "id": "50375046",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "employer",
+    "via": null,
+    "roles": [],
+    "use": "work-provided",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "employer",
+    "via": null,
+    "roles": [],
+    "use": "work-provided",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration",
+     "automation"
+    ],
+    "use": "self-built kanban work manager, reminders, cross-machine sync",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "own harness manages multiple tasks in kanban",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50386447",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration",
+     "coding"
+    ],
+    "use": "tmux board tracking agents, syncing, rebasing, PRs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "worktree per task",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50392971",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Opus"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "review",
+     "planning",
+     "debugging"
+    ],
+    "use": "final design/architecture reviews, complex RCA fixes",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Gemini Argon"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding",
+     "cheap_bulk"
+    ],
+    "use": "code gen from detailed plans, like junior dev",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50380973",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Sonnet",
+     "Claude Opus"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "work desktop; personal Android apps via phone",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": "Claude Pro",
+    "roles": [
+     "coding"
+    ],
+    "use": "personal remote Android app building",
+    "cost": "$20",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "abandoned elaborate rig",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "early self-built tools, abandoned",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50381441",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "CLI on Ubuntu VM building Android apps",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50378847",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT Pro",
+    "roles": [
+     "coding"
+    ],
+    "use": "only subscription, used with Codex and own harness",
+    "cost": "$100",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Qwen 3.8 27B",
+     "Qwen 3.8 Flash Next"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "homelab P40s, coding when time allows",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "Gemma 4 31B",
+     "Gemma 4 E4B"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "chat",
+     "automation"
+    ],
+    "use": "general chat; laptop mail classification",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "local",
+    "via": "llama.cpp",
+    "roles": [],
+    "use": "llama-server backend for own harness",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [
+     "GPT-3.5"
+    ],
+    "access": "direct_api",
+    "via": "OpenAI",
+    "roles": [],
+    "use": "early API use with own harness",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT Pro",
+    "roles": [
+     "coding"
+    ],
+    "use": "main coding agent, hopes to replace",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT Pro",
+    "roles": [
+     "coding",
+     "automation"
+    ],
+    "use": "own agentic harness with plan/handoff, OpenAI OAuth",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "own harness handles plan/handoff sequentially",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 8,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 9,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "automation",
+     "assistant"
+    ],
+    "use": "cron sessions for sysadmin and personal tasks",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50379089",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "agents run as dedicated system user",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50387438",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "abandoned over credential/privacy concerns",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50383344",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "sandboxed with bubblewrap (pise)",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50380164",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "wrapped with nono/sbx sandbox",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50383403",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "run inside own bubblewrap sandbox",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "preferred harness, inside bubblewrap",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50379315",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "liked; sandboxing value uncertain",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50385812",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "subscription",
+    "via": "DeepSeek",
+    "roles": [
+     "cheap_bulk"
+    ],
+    "use": "main home model, 90%+ of usage",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "router",
+    "via": "OpenRouter",
+    "roles": [
+     "experimentation"
+    ],
+    "use": "occasional access to other models",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "coding with Openchamber UI",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "research",
+     "writing",
+     "assistant",
+     "automation"
+    ],
+    "use": "research, proofreading, Telegram assistant, overnight jobs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration",
+     "research"
+    ],
+    "use": "subagents debate pros and cons",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50374298",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "local",
+    "via": "LM Studio",
+    "roles": [],
+    "use": "local LLMs on M1 Max",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "local",
+    "via": "llama.cpp",
+    "roles": [],
+    "use": "occasional direct use",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "Muse Glimmer"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "interactive coding sessions",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [
+     "Qwen 3.8 27B"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [],
+    "use": "occasional use",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [
+     "Gemma 4 12B QAT"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "research",
+     "planning"
+    ],
+    "use": "photography research, non-code planning",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [
+     "Nemotron Bolt 74B-9B"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "experimentation"
+    ],
+    "use": "experimenting",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [],
+    "access": "router",
+    "via": "OpenRouter",
+    "roles": [],
+    "use": "not yet, planned",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "main harness via Paseo, good with small contexts",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 8,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "trying",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 9,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried, abandoned over messy source",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 10,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 11,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "experimentation"
+    ],
+    "use": "agent platform experiments",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50374261",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Gemini Flash",
+     "Gemini Astra"
+    ],
+    "access": "subscription",
+    "via": "Google AI Ultra",
+    "roles": [
+     "coding",
+     "research"
+    ],
+    "use": "main driver via Antigravity, good at search",
+    "cost": "$100/month",
+    "tier": [
+     "AI Ultra"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Gemini Flash",
+     "Gemini Astra"
+    ],
+    "access": "subscription",
+    "via": "Google AI Ultra",
+    "roles": [
+     "coding",
+     "research",
+     "orchestration"
+    ],
+    "use": "main driver, subagent programming",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "DeepSeek",
+     "Qwen 3.6 35B-A3B"
+    ],
+    "access": "direct_api",
+    "via": "DeepSeek",
+    "roles": [
+     "coding",
+     "orchestration"
+    ],
+    "use": "desktop harness with RPC-coordinated subagents",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [
+     "DeepSeek"
+    ],
+    "access": "direct_api",
+    "via": "DeepSeek",
+    "roles": [
+     "coding"
+    ],
+    "use": "pay-as-you-go tokens in DSH, very cheap",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [
+     "Qwen 3.6 35B-A3B"
+    ],
+    "access": "local",
+    "via": "oMLX",
+    "roles": [
+     "experimentation"
+    ],
+    "use": "benchmarking a less capable model",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [
+     "Qwen 3.6 35B-A3B"
+    ],
+    "access": "local",
+    "via": "oMLX",
+    "roles": [
+     "experimentation"
+    ],
+    "use": "benchmarking a less capable model",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration",
+     "coding"
+    ],
+    "use": "spec-driven subagent framework (autofab)",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried, didn't fit needs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 8,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried, didn't fit needs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 9,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried, didn't fit needs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 10,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried, didn't fit needs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 11,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT",
+    "roles": [
+     "experimentation"
+    ],
+    "use": "considering, to benchmark OpenAI models in Codex",
+    "cost": "$100/month",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50393280",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Gemini 3.8 Flash"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "main platform; Flash for code gen",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50375407",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "router",
+    "via": "OpenRouter",
+    "roles": [
+     "experimentation"
+    ],
+    "use": "try open-weight models sparingly",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "employer",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "primary interactive harness",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "GPT-6 Luna"
+    ],
+    "access": "employer",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "async containerized workers",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [
+     "Claude Opus",
+     "GPT-6 Luna"
+    ],
+    "access": "employer",
+    "via": null,
+    "roles": [
+     "orchestration",
+     "review"
+    ],
+    "use": "Opus chief of staff launches workers via Remuda",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "Remuda multiplexer backend, swapped to herdr",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "trying; unreliable, privacy concerns",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50373324",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT Pro",
+    "roles": [
+     "coding"
+    ],
+    "use": "Codex worker agents, best value",
+    "cost": "$200",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": 2
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": "Claude Max",
+    "roles": [
+     "orchestration",
+     "review"
+    ],
+    "use": "Claude coordinates and verifies Codex agents",
+    "cost": "$200",
+    "tier": [
+     "Max",
+     "20x"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "router",
+    "via": "OpenRouter",
+    "roles": [],
+    "use": "other models, less value than ChatGPT",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "subscription",
+    "via": "Claude Max",
+    "roles": [
+     "orchestration",
+     "review"
+    ],
+    "use": "coordinator and second verifier",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT Pro",
+    "roles": [
+     "coding"
+    ],
+    "use": "worker agents",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "Claude coordinates Codex agents over comms channel",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT Pro",
+    "roles": [
+     "orchestration"
+    ],
+    "use": "Codex parent runs worker subagents",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration",
+     "research"
+    ],
+    "use": "agent swarms for equity analysis",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 8,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "research"
+    ],
+    "use": "non-coding tasks like equity analysis",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 9,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tested, replaced",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50388928",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "Claude and Codex share an .md file",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "terminal for running agents",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "coordinator",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "workers",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50374243",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "Claude coordinates Codex via direct CLI calls",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "coordinator",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "workers",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "share past sessions between agents",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50375796",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "Claude-to-Codex handoff with file leases",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50381494",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "IDE",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "GLM",
+     "DeepSeek"
+    ],
+    "access": "subscription",
+    "via": "OpenCode Go",
+    "roles": [
+     "coding",
+     "cheap_bulk"
+    ],
+    "use": "main models, practically unlimited",
+    "cost": "$10/month",
+    "tier": [
+     "Go"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT",
+    "roles": [
+     "coding"
+    ],
+    "use": "important tasks",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT",
+    "roles": [
+     "coding"
+    ],
+    "use": "Codex for important tasks",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50376087",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "DeepSeek Flash"
+    ],
+    "access": "cloud",
+    "via": "Melious",
+    "roles": [
+     "coding"
+    ],
+    "use": "harness for hobby development",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "DeepSeek Flash"
+    ],
+    "access": "cloud",
+    "via": "Melious",
+    "roles": [
+     "coding"
+    ],
+    "use": "Mac UI for Pi",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "DeepSeek Flash"
+    ],
+    "access": "cloud",
+    "via": "Melious",
+    "roles": [
+     "coding",
+     "cheap_bulk"
+    ],
+    "use": "dirt-cheap main model",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [
+     "DeepSeek Flash"
+    ],
+    "access": "cloud",
+    "via": "Melious",
+    "roles": [],
+    "use": "EU pay-per-token hosting",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50376642",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "DeepSeek"
+    ],
+    "access": "cloud",
+    "via": "Melious",
+    "roles": [],
+    "use": "cheaper DeepSeek than TensorX",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "cloud",
+    "via": "TensorX",
+    "roles": [],
+    "use": "previous provider",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "DeepSeek"
+    ],
+    "access": "cloud",
+    "via": "Melious",
+    "roles": [],
+    "use": "via Melious",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50376370",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "cloud",
+    "via": "Melious",
+    "roles": [],
+    "use": "uses, no issues",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50376398",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "cloud",
+    "via": "Melious",
+    "roles": [],
+    "use": "plans to try",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50374344",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "subscription",
+    "via": "Claude Pro",
+    "roles": [
+     "coding"
+    ],
+    "use": "all personal coding",
+    "cost": "",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "subscription",
+    "via": "Claude Pro",
+    "roles": [
+     "coding"
+    ],
+    "use": "drives all coding",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "employer",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "work, just driving Claude",
+    "cost": "",
+    "tier": [
+     "Max",
+     "5x"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "router",
+    "via": "OpenRouter",
+    "roles": [],
+    "use": "with OpenCode, inactive",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "router",
+    "via": "OpenRouter",
+    "roles": [],
+    "use": "inactive",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "homegrown, inactive",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [
+     "Qwen 27B-A3B"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [],
+    "use": "ran on 5060 Ti, abandoned",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 8,
+    "models": [],
+    "access": "subscription",
+    "via": "Claude Pro",
+    "roles": [
+     "orchestration"
+    ],
+    "use": "Claude occasionally spawns sub-agents",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50368526",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": "GitHub Copilot",
+    "roles": [
+     "coding",
+     "experimentation"
+    ],
+    "use": "hops between models; seeking cheaper",
+    "cost": "$100",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT Plus",
+    "roles": [
+     "chat",
+     "research"
+    ],
+    "use": "voice mode for workshopping ideas",
+    "cost": "",
+    "tier": [
+     "Plus"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "router",
+    "via": "OpenRouter",
+    "roles": [
+     "experimentation"
+    ],
+    "use": "trying mega-cheap models",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding",
+     "debugging"
+    ],
+    "use": "home: infrastructure, debugging, small programs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "TUI mode lately",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "employer",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "work with corporate Claude",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [],
+    "access": "employer",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "with Zed at work",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT Plus",
+    "roles": [
+     "chat",
+     "research"
+    ],
+    "use": "GPT voice while driving",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 8,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 9,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried, didn't work",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 10,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50370525",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "built-in sandbox, found buggy",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "current harness, configurable sandboxing",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50376836",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "self-built containerized agent orchestration",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50367423",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "assistant",
+     "chat",
+     "coding"
+    ],
+    "use": "own low-latency daemon to chat and build",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried; too much latency",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried; too much latency",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "local",
+    "via": null,
+    "roles": [],
+    "use": "125B A3B at 30 tok/s via SSD streaming",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "programming",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "research"
+    ],
+    "use": "search",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50373208",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Opus 5.5",
+     "Claude Fable"
+    ],
+    "access": "subscription",
+    "via": "Claude Max",
+    "roles": [
+     "coding"
+    ],
+    "use": "Opus for 99.9% of tasks, Fable rest",
+    "cost": "$100/mo",
+    "tier": [
+     "Max",
+     "5x"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Claude Opus 5.5",
+     "Claude Fable"
+    ],
+    "access": "subscription",
+    "via": "Claude Max",
+    "roles": [
+     "coding"
+    ],
+    "use": "VS Code plugin",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "subscription",
+    "via": "Claude Max",
+    "roles": [
+     "orchestration"
+    ],
+    "use": "Claude spins up agents",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50367557",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": "Melious",
+    "roles": [],
+    "use": "main provider",
+    "cost": "€150/month",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "cloud",
+    "via": "Entrim",
+    "roles": [
+     "cheap_bulk"
+    ],
+    "use": "pay-as-you-go API, cheap",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "subscription",
+    "via": "Mistral",
+    "roles": [],
+    "use": "previously, for extra capacity",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": 2
+   },
+   {
+    "i": 3,
+    "models": [
+     "GLM 5.3",
+     "GLM 5.3 Flash"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "chat",
+     "orchestration",
+     "review",
+     "writing"
+    ],
+    "use": "Flash chat/coordination; 5.3 adversarial review, docs",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [
+     "DeepSeek V4.1 Flash 1017"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "most coding work",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [
+     "GLM 5.3",
+     "GLM 5.3 Flash",
+     "DeepSeek V4.1 Flash 1017"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "customised harness, token savings",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "multipane agents, human in loop",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50367589",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Sonnet 5.5",
+     "Sol 6.1",
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "front-end for all coding agents",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Claude Sonnet 5.5"
+    ],
+    "access": "subscription",
+    "via": "Claude",
+    "roles": [
+     "coding"
+    ],
+    "use": "agent for Claude subscription",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "Claude Sonnet 5.5"
+    ],
+    "access": "subscription",
+    "via": "Claude",
+    "roles": [
+     "coding"
+    ],
+    "use": "main models, one of Claude/OpenAI",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [
+     "Sol 6.1"
+    ],
+    "access": "subscription",
+    "via": "ChatGPT",
+    "roles": [
+     "coding"
+    ],
+    "use": "agent for OpenAI subscription",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [
+     "Sol 6.1"
+    ],
+    "access": "subscription",
+    "via": "ChatGPT",
+    "roles": [
+     "coding"
+    ],
+    "use": "main models, one of Claude/OpenAI",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "subscription",
+    "via": "OpenCode Go",
+    "roles": [
+     "coding"
+    ],
+    "use": "agent for OpenCode Go",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "subscription",
+    "via": "OpenCode Go",
+    "roles": [
+     "coding"
+    ],
+    "use": "DeepSeek Flash, increasingly used",
+    "cost": "",
+    "tier": [
+     "Go"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "employer",
+    "via": "GitHub Copilot",
+    "roles": [
+     "coding",
+     "planning"
+    ],
+    "use": "work; Opus for architecture/design",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 8,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "employer",
+    "via": "GitHub Copilot",
+    "roles": [
+     "coding",
+     "planning"
+    ],
+    "use": "via ACP in T3 Code at work",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50380990",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "controlled via API by own app",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "orchestration",
+     "automation"
+    ],
+    "use": "spends spare subscription capacity building improvements",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "builds suggestions on separate worktree",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "planning",
+     "automation"
+    ],
+    "use": "suggests project improvements with spare capacity",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50375041",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding",
+     "orchestration"
+    ],
+    "use": "inbox workflow across harnesses",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50375873",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding",
+     "orchestration"
+    ],
+    "use": "main harness, preferred over all others",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "chat"
+    ],
+    "use": "quick CLI questions",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "T3 Code subagent orchestration",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "assistant"
+    ],
+    "use": "personal assistant on VPS",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried, inferior to T3 Code",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried, inferior to T3 Code",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried, inferior to T3 Code",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50380102",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "uses Zed",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50376262",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Sonnet",
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding",
+     "writing",
+     "orchestration"
+    ],
+    "use": "own Qt GUI harness, 9 providers",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Claude Sonnet"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "writing"
+    ],
+    "use": "document-related tasks",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "subscription",
+    "via": "Ollama Cloud",
+    "roles": [
+     "coding"
+    ],
+    "use": "go-to coding model, very cheap",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [
+     "DeepSeek V4.1 Flash"
+    ],
+    "access": "subscription",
+    "via": "Ollama Cloud",
+    "roles": [
+     "coding"
+    ],
+    "use": "cheap DeepSeek for coding",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [
+     "GLM 5.2"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "previously used a lot",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration",
+     "review"
+    ],
+    "use": "AI delegates to other models for second opinions",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50377453",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "used in the past",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "used in the past",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "Qwen 3.8 Flash Next"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [],
+    "use": "current local model",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "in VS Code, rarely",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "assistant",
+     "coding",
+     "automation"
+    ],
+    "use": "email-driven RubyLLM agents doing Redmine tasks",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50367587",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "GLM Flash"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "planning",
+     "coding"
+    ],
+    "use": "main harness with self-hosted GLM Flash",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "GLM Flash"
+    ],
+    "access": "local",
+    "via": null,
+    "roles": [
+     "planning",
+     "coding"
+    ],
+    "use": "self-hosted main model",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "multiple interactive sessions, no sub-agents",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50368111",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "GLM Flash"
+    ],
+    "access": "employer",
+    "via": "LiteLLM",
+    "roles": [
+     "coding",
+     "automation"
+    ],
+    "use": "company-hosted for dev and internal apps",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50382792",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding",
+     "planning"
+    ],
+    "use": "exclusive solo dev with Wispr Flow dictation",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "orchestration"
+    ],
+    "use": "agents view, each agent in own worktree",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50380281",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Opus 5.5"
+    ],
+    "access": "employer",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "work",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "cloud",
+    "via": "DeepInfra",
+    "roles": [
+     "coding",
+     "cheap_bulk"
+    ],
+    "use": "personal, with cheap models",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "cloud",
+    "via": "DeepInfra",
+    "roles": [
+     "cheap_bulk"
+    ],
+    "use": "cheap models for personal use",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50380407",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": "Claude Max",
+    "roles": [
+     "coding"
+    ],
+    "use": "CLI with few skills, crafted claude.md",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": "Claude Max",
+    "roles": [
+     "coding"
+    ],
+    "use": "covers 99% of use cases",
+    "cost": "",
+    "tier": [
+     "Max",
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "stopped after a few weeks",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50367582",
+  "items": [
+   {
+    "i": 0,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT Plus",
+    "roles": [
+     "chat",
+     "coding"
+    ],
+    "use": "voice mode; Codex",
+    "cost": "",
+    "tier": [
+     "Plus"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [],
+    "access": "subscription",
+    "via": "Grok",
+    "roles": [
+     "assistant",
+     "experimentation"
+    ],
+    "use": "retention offer; Grok Bot experiments",
+    "cost": "$30",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [],
+    "access": "subscription",
+    "via": null,
+    "roles": [],
+    "use": "dropped for ChatGPT voice",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 3,
+    "models": [
+     "DeepSeek",
+     "GLM"
+    ],
+    "access": "router",
+    "via": "OpenRouter",
+    "roles": [
+     "experimentation"
+    ],
+    "use": "Chinese models for tasks others refuse",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 4,
+    "models": [],
+    "access": "subscription",
+    "via": "ChatGPT Plus",
+    "roles": [
+     "coding"
+    ],
+    "use": "main harness",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 5,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "harness",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 6,
+    "models": [],
+    "access": "subscription",
+    "via": "Grok",
+    "roles": [
+     "assistant",
+     "experimentation"
+    ],
+    "use": "supplement experiments, calorie tracking",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 7,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "tried, hated it",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 8,
+    "models": [],
+    "access": "unknown",
+    "via": null,
+    "roles": [],
+    "use": "trying, hating it",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   }
+  ]
+ },
+ {
+  "id": "50380233",
+  "items": [
+   {
+    "i": 0,
+    "models": [
+     "Claude Opus"
+    ],
+    "access": "subscription",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "desktop app, auto mode, everything",
+    "cost": "",
+    "tier": null,
+    "accounts": null
+   },
+   {
+    "i": 1,
+    "models": [
+     "Claude Opus"
+    ],
+    "access": "employer",
+    "via": null,
+    "roles": [
+     "coding"
+    ],
+    "use": "work subscription",
+    "cost": "",
+    "tier": [
+     "Unspecified"
+    ],
+    "accounts": null
+   },
+   {
+    "i": 2,
+    "models": [
+     "Claude Opus"
+    ],
+    "access": "subscription",
+    "via": "Claude Pro",
+    "roles": [
+     "coding"
+    ],
+    "use": "personal, occasionally runs out",
+    "cost": "$20/month",
+    "tier": [
+     "Pro"
+    ],
+    "accounts": null
+   }
+  ]
+ }
+]

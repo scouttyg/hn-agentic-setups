@@ -1,0 +1,16 @@
+{
+  "_help": "People who say they don't use AI at all (or have no AI setup). Each entry: comment id + verbatim evidence from that comment. These people are counted once as 'No AI setup' and removed from the per-question 'no X' rows.",
+  "people": [
+    {"id": "50378976", "evidence": "I don't use AI. At all."},
+    {"id": "50373731", "evidence": "I have decided to refrain from using LLMs"},
+    {"id": "50377240", "evidence": "I enjoy coding, so I don't use AI"},
+    {"id": "50375782", "evidence": "None, no, none, no, no."},
+    {"id": "50375940", "evidence": "None, no, none, don't trust, don't trust"},
+    {"id": "50377816", "evidence": "None. It prevents brain athrophy."},
+    {"id": "50375963", "evidence": "None. These things aren’t that good."},
+    {"id": "50377450", "evidence": "None."},
+    {"id": "50374488", "evidence": "Dont use it at all."},
+    {"id": "50385415", "evidence": "And it's going to stay that way."},
+    {"id": "50374780", "evidence": "i dont have one"}
+  ]
+}

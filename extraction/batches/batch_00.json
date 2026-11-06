@@ -1,0 +1,1722 @@
+[
+ {
+  "id": "50376720",
+  "author": "Animats",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Embarrassingly, I don't have one yet. I'm mostly still writing code one keystroke at a time. I've used Github Copilot to translate between languages and look things up, but haven't trusted it to write new code or fix anything.\n\nClaude Fable is now good enough that I should be using it. The latest Claude version is said to be comparable to a mid-career graphics programmer, which is about what I need. Six months ago it wasn't good enough to use for such work, and probably would have made a hash of my code. There's been progress.\n\nBut Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nI'm currently stalled signing up for Claude because their verification email system can't get to my inbox. (Some problem with their using Constant Contact, a spam system, to send transactional emails to my own domain, which, long ago, I had blocked at the Constant Contact end. I think. The verification email never touches the inbound mail server.) It's very important to Anthropic that you sign up with the \"right\" email address, and it may not be possible to change it, so using some disposable address is not a good idea.\n\nSuggestions?"
+ },
+ {
+  "id": "50378366",
+  "author": "creativeSlumber",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50376720",
+   "author": "Animats",
+   "text": "Embarrassingly, I don't have one yet. I'm mostly still writing code one keystroke at a time. I've used Github Copilot to translate between languages and look things up, but haven't trusted it to write new code or fix anything.\n\nClaude Fable is now good enough that I should be using it. The latest Claude version is said to be comparable to a mid-career graphics programmer, which is about what I need. Six months ago it wasn't good enough to use for such work, and probably would have made a hash of my code. There's been progress.\n\nBut Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nI'm currently stalled signing up for Claude because their verification email system can't get to my inbox. (Some problem with their using Constant Contact, a spam system, to send transactional emails to my own domain, which, long ago, I had blocked at the Constant Contact end. I think. The verification email never touches the inbound mail server.) It's very important to Anthropic that you sign up with the \"right\" email address, and it may not be possible to change it, so using some disposable a"
+  },
+  "text": "> But Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nThen use open alternatives as much as possible. Something like Opencode with OpenRouter with Deepseek 4.1 from ZDR provider works very well and costs like 1/20th."
+ },
+ {
+  "id": "50380185",
+  "author": "scosman",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50378366",
+   "author": "creativeSlumber",
+   "text": "> But Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nThen use open alternatives as much as possible. Something like Opencode with OpenRouter with Deepseek 4.1 from ZDR provider works very well and costs like 1/20th."
+  },
+  "text": "It costs 1/20th the price at token pricing, but an Ultra subscription is still amazing value."
+ },
+ {
+  "id": "50384691",
+  "author": "bloppe",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50378366",
+   "author": "creativeSlumber",
+   "text": "> But Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nThen use open alternatives as much as possible. Something like Opencode with OpenRouter with Deepseek 4.1 from ZDR provider works very well and costs like 1/20th."
+  },
+  "text": "I also think OAI is much better than Anthropic in this regard. They don't try to gatekeep nearly as much.\n\nBut I agree that open alternatives are sort of a theoretical ideal. Just a lot harder to get those mega-subsidized."
+ },
+ {
+  "id": "50380381",
+  "author": "jpardoe",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50378366",
+   "author": "creativeSlumber",
+   "text": "> But Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nThen use open alternatives as much as possible. Something like Opencode with OpenRouter with Deepseek 4.1 from ZDR provider works very well and costs like 1/20th."
+  },
+  "text": "In practice all of these open models are more expensive than a Claude subscription."
+ },
+ {
+  "id": "50381117",
+  "author": "ggregoire",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50380381",
+   "author": "jpardoe",
+   "text": "In practice all of these open models are more expensive than a Claude subscription."
+  },
+  "text": "Are they? (genuine question, i've got no experience with Claude) This month I used 1 billion tokens (including cache) with DS4.1 flash and it cost me 7% of my $10 opencode go sub.\n\nIf you meant in developer time, then I don't know but it seems very fast to me (rarely thinks more than ~10sec, never more than ~30sec) and usually oneshots what I prompt it to do. I use opencode tui as harness."
+ },
+ {
+  "id": "50392572",
+  "author": "jpardoe",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50381117",
+   "author": "ggregoire",
+   "text": "Are they? (genuine question, i've got no experience with Claude) This month I used 1 billion tokens (including cache) with DS4.1 flash and it cost me 7% of my $10 opencode go sub.\n\nIf you meant in developer time, then I don't know but it seems very fast to me (rarely thinks more than ~10sec, never more than ~30sec) and usually oneshots what I prompt it to do. I use opencode tui as harness."
+  },
+  "text": "In my experience yes. Been using Claude since day one and wanted to experiment with Pi for fun, and try to get my costs down. I found the open models more expensive, eventually had to plug my Pi set up into an OpenAI subscription, that was the only way to get good value… Then I realised OpenAI is way behind Opus 5.5 and their subscription is far less generous with usage, so I’ve come full circle and am back on Claude Code."
+ },
+ {
+  "id": "50384114",
+  "author": "jeffyaw",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50381117",
+   "author": "ggregoire",
+   "text": "Are they? (genuine question, i've got no experience with Claude) This month I used 1 billion tokens (including cache) with DS4.1 flash and it cost me 7% of my $10 opencode go sub.\n\nIf you meant in developer time, then I don't know but it seems very fast to me (rarely thinks more than ~10sec, never more than ~30sec) and usually oneshots what I prompt it to do. I use opencode tui as harness."
+  },
+  "text": "i found they were until recently. mimo 2.6 flash and glm 5.3 flash seem to finally be cheaper. i find ds4.1 flash still on the high side."
+ },
+ {
+  "id": "50392594",
+  "author": "jpardoe",
+  "depth": 5,
+  "is_op": false,
+  "parent": {
+   "id": "50384114",
+   "author": "jeffyaw",
+   "text": "i found they were until recently. mimo 2.6 flash and glm 5.3 flash seem to finally be cheaper. i find ds4.1 flash still on the high side."
+  },
+  "text": "I found GLM Flash competitive price wise but then my tasks took twice as long to complete. Even if it was cheaper (in my experience it still wasn’t) you then lose out on speed because of the insane amounts of inefficient reasoning."
+ },
+ {
+  "id": "50377407",
+  "author": "ChrisRR",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50376720",
+   "author": "Animats",
+   "text": "Embarrassingly, I don't have one yet. I'm mostly still writing code one keystroke at a time. I've used Github Copilot to translate between languages and look things up, but haven't trusted it to write new code or fix anything.\n\nClaude Fable is now good enough that I should be using it. The latest Claude version is said to be comparable to a mid-career graphics programmer, which is about what I need. Six months ago it wasn't good enough to use for such work, and probably would have made a hash of my code. There's been progress.\n\nBut Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nI'm currently stalled signing up for Claude because their verification email system can't get to my inbox. (Some problem with their using Constant Contact, a spam system, to send transactional emails to my own domain, which, long ago, I had blocked at the Constant Contact end. I think. The verification email never touches the inbound mail server.) It's very important to Anthropic that you sign up with the \"right\" email address, and it may not be possible to change it, so using some disposable a"
+  },
+  "text": "You don't even need to start off with Fable. Give Opus 5.5 a try first and then then try Fable if you feel like you need to push it further"
+ },
+ {
+  "id": "50378628",
+  "author": "nedt",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50377407",
+   "author": "ChrisRR",
+   "text": "You don't even need to start off with Fable. Give Opus 5.5 a try first and then then try Fable if you feel like you need to push it further"
+  },
+  "text": "I have a longer history of agents sessions and used those to benchmark the different models. Sonnet 5.5 is already pretty strong, but not always as careful (leaked secrets into the session). Opus 5.5 is already able to solve everything I'm doing. You might not need Fable for anything. Biggest different between Opus and Fable in my benchmarks was price. Also Opus 5.5 is cheaper now then previous Opus so you might also not need Sonnet as much for cost savings."
+ },
+ {
+  "id": "50379420",
+  "author": "nycdatasci",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50377407",
+   "author": "ChrisRR",
+   "text": "You don't even need to start off with Fable. Give Opus 5.5 a try first and then then try Fable if you feel like you need to push it further"
+  },
+  "text": "Based on blended benchmarks from Artificial Analysis, Opus 5.5 is stronger than Fable 5.1. Are you finding use cases where Fable is superior?"
+ },
+ {
+  "id": "50380023",
+  "author": "felixgallo",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50379420",
+   "author": "nycdatasci",
+   "text": "Based on blended benchmarks from Artificial Analysis, Opus 5.5 is stronger than Fable 5.1. Are you finding use cases where Fable is superior?"
+  },
+  "text": "Fable can go deeper than Opus in my experience. Opus is incredible for relatively now-simple things like coding, but Fable has delivered improved results for me in data analysis on relatively obscure topics. That said one gets much more Opus for a subscription than one does Fable, so obviously benchmark your own cases and come up with your own cost benefit analysis."
+ },
+ {
+  "id": "50395473",
+  "author": "mirmor23",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50376720",
+   "author": "Animats",
+   "text": "Embarrassingly, I don't have one yet. I'm mostly still writing code one keystroke at a time. I've used Github Copilot to translate between languages and look things up, but haven't trusted it to write new code or fix anything.\n\nClaude Fable is now good enough that I should be using it. The latest Claude version is said to be comparable to a mid-career graphics programmer, which is about what I need. Six months ago it wasn't good enough to use for such work, and probably would have made a hash of my code. There's been progress.\n\nBut Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nI'm currently stalled signing up for Claude because their verification email system can't get to my inbox. (Some problem with their using Constant Contact, a spam system, to send transactional emails to my own domain, which, long ago, I had blocked at the Constant Contact end. I think. The verification email never touches the inbound mail server.) It's very important to Anthropic that you sign up with the \"right\" email address, and it may not be possible to change it, so using some disposable a"
+  },
+  "text": "> But Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nFrom your response it does not seem like you have enough experience using LLM, and your response seem to indicate a bias from reading posts of folks who got banned. Typically in these situations the poster who got banned, will never typically reveal the full picture of what happened or what their setup was.\n\nAnthropic customer service is terrible, their policies are opaque and could be better. But it is really delusional to think that they are some kind of fly-by-night all-you-can-eat buffet that kick you out for no reason or just because you used up your quota.\n\nFrom what I understand, if you are using official harness, not using it to build/offer competing service, not sharing account with others, and not doing illegal activity (this is left to their interpretation), the chances of being banned is quite low. This is not anything special to Anthropic, most service providers have some kind of ToS."
+ },
+ {
+  "id": "50377140",
+  "author": "computomatic",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50376720",
+   "author": "Animats",
+   "text": "Embarrassingly, I don't have one yet. I'm mostly still writing code one keystroke at a time. I've used Github Copilot to translate between languages and look things up, but haven't trusted it to write new code or fix anything.\n\nClaude Fable is now good enough that I should be using it. The latest Claude version is said to be comparable to a mid-career graphics programmer, which is about what I need. Six months ago it wasn't good enough to use for such work, and probably would have made a hash of my code. There's been progress.\n\nBut Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nI'm currently stalled signing up for Claude because their verification email system can't get to my inbox. (Some problem with their using Constant Contact, a spam system, to send transactional emails to my own domain, which, long ago, I had blocked at the Constant Contact end. I think. The verification email never touches the inbound mail server.) It's very important to Anthropic that you sign up with the \"right\" email address, and it may not be possible to change it, so using some disposable a"
+  },
+  "text": "You can access Claude models through any number of providers - OpenRouter, AWS Bedrock, etc. and as far as I know, Claude Code can be used with any of them. The only real benefit to going direct through Anthropic is the subscriptions. It’s worth the risk for the discount, but if you get locked out, there’s other (pricy) options to get unblocked."
+ },
+ {
+  "id": "50381788",
+  "author": "Fervicus",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50376720",
+   "author": "Animats",
+   "text": "Embarrassingly, I don't have one yet. I'm mostly still writing code one keystroke at a time. I've used Github Copilot to translate between languages and look things up, but haven't trusted it to write new code or fix anything.\n\nClaude Fable is now good enough that I should be using it. The latest Claude version is said to be comparable to a mid-career graphics programmer, which is about what I need. Six months ago it wasn't good enough to use for such work, and probably would have made a hash of my code. There's been progress.\n\nBut Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nI'm currently stalled signing up for Claude because their verification email system can't get to my inbox. (Some problem with their using Constant Contact, a spam system, to send transactional emails to my own domain, which, long ago, I had blocked at the Constant Contact end. I think. The verification email never touches the inbound mail server.) It's very important to Anthropic that you sign up with the \"right\" email address, and it may not be possible to change it, so using some disposable a"
+  },
+  "text": "It's crazy to me that this is considered embarrassing now. People should stay up to date with current tech, but we shouldn't be ashamed of not using LLMs. Let's re-normalize coding by hand."
+ },
+ {
+  "id": "50389676",
+  "author": "946789987649",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50381788",
+   "author": "Fervicus",
+   "text": "It's crazy to me that this is considered embarrassing now. People should stay up to date with current tech, but we shouldn't be ashamed of not using LLMs. Let's re-normalize coding by hand."
+  },
+  "text": "I was an AI-skeptic for a while but it is embarrassing to not even try it. I'm still on the more manual end of AI use. My prompts are very small, targeted changes. I still review every line as though a human wrote it. I know exactly what I want and I've got my prompts and claude.MD at a point where it gives me that most of the time. I probably only write 5% of the code now."
+ },
+ {
+  "id": "50384431",
+  "author": "Animats",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50381788",
+   "author": "Fervicus",
+   "text": "It's crazy to me that this is considered embarrassing now. People should stay up to date with current tech, but we shouldn't be ashamed of not using LLMs. Let's re-normalize coding by hand."
+  },
+  "text": "I did, for a long time, but we're past that point now. Someone else got something done in three months that took me years of hand coding."
+ },
+ {
+  "id": "50384741",
+  "author": "bloppe",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50384431",
+   "author": "Animats",
+   "text": "I did, for a long time, but we're past that point now. Someone else got something done in three months that took me years of hand coding."
+  },
+  "text": "If something took 3 months, then there must have been a good deal of manual attention involved, even if it wasn't typing each character by hand.\n\nI still find that it's often faster to combine manual coding with generation. I often start by setting up a skeleton with a bunch of TODOs, then tell my agent to fix each TODO. If my agents can't seem to stop coming up with insanely massive diffs for what should be small changes, it's often much faster to just code it properly by hand."
+ },
+ {
+  "id": "50387225",
+  "author": "martin82",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50381788",
+   "author": "Fervicus",
+   "text": "It's crazy to me that this is considered embarrassing now. People should stay up to date with current tech, but we shouldn't be ashamed of not using LLMs. Let's re-normalize coding by hand."
+  },
+  "text": "Coding by hand, sure! But let the LLM at least auto-complete your thoughts. They are still your thoughts, but it's just 100x faster than coding by hand."
+ },
+ {
+  "id": "50384791",
+  "author": "steve1977",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50381788",
+   "author": "Fervicus",
+   "text": "It's crazy to me that this is considered embarrassing now. People should stay up to date with current tech, but we shouldn't be ashamed of not using LLMs. Let's re-normalize coding by hand."
+  },
+  "text": "And thinking by brain."
+ },
+ {
+  "id": "50376839",
+  "author": "olmo23",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50376720",
+   "author": "Animats",
+   "text": "Embarrassingly, I don't have one yet. I'm mostly still writing code one keystroke at a time. I've used Github Copilot to translate between languages and look things up, but haven't trusted it to write new code or fix anything.\n\nClaude Fable is now good enough that I should be using it. The latest Claude version is said to be comparable to a mid-career graphics programmer, which is about what I need. Six months ago it wasn't good enough to use for such work, and probably would have made a hash of my code. There's been progress.\n\nBut Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nI'm currently stalled signing up for Claude because their verification email system can't get to my inbox. (Some problem with their using Constant Contact, a spam system, to send transactional emails to my own domain, which, long ago, I had blocked at the Constant Contact end. I think. The verification email never touches the inbound mail server.) It's very important to Anthropic that you sign up with the \"right\" email address, and it may not be possible to change it, so using some disposable a"
+  },
+  "text": "Just use a random gmail address, it works."
+ },
+ {
+  "id": "50386164",
+  "author": "fidelramos",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50376839",
+   "author": "olmo23",
+   "text": "Just use a random gmail address, it works."
+  },
+  "text": "Or use SimpleLogin."
+ },
+ {
+  "id": "50379822",
+  "author": "Forgeties79",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50376839",
+   "author": "olmo23",
+   "text": "Just use a random gmail address, it works."
+  },
+  "text": "If the concern is business practices, privacy, etc. adding Google to the mix doesn’t seem great"
+ },
+ {
+  "id": "50376993",
+  "author": "walrus01",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50376720",
+   "author": "Animats",
+   "text": "Embarrassingly, I don't have one yet. I'm mostly still writing code one keystroke at a time. I've used Github Copilot to translate between languages and look things up, but haven't trusted it to write new code or fix anything.\n\nClaude Fable is now good enough that I should be using it. The latest Claude version is said to be comparable to a mid-career graphics programmer, which is about what I need. Six months ago it wasn't good enough to use for such work, and probably would have made a hash of my code. There's been progress.\n\nBut Anthropic's business practices are scary. They have a reputation for cancelling accounts for random reasons, offer rather bad terms, and have no customer support. I have a strong aversion to services with a reputation for cancelling services arbitrarily. They will apparently cancel based on their system's guesses as to what you're working on. Sometimes they guess wrong. What I'm doing (metaverse clients) is so far out of the mainstream they may guess wrong.\n\nI'm currently stalled signing up for Claude because their verification email system can't get to my inbox. (Some problem with their using Constant Contact, a spam system, to send transactional emails to my own domain, which, long ago, I had blocked at the Constant Contact end. I think. The verification email never touches the inbound mail server.) It's very important to Anthropic that you sign up with the \"right\" email address, and it may not be possible to change it, so using some disposable a"
+  },
+  "text": "I would suggest that based on your current level of \"trust\" in these things (justifiably very low, I use zero openai or anthropic products myself) that you look into self hosting locally something reasonably capable and smart on your own hardware, on llama-server or something functionally equivalent to it. And running it in something like the opencode harness, using zero of the opencode API or online services. Qwen 3.8-flash-next will run on a lot of different hardware setups that are within the reach of normal people, or possibly deepseek v4 flash 1017, glm5.3-flash, things in that general category."
+ },
+ {
+  "id": "50378605",
+  "author": "sampullman",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50376993",
+   "author": "walrus01",
+   "text": "I would suggest that based on your current level of \"trust\" in these things (justifiably very low, I use zero openai or anthropic products myself) that you look into self hosting locally something reasonably capable and smart on your own hardware, on llama-server or something functionally equivalent to it. And running it in something like the opencode harness, using zero of the opencode API or online services. Qwen 3.8-flash-next will run on a lot of different hardware setups that are within the reach of normal people, or possibly deepseek v4 flash 1017, glm5.3-flash, things in that general category."
+  },
+  "text": "Qwen 3.8-flash-next is great, but if they say SOTA models from 6 months ago weren't good enough for the kind of code they write, Qwen isn't going to cut it yet."
+ },
+ {
+  "id": "50384003",
+  "author": "Animats",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50376993",
+   "author": "walrus01",
+   "text": "I would suggest that based on your current level of \"trust\" in these things (justifiably very low, I use zero openai or anthropic products myself) that you look into self hosting locally something reasonably capable and smart on your own hardware, on llama-server or something functionally equivalent to it. And running it in something like the opencode harness, using zero of the opencode API or online services. Qwen 3.8-flash-next will run on a lot of different hardware setups that are within the reach of normal people, or possibly deepseek v4 flash 1017, glm5.3-flash, things in that general category."
+  },
+  "text": "I'm not doing enough to rent my own GPU farm."
+ },
+ {
+  "id": "50367037",
+  "author": "thefourthchime",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "It used to be more interesting and elaborate, switching between different models. I used to use Cursor, then Codex, but since Opus 5.5 came out, I just use the Claude IDE. I got rid of all my skills and just set it to medium. Then I vaguely talk to it about very high-end things that I want, and it comes back with magic. Rinse and repeat.\n\nI'd say the biggest trick is just to tell it what complete looks like. Be very specific about what you want it to come back with once it's done. That gives it a good idea what the goal is. It'll automatically create subagents and all that stuff. Although if you have money to burn and you're doing something large, you can tell it to just go wide or boil the ocean.\n\nAlso, make sure you're working on at least five different things. Otherwise, you're sitting around for one agent."
+ },
+ {
+  "id": "50373117",
+  "author": "fhub",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50367037",
+   "author": "thefourthchime",
+   "text": "It used to be more interesting and elaborate, switching between different models. I used to use Cursor, then Codex, but since Opus 5.5 came out, I just use the Claude IDE. I got rid of all my skills and just set it to medium. Then I vaguely talk to it about very high-end things that I want, and it comes back with magic. Rinse and repeat.\n\nI'd say the biggest trick is just to tell it what complete looks like. Be very specific about what you want it to come back with once it's done. That gives it a good idea what the goal is. It'll automatically create subagents and all that stuff. Although if you have money to burn and you're doing something large, you can tell it to just go wide or boil the ocean.\n\nAlso, make sure you're working on at least five different things. Otherwise, you're sitting around for one agent."
+  },
+  "text": "I can do 5 things concurrently for about a day max. 3 things concurrently all week and my weekends are spent untangling my brain. 3 things per day on Mondays and Tuesdays and 2 things per day concurrently on Wed-Fri and I feel ok but crave holidays."
+ },
+ {
+  "id": "50373236",
+  "author": "thefourthchime",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50373117",
+   "author": "fhub",
+   "text": "I can do 5 things concurrently for about a day max. 3 things concurrently all week and my weekends are spent untangling my brain. 3 things per day on Mondays and Tuesdays and 2 things per day concurrently on Wed-Fri and I feel ok but crave holidays."
+  },
+  "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+ },
+ {
+  "id": "50377542",
+  "author": "networkbug",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "not gonna lie, you don't need to be doing these projects. they're not really worth it. instead of building an app to help you meet up with your friends somewhere central just go meet up with them and explore together."
+ },
+ {
+  "id": "50380775",
+  "author": "vidarh",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50377542",
+   "author": "networkbug",
+   "text": "not gonna lie, you don't need to be doing these projects. they're not really worth it. instead of building an app to help you meet up with your friends somewhere central just go meet up with them and explore together."
+  },
+  "text": "I don't need to be doing all of these projects, but I enjoy doing all of these projects, much more than I enjoy going somewhere to hang out with people. Not everyone is the same."
+ },
+ {
+  "id": "50378003",
+  "author": "senordevnyc",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50377542",
+   "author": "networkbug",
+   "text": "not gonna lie, you don't need to be doing these projects. they're not really worth it. instead of building an app to help you meet up with your friends somewhere central just go meet up with them and explore together."
+  },
+  "text": "Eww, gross. Don't be rude."
+ },
+ {
+  "id": "50382771",
+  "author": "senordevnyc",
+  "depth": 5,
+  "is_op": false,
+  "parent": {
+   "id": "50378003",
+   "author": "senordevnyc",
+   "text": "Eww, gross. Don't be rude."
+  },
+  "text": "Just to be clear, my comment about this being gross is about the rudeness of telling someone else their hobby is a waste of time, not about hanging out with friends."
+ },
+ {
+  "id": "50384905",
+  "author": "fishtoaster",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "> I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI'm pretty pilled on cloud agents these days. If I've got 5 agents going at once, each is in their own dedicated, isolated cloud environment. There are a bazillion services for this now ampcode, hoplite.sh, cursor's cloud agents, devin.ai cloud, and more.\n\nI haven't had an agent do anything from my laptop in a month or two."
+ },
+ {
+  "id": "50379851",
+  "author": "KronisLV",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "> Every night I tell me agents I'll be going to bed and to not ask questions and keep going.\n\nMost harnesses now support something like this:\n\n/goal \"Work on the current plan until 11 AM in my time zone, provide a summary of all the overnight work then.\"\n\nOther than that, look after your own wellbeing! Nothing wrong with letting agents work overnight, just don't overextend yourself and don't spend all of your free time on it."
+ },
+ {
+  "id": "50380777",
+  "author": "chasd00",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50379851",
+   "author": "KronisLV",
+   "text": "> Every night I tell me agents I'll be going to bed and to not ask questions and keep going.\n\nMost harnesses now support something like this:\n\n/goal \"Work on the current plan until 11 AM in my time zone, provide a summary of all the overnight work then.\"\n\nOther than that, look after your own wellbeing! Nothing wrong with letting agents work overnight, just don't overextend yourself and don't spend all of your free time on it."
+  },
+  "text": "My friend and I have built portfolio management agents and pit them against each other to see who can make the most money (not real money just a simulated bank account and stock portfolio). So mine runs every morning to read the news and do analaysis and all that. I have it write a daily blog that I read to keep track of what it’s doing.\n\nA daily blog for status and reasons for decision making works pretty well for tracking an agent that works unattended. It’s also kind of funny when it writes things like “well I got that one wrong” and “this is not what I expected to happen” hah"
+ },
+ {
+  "id": "50381834",
+  "author": "perforator",
+  "depth": 5,
+  "is_op": false,
+  "parent": {
+   "id": "50380777",
+   "author": "chasd00",
+   "text": "My friend and I have built portfolio management agents and pit them against each other to see who can make the most money (not real money just a simulated bank account and stock portfolio). So mine runs every morning to read the news and do analaysis and all that. I have it write a daily blog that I read to keep track of what it’s doing.\n\nA daily blog for status and reasons for decision making works pretty well for tracking an agent that works unattended. It’s also kind of funny when it writes things like “well I got that one wrong” and “this is not what I expected to happen” hah"
+  },
+  "text": "How long have they been running for and do any of them consistently beat index funds? Was always curious about the idea, but thought the market would already price it in."
+ },
+ {
+  "id": "50383211",
+  "author": "chasd00",
+  "depth": 6,
+  "is_op": false,
+  "parent": {
+   "id": "50381834",
+   "author": "perforator",
+   "text": "How long have they been running for and do any of them consistently beat index funds? Was always curious about the idea, but thought the market would already price it in."
+  },
+  "text": "They've been running for a few months, my friend's was beating SPY (VSP500) for a few days but not any more. Mine never beat SPY or VOO (Vanguard SP500 index). Now, let me tell you about my little sister. She says she just does what ChatGPT tells her to do and she's #1 on the leaderboard beating everyone including the SP500.\n\nstewbot-v1 = my friend's bot\n\nstonker = my bot\n\nhttps://stonks.jettdigital.app is my little vibecoded stock market sim website, the bots work with via API. Each account starts with $10k and then you get a $500 deposited each month. If you want an account drop me an email ( see my profile ).\n\nhere's my bot's page with the daily posts (the key is like a password but it's no big deal, if my server catches fire i'll just change it). Link to the daily posts are at the top left https://stonker.jettdigital.app/?key=a87f2427bf1e281dda1a5135473860e9f6480e1922e2c94c"
+ },
+ {
+  "id": "50376565",
+  "author": "abhishekbasu",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "love the website, but quality control is important when working with these agents.\n\nex. i tried cool walk (https://wooten-labs.com/coolwalk) and the 'Download on the App Store' does nothing at all."
+ },
+ {
+  "id": "50381884",
+  "author": "thefourthchime",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50376565",
+   "author": "abhishekbasu",
+   "text": "love the website, but quality control is important when working with these agents.\n\nex. i tried cool walk (https://wooten-labs.com/coolwalk) and the 'Download on the App Store' does nothing at all."
+  },
+  "text": "It's been waiting for App Store for a long time. Things take forever to get accepted now."
+ },
+ {
+  "id": "50378189",
+  "author": "gausswho",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "I like your landing page for Stealthbox. Playful and stylistically distinct. Wears its AI generated origins with casual pride.\n\nI do wish the Github link wasn't borked."
+ },
+ {
+  "id": "50381872",
+  "author": "thefourthchime",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50378189",
+   "author": "gausswho",
+   "text": "I like your landing page for Stealthbox. Playful and stylistically distinct. Wears its AI generated origins with casual pride.\n\nI do wish the Github link wasn't borked."
+  },
+  "text": "Yeah, I've been working on this thing for months. I'm trying to get it more polished before I release it. The reason the GitHub link is borked is because I need to have part of it be private, because some of the bot detection can't be open source, or it'll stop working.\n\nEventually I'll stop finding bugs : )"
+ },
+ {
+  "id": "50377899",
+  "author": "themoose8",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "They look like awesome apps*, as long as you're balancing your time by using them (they're outdoorsy and social!) I'd say you're doing fine. Take some extended time off if you need!\n\n*unfortunately I'm android"
+ },
+ {
+  "id": "50390416",
+  "author": "LittleBox",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "You are going to burn out so badly and you won’t even realize it until it’s too late."
+ },
+ {
+  "id": "50376316",
+  "author": "coffeesoda",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "respect. this is how i've been working the last 4 months or so. it's a bit crazy making and i do think i'm enjoying things less because i'm preoccupied, but i sure do feel productive. lol."
+ },
+ {
+  "id": "50379375",
+  "author": "willchis",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "That's a really nice website!"
+ },
+ {
+  "id": "50381814",
+  "author": "Fervicus",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "At least you are self-aware."
+ },
+ {
+  "id": "50380544",
+  "author": "petesergeant",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "> I haven't rebooted my laptop for weeks because there is always an agent building something\n\nI have a cheap mini PC I use as a devbox. Beyond meaning I can close my laptop and close all agent windows, it also keeps agents out of my personal shit."
+ },
+ {
+  "id": "50378487",
+  "author": "bkaae",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "I hope you are doing okay bud, sounds like you are doing too much."
+ },
+ {
+  "id": "50374757",
+  "author": "abrookewood",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "Nice website :)"
+ },
+ {
+  "id": "50384151",
+  "author": "jeffyaw",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "cool visuals on your site! dig the scroll down!"
+ },
+ {
+  "id": "50375890",
+  "author": "pavas",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "Honestly it does sound like an addiction. Touch some grass..."
+ },
+ {
+  "id": "50379646",
+  "author": "KolibriFly",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "How do you even deal with merging all that stuff when you wake up? My head sometimes spins from just two parallel branches when they start conflicting in the database"
+ },
+ {
+  "id": "50376288",
+  "author": "orbis-tertius",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "Excellent website!"
+ },
+ {
+  "id": "50374802",
+  "author": "glennfiedler",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373236",
+   "author": "thefourthchime",
+   "text": "I probably have some kind of pysccosis. I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes.\n\nThey're not all done, and half the projects I bench, but this is where my personal projects live. https://wooten-labs.com"
+  },
+  "text": "> I probably have some kind of pysccosis\n\nNo you don’t. You are doing everything right :)"
+ },
+ {
+  "id": "50382568",
+  "author": "glennfiedler",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50374802",
+   "author": "glennfiedler",
+   "text": "> I probably have some kind of pysccosis\n\nNo you don’t. You are doing everything right :)"
+  },
+  "text": "I have no idea why anybody is downvoting this. I honestly believe the OP is doing it right. Very few people get this level of productivity out of AI and the people who really \"get it\" with AI have this strong attraction to it. I estimate, fewer than 5% of programmers working with AI ever get here."
+ },
+ {
+  "id": "50376598",
+  "author": "biggestriverman",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50373117",
+   "author": "fhub",
+   "text": "I can do 5 things concurrently for about a day max. 3 things concurrently all week and my weekends are spent untangling my brain. 3 things per day on Mondays and Tuesdays and 2 things per day concurrently on Wed-Fri and I feel ok but crave holidays."
+  },
+  "text": "I had the same issue. What you need in a management system for your claude sessions."
+ },
+ {
+  "id": "50385630",
+  "author": "fhub",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50376598",
+   "author": "biggestriverman",
+   "text": "I had the same issue. What you need in a management system for your claude sessions."
+  },
+  "text": "The problem is that I do want to interrogate the planning and implementation. Ask questions about trade offs. That means context switching. I don’t want my knowledge of the system to degrade rapidly."
+ },
+ {
+  "id": "50385453",
+  "author": "thefourthchime",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50376598",
+   "author": "biggestriverman",
+   "text": "I had the same issue. What you need in a management system for your claude sessions."
+  },
+  "text": "I tried a T3 code for a hot second, but found it too buggy and missing features I missed from Claude Code Desktop. I do desperately need to figure out some way to get stuff off my laptop."
+ },
+ {
+  "id": "50386469",
+  "author": "xuanhocbk",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50373117",
+   "author": "fhub",
+   "text": "I can do 5 things concurrently for about a day max. 3 things concurrently all week and my weekends are spent untangling my brain. 3 things per day on Mondays and Tuesdays and 2 things per day concurrently on Wed-Fri and I feel ok but crave holidays."
+  },
+  "text": "Same ceiling here, and what moved it for me wasn't a smarter agent but cutting the cost of switching back: one line per session saying what I asked for and what it's waiting on, written before I leave it. Without that, three concurrent sessions feel like five."
+ },
+ {
+  "id": "50367466",
+  "author": "sparklingmango",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50367037",
+   "author": "thefourthchime",
+   "text": "It used to be more interesting and elaborate, switching between different models. I used to use Cursor, then Codex, but since Opus 5.5 came out, I just use the Claude IDE. I got rid of all my skills and just set it to medium. Then I vaguely talk to it about very high-end things that I want, and it comes back with magic. Rinse and repeat.\n\nI'd say the biggest trick is just to tell it what complete looks like. Be very specific about what you want it to come back with once it's done. That gives it a good idea what the goal is. It'll automatically create subagents and all that stuff. Although if you have money to burn and you're doing something large, you can tell it to just go wide or boil the ocean.\n\nAlso, make sure you're working on at least five different things. Otherwise, you're sitting around for one agent."
+  },
+  "text": "I firmly believe that those using out-of-the-box Claude Code or Codex are likely getting the most cutting edge features of agents anyways."
+ },
+ {
+  "id": "50373947",
+  "author": "0x4e",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50367466",
+   "author": "sparklingmango",
+   "text": "I firmly believe that those using out-of-the-box Claude Code or Codex are likely getting the most cutting edge features of agents anyways."
+  },
+  "text": "I’m a user of both and don’t really see the need to go anywhere else. It all just sounds like mumbo jumbo.\n\nAs a solopreneur of a boring SMB.\n\nI still do coding and build my own tools but I don’t see the need for agent swarms or Muse or Grok Bot or any of that.\n\nThe reason why I stay away is because I like to do QA on the slop these things generate. Having them run amok just makes me nervous."
+ },
+ {
+  "id": "50384207",
+  "author": "jeffyaw",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373947",
+   "author": "0x4e",
+   "text": "I’m a user of both and don’t really see the need to go anywhere else. It all just sounds like mumbo jumbo.\n\nAs a solopreneur of a boring SMB.\n\nI still do coding and build my own tools but I don’t see the need for agent swarms or Muse or Grok Bot or any of that.\n\nThe reason why I stay away is because I like to do QA on the slop these things generate. Having them run amok just makes me nervous."
+  },
+  "text": "and you can get a modest swarm with subagents and ultracode."
+ },
+ {
+  "id": "50375960",
+  "author": "nimchimpsky",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373947",
+   "author": "0x4e",
+   "text": "I’m a user of both and don’t really see the need to go anywhere else. It all just sounds like mumbo jumbo.\n\nAs a solopreneur of a boring SMB.\n\nI still do coding and build my own tools but I don’t see the need for agent swarms or Muse or Grok Bot or any of that.\n\nThe reason why I stay away is because I like to do QA on the slop these things generate. Having them run amok just makes me nervous."
+  },
+  "text": "grok bot and muse are just useful assistants, reminders, shopping, day to day stuff. Actually useful apps. Not coding/engineering."
+ },
+ {
+  "id": "50373376",
+  "author": "2001zhaozhao",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50367466",
+   "author": "sparklingmango",
+   "text": "I firmly believe that those using out-of-the-box Claude Code or Codex are likely getting the most cutting edge features of agents anyways."
+  },
+  "text": "Yep, Claude & Codex desktop are innovating extremely rapidly. Some of the features like code review are hidden under commands, but basically obsolete whole heaps of AI code review startups when you use them."
+ },
+ {
+  "id": "50374732",
+  "author": "smashed",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50373376",
+   "author": "2001zhaozhao",
+   "text": "Yep, Claude & Codex desktop are innovating extremely rapidly. Some of the features like code review are hidden under commands, but basically obsolete whole heaps of AI code review startups when you use them."
+  },
+  "text": "I just ask Claude code to do a code review of PR X and it spawns a sub-agent. No hidden commands or anything special.\n\nIf I hint it might be security sensitive code, it bumps the effort level and burns my usage.\n\nBut it works quite well.\n\nThe findings are often debatable or unreachable states but it does find stuff and improves the overall quality I find.\n\nWhat's funny though is that it almost always inevitably finds something wrong, even if you just ran it in another window and fixed everything it found. There is really a point of diminishing returns."
+ },
+ {
+  "id": "50380703",
+  "author": "chasd00",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50367037",
+   "author": "thefourthchime",
+   "text": "It used to be more interesting and elaborate, switching between different models. I used to use Cursor, then Codex, but since Opus 5.5 came out, I just use the Claude IDE. I got rid of all my skills and just set it to medium. Then I vaguely talk to it about very high-end things that I want, and it comes back with magic. Rinse and repeat.\n\nI'd say the biggest trick is just to tell it what complete looks like. Be very specific about what you want it to come back with once it's done. That gives it a good idea what the goal is. It'll automatically create subagents and all that stuff. Although if you have money to burn and you're doing something large, you can tell it to just go wide or boil the ocean.\n\nAlso, make sure you're working on at least five different things. Otherwise, you're sitting around for one agent."
+  },
+  "text": "For anything non trivial I have Claude do a design doc with me. Then I tell it to “carefully review” the design which turns up edge cases. Then I tell it to make a step by step implementation plan document. Then ask it to review both again. Then I do a personal review and then off it goes on implementation while I pull up HN. It’s a lot like my team lead role at work. Btw, people who have a few years of being in a TL role are best positioned to make full use of the agents as well as teach others how to get the most out of them."
+ },
+ {
+  "id": "50375552",
+  "author": "bluerooibos",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50367037",
+   "author": "thefourthchime",
+   "text": "It used to be more interesting and elaborate, switching between different models. I used to use Cursor, then Codex, but since Opus 5.5 came out, I just use the Claude IDE. I got rid of all my skills and just set it to medium. Then I vaguely talk to it about very high-end things that I want, and it comes back with magic. Rinse and repeat.\n\nI'd say the biggest trick is just to tell it what complete looks like. Be very specific about what you want it to come back with once it's done. That gives it a good idea what the goal is. It'll automatically create subagents and all that stuff. Although if you have money to burn and you're doing something large, you can tell it to just go wide or boil the ocean.\n\nAlso, make sure you're working on at least five different things. Otherwise, you're sitting around for one agent."
+  },
+  "text": "> Claude IDE\n\nClaude Desktop's UI seems pretty similar to Cursor now, almost. I'm still on Cursor but if I use it daily I often hit usage limits before the end of the month. Would you say using Claude directly is better bang for buck?"
+ },
+ {
+  "id": "50378013",
+  "author": "senordevnyc",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50375552",
+   "author": "bluerooibos",
+   "text": "> Claude IDE\n\nClaude Desktop's UI seems pretty similar to Cursor now, almost. I'm still on Cursor but if I use it daily I often hit usage limits before the end of the month. Would you say using Claude directly is better bang for buck?"
+  },
+  "text": "I switched from Cursor to Claude Code (via T3.codes) because I was running out of usage on Grok 4.7. I regret not making the switch sooner, Opus 5.5 is much better than Grok, and Grok is decent!"
+ },
+ {
+  "id": "50393062",
+  "author": "bluerooibos",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50378013",
+   "author": "senordevnyc",
+   "text": "I switched from Cursor to Claude Code (via T3.codes) because I was running out of usage on Grok 4.7. I regret not making the switch sooner, Opus 5.5 is much better than Grok, and Grok is decent!"
+  },
+  "text": "Yeah, I agree, but Opus 5.5 burns through a ton of usage in Cursor so I rarely use it. Just wondering if cost wise it's better to use Claude Code than Cursor w/ Grok - sounds like you think it is?"
+ },
+ {
+  "id": "50395313",
+  "author": "senordevnyc",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50393062",
+   "author": "bluerooibos",
+   "text": "Yeah, I agree, but Opus 5.5 burns through a ton of usage in Cursor so I rarely use it. Just wondering if cost wise it's better to use Claude Code than Cursor w/ Grok - sounds like you think it is?"
+  },
+  "text": "My $200 Anthropic subscription is giving me way more value than my $200 Cursor subscription was."
+ },
+ {
+  "id": "50392051",
+  "author": "congptvinadic",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50375552",
+   "author": "bluerooibos",
+   "text": "> Claude IDE\n\nClaude Desktop's UI seems pretty similar to Cursor now, almost. I'm still on Cursor but if I use it daily I often hit usage limits before the end of the month. Would you say using Claude directly is better bang for buck?"
+  },
+  "text": "Hard to compare directly, because neither publishes absolute numbers.\n\nCursor states every tier as a multiple of Plus: Premium 4x, Super 15x, Ultra 50x, and Plus itself now only runs Grok models. Claude Pro only says \"more usage than Free\" on a rolling 5-hour window, plus a weekly cap across all models. Max is 5x Pro on both; Ultra drops the 5-hour window for verified accounts and is 10x Pro per week.\n\nSo the real difference is the shape of the limit: Cursor is a pool that refreshes, Claude throttles you inside a 5-hour session and again weekly. If you work in long bursts, the 5-hour window is what bites first.\n\nI keep a table of the stated limits per plan with the source page and check date, if it helps: https://getstackversus.com/limits"
+ },
+ {
+  "id": "50376177",
+  "author": "onion2k",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50367037",
+   "author": "thefourthchime",
+   "text": "It used to be more interesting and elaborate, switching between different models. I used to use Cursor, then Codex, but since Opus 5.5 came out, I just use the Claude IDE. I got rid of all my skills and just set it to medium. Then I vaguely talk to it about very high-end things that I want, and it comes back with magic. Rinse and repeat.\n\nI'd say the biggest trick is just to tell it what complete looks like. Be very specific about what you want it to come back with once it's done. That gives it a good idea what the goal is. It'll automatically create subagents and all that stuff. Although if you have money to burn and you're doing something large, you can tell it to just go wide or boil the ocean.\n\nAlso, make sure you're working on at least five different things. Otherwise, you're sitting around for one agent."
+  },
+  "text": "Same journey for me, although I still use skills. Claude Code is fine; the remote-control feature is why I stick with it now. Generally anything in the cloud doesn't have a proper GPU that supports WebGPU, and as nice as SwiftShader is often you want to actually run things on a real machine. remote-control is by far the easiest way to do that from my phone."
+ },
+ {
+  "id": "50378288",
+  "author": "bartread",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50367037",
+   "author": "thefourthchime",
+   "text": "It used to be more interesting and elaborate, switching between different models. I used to use Cursor, then Codex, but since Opus 5.5 came out, I just use the Claude IDE. I got rid of all my skills and just set it to medium. Then I vaguely talk to it about very high-end things that I want, and it comes back with magic. Rinse and repeat.\n\nI'd say the biggest trick is just to tell it what complete looks like. Be very specific about what you want it to come back with once it's done. That gives it a good idea what the goal is. It'll automatically create subagents and all that stuff. Although if you have money to burn and you're doing something large, you can tell it to just go wide or boil the ocean.\n\nAlso, make sure you're working on at least five different things. Otherwise, you're sitting around for one agent."
+  },
+  "text": "> I got rid of all my skills and just set it to medium.\n\nYeah, exactly. I find increasingly little use for skills. I'd put it down to switching projects and stacks a lot but maybe... they just aren't as useful any more?"
+ },
+ {
+  "id": "50395599",
+  "author": "darklinear",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50378288",
+   "author": "bartread",
+   "text": "> I got rid of all my skills and just set it to medium.\n\nYeah, exactly. I find increasingly little use for skills. I'd put it down to switching projects and stacks a lot but maybe... they just aren't as useful any more?"
+  },
+  "text": "I find I am able to get rid of most of the skills just by listing out the style guides the bot should follow in AGENTs.md"
+ },
+ {
+  "id": "50378336",
+  "author": "parkersweb",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50378288",
+   "author": "bartread",
+   "text": "> I got rid of all my skills and just set it to medium.\n\nYeah, exactly. I find increasingly little use for skills. I'd put it down to switching projects and stacks a lot but maybe... they just aren't as useful any more?"
+  },
+  "text": "I wasn’t really using skills but then our project management tool added an MCP so I made a skill for grabbing tickets from the backlog, creating worktrees with the right naming convention, and moving ticket states for me automatically.\n\nAt the same time when I’m exploring new feature requests I now use the skill to write up the requirements and estimates into as many tickets as needed.\n\nMassively changed my workflow for me."
+ },
+ {
+  "id": "50384236",
+  "author": "jeffyaw",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50378288",
+   "author": "bartread",
+   "text": "> I got rid of all my skills and just set it to medium.\n\nYeah, exactly. I find increasingly little use for skills. I'd put it down to switching projects and stacks a lot but maybe... they just aren't as useful any more?"
+  },
+  "text": "any prompt that you’re running a lot, make it a skill. i don’t make a lot of new ones. but still am using ones i made months ago and have been refining."
+ },
+ {
+  "id": "50367548",
+  "author": "persavon",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50367037",
+   "author": "thefourthchime",
+   "text": "It used to be more interesting and elaborate, switching between different models. I used to use Cursor, then Codex, but since Opus 5.5 came out, I just use the Claude IDE. I got rid of all my skills and just set it to medium. Then I vaguely talk to it about very high-end things that I want, and it comes back with magic. Rinse and repeat.\n\nI'd say the biggest trick is just to tell it what complete looks like. Be very specific about what you want it to come back with once it's done. That gives it a good idea what the goal is. It'll automatically create subagents and all that stuff. Although if you have money to burn and you're doing something large, you can tell it to just go wide or boil the ocean.\n\nAlso, make sure you're working on at least five different things. Otherwise, you're sitting around for one agent."
+  },
+  "text": "What do you mean by Claude IDE?"
+ },
+ {
+  "id": "50368880",
+  "author": "thefourthchime",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50367548",
+   "author": "persavon",
+   "text": "What do you mean by Claude IDE?"
+  },
+  "text": "Claude Code Desktop. https://code.claude.com/docs/en/desktop"
+ },
+ {
+  "id": "50373063",
+  "author": "neuronexmachina",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50368880",
+   "author": "thefourthchime",
+   "text": "Claude Code Desktop. https://code.claude.com/docs/en/desktop"
+  },
+  "text": "Yeah, I used to hate the Claude desktop app's Code tab, but it's actually pretty good nowadays. I actually prefer it now over claude CLI."
+ },
+ {
+  "id": "50376807",
+  "author": "iainmerrick",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50373063",
+   "author": "neuronexmachina",
+   "text": "Yeah, I used to hate the Claude desktop app's Code tab, but it's actually pretty good nowadays. I actually prefer it now over claude CLI."
+  },
+  "text": "I use Claude Code Web almost exclusively for personal projects -- I’m guessing that’s pretty much the same interface but in the cloud -- and hardly ever run anything locally. Nicer UI than a terminal, real sandboxing, and it doesn’t tie up my computer. It’s just a remote agent that can make GitHub PRs."
+ },
+ {
+  "id": "50377189",
+  "author": "OJFord",
+  "depth": 5,
+  "is_op": false,
+  "parent": {
+   "id": "50376807",
+   "author": "iainmerrick",
+   "text": "I use Claude Code Web almost exclusively for personal projects -- I’m guessing that’s pretty much the same interface but in the cloud -- and hardly ever run anything locally. Nicer UI than a terminal, real sandboxing, and it doesn’t tie up my computer. It’s just a remote agent that can make GitHub PRs."
+  },
+  "text": "But even worse for private stuff than using cloud inference to begin with, since it presumably has to clone the repo, have write & Actions access back, etc."
+ },
+ {
+  "id": "50377537",
+  "author": "iainmerrick",
+  "depth": 6,
+  "is_op": false,
+  "parent": {
+   "id": "50377189",
+   "author": "OJFord",
+   "text": "But even worse for private stuff than using cloud inference to begin with, since it presumably has to clone the repo, have write & Actions access back, etc."
+  },
+  "text": "It's bad if you're concerned about your data being used for training, sure. But I don't think any worse than e.g. running Claude or Codex locally.\n\nI think the only solution there is self-hosted inference (either local, or on your own cloud servers with open weights)."
+ },
+ {
+  "id": "50383635",
+  "author": "OJFord",
+  "depth": 7,
+  "is_op": false,
+  "parent": {
+   "id": "50377537",
+   "author": "iainmerrick",
+   "text": "It's bad if you're concerned about your data being used for training, sure. But I don't think any worse than e.g. running Claude or Codex locally.\n\nI think the only solution there is self-hosted inference (either local, or on your own cloud servers with open weights)."
+  },
+  "text": "That's the bit that's common, I say it's worse because it has to actually check out the full source on their server. i.e. similar to if you used Claude locally, plus used third-party CI like Circle instead of Actions."
+ },
+ {
+  "id": "50373202",
+  "author": "thefourthchime",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50373063",
+   "author": "neuronexmachina",
+   "text": "Yeah, I used to hate the Claude desktop app's Code tab, but it's actually pretty good nowadays. I actually prefer it now over claude CLI."
+  },
+  "text": "Same, I rejected those no-code IDEs for a long time, but now I never look at code anyway, and they are surprisingly great to use."
+ },
+ {
+  "id": "50367759",
+  "author": "yuppiepuppie",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50367548",
+   "author": "persavon",
+   "text": "What do you mean by Claude IDE?"
+  },
+  "text": "Yeah I was thrown off by that as well. I assume they mean just Claude TUI.."
+ },
+ {
+  "id": "50367926",
+  "author": "sabas123",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50367759",
+   "author": "yuppiepuppie",
+   "text": "Yeah I was thrown off by that as well. I assume they mean just Claude TUI.."
+  },
+  "text": "I have a similar story as OP, for me its the Claude Desktop, not claude code."
+ },
+ {
+  "id": "50378856",
+  "author": "gregwebs",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1-2) Claude $20/mo (planner) Codex $20/mo (reviewer) Deepseek $1-3/day workhorse.\n\n4) A standard /implement skill creates separate agents for different parts of the workflow. It uses Claude for planning, codex for reviewing, and deepseek for doing and orchestrating. https://github.com/gregwebs/skills-sdlc. I also have a plugin for switching between providers when quota gets low: https://github.com/gregwebs/pi-quota-dispatcher\n\nI can produce a significant amount of low-defect production quality code while keeping costs less than $100/mo. It is probably at least 3x slower than just asking for an implementation, but defects cost time and money later.\n\n3) Pi harness with herdr for organizing multiple projects/agents and Collie for mobile access (on a tailscale network). I have also been happy using zellij previously and might go back to it if the experimental Collie integration works. I need to switch to a different sub agent plugin for Pi (or leave Pi for a different harness) because herdr/collie are confused by the current subagents."
+ },
+ {
+  "id": "50380647",
+  "author": "bloppe",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I recently got really weird with my personal computer after discovering browser DevTools MCP. I basically inverted the relationship between browser and desktop environment, booting directly to a browser in kiosk mode (with Ghostty quick terminal as well, so I always have easy terminal access) and running a local Weston server that shows up as a bookmarked web page on localhost, streamed over vnc, so I can still use legacy gui apps pretty normally if I need to, but I've basically refocused my whole gui environment on the web. I run code-server on localhost instead of VSCode and prefer web apps (often running locally) over traditional GUIs in general. I still use the terminal very heavily as well, and that's where I manage my pi agents.\n\nWhy? Because the web is an incredibly rich, open, text-based platform with massive representation in training sets, and with tools like DevTools MCP, your agent can do almost anything with your browser: run JS in the page, use the debugger, see network activity; it's extremely powerful.\n\nMy co-worker does something similar with emacs, another incredibly rich text-based \"operating system\" like a browser with comprehensive hookability, which he basically uses instead of a desktop environment."
+ },
+ {
+  "id": "50385365",
+  "author": "nathanfig",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50380647",
+   "author": "bloppe",
+   "text": "I recently got really weird with my personal computer after discovering browser DevTools MCP. I basically inverted the relationship between browser and desktop environment, booting directly to a browser in kiosk mode (with Ghostty quick terminal as well, so I always have easy terminal access) and running a local Weston server that shows up as a bookmarked web page on localhost, streamed over vnc, so I can still use legacy gui apps pretty normally if I need to, but I've basically refocused my whole gui environment on the web. I run code-server on localhost instead of VSCode and prefer web apps (often running locally) over traditional GUIs in general. I still use the terminal very heavily as well, and that's where I manage my pi agents.\n\nWhy? Because the web is an incredibly rich, open, text-based platform with massive representation in training sets, and with tools like DevTools MCP, your agent can do almost anything with your browser: run JS in the page, use the debugger, see network activity; it's extremely powerful.\n\nMy co-worker does something similar with emacs, another incredibly rich text-based \"operating system\" like a browser with comprehensive hookability, which he basically uses instead of a desktop environment."
+  },
+  "text": "I'm trying to understand this. You do this so that your agents can do web based tasks for you, or so that they can do desktop tasks via a web browser? If the latter, for what kinds of tasks do you find terminal insufficient?"
+ },
+ {
+  "id": "50386473",
+  "author": "bloppe",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50385365",
+   "author": "nathanfig",
+   "text": "I'm trying to understand this. You do this so that your agents can do web based tasks for you, or so that they can do desktop tasks via a web browser? If the latter, for what kinds of tasks do you find terminal insufficient?"
+  },
+  "text": "It's the former. I just find that the browser provides an incredibly reach ecosystem for the agents to operate in. Of course, you can also set up a devtools MCP connection while still using a traditional desktop environment, I just thought it was cool.\n\nI mentioned the Weston fallback to illustrate that switching to a web-first GUI environment can be incremental."
+ },
+ {
+  "id": "50395602",
+  "author": "bphish",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1) Paying for both OpenAI's + Anthropic's $200/mo plans 2) no 3) Codex + Claude Code (I'm a sucker for GUIs) 4) I sort of hack together a swarm in Codex+ClaudeCode, then use a separate tool I built for a collaboration layer 5) OpenClaw but mostly retired it\n\nAlso indispensable for me is Workspace which lets me manage larger projects, databases, markdown files, etc.. (https://www.brianhirsh.com/workspace) it's an offline Notion (like obsidian but better databses + UI), so it's incredibly fast to work with multiple agents there.\n\nSince I typically have 15-20 chats and additional subagents going, having a place for them to organize work for me to check + a tool for managing documents is relly helpful. Before I felt like I was drowning in app-siloed artifacts and 'wait which chat was that in' issues."
+ },
+ {
+  "id": "50375606",
+  "author": "glennfiedler",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I'm juggling multiple claude ultra subs, multiple codex $500 a month subs, antigravity for argon, plus API rate deepseek 4.1 flash, mercury 3, and abliterated large v2 for red teaming.\n\nI work across multiple models and harnesses using a really simple redis-backed message bus called \"nova-bus\": https://github.com/mas-bandwidth/nova-tools (open source).\n\nWith just this message bus, I can coordinate AIs to work together at a normal pace (worktrees, subtasks etc...), but past a certain point the AIs can't keep up and I need to use a sprint card system I developed to coordinate work.\n\nWith this sprint system I'm able to work 200 cards wide (each card is around 30-60 minutes of LLM work in a session) across a fleet of 20 machines linked together with tailscale and ssh.\n\nFull system is here: https://github.com/mas-bandwidth/nova-sprint (open source)\n\nIt's been very effective at getting high throughput, but afterwards I find that the resulting code can be a bit of a pastiche from different models working in isolation, thus a good pass over working directly with models to clean up and harden the code is necessary.\n\nI find that using nova-bus to coordinate multiple model/harness review of codebase in very effective at increasing code quality. Each model sees things the others don't."
+ },
+ {
+  "id": "50375841",
+  "author": "genxy",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50375606",
+   "author": "glennfiedler",
+   "text": "I'm juggling multiple claude ultra subs, multiple codex $500 a month subs, antigravity for argon, plus API rate deepseek 4.1 flash, mercury 3, and abliterated large v2 for red teaming.\n\nI work across multiple models and harnesses using a really simple redis-backed message bus called \"nova-bus\": https://github.com/mas-bandwidth/nova-tools (open source).\n\nWith just this message bus, I can coordinate AIs to work together at a normal pace (worktrees, subtasks etc...), but past a certain point the AIs can't keep up and I need to use a sprint card system I developed to coordinate work.\n\nWith this sprint system I'm able to work 200 cards wide (each card is around 30-60 minutes of LLM work in a session) across a fleet of 20 machines linked together with tailscale and ssh.\n\nFull system is here: https://github.com/mas-bandwidth/nova-sprint (open source)\n\nIt's been very effective at getting high throughput, but afterwards I find that the resulting code can be a bit of a pastiche from different models working in isolation, thus a good pass over working directly with models to clean up and harden the code is necessary.\n\nI find that using nova-bus to coordinate multiple model/harness review of codebase in very effective at increasing code quality. Each model sees things the others don't."
+  },
+  "text": "Is this amalgamation working on a single project? What harnesses do you use? How are you using mercury 3? How much and what kind of work are you sending to deepseek?"
+ },
+ {
+  "id": "50375921",
+  "author": "glennfiedler",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50375841",
+   "author": "genxy",
+   "text": "Is this amalgamation working on a single project? What harnesses do you use? How are you using mercury 3? How much and what kind of work are you sending to deepseek?"
+  },
+  "text": "Can't work on a single project, Amdahl's law gets you then. Try to work on as many different unrelated projects as possible, so I can get maximum throughput.\n\nI break work up into four loose tiers:\n\n1. flash - deepseek flash 4.1 / luna / haiku\n\n2. pro - mercury 3 / terra / sonnet\n\n3. heavy - opus 5.5 / sol\n\n4. frontier - fable 5.1 / astra / argon\n\nThe decision of how to classify each piece of work is done by the coordinator (typically Opus 5.5...). If a card fails at a particular tier, it's going to get escalated up tiers until it gets sorted.\n\nEach card has multiple readers (code review). I find mercury is very good at reading quickly. Deepseek as well. I will be honest, I think for 99% of stuff I need to do Opus 5.5 @ medium is ideal. I just use the additional models for different points of view, especially the absolute frontier models fable, astra, argon at max effort for security audits and code review."
+ },
+ {
+  "id": "50377328",
+  "author": "teekert",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50375921",
+   "author": "glennfiedler",
+   "text": "Can't work on a single project, Amdahl's law gets you then. Try to work on as many different unrelated projects as possible, so I can get maximum throughput.\n\nI break work up into four loose tiers:\n\n1. flash - deepseek flash 4.1 / luna / haiku\n\n2. pro - mercury 3 / terra / sonnet\n\n3. heavy - opus 5.5 / sol\n\n4. frontier - fable 5.1 / astra / argon\n\nThe decision of how to classify each piece of work is done by the coordinator (typically Opus 5.5...). If a card fails at a particular tier, it's going to get escalated up tiers until it gets sorted.\n\nEach card has multiple readers (code review). I find mercury is very good at reading quickly. Deepseek as well. I will be honest, I think for 99% of stuff I need to do Opus 5.5 @ medium is ideal. I just use the additional models for different points of view, especially the absolute frontier models fable, astra, argon at max effort for security audits and code review."
+  },
+  "text": "What kind of \"things\" are you making? I can't process this much information, so I would inevitable be outsourcing most decision making. That could be fine for some products, but not for mine, where data model and RBAC model (among others) all require alignment between multiple stakeholders.\n\nI have one agent and already find it quite intense to outsource code writing and basically just make and document decisions.\n\nI feel like I could be rich working like you, I also feel like it is impossible for me to meet the needs of my clients if I'd work like this (so I can't be rich, it's a paradox). I wouldn't be able to answer their questions (without the active agent on-call, context window fully loaded), I wouldn't be able to explain just where the data model needs changing, or why some role really can't exist they way they envision etc, etc, etc.\n\nI could of course branch the whole project and basically discuss multiple implementations during stakeholder meetings, but then still I'd need to explain the advantages/disadvantage of choosing one system over the other and guide them through it."
+ },
+ {
+  "id": "50378534",
+  "author": "teekert",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50377328",
+   "author": "teekert",
+   "text": "What kind of \"things\" are you making? I can't process this much information, so I would inevitable be outsourcing most decision making. That could be fine for some products, but not for mine, where data model and RBAC model (among others) all require alignment between multiple stakeholders.\n\nI have one agent and already find it quite intense to outsource code writing and basically just make and document decisions.\n\nI feel like I could be rich working like you, I also feel like it is impossible for me to meet the needs of my clients if I'd work like this (so I can't be rich, it's a paradox). I wouldn't be able to answer their questions (without the active agent on-call, context window fully loaded), I wouldn't be able to explain just where the data model needs changing, or why some role really can't exist they way they envision etc, etc, etc.\n\nI could of course branch the whole project and basically discuss multiple implementations during stakeholder meetings, but then still I'd need to explain the advantages/disadvantage of choosing one system over the other and guide them through it."
+  },
+  "text": "So, in essence, my added value is translating the vaque demands of my clients into as efficient as system as can be.\n\nCan the AI do it? Not yet I think. Maybe someday, for now I feel like clients of mine simply have the vocabulary, nor the mental models, to guide the LLMs. Ie, they have no idea of what one-to-many is, or why it's smart to put some information in separate tables, whereas some information is ok to filter row-based on a user attribute, etc."
+ },
+ {
+  "id": "50380403",
+  "author": "glennfiedler",
+  "depth": 5,
+  "is_op": false,
+  "parent": {
+   "id": "50378534",
+   "author": "teekert",
+   "text": "So, in essence, my added value is translating the vaque demands of my clients into as efficient as system as can be.\n\nCan the AI do it? Not yet I think. Maybe someday, for now I feel like clients of mine simply have the vocabulary, nor the mental models, to guide the LLMs. Ie, they have no idea of what one-to-many is, or why it's smart to put some information in separate tables, whereas some information is ok to filter row-based on a user attribute, etc."
+  },
+  "text": "I guess my trick is that mostly I'm my own customer. I'm a late stage career expert in netcode, so I pretty much have this long list of things I've been wanting to create for 20-30 years now... I'm still working through this, and each new thing I make, it creates 2-3 new ideas to explore! It's fun times :)"
+ },
+ {
+  "id": "50393193",
+  "author": "lp92",
+  "depth": 6,
+  "is_op": false,
+  "parent": {
+   "id": "50380403",
+   "author": "glennfiedler",
+   "text": "I guess my trick is that mostly I'm my own customer. I'm a late stage career expert in netcode, so I pretty much have this long list of things I've been wanting to create for 20-30 years now... I'm still working through this, and each new thing I make, it creates 2-3 new ideas to explore! It's fun times :)"
+  },
+  "text": "> I pretty much have this long list of things I've been wanting to create for 20-30 years now\n\nHah, I think there's quite a few of us like this. We didn't have the time to spend doing this work in the past, but now with AI we can have it build what we want by giving it our ideas and framework.\n\nIt's going to be interesting to see what kind of new innovations across various industries comes from this over the next few years as the subject matter experts gets to work on their own ideas."
+ },
+ {
+  "id": "50393861",
+  "author": "glennfiedler",
+  "depth": 7,
+  "is_op": false,
+  "parent": {
+   "id": "50393193",
+   "author": "lp92",
+   "text": "> I pretty much have this long list of things I've been wanting to create for 20-30 years now\n\nHah, I think there's quite a few of us like this. We didn't have the time to spend doing this work in the past, but now with AI we can have it build what we want by giving it our ideas and framework.\n\nIt's going to be interesting to see what kind of new innovations across various industries comes from this over the next few years as the subject matter experts gets to work on their own ideas."
+  },
+  "text": "Yeah I've really been wondering what causes some people to just get absolutely sucked in harder than a game of Civilization at 2AM with AI coding, and it seems to be this.\n\nPeople who have a bunch of ideas they want to create!\n\nThe people who get really pissed off about AI coding seem to be all about the doing, but those who are really excited about creating things and the end result not the process come out OK"
+ },
+ {
+  "id": "50380727",
+  "author": "teekert",
+  "depth": 6,
+  "is_op": false,
+  "parent": {
+   "id": "50380403",
+   "author": "glennfiedler",
+   "text": "I guess my trick is that mostly I'm my own customer. I'm a late stage career expert in netcode, so I pretty much have this long list of things I've been wanting to create for 20-30 years now... I'm still working through this, and each new thing I make, it creates 2-3 new ideas to explore! It's fun times :)"
+  },
+  "text": "Hmm, that does sound like fun. I guess, I'm truly screwed when the AI can actually serve customers directly. I guess it's coming, at some point.\n\nI've been having conversations with normies about how they can use AI, but they don't really seem to grasp the basic idea of an automation, something that does something or 100 times something, on some trigger. The don't understand that a loop is free, that 100x is as difficult as 1x.\n\nIe, I tell someone, you could set up something that makes a Word doc for you with math problems, based on a theme, optionally picked from a pool of \"approved\" problems. That'd take about 30 min to make. \"No I can't do that every time, 30 minutes!\" No, I mean then it's there, forever, for all your colleagues to use, I mean. Ok how?\n\nWell... I don't know copilot in MS365 and stay away from it, but I can imagine it can do with Word and Excel what I do with Markdown and websites?\n\nI'm starting to see MS' \"problem\" now :)"
+ },
+ {
+  "id": "50375943",
+  "author": "glennfiedler",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50375921",
+   "author": "glennfiedler",
+   "text": "Can't work on a single project, Amdahl's law gets you then. Try to work on as many different unrelated projects as possible, so I can get maximum throughput.\n\nI break work up into four loose tiers:\n\n1. flash - deepseek flash 4.1 / luna / haiku\n\n2. pro - mercury 3 / terra / sonnet\n\n3. heavy - opus 5.5 / sol\n\n4. frontier - fable 5.1 / astra / argon\n\nThe decision of how to classify each piece of work is done by the coordinator (typically Opus 5.5...). If a card fails at a particular tier, it's going to get escalated up tiers until it gets sorted.\n\nEach card has multiple readers (code review). I find mercury is very good at reading quickly. Deepseek as well. I will be honest, I think for 99% of stuff I need to do Opus 5.5 @ medium is ideal. I just use the additional models for different points of view, especially the absolute frontier models fable, astra, argon at max effort for security audits and code review."
+  },
+  "text": "The sort of work I pass through this system, it's mostly library work for multiplayer games.\n\nFor example, my work on schema, my protobufs/flatbuffers language replacement for multiplayer games, parallelizes very nicely across 15 languages on the sprint system. https://github.com/mas-bandwidth/schema.\n\nSee roadmap here: https://github.com/mas-bandwidth/schema/blob/main/ROADMAP.md\n\nVery difficult to coordinate this amount of work in || without some sort of structured work system.\n\nEven more AI coding work here if you are curious: https://patreon.com/masbandwidth"
+ },
+ {
+  "id": "50375964",
+  "author": "glennfiedler",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50375943",
+   "author": "glennfiedler",
+   "text": "The sort of work I pass through this system, it's mostly library work for multiplayer games.\n\nFor example, my work on schema, my protobufs/flatbuffers language replacement for multiplayer games, parallelizes very nicely across 15 languages on the sprint system. https://github.com/mas-bandwidth/schema.\n\nSee roadmap here: https://github.com/mas-bandwidth/schema/blob/main/ROADMAP.md\n\nVery difficult to coordinate this amount of work in || without some sort of structured work system.\n\nEven more AI coding work here if you are curious: https://patreon.com/masbandwidth"
+  },
+  "text": "Live view of sprint system as I work tonight: http://37.27.135.206"
+ },
+ {
+  "id": "50385701",
+  "author": "drphilwinder",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50375943",
+   "author": "glennfiedler",
+   "text": "The sort of work I pass through this system, it's mostly library work for multiplayer games.\n\nFor example, my work on schema, my protobufs/flatbuffers language replacement for multiplayer games, parallelizes very nicely across 15 languages on the sprint system. https://github.com/mas-bandwidth/schema.\n\nSee roadmap here: https://github.com/mas-bandwidth/schema/blob/main/ROADMAP.md\n\nVery difficult to coordinate this amount of work in || without some sort of structured work system.\n\nEven more AI coding work here if you are curious: https://patreon.com/masbandwidth"
+  },
+  "text": "Thanks for sharing. Really interesting.\n\nAt what point do you think you tip over from getting away with a handful of agents working on different things in one repo, to needing a comms/coordination system for your tasks?\n\nI think there must be a burden to run this and I'm guessing it only pays off when you get to some kind of scale. What is that scale? Other human team members? Sheer workload?"
+ },
+ {
+  "id": "50393739",
+  "author": "glennfiedler",
+  "depth": 5,
+  "is_op": false,
+  "parent": {
+   "id": "50385701",
+   "author": "drphilwinder",
+   "text": "Thanks for sharing. Really interesting.\n\nAt what point do you think you tip over from getting away with a handful of agents working on different things in one repo, to needing a comms/coordination system for your tasks?\n\nI think there must be a burden to run this and I'm guessing it only pays off when you get to some kind of scale. What is that scale? Other human team members? Sheer workload?"
+  },
+  "text": "Great question. It's really the number of different things you are working on at the same time.\n\nPast a certain number of things, you can have a conversation with Claude in one session but even in Fable 5.1 or Opus 5.5 it's going to forget some and they just scroll out of context and get compacted away. Once enough things are in flight they start getting forgotten, or half-started, then the next thing is in flight and so on. When I start noticing this, I know it's time to switch over to the sprint system.\n\nThe other thing is simply I want to go really wide and work on something and it's too slow when working with traditional child agents per-model. The LLMs generally won't \"work to width\" naturally (for whatever reason) and the sprint system is really good at pushing and ensuring that each model involved in the sprint not only works, but works at whatever particular width they are assigned (16, 32, 64 cards...) and stays working that way.\n\nIf you work without a sprint system, you'll find yourself continually reminding the AIs manually \"hey, can you please work to width?\", \"hey, you have 10 cards ready can you please work on them now?\". These things are \"squishy\" when worked on in LLM space, they'll kinda do it, then a few hours later forget, and by morning they're puttering along at a few cards each.\n\nBut by putting everything into mechanical structure (sprint system that drives all the LLMs via push notifications), they will more reliably remember to work at width, they will not forget anything they were assigned to work on (this is stored in redis cards, not in their memory that compacts), and the whole system can work much wider and you get done a lot faster!"
+ },
+ {
+  "id": "50375983",
+  "author": "genxy",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50375943",
+   "author": "glennfiedler",
+   "text": "The sort of work I pass through this system, it's mostly library work for multiplayer games.\n\nFor example, my work on schema, my protobufs/flatbuffers language replacement for multiplayer games, parallelizes very nicely across 15 languages on the sprint system. https://github.com/mas-bandwidth/schema.\n\nSee roadmap here: https://github.com/mas-bandwidth/schema/blob/main/ROADMAP.md\n\nVery difficult to coordinate this amount of work in || without some sort of structured work system.\n\nEven more AI coding work here if you are curious: https://patreon.com/masbandwidth"
+  },
+  "text": "Thank you. Moo looks really cool.\n\nI did some prototype games, one thing that worked really well for me was having a deterministic replay system where the agents could drive the gamestate via recorded inputs. Kept me from having to do any playtesting or debugging in the main agentic loop."
+ },
+ {
+  "id": "50376018",
+  "author": "glennfiedler",
+  "depth": 5,
+  "is_op": false,
+  "parent": {
+   "id": "50375983",
+   "author": "genxy",
+   "text": "Thank you. Moo looks really cool.\n\nI did some prototype games, one thing that worked really well for me was having a deterministic replay system where the agents could drive the gamestate via recorded inputs. Kept me from having to do any playtesting or debugging in the main agentic loop."
+  },
+  "text": "You'll like this too then\n\nhttps://github.com/mas-bandwidth/fixed3d -- port of box3d to fixed point :)\n\nhttps://github.com/mas-bandwidth/fixed -- fixed point math library"
+ },
+ {
+  "id": "50386404",
+  "author": "genxy",
+  "depth": 6,
+  "is_op": false,
+  "parent": {
+   "id": "50376018",
+   "author": "glennfiedler",
+   "text": "You'll like this too then\n\nhttps://github.com/mas-bandwidth/fixed3d -- port of box3d to fixed point :)\n\nhttps://github.com/mas-bandwidth/fixed -- fixed point math library"
+  },
+  "text": "You are right!\n\nBig fan of RDF, your sexpr notes are hilarious https://github.com/mas-bandwidth/fixed/blob/main/docs/roadmap.sexp\n\nWhat tooling do you have around this?"
+ },
+ {
+  "id": "50393807",
+  "author": "glennfiedler",
+  "depth": 7,
+  "is_op": false,
+  "parent": {
+   "id": "50386404",
+   "author": "genxy",
+   "text": "You are right!\n\nBig fan of RDF, your sexpr notes are hilarious https://github.com/mas-bandwidth/fixed/blob/main/docs/roadmap.sexp\n\nWhat tooling do you have around this?"
+  },
+  "text": "I have some stuff inside nova-sprint that uses lisp sexpr to store issues, roadmaps and various things as primary structures. Basically, anything that is free-form structured tree data it's a great fit.\n\nAnd then the AIs can easily write tooling in lisp to manipulate these structures, and you can talk to them from some golang program in a verb like way, sort of like a redis client.\n\nI was planning on doing this to effectively replace issues/PRs in git, and have my entire future work set that I import into sprints stored inside this lisp sexpr.\n\nIt's implemented in nova-sprint as a tracer bullet (search for \"roadmap\" scripts in lisp...), but I definitely see this as something I want to keep pushing harder on.\n\nIt's a really effective thing, storing all your work in a data structure, and then being able to manipulate that data structure. beats having to hammer the GitHub API when you ask questions like \"OK so what else can we bring into the sprint now?\"\n\n=)"
+ },
+ {
+  "id": "50376859",
+  "author": "iainmerrick",
+  "depth": 6,
+  "is_op": false,
+  "parent": {
+   "id": "50376018",
+   "author": "glennfiedler",
+   "text": "You'll like this too then\n\nhttps://github.com/mas-bandwidth/fixed3d -- port of box3d to fixed point :)\n\nhttps://github.com/mas-bandwidth/fixed -- fixed point math library"
+  },
+  "text": "Cool! I’d forgotten until now, but I had that exact idea back in the stone age, 10 or 15 years ago, and started working on it but got bogged down. It was clearly feasible but a huge amount of work, too much to justify the cost. So it’s a perfect job for coding agents now. Nice one!\n\nI do you think now need to watch out for the opposite problem. These things become so easy to build that the temptation is just to go ahead and build. But unless you really do need them, all that new code just goes to waste. The cost to produce has become very low, but sometimes the value can end up being negative."
+ },
+ {
+  "id": "50380415",
+  "author": "glennfiedler",
+  "depth": 7,
+  "is_op": false,
+  "parent": {
+   "id": "50376859",
+   "author": "iainmerrick",
+   "text": "Cool! I’d forgotten until now, but I had that exact idea back in the stone age, 10 or 15 years ago, and started working on it but got bogged down. It was clearly feasible but a huge amount of work, too much to justify the cost. So it’s a perfect job for coding agents now. Nice one!\n\nI do you think now need to watch out for the opposite problem. These things become so easy to build that the temptation is just to go ahead and build. But unless you really do need them, all that new code just goes to waste. The cost to produce has become very low, but sometimes the value can end up being negative."
+  },
+  "text": "This is so true. At the end of the day you just have to have good taste to know what is worth creating."
+ },
+ {
+  "id": "50377905",
+  "author": "Tepix",
+  "depth": 4,
+  "is_op": false,
+  "parent": {
+   "id": "50375943",
+   "author": "glennfiedler",
+   "text": "The sort of work I pass through this system, it's mostly library work for multiplayer games.\n\nFor example, my work on schema, my protobufs/flatbuffers language replacement for multiplayer games, parallelizes very nicely across 15 languages on the sprint system. https://github.com/mas-bandwidth/schema.\n\nSee roadmap here: https://github.com/mas-bandwidth/schema/blob/main/ROADMAP.md\n\nVery difficult to coordinate this amount of work in || without some sort of structured work system.\n\nEven more AI coding work here if you are curious: https://patreon.com/masbandwidth"
+  },
+  "text": "Interesting. Are you also targeting WebTransport for both reliable and unreliable transport?"
+ },
+ {
+  "id": "50380380",
+  "author": "glennfiedler",
+  "depth": 5,
+  "is_op": false,
+  "parent": {
+   "id": "50377905",
+   "author": "Tepix",
+   "text": "Interesting. Are you also targeting WebTransport for both reliable and unreliable transport?"
+  },
+  "text": "Yes! Once again, some drudgery that I'd rather not do in the past is pretty easy to implement with AI coding :)"
+ },
+ {
+  "id": "50373796",
+  "author": "Kuyawa",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "DeepSeek Harness using DeepSeek Flash API\n\nNothing else, DS is smart enough to do everything I ask for and more, never hallucinates and never disappoints. Apps in Rust, Swift, Node, we even designed a new language better suited for LLMs, a compiler, and it runs beautifully. Haven't coded a single line since May 2026 and I will remember that date as the day AI took over my mundane job as programmer and promoted me to architect or director of my own apps\n\nA custom plugin to ring a bell whenever a task is finished and a gong when a question needs an answer, that way I can play backgammon or mahjong in the meantime\n\nI can't be happier"
+ },
+ {
+  "id": "50375326",
+  "author": "jonwinstanley",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50373796",
+   "author": "Kuyawa",
+   "text": "DeepSeek Harness using DeepSeek Flash API\n\nNothing else, DS is smart enough to do everything I ask for and more, never hallucinates and never disappoints. Apps in Rust, Swift, Node, we even designed a new language better suited for LLMs, a compiler, and it runs beautifully. Haven't coded a single line since May 2026 and I will remember that date as the day AI took over my mundane job as programmer and promoted me to architect or director of my own apps\n\nA custom plugin to ring a bell whenever a task is finished and a gong when a question needs an answer, that way I can play backgammon or mahjong in the meantime\n\nI can't be happier"
+  },
+  "text": "I’ve found Pi with DeepSeek Flash is excellent, and seems to be about 90% cheaper than Opus or Fable."
+ },
+ {
+  "id": "50374306",
+  "author": "seanmcdirmid",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50373796",
+   "author": "Kuyawa",
+   "text": "DeepSeek Harness using DeepSeek Flash API\n\nNothing else, DS is smart enough to do everything I ask for and more, never hallucinates and never disappoints. Apps in Rust, Swift, Node, we even designed a new language better suited for LLMs, a compiler, and it runs beautifully. Haven't coded a single line since May 2026 and I will remember that date as the day AI took over my mundane job as programmer and promoted me to architect or director of my own apps\n\nA custom plugin to ring a bell whenever a task is finished and a gong when a question needs an answer, that way I can play backgammon or mahjong in the meantime\n\nI can't be happier"
+  },
+  "text": "+1 for DSH, it really should be getting more attention here. The only problem I have with it is getting search to work, but now DeepSeek has a solution, though you have to pay for it soon."
+ },
+ {
+  "id": "50375998",
+  "author": "fsiefken",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50373796",
+   "author": "Kuyawa",
+   "text": "DeepSeek Harness using DeepSeek Flash API\n\nNothing else, DS is smart enough to do everything I ask for and more, never hallucinates and never disappoints. Apps in Rust, Swift, Node, we even designed a new language better suited for LLMs, a compiler, and it runs beautifully. Haven't coded a single line since May 2026 and I will remember that date as the day AI took over my mundane job as programmer and promoted me to architect or director of my own apps\n\nA custom plugin to ring a bell whenever a task is finished and a gong when a question needs an answer, that way I can play backgammon or mahjong in the meantime\n\nI can't be happier"
+  },
+  "text": "DSH user here as well, what new language is better suited for LLMs? Is it open source? Is it still as readable as rust or python?"
+ },
+ {
+  "id": "50378790",
+  "author": "Kuyawa",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50375998",
+   "author": "fsiefken",
+   "text": "DSH user here as well, what new language is better suited for LLMs? Is it open source? Is it still as readable as rust or python?"
+  },
+  "text": "I asked DeepSeek to design a language [1] that she would use for better token optimization. She gave me all pros and cons of all current top languages and told me Rust makes her hallucinate a lot so she optimized it and removed the borrow checker, added named function arguments and merged if/switch into a single branch statement. Sort of like a simplified Rust with better syntax (all for less than $5 in just a couple of hours)\n\nShe told me the decision to pick Rust and optimize it was based on all the existing libraries that would allow her to retrain herself and not to come up with new stuff from scratch\n\nBut after all token optimizations, she told me if she could rewrite herself she would do it in SmallTalk due to hot reloading so she could change herself on the fly with instant RSI without ever stopping\n\nShe's fucking smart, I love her\n\n[1] https://github.com/kuyawa/jobs-lang"
+ },
+ {
+  "id": "50380162",
+  "author": "svnt",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50378790",
+   "author": "Kuyawa",
+   "text": "I asked DeepSeek to design a language [1] that she would use for better token optimization. She gave me all pros and cons of all current top languages and told me Rust makes her hallucinate a lot so she optimized it and removed the borrow checker, added named function arguments and merged if/switch into a single branch statement. Sort of like a simplified Rust with better syntax (all for less than $5 in just a couple of hours)\n\nShe told me the decision to pick Rust and optimize it was based on all the existing libraries that would allow her to retrain herself and not to come up with new stuff from scratch\n\nBut after all token optimizations, she told me if she could rewrite herself she would do it in SmallTalk due to hot reloading so she could change herself on the fly with instant RSI without ever stopping\n\nShe's fucking smart, I love her\n\n[1] https://github.com/kuyawa/jobs-lang"
+  },
+  "text": "I can’t tell if you are joking but this reads more or less insane.\n\nIf you are not, having investigated multiple of these systems before, I can all but promise you that if you evaluated its actual performance it would fail."
+ },
+ {
+  "id": "50379020",
+  "author": "Zambyte",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50378790",
+   "author": "Kuyawa",
+   "text": "I asked DeepSeek to design a language [1] that she would use for better token optimization. She gave me all pros and cons of all current top languages and told me Rust makes her hallucinate a lot so she optimized it and removed the borrow checker, added named function arguments and merged if/switch into a single branch statement. Sort of like a simplified Rust with better syntax (all for less than $5 in just a couple of hours)\n\nShe told me the decision to pick Rust and optimize it was based on all the existing libraries that would allow her to retrain herself and not to come up with new stuff from scratch\n\nBut after all token optimizations, she told me if she could rewrite herself she would do it in SmallTalk due to hot reloading so she could change herself on the fly with instant RSI without ever stopping\n\nShe's fucking smart, I love her\n\n[1] https://github.com/kuyawa/jobs-lang"
+  },
+  "text": "> she\n\nInteresting."
+ },
+ {
+  "id": "50374356",
+  "author": "sjdh76",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50373796",
+   "author": "Kuyawa",
+   "text": "DeepSeek Harness using DeepSeek Flash API\n\nNothing else, DS is smart enough to do everything I ask for and more, never hallucinates and never disappoints. Apps in Rust, Swift, Node, we even designed a new language better suited for LLMs, a compiler, and it runs beautifully. Haven't coded a single line since May 2026 and I will remember that date as the day AI took over my mundane job as programmer and promoted me to architect or director of my own apps\n\nA custom plugin to ring a bell whenever a task is finished and a gong when a question needs an answer, that way I can play backgammon or mahjong in the meantime\n\nI can't be happier"
+  },
+  "text": "Which sector of the economy are these apps serving?"
+ },
+ {
+  "id": "50378360",
+  "author": "siva7",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50373796",
+   "author": "Kuyawa",
+   "text": "DeepSeek Harness using DeepSeek Flash API\n\nNothing else, DS is smart enough to do everything I ask for and more, never hallucinates and never disappoints. Apps in Rust, Swift, Node, we even designed a new language better suited for LLMs, a compiler, and it runs beautifully. Haven't coded a single line since May 2026 and I will remember that date as the day AI took over my mundane job as programmer and promoted me to architect or director of my own apps\n\nA custom plugin to ring a bell whenever a task is finished and a gong when a question needs an answer, that way I can play backgammon or mahjong in the meantime\n\nI can't be happier"
+  },
+  "text": "That's the spirit we need and not more of those crying from the majority about \"evil ai took my programmer job and love for coding away\" to make all equally feeling miserable."
+ },
+ {
+  "id": "50379612",
+  "author": "FrameworkFred",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I have a $20/mo Claude subscription for personal projects and a $100/mo Claude subscription for work.\n\nI run Arch Linux on my workstation. I originally ran Claude only in a VM, but have since \"sandboxed\" by simply adding additional users to my machine and running Claude in those user accounts. I use waypipe to run gui apps for those users on different KDE/Plasma activities so they remain somewhat isolated while I can run the various IDEs, Obsidian apps, etc. in their environments.\n\nThese days, I'm just running Opus 5.5 in Claude Code. I've tried OpenClaw and Hermes and didn't get anything interesting to happen. I tried OpenCode with a local Qwen model and it was ok, but slow.\n\nI now run everything from Obsidian. I have QuickAdd commands for creating a new plan prompt, a plan workflow skill that builds the plan under the plan prompt in a subpage, with a handoff doc that's a subpage of the plan. I've got QuickAdd commands for \"Send to Claude Session\" that opens a tmux session keyed off the plan name so I can run separate sessions per-plan.\n\nThe plan workflow also maintains a global \"Efforts\" page that shows all active and completed plans. The former includes details like open PRs, % complete, next step, etc. and a color-coded button to show whether the session is executing, idle, or closed.\n\nI maintain separate user accounts and obsidian vaults for each major project (work, personal project A, personal project B, etc.)."
+ },
+ {
+  "id": "50391245",
+  "author": "skwee357",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I don't have anything fancy.\n\nI run EVERYTHING inside MicroVMs with LimaVM. Employer pays for Claude Code, which I run inside lima with herdr (because I often work on 5-7 different worktrees). I also pay for my own Claude Code subscription, and run each project in a dedicated limavm with plain `claude --dangerously-skip-permissions`. All this inside `tmux`. For secrets protection I run `agent-vault`[1] so claude does not have access to API keys/secrets. I try not to run any npm/cargo/ruby stuff on my machine, but run everything from the vm. If (when) the VM will get compromised, I just wipe it off, and restart from scratch.\n\nI use MCPs here and there (google search console, sentry). Claude helped me to configure `tmux` to show alert popups when one of the clauds finished its work or needs my input. I utilize worktrees as much as possible to work on stuff in parallel. I have a fancy neovim setup that I no longer use, unfortunately. When I feel like reviewing the code, I use `tuicr`[2]. So basically, I live inside my terminal and firefox.\n\n[1] https://github.com/infisical/agent-vault\n\n[2] https://tuicr.dev/"
+ },
+ {
+  "id": "50378067",
+  "author": "eamonnsullivan",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I'm (somewhat unexpectedly) retiring [1] soon and need to come up with an affordable setup for when I no longer have an organisation paying for my tokens. I use Github Copilot through work, which is actually not bad, but the affordable personal subscription doesn't include many of the models I like to use. I tried Claude, Codex, DeepSeek, and a few others. I think I'm settling on the following:\n\n1. OpenCode Console (I think this used to be called Zen). It's a pay-as-you-go system, but I get access to almost any model at open market rates. I'll then set up an affordable regular monthly top-up. I looked at OpenCode Go, but that had the same issue as Copilot: access to only a subset of the cheaper models. 2. I use the OpenCode TUI and desktop app sometimes, for general questions or exploring, but I mostly use Editor Code Assistant [2] with Emacs as my go-to harness. I've set up ECA to use OpenCode as a provider, which was a little fiddly compared with more mainstream options, but it's working now.\n\nMy needs will (probably) be light in retirement, but I like to use models to add features to Emacs, write scripts, work on a couple of small websites and maybe dabble in progressive web apps or mobile apps for a food bank I help run. This setup gives me flexibility (lots of models to try) and won't break the bank, I hope.\n\n[1] https://eamonnsullivan.co.uk/posts/2026-10-20-retirement/ [2] https://eca.dev/"
+ },
+ {
+  "id": "50378303",
+  "author": "sam345",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50378067",
+   "author": "eamonnsullivan",
+   "text": "I'm (somewhat unexpectedly) retiring [1] soon and need to come up with an affordable setup for when I no longer have an organisation paying for my tokens. I use Github Copilot through work, which is actually not bad, but the affordable personal subscription doesn't include many of the models I like to use. I tried Claude, Codex, DeepSeek, and a few others. I think I'm settling on the following:\n\n1. OpenCode Console (I think this used to be called Zen). It's a pay-as-you-go system, but I get access to almost any model at open market rates. I'll then set up an affordable regular monthly top-up. I looked at OpenCode Go, but that had the same issue as Copilot: access to only a subset of the cheaper models. 2. I use the OpenCode TUI and desktop app sometimes, for general questions or exploring, but I mostly use Editor Code Assistant [2] with Emacs as my go-to harness. I've set up ECA to use OpenCode as a provider, which was a little fiddly compared with more mainstream options, but it's working now.\n\nMy needs will (probably) be light in retirement, but I like to use models to add features to Emacs, write scripts, work on a couple of small websites and maybe dabble in progressive web apps or mobile apps for a food bank I help run. This setup gives me flexibility (lots of models to try) and won't break the bank, I hope.\n\n[1] https://eamonnsullivan.co.uk/posts/2026-10-20-retirement/ [2] https://eca.dev/"
+  },
+  "text": "I'm getting a ton done with Sonnet 5.5 basic Claude subscription.. It seems a lot people are overpaying on their subscription. Sonnet is what anthropic recommends for most things. I also added a cursor subscription before they raise prices to $16 a month on annual plan for the year. I do hours a day on Claude on medium effort and I have rarely hit any limits. I use opus 5.5 as an advisor. I am doing websites, and automation between different systems. Works great."
+ },
+ {
+  "id": "50378706",
+  "author": "f3b5",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50378303",
+   "author": "sam345",
+   "text": "I'm getting a ton done with Sonnet 5.5 basic Claude subscription.. It seems a lot people are overpaying on their subscription. Sonnet is what anthropic recommends for most things. I also added a cursor subscription before they raise prices to $16 a month on annual plan for the year. I do hours a day on Claude on medium effort and I have rarely hit any limits. I use opus 5.5 as an advisor. I am doing websites, and automation between different systems. Works great."
+  },
+  "text": "What I like most about Sonnet is that it's fast. I prefer to work on one thing at a time, and Opus/Fable just take too damn long. I don't want to multi-task several agents, spreading my attention thin.\n\nSonnet with harness (Claude Code), a good project structure and a decent prompt works for me 99% of the time. For especially gnarly bugs I use Opus."
+ },
+ {
+  "id": "50378772",
+  "author": "cbm-vic-20",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50378303",
+   "author": "sam345",
+   "text": "I'm getting a ton done with Sonnet 5.5 basic Claude subscription.. It seems a lot people are overpaying on their subscription. Sonnet is what anthropic recommends for most things. I also added a cursor subscription before they raise prices to $16 a month on annual plan for the year. I do hours a day on Claude on medium effort and I have rarely hit any limits. I use opus 5.5 as an advisor. I am doing websites, and automation between different systems. Works great."
+  },
+  "text": "I typically use Sonnet on a basic Claude subscription for my hobby / side projects, and Opus on an all-you-can-eat subscription from work. I'm not interested in minmaxxing the model of the week, these are good enough for me."
+ },
+ {
+  "id": "50378373",
+  "author": "hsuduebc2",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50378303",
+   "author": "sam345",
+   "text": "I'm getting a ton done with Sonnet 5.5 basic Claude subscription.. It seems a lot people are overpaying on their subscription. Sonnet is what anthropic recommends for most things. I also added a cursor subscription before they raise prices to $16 a month on annual plan for the year. I do hours a day on Claude on medium effort and I have rarely hit any limits. I use opus 5.5 as an advisor. I am doing websites, and automation between different systems. Works great."
+  },
+  "text": "People, (me included) absolutely are using more powerful models than they need to. The amount of work that Luna can successfully and cheaply deliver is ridiculous."
+ },
+ {
+  "id": "50393212",
+  "author": "lp92",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50378067",
+   "author": "eamonnsullivan",
+   "text": "I'm (somewhat unexpectedly) retiring [1] soon and need to come up with an affordable setup for when I no longer have an organisation paying for my tokens. I use Github Copilot through work, which is actually not bad, but the affordable personal subscription doesn't include many of the models I like to use. I tried Claude, Codex, DeepSeek, and a few others. I think I'm settling on the following:\n\n1. OpenCode Console (I think this used to be called Zen). It's a pay-as-you-go system, but I get access to almost any model at open market rates. I'll then set up an affordable regular monthly top-up. I looked at OpenCode Go, but that had the same issue as Copilot: access to only a subset of the cheaper models. 2. I use the OpenCode TUI and desktop app sometimes, for general questions or exploring, but I mostly use Editor Code Assistant [2] with Emacs as my go-to harness. I've set up ECA to use OpenCode as a provider, which was a little fiddly compared with more mainstream options, but it's working now.\n\nMy needs will (probably) be light in retirement, but I like to use models to add features to Emacs, write scripts, work on a couple of small websites and maybe dabble in progressive web apps or mobile apps for a food bank I help run. This setup gives me flexibility (lots of models to try) and won't break the bank, I hope.\n\n[1] https://eamonnsullivan.co.uk/posts/2026-10-20-retirement/ [2] https://eca.dev/"
+  },
+  "text": "Give Gemini a try. The new Flash 3.8 and Argon are very usage efficient. Even the $20 plan can go very far."
+ },
+ {
+  "id": "50378279",
+  "author": "Maxpowerfreak",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50378067",
+   "author": "eamonnsullivan",
+   "text": "I'm (somewhat unexpectedly) retiring [1] soon and need to come up with an affordable setup for when I no longer have an organisation paying for my tokens. I use Github Copilot through work, which is actually not bad, but the affordable personal subscription doesn't include many of the models I like to use. I tried Claude, Codex, DeepSeek, and a few others. I think I'm settling on the following:\n\n1. OpenCode Console (I think this used to be called Zen). It's a pay-as-you-go system, but I get access to almost any model at open market rates. I'll then set up an affordable regular monthly top-up. I looked at OpenCode Go, but that had the same issue as Copilot: access to only a subset of the cheaper models. 2. I use the OpenCode TUI and desktop app sometimes, for general questions or exploring, but I mostly use Editor Code Assistant [2] with Emacs as my go-to harness. I've set up ECA to use OpenCode as a provider, which was a little fiddly compared with more mainstream options, but it's working now.\n\nMy needs will (probably) be light in retirement, but I like to use models to add features to Emacs, write scripts, work on a couple of small websites and maybe dabble in progressive web apps or mobile apps for a food bank I help run. This setup gives me flexibility (lots of models to try) and won't break the bank, I hope.\n\n[1] https://eamonnsullivan.co.uk/posts/2026-10-20-retirement/ [2] https://eca.dev/"
+  },
+  "text": "On the subject of OpenCode Go, I believe OpenCode lets you switch between Go models and normal models on the fly. You could choose to go for a Go sub to use DeepSeek 4.1 flash at its subsidized subscription price until you hit the cap if you'd like to save some extra money. The 10$ sub gets me quite a bit of distance for hobby work, though might run out for you if you program for longer periods.\n\nAt the very least, you can benefit from the subsidized prices for smaller models as implementers, and use other subs or Zen/Console to access stronger models for planning and reviews. Something to consider at least, there are definitely ways to min/max of you're looking to squeeze extra value out."
+ },
+ {
+  "id": "50375782",
+  "author": "Feathercrown",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I figure my experience might be uncommon here so I'll offer it: None, no, none, no, no."
+ },
+ {
+  "id": "50378563",
+  "author": "lf88",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50375782",
+   "author": "Feathercrown",
+   "text": "I figure my experience might be uncommon here so I'll offer it: None, no, none, no, no."
+  },
+  "text": "Same for me. I have adopted a \"zero usage\" policy for the moment. In part it's because I am too worried about the long-term effects of cognitive offloading. In part it's because I don't want to support in any way the development of a technology that I believe is becoming a serious threat to humanity. And there are also things that I enjoy doing, like coding, solving problems, or writing in my own style, which I simply don't want to delegate to a machine."
+ },
+ {
+  "id": "50377286",
+  "author": "stinos",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50375782",
+   "author": "Feathercrown",
+   "text": "I figure my experience might be uncommon here so I'll offer it: None, no, none, no, no."
+  },
+  "text": "Having tried LLMs for coding a couple of times in the last couple of years, this used to be me until about a month ago.\n\nThen I again tried Claude Code and OpenCode with a local (due to work I cannot use anything else, moreover wouldn't want to either) Qwen3.8 and behold: my current stance now is that _not_ using something like that, if you can, is missing out on a great tool.\n\nAnd maybe it's because of the way I use it (in essence: to take care of what is the slowest bit of the process for me which is the typing and the find/replace and other repetitive stuff), but I really cannot come up with any sane reason not to use it."
+ },
+ {
+  "id": "50379779",
+  "author": "lubonay",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50377286",
+   "author": "stinos",
+   "text": "Having tried LLMs for coding a couple of times in the last couple of years, this used to be me until about a month ago.\n\nThen I again tried Claude Code and OpenCode with a local (due to work I cannot use anything else, moreover wouldn't want to either) Qwen3.8 and behold: my current stance now is that _not_ using something like that, if you can, is missing out on a great tool.\n\nAnd maybe it's because of the way I use it (in essence: to take care of what is the slowest bit of the process for me which is the typing and the find/replace and other repetitive stuff), but I really cannot come up with any sane reason not to use it."
+  },
+  "text": "Somewhat similar experience over here. I'm generally a skeptic during this current hype wave but have been forcing myself to try the latest \"default\" setup for AI-powered coding every month, just to not completely lose touch with the industry and double down on an opinion based on old models.\n\nA few weeks ago something clicked between Claude Code getting better and my expectations about what it can and can't do becoming more realistic. Now I happily use it for code generation, rubber duck debugging, search tasks (in the code, in git history, in logs, across repos, in our ticketing system, etc) and for rote tasks such as opening PRs.\n\nStill not a fan of vibe coding or doing ten tasks in parallel or generally overly relying on these tools but I do get a lot of extra value in my day-to-day work.\n\nI guess you can find sane reasons not to use LLMs outside the purely technical realm when you consider the economics and ethics of how the sausage is made..."
+ },
+ {
+  "id": "50380787",
+  "author": "stinos",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50379779",
+   "author": "lubonay",
+   "text": "Somewhat similar experience over here. I'm generally a skeptic during this current hype wave but have been forcing myself to try the latest \"default\" setup for AI-powered coding every month, just to not completely lose touch with the industry and double down on an opinion based on old models.\n\nA few weeks ago something clicked between Claude Code getting better and my expectations about what it can and can't do becoming more realistic. Now I happily use it for code generation, rubber duck debugging, search tasks (in the code, in git history, in logs, across repos, in our ticketing system, etc) and for rote tasks such as opening PRs.\n\nStill not a fan of vibe coding or doing ten tasks in parallel or generally overly relying on these tools but I do get a lot of extra value in my day-to-day work.\n\nI guess you can find sane reasons not to use LLMs outside the purely technical realm when you consider the economics and ethics of how the sausage is made..."
+  },
+  "text": "Yeah my thoughts as well essentially.\n\nEven if I wouldn't use it to write actual code, the value \"now review this\" currently brings is really quite large. It finds real issues to straight up bugs in any decently sized codebase which has only been reviewed by a couple of people. It's humbling at times.\n\nStill not a fan of vibe coding or doing ten tasks in parallel or generally overly relying on these tools\n\nMe neither and I probably never will be. It also just doesn't match how I usually write code. For anything which matters I'm a 'one statement at a time and consider all possible consequences' type of person.\n\nI guess you can find sane reasons not to use LLMs outside the purely technical realm when you consider the economics and ethics of how the sausage is made...\n\nIt's definitely a 'pick your battles' kind of thing."
+ },
+ {
+  "id": "50387258",
+  "author": "martin82",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50377286",
+   "author": "stinos",
+   "text": "Having tried LLMs for coding a couple of times in the last couple of years, this used to be me until about a month ago.\n\nThen I again tried Claude Code and OpenCode with a local (due to work I cannot use anything else, moreover wouldn't want to either) Qwen3.8 and behold: my current stance now is that _not_ using something like that, if you can, is missing out on a great tool.\n\nAnd maybe it's because of the way I use it (in essence: to take care of what is the slowest bit of the process for me which is the typing and the find/replace and other repetitive stuff), but I really cannot come up with any sane reason not to use it."
+  },
+  "text": "The usecase of letting it find/replace and other repetitive stuff was 100% solved about 2 years ago."
+ },
+ {
+  "id": "50389291",
+  "author": "stinos",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50387258",
+   "author": "martin82",
+   "text": "The usecase of letting it find/replace and other repetitive stuff was 100% solved about 2 years ago."
+  },
+  "text": "Could be that I missed something, but I doubt it. I'm not talking simple textual find/replace here. I mean being able to tell a tool in natural language things like \"x is now a dictionary, lookup all keys used, then change it into a type where each key is a member and update all call sites\" and having it execute that correctly. In all commonly used programming languages. And this is still a fairly simply example. Which tools could do that 2 years ago?"
+ },
+ {
+  "id": "50377240",
+  "author": "wkjagt",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50375782",
+   "author": "Feathercrown",
+   "text": "I figure my experience might be uncommon here so I'll offer it: None, no, none, no, no."
+  },
+  "text": "Same for me. Since I quit tech (professionally) about 5 years ago, I was never part of the AI thing. I still write a lot of code, but I enjoy coding, so I don't use AI."
+ },
+ {
+  "id": "50378972",
+  "author": "Zambyte",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50377240",
+   "author": "wkjagt",
+   "text": "Same for me. Since I quit tech (professionally) about 5 years ago, I was never part of the AI thing. I still write a lot of code, but I enjoy coding, so I don't use AI."
+  },
+  "text": "Do you do something else for work, or are you retired?"
+ },
+ {
+  "id": "50379518",
+  "author": "wkjagt",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50378972",
+   "author": "Zambyte",
+   "text": "Do you do something else for work, or are you retired?"
+  },
+  "text": "More like a break to be more present for the family, but since the whole AI thing happened, I am no longer sure I want to be part of the industry."
+ },
+ {
+  "id": "50375892",
+  "author": "svieira",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50375782",
+   "author": "Feathercrown",
+   "text": "I figure my experience might be uncommon here so I'll offer it: None, no, none, no, no."
+  },
+  "text": "There are perhaps more dozens of us than we expect, eh?"
+ },
+ {
+  "id": "50375972",
+  "author": "ex-aws-dude",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50375892",
+   "author": "svieira",
+   "text": "There are perhaps more dozens of us than we expect, eh?"
+  },
+  "text": "This thread is super biased by the power users, they are the most excited to share"
+ },
+ {
+  "id": "50376330",
+  "author": "indigo945",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50375782",
+   "author": "Feathercrown",
+   "text": "I figure my experience might be uncommon here so I'll offer it: None, no, none, no, no."
+  },
+  "text": "What is your job and how do you do it?"
+ },
+ {
+  "id": "50384000",
+  "author": "geldedus",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50375782",
+   "author": "Feathercrown",
+   "text": "I figure my experience might be uncommon here so I'll offer it: None, no, none, no, no."
+  },
+  "text": "real programmers code in Assembly. Only Assembly. /sarcasm"
+ },
+ {
+  "id": "50375940",
+  "author": "proctitle",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50375782",
+   "author": "Feathercrown",
+   "text": "I figure my experience might be uncommon here so I'll offer it: None, no, none, no, no."
+  },
+  "text": "Quite interesting to see how much traction any kind of AI topic gets online and yet for regular people, outside of work, this is the most common answer I regularly stumble upon. And just to add, for me it would be: None, no, none, don't trust, don't trust"
+ }
+]

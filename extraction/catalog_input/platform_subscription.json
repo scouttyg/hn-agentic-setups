@@ -1,0 +1,870 @@
+[
+ {
+  "name": "Claude",
+  "count": 239,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376720",
+    "evidence": "I'm currently stalled signing up for Claude",
+    "detail": "signing up stalled"
+   },
+   {
+    "comment_id": "50392572",
+    "evidence": "Been using Claude since day one",
+    "detail": "Opus 5.5"
+   },
+   {
+    "comment_id": "50378628",
+    "evidence": "Opus 5.5 is already able to solve everything I'm doing",
+    "detail": "Opus 5.5 (main), Sonnet 5.5 and Fable benchmarked"
+   },
+   {
+    "comment_id": "50380023",
+    "evidence": "Fable has delivered improved results for me in data analysis",
+    "detail": "Opus for coding, Fable for data analysis"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/common-pattern/claudeflow"
+  ]
+ },
+ {
+  "name": "ChatGPT / Codex",
+  "count": 143,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50392572",
+    "evidence": "plug my Pi set up into an OpenAI subscription",
+    "detail": "plugged into Pi"
+   },
+   {
+    "comment_id": "50376993",
+    "evidence": "I use zero openai or anthropic products myself",
+    "detail": "avoids all OpenAI products"
+   },
+   {
+    "comment_id": "50378856",
+    "evidence": "Codex $20/mo (reviewer)",
+    "detail": "$20/mo, reviewer"
+   },
+   {
+    "comment_id": "50395602",
+    "evidence": "Paying for both OpenAI's + Anthropic's $200/mo plans",
+    "detail": "$200/mo"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "DeepSeek",
+  "count": 76,
+  "categories": [
+   "api_or_model",
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50384114",
+    "evidence": "i find ds4.1 flash still on the high side",
+    "detail": "ds4.1 flash"
+   },
+   {
+    "comment_id": "50378856",
+    "evidence": "Deepseek $1-3/day workhorse",
+    "detail": "$1-3/day, workhorse and orchestrator"
+   },
+   {
+    "comment_id": "50375606",
+    "evidence": "API rate deepseek 4.1 flash",
+    "detail": "4.1 flash at API rates"
+   },
+   {
+    "comment_id": "50375921",
+    "evidence": "flash - deepseek flash 4.1",
+    "detail": "flash tier, code reading"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "OpenCode Go/Zen",
+  "count": 34,
+  "categories": [
+   "api_or_model",
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50381117",
+    "evidence": "it cost me 7% of my $10 opencode go sub",
+    "detail": "$10 Go plan; DeepSeek 4.1 Flash"
+   },
+   {
+    "comment_id": "50378067",
+    "evidence": "OpenCode Console (I think this used to be called Zen)",
+    "detail": "OpenCode Console (Zen) pay-as-you-go with monthly top-up; Go rejected"
+   },
+   {
+    "comment_id": "50378279",
+    "evidence": "The 10$ sub gets me quite a bit of distance for hobby work",
+    "detail": "$10 Go sub, hobby work"
+   },
+   {
+    "comment_id": "50381494",
+    "evidence": "For my models I use opencode go",
+    "detail": "OpenCode Go, $10/mo, GLM and DeepSeek"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Custom assistant",
+  "count": 34,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380777",
+    "evidence": "So mine runs every morning to read the news and do analaysis",
+    "detail": "simulated stock portfolio agent"
+   },
+   {
+    "comment_id": "50383211",
+    "evidence": "stonker = my bot",
+    "detail": "stonker stock sim bot"
+   },
+   {
+    "comment_id": "50378847",
+    "evidence": "I start sessions from cron",
+    "detail": "agent sessions started from cron"
+   },
+   {
+    "comment_id": "50367423",
+    "evidence": "I use a custom Daemon.",
+    "detail": "custom daemon"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "OpenClaw",
+  "count": 28,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50395602",
+    "evidence": "OpenClaw but mostly retired it",
+    "detail": "mostly retired"
+   },
+   {
+    "comment_id": "50379612",
+    "evidence": "I've tried OpenClaw and Hermes",
+    "detail": ""
+   },
+   {
+    "comment_id": "50380973",
+    "evidence": "setting up a crazy openClaw rig",
+    "detail": ""
+   },
+   {
+    "comment_id": "50374261",
+    "evidence": "OpenClaw, Claude, codex",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Gemini",
+  "count": 26,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374261",
+    "evidence": "Google Ultra $100/month",
+    "detail": "Google Ultra $100/month (Antigravity), mostly Gemini Flash"
+   },
+   {
+    "comment_id": "50376352",
+    "evidence": "plus Google AI as it",
+    "detail": "Google AI included in business plan"
+   },
+   {
+    "comment_id": "50377263",
+    "evidence": "I don't use Gemini.",
+    "detail": ""
+   },
+   {
+    "comment_id": "50384963",
+    "evidence": "1x gemini",
+    "detail": "1 subscription"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Grok bot",
+  "count": 16,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367582",
+    "evidence": "Grok Bot for running experiments with supplements",
+    "detail": ""
+   },
+   {
+    "comment_id": "50391332",
+    "evidence": "Grok bot had a deal on",
+    "detail": ""
+   },
+   {
+    "comment_id": "50377290",
+    "evidence": "Hermes + Grok Bot",
+    "detail": ""
+   },
+   {
+    "comment_id": "50377557",
+    "evidence": "I have used Grok Bot and I really like it.",
+    "detail": "personal assistant"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Kimi",
+  "count": 12,
+  "categories": [
+   "api_or_model",
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376357",
+    "evidence": "GLM, Kimi and DeepSeek are the main models",
+    "detail": "via OpenRouter"
+   },
+   {
+    "comment_id": "50377579",
+    "evidence": "Kimi top tier",
+    "detail": "top tier"
+   },
+   {
+    "comment_id": "50385740",
+    "evidence": "I'm taking it for a spin",
+    "detail": "3.1 Pro via Venice, trying"
+   },
+   {
+    "comment_id": "50380818",
+    "evidence": "claude and kimi is for long work related",
+    "detail": "for long work tasks"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Z.ai (GLM)",
+  "count": 12,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385925",
+    "evidence": "I also have z.ai coding subscription",
+    "detail": "coding subscription, moving away"
+   },
+   {
+    "comment_id": "50377579",
+    "evidence": "GLM top tier",
+    "detail": "top tier, fallback"
+   },
+   {
+    "comment_id": "50374094",
+    "evidence": "I pay Z.ai a lite sub which costs me ~9USD/month",
+    "detail": "Lite (~$9/mo), glm-5.3-flash"
+   },
+   {
+    "comment_id": "50375856",
+    "evidence": "a light Z.ai subscription",
+    "detail": "light plan"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Dots",
+  "count": 11,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374498",
+    "evidence": "I played around with dots",
+    "detail": ""
+   },
+   {
+    "comment_id": "50377705",
+    "evidence": "just OpenAI's dot",
+    "detail": "OpenAI's dot"
+   },
+   {
+    "comment_id": "50373649",
+    "evidence": "dots, It's kind of like a project manager for the side hustle",
+    "detail": "project manager for side hustle"
+   },
+   {
+    "comment_id": "50376908",
+    "evidence": "I'm using Dot, and I find it helpful as a workload dispatcher",
+    "detail": "workload dispatcher"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Ollama Cloud",
+  "count": 6,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376262",
+    "evidence": "it's insanely cheap on ollama.com",
+    "detail": "DeepSeek on ollama.com"
+   },
+   {
+    "comment_id": "50376782",
+    "evidence": "Ollama Cloud subscription to access (mostly) GLM",
+    "detail": "mostly GLM"
+   },
+   {
+    "comment_id": "50380092",
+    "evidence": "Ollama (Max)",
+    "detail": "Max"
+   },
+   {
+    "comment_id": "50376733",
+    "evidence": "ollama pro",
+    "detail": "Pro"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Melious",
+  "count": 5,
+  "categories": [
+   "api_or_model",
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376087",
+    "evidence": "I pay per token, using an EU hosting provider (melious.ai).",
+    "detail": "EU pay-per-token provider"
+   },
+   {
+    "comment_id": "50376642",
+    "evidence": "I switched to them, no issues so far.",
+    "detail": "DeepSeek"
+   },
+   {
+    "comment_id": "50376370",
+    "evidence": "I use Melious as well",
+    "detail": ""
+   },
+   {
+    "comment_id": "50376398",
+    "evidence": "will give it a try",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": [
+   "https://melious.ai"
+  ]
+ },
+ {
+  "name": "Mistral",
+  "count": 5,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367557",
+    "evidence": "I used to have two Mistral subscriptions",
+    "detail": "two subscriptions"
+   },
+   {
+    "comment_id": "50377144",
+    "evidence": "Currentrly on paid plan of Mistral",
+    "detail": "paid plan"
+   },
+   {
+    "comment_id": "50380252",
+    "evidence": "using mistral pro $14.99 /mo paid by myself",
+    "detail": "Pro $14.99/mo for hosted GLM5.3"
+   },
+   {
+    "comment_id": "50367326",
+    "evidence": "Mistral Pro",
+    "detail": "Pro"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Perplexity",
+  "count": 5,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374449",
+    "evidence": "I evaluated using Perplexity Pro for a while",
+    "detail": "Pro, evaluated a few months"
+   },
+   {
+    "comment_id": "50380640",
+    "evidence": "Perplexity Pro $17/month",
+    "detail": "Pro $17/month"
+   },
+   {
+    "comment_id": "50385840",
+    "evidence": "You're not the only one using Perplexity Pro at $17 per month",
+    "detail": "Pro $17/month"
+   },
+   {
+    "comment_id": "50376601",
+    "evidence": "I absolutely love Perplexity",
+    "detail": "incl. Perplexity Computer"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Instinct",
+  "count": 4,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50391332",
+    "evidence": "I use free instinct bot too",
+    "detail": "free"
+   },
+   {
+    "comment_id": "50377888",
+    "evidence": "instinct: super simple tasks",
+    "detail": "simple tasks"
+   },
+   {
+    "comment_id": "50376760",
+    "evidence": "Dots and Instinct",
+    "detail": "research, code search, PR reviews"
+   },
+   {
+    "comment_id": "50379119",
+    "evidence": "Instinct because imessage makes it easy on the go",
+    "detail": "via iMessage on the go"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "NanoClaw",
+  "count": 2,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385925",
+    "evidence": "I do have a nanoclaw setup a while ago",
+    "detail": "set up a while ago, porting to Pi"
+   },
+   {
+    "comment_id": "50379312",
+    "evidence": "Tried NanoClaw",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Duet",
+  "count": 2,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379016",
+    "evidence": "Waiting on a Duet invitation",
+    "detail": "waiting on invitation"
+   },
+   {
+    "comment_id": "50367272",
+    "evidence": "I currently use Dots and Duet for little things",
+    "detail": "monitoring communications"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "OpenBot",
+  "count": 2,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373129",
+    "evidence": "my attempt to create an open-source tool similar to Grok Bot",
+    "detail": "own open-source Grok Bot alternative"
+   },
+   {
+    "comment_id": "50377597",
+    "evidence": "Made a OpenBot fork mainly as \"captains\" to control my t3 threads",
+    "detail": "fork as captains controlling T3 threads"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/regnull/openbot"
+  ]
+ },
+ {
+  "name": "Osaurus",
+  "count": 1,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374298",
+    "evidence": "I did some experiments with Osaurus",
+    "detail": "experiments"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Letta",
+  "count": 1,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367423",
+    "evidence": "I tried OpenClaw and Letta",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Rakazo",
+  "count": 1,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367582",
+    "evidence": "Just gave Rakazo a try yesterday",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Command Code",
+  "count": 1,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385108",
+    "evidence": "I use OpenCode Go and Command Code GOAT",
+    "detail": "GOAT"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Agenta",
+  "count": 1,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378890",
+    "evidence": "I mainly use Agenta",
+    "detail": "own product"
+   }
+  ],
+  "urls_in_comments": [
+   "https://agenta.ai",
+   "https://github.com/agenta-ai/agenta"
+  ]
+ },
+ {
+  "name": "Kagi",
+  "count": 1,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374449",
+    "evidence": "1) Kagi Ultimate.",
+    "detail": "Ultimate, search only"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Nous Research",
+  "count": 1,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380232",
+    "evidence": "I pay $20/month for Nous model access",
+    "detail": "$20/month model access"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Claude Cowork",
+  "count": 1,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377705",
+    "evidence": "ported my work to Claude Cowork",
+    "detail": "ported OpenClaw work there"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Other providers",
+  "count": 1,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378434",
+    "evidence": "I also have subs to all other models as well. Cheaper tiers.",
+    "detail": "cheaper tiers of all other models"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Pickle",
+  "count": 1,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379119",
+    "evidence": "Dots and Pickle to call while driving",
+    "detail": "call while driving"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Meta AI",
+  "count": 1,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380473",
+    "evidence": "I use meta ai pro subscription.",
+    "detail": "Pro"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "OpenSWE",
+  "count": 1,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376348",
+    "evidence": "We have an OpenSWE agent on Slack at work but it seems horribly expensive and slow",
+    "detail": "Slack agent at work, expensive and slow"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Xiaomi MiMo",
+  "count": 1,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374722",
+    "evidence": "Xiaomi Mimo Pro",
+    "detail": "Pro"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Charm Hyper",
+  "count": 1,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50383038",
+    "evidence": "$10 subscriptions through Charm Hyper and Synthetic",
+    "detail": "$10"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Synthetic",
+  "count": 1,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50383038",
+    "evidence": "$10 subscriptions through Charm Hyper and Synthetic",
+    "detail": "$10"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Comet",
+  "count": 1,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376601",
+    "evidence": "I can't live without Comet anymore",
+    "detail": "agentic web browsing"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "NBClaw",
+  "count": 1,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376601",
+    "evidence": "As for an OpenClaw-like tool, I'm using NBClaw",
+    "detail": "OpenClaw-like, via Signal; used less now"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "exe.dev",
+  "count": 1,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376381",
+    "evidence": "Personal exe.dev subscription.",
+    "detail": "personal"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Claude Desktop",
+  "count": 1,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373065",
+    "evidence": "I use Claude desktop as an agent platform",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Vantegrate",
+  "count": 1,
+  "categories": [
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380672",
+    "evidence": "grok bot, vantegrate",
+    "detail": "production agents on Salesforce"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "LongCat",
+  "count": 1,
+  "categories": [
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374997",
+    "evidence": "claude,codex,gemini,longcat,glm",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ }
+]

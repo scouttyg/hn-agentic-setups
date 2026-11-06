@@ -1,0 +1,1412 @@
+[
+ {
+  "name": "Claude Code",
+  "count": 215,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50392572",
+    "evidence": "am back on Claude Code",
+    "detail": ""
+   },
+   {
+    "comment_id": "50389676",
+    "evidence": "I've got my prompts and claude.MD at a point where it gives me that",
+    "detail": "small targeted prompts, claude.MD"
+   },
+   {
+    "comment_id": "50367037",
+    "evidence": "I just use the Claude IDE",
+    "detail": "Claude Code Desktop (\"Claude IDE\"), Opus 5.5 medium"
+   },
+   {
+    "comment_id": "50385453",
+    "evidence": "missing features I missed from Claude Code Desktop",
+    "detail": "Claude Code Desktop"
+   }
+  ],
+  "urls_in_comments": [
+   "https://code.claude.com/docs/en/desktop",
+   "https://github.com/common-pattern/claudeflow"
+  ]
+ },
+ {
+  "name": "Codex",
+  "count": 105,
+  "categories": [
+   "harness",
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367037",
+    "evidence": "I used to use Cursor, then Codex",
+    "detail": ""
+   },
+   {
+    "comment_id": "50373947",
+    "evidence": "I’m a user of both",
+    "detail": ""
+   },
+   {
+    "comment_id": "50376177",
+    "evidence": "Same journey for me",
+    "detail": ""
+   },
+   {
+    "comment_id": "50395602",
+    "evidence": "Codex + Claude Code (I'm a sucker for GUIs)",
+    "detail": "GUI"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Pi",
+  "count": 89,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50392572",
+    "evidence": "wanted to experiment with Pi for fun",
+    "detail": ""
+   },
+   {
+    "comment_id": "50378856",
+    "evidence": "Pi harness with herdr",
+    "detail": ""
+   },
+   {
+    "comment_id": "50380647",
+    "evidence": "that's where I manage my pi agents",
+    "detail": "managed from terminal"
+   },
+   {
+    "comment_id": "50375326",
+    "evidence": "I’ve found Pi with DeepSeek Flash is excellent",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": [
+   "https://codeberg.org/dannyfritz/dotfiles/src/commit/f5d082d285ff40f35b4d140816f48e637f3c95ad/bin/pise",
+   "https://github.com/PAndreew/pi_group",
+   "https://github.com/gregwebs/pi-quota-dispatcher",
+   "https://github.com/shaftoe/awesome-pi-coding-agent/",
+   "https://github.com/tashfeenahmed/freellmapi"
+  ]
+ },
+ {
+  "name": "OpenCode",
+  "count": 74,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50381117",
+    "evidence": "I use opencode tui as harness",
+    "detail": "TUI"
+   },
+   {
+    "comment_id": "50379612",
+    "evidence": "I tried OpenCode with a local Qwen model",
+    "detail": "with local Qwen"
+   },
+   {
+    "comment_id": "50378067",
+    "evidence": "I use the OpenCode TUI and desktop app sometimes",
+    "detail": "TUI and desktop app, occasionally"
+   },
+   {
+    "comment_id": "50377286",
+    "evidence": "Claude Code and OpenCode with a local",
+    "detail": "with local Qwen3.8"
+   }
+  ],
+  "urls_in_comments": [
+   "https://opencode.ai/console/go"
+  ]
+ },
+ {
+  "name": "Hermes Agent",
+  "count": 54,
+  "categories": [
+   "harness",
+   "orchestration",
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379612",
+    "evidence": "I've tried OpenClaw and Hermes",
+    "detail": ""
+   },
+   {
+    "comment_id": "50385812",
+    "evidence": "I'm a big user of Hermes, both at home and for work.",
+    "detail": "home and work"
+   },
+   {
+    "comment_id": "50367582",
+    "evidence": "Tried to set up Hermes a couple of times but hated it every time.",
+    "detail": ""
+   },
+   {
+    "comment_id": "50376357",
+    "evidence": "currently playing around with Hermes as an alternative",
+    "detail": "trying as alternative"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Chat UI (web/app)",
+  "count": 46,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367926",
+    "evidence": "for me its the Claude Desktop, not claude code",
+    "detail": "Claude Desktop app"
+   },
+   {
+    "comment_id": "50368526",
+    "evidence": "spend a lot of time talking to GPT voice",
+    "detail": "GPT voice while driving"
+   },
+   {
+    "comment_id": "50376216",
+    "evidence": "I discuss features with chat gpt",
+    "detail": "free ChatGPT for feature discussion"
+   },
+   {
+    "comment_id": "50376357",
+    "evidence": "I make a lot of use of open-webui",
+    "detail": "open-webui"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Custom harness",
+  "count": 45,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375046",
+    "evidence": "built my own harness",
+    "detail": "quarterdeck, self-built"
+   },
+   {
+    "comment_id": "50380973",
+    "evidence": "building my own tools",
+    "detail": "built own tools early on"
+   },
+   {
+    "comment_id": "50378847",
+    "evidence": "my own harness",
+    "detail": "own harness since GPT-3.5 era, now with agentic loop and OpenAI OAuth"
+   },
+   {
+    "comment_id": "50374344",
+    "evidence": "a homegrown harness I wrote",
+    "detail": "homegrown, not used for a while"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Cursor",
+  "count": 38,
+  "categories": [
+   "harness",
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367037",
+    "evidence": "I used to use Cursor, then Codex",
+    "detail": ""
+   },
+   {
+    "comment_id": "50375552",
+    "evidence": "I'm still on Cursor but if I use it daily I often hit usage limits",
+    "detail": "hits usage limits"
+   },
+   {
+    "comment_id": "50375552",
+    "evidence": "I'm still on Cursor",
+    "detail": ""
+   },
+   {
+    "comment_id": "50378013",
+    "evidence": "I switched from Cursor to Claude Code",
+    "detail": "with Grok 4.7"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "GitHub Copilot",
+  "count": 32,
+  "categories": [
+   "harness",
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376720",
+    "evidence": "I've used Github Copilot to translate between languages and look things up",
+    "detail": "translation between languages and lookups only"
+   },
+   {
+    "comment_id": "50378067",
+    "evidence": "I use Github Copilot through work",
+    "detail": "through work"
+   },
+   {
+    "comment_id": "50378067",
+    "evidence": "I use Github Copilot through work",
+    "detail": ""
+   },
+   {
+    "comment_id": "50368526",
+    "evidence": "I've been using the $100 github copilot tier",
+    "detail": "$100 tier"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Antigravity",
+  "count": 16,
+  "categories": [
+   "harness",
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375606",
+    "evidence": "antigravity for argon",
+    "detail": "for Argon model"
+   },
+   {
+    "comment_id": "50374261",
+    "evidence": "Antigravity (AGY",
+    "detail": "main driver"
+   },
+   {
+    "comment_id": "50393280",
+    "evidence": "I use AGY as my main platform as well.",
+    "detail": "Flash 3.8 for code gen"
+   },
+   {
+    "comment_id": "50385108",
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff",
+    "detail": "free tier"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Grok",
+  "count": 15,
+  "categories": [
+   "harness",
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367582",
+    "evidence": "Grok gave me three months at $30",
+    "detail": "three months at $30 retention offer"
+   },
+   {
+    "comment_id": "50391332",
+    "evidence": "I got it for like $30 for three months",
+    "detail": "Grok bot deal $30 for three months"
+   },
+   {
+    "comment_id": "50380818",
+    "evidence": "gemini and grok is the one I use for quick answer engine",
+    "detail": "quick answers"
+   },
+   {
+    "comment_id": "50377290",
+    "evidence": "this month I'm trying out X Premium",
+    "detail": "X Premium, trying this month"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Zed",
+  "count": 14,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50381494",
+    "evidence": "I use zed for my ide",
+    "detail": ""
+   },
+   {
+    "comment_id": "50368526",
+    "evidence": "At work I use Zed with a corporate claude subscription",
+    "detail": "at work"
+   },
+   {
+    "comment_id": "50375873",
+    "evidence": "Integrated Agents in VSCode and Zed",
+    "detail": "integrated agents"
+   },
+   {
+    "comment_id": "50380102",
+    "evidence": "as I am using Zed myself",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Orca",
+  "count": 12,
+  "categories": [
+   "harness",
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367744",
+    "evidence": "For personal work. I use Orca.",
+    "detail": "personal work"
+   },
+   {
+    "comment_id": "50384963",
+    "evidence": "from opencode, warp, paseo, orca",
+    "detail": ""
+   },
+   {
+    "comment_id": "50379643",
+    "evidence": "Under karajan is onorca.dev as a terminal multiplexer",
+    "detail": "onorca.dev as terminal multiplexer"
+   },
+   {
+    "comment_id": "50389282",
+    "evidence": "Orca IDE + Tailscale",
+    "detail": "Orca IDE on Linux server via Tailscale"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "T3 Code",
+  "count": 11,
+  "categories": [
+   "harness",
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385453",
+    "evidence": "I tried a T3 code for a hot second",
+    "detail": ""
+   },
+   {
+    "comment_id": "50378013",
+    "evidence": "(via T3.codes)",
+    "detail": "frontend for Claude Code"
+   },
+   {
+    "comment_id": "50367589",
+    "evidence": "I use T3 Code as my front-end",
+    "detail": "front-end for all agents"
+   },
+   {
+    "comment_id": "50380990",
+    "evidence": "I'm using T3 Code as well.",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "DeepSeek Harness",
+  "count": 10,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373796",
+    "evidence": "DeepSeek Harness using DeepSeek Flash API",
+    "detail": "custom bell/gong plugin"
+   },
+   {
+    "comment_id": "50374306",
+    "evidence": "+1 for DSH",
+    "detail": ""
+   },
+   {
+    "comment_id": "50375998",
+    "evidence": "DSH user here as well",
+    "detail": ""
+   },
+   {
+    "comment_id": "50374261",
+    "evidence": "DeepSeekHarness (DSH) Desktop",
+    "detail": "DSH Desktop"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Emacs (gptel etc.)",
+  "count": 10,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378067",
+    "evidence": "I mostly use Editor Code Assistant [2] with Emacs as my go-to harness",
+    "detail": "Editor Code Assistant (ECA) with OpenCode provider"
+   },
+   {
+    "comment_id": "50373811",
+    "evidence": "Mostly eca.dev on Emacs",
+    "detail": "eca.dev"
+   },
+   {
+    "comment_id": "50373985",
+    "evidence": "pulling this all back into emacs",
+    "detail": "wants to move setup into Emacs"
+   },
+   {
+    "comment_id": "50378293",
+    "evidence": "inside the GNU Emacs Agent-Shell",
+    "detail": "Agent-Shell"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Paseo",
+  "count": 10,
+  "categories": [
+   "harness",
+   "orchestration",
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376087",
+    "evidence": "Paseo as a Mac UI",
+    "detail": "Mac UI"
+   },
+   {
+    "comment_id": "50389805",
+    "evidence": "I use Paseo with Claude + Codex and Opencode Go",
+    "detail": "organizes agents"
+   },
+   {
+    "comment_id": "50384963",
+    "evidence": "from opencode, warp, paseo, orca",
+    "detail": ""
+   },
+   {
+    "comment_id": "50367326",
+    "evidence": "I use Paseo to orchestrate agents",
+    "detail": "with own plugins for pipelines"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Cline",
+  "count": 7,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377453",
+    "evidence": "I occasionally use Cline in VS Code",
+    "detail": "in VS Code, rarely"
+   },
+   {
+    "comment_id": "50374774",
+    "evidence": "I switched away from Cline + VS Code",
+    "detail": "with VS Code, previously"
+   },
+   {
+    "comment_id": "50373936",
+    "evidence": "I like using Cline the VS Code extension",
+    "detail": "VS Code extension, read-only permissions"
+   },
+   {
+    "comment_id": "50377417",
+    "evidence": "I previously used Cline",
+    "detail": "dog slow and unstable"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Kiro",
+  "count": 7,
+  "categories": [
+   "harness",
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385108",
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff",
+    "detail": "free tier"
+   },
+   {
+    "comment_id": "50378376",
+    "evidence": "I've Kiro and Antigravity installed",
+    "detail": "spec-driven"
+   },
+   {
+    "comment_id": "50373135",
+    "evidence": "I started with Kiro",
+    "detail": "started with"
+   },
+   {
+    "comment_id": "50373366",
+    "evidence": "(Kiro at work.)",
+    "detail": "at work"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/kirodotdev/kirocrew",
+   "https://kiro.dev/docs/specs/"
+  ]
+ },
+ {
+  "name": "Kilo Code",
+  "count": 5,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385108",
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff",
+    "detail": "free tier"
+   },
+   {
+    "comment_id": "50377417",
+    "evidence": "I install the KILO plugin to use as harness",
+    "detail": "JetBrains plugin in PyCharm via Remote IDE"
+   },
+   {
+    "comment_id": "50374637",
+    "evidence": "I am using Kilo Code (https://kilo.ai) extension on VSCodium",
+    "detail": "VSCodium extension"
+   },
+   {
+    "comment_id": "50377903",
+    "evidence": "I use Kilo Code as well (with jetbrains IDEs though)",
+    "detail": "with JetBrains IDEs"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Goose",
+  "count": 4,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374261",
+    "evidence": "I tried goose",
+    "detail": ""
+   },
+   {
+    "comment_id": "50368526",
+    "evidence": "At home I really like goose (TUI)",
+    "detail": "TUI, at home"
+   },
+   {
+    "comment_id": "50374637",
+    "evidence": "I am using Goose (https://goose-docs.ai) with OpenRouter",
+    "detail": "day-to-day tasks"
+   },
+   {
+    "comment_id": "50376056",
+    "evidence": "I also tried goose but it was too agentic for my taste",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": [
+   "https://goose-docs.ai"
+  ]
+ },
+ {
+  "name": "Aider",
+  "count": 4,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367423",
+    "evidence": "I use Aider for programming",
+    "detail": ""
+   },
+   {
+    "comment_id": "50387654",
+    "evidence": "gone aider, MetaGPT, gemini, pi, claude",
+    "detail": "earlier"
+   },
+   {
+    "comment_id": "50373985",
+    "evidence": "I used Aider before Claude Code’s beta",
+    "detail": "before Claude Code beta"
+   },
+   {
+    "comment_id": "50374626",
+    "evidence": "I dropped it dead after that",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Gemini CLI",
+  "count": 4,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50387654",
+    "evidence": "gone aider, MetaGPT, gemini, pi, claude",
+    "detail": "earlier"
+   },
+   {
+    "comment_id": "50374982",
+    "evidence": "claude/codex/gemini",
+    "detail": "orchestrated by Optio"
+   },
+   {
+    "comment_id": "50388891",
+    "evidence": "I also tried the Google and Anthropic CLI ones very early on",
+    "detail": "very early on"
+   },
+   {
+    "comment_id": "50368119",
+    "evidence": "I've tried muse, grok, gemini, codex, and pi w/ openrouter",
+    "detail": "tried"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "VS Code",
+  "count": 4,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376733",
+    "evidence": "I use VScode and claude code",
+    "detail": ""
+   },
+   {
+    "comment_id": "50373589",
+    "evidence": "in VS Code",
+    "detail": ""
+   },
+   {
+    "comment_id": "50373975",
+    "evidence": "VSCode + OpenRouter",
+    "detail": ""
+   },
+   {
+    "comment_id": "50380057",
+    "evidence": "I use VSCode",
+    "detail": "OpenAI-compatible local model"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Maki",
+  "count": 3,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367557",
+    "evidence": "Maki[3], although quite customised",
+    "detail": "customised with plugins"
+   },
+   {
+    "comment_id": "50382719",
+    "evidence": "Maki as my harness",
+    "detail": ""
+   },
+   {
+    "comment_id": "50373485",
+    "evidence": "maki is great one",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": [
+   "https://maki.sh/"
+  ]
+ },
+ {
+  "name": "Devin",
+  "count": 3,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385108",
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff",
+    "detail": "free tier"
+   },
+   {
+    "comment_id": "50383966",
+    "evidence": "Using Codex/GPT and Devin",
+    "detail": ""
+   },
+   {
+    "comment_id": "50373893",
+    "evidence": "devin",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Kimi Code",
+  "count": 3,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377579",
+    "evidence": "I'm using Codex, Claude Code, Kimi Code for different things",
+    "detail": ""
+   },
+   {
+    "comment_id": "50377945",
+    "evidence": "I run Claude Code, Codex, Pi and Kimi Code",
+    "detail": ""
+   },
+   {
+    "comment_id": "50373740",
+    "evidence": "Kimi CLI",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Muse Code",
+  "count": 3,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373256",
+    "evidence": "I use Muse Code $5 month",
+    "detail": ""
+   },
+   {
+    "comment_id": "50368119",
+    "evidence": "I've tried muse, grok, gemini, codex, and pi w/ openrouter",
+    "detail": "tried"
+   },
+   {
+    "comment_id": "50373740",
+    "evidence": "Muse CLI",
+    "detail": "Muse CLI"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "3code",
+  "count": 2,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50370525",
+    "evidence": "Ended up with 3code right now",
+    "detail": "built-in configurable sandboxing"
+   },
+   {
+    "comment_id": "50370419",
+    "evidence": "I now switched to https://github.com/capocasa/3code",
+    "detail": "github.com/capocasa/3code"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/capocasa/3code"
+  ]
+ },
+ {
+  "name": "Amp",
+  "count": 2,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367546",
+    "evidence": "Separately I'm evaluating https://ampcode.com/",
+    "detail": "evaluating"
+   },
+   {
+    "comment_id": "50381382",
+    "evidence": "rapidly increasing use of Amp",
+    "detail": "including orbs (VMs) and local runners"
+   }
+  ],
+  "urls_in_comments": [
+   "https://ampcode.com/"
+  ]
+ },
+ {
+  "name": "CodeBuddy",
+  "count": 2,
+  "categories": [
+   "harness",
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50391332",
+    "evidence": "Codebuddy pro about $10",
+    "detail": "Pro ~$10"
+   },
+   {
+    "comment_id": "50385108",
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff",
+    "detail": "free tier"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Mistral Vibe",
+  "count": 2,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385108",
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff",
+    "detail": "free tier"
+   },
+   {
+    "comment_id": "50380252",
+    "evidence": "using mistral vibe to use GLM5.3 and Lechonk models",
+    "detail": "GLM5.3 and Lechonk"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "JetBrains Thinkrail",
+  "count": 2,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376352",
+    "evidence": "I tried JetBrains experimental agent IDE, ThinkRail, and I love it",
+    "detail": "JetBrains experimental agent IDE"
+   },
+   {
+    "comment_id": "50374680",
+    "evidence": "JetBrains Thinkrail",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "OpenChamber",
+  "count": 2,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376216",
+    "evidence": "open chamber ui",
+    "detail": "UI over OpenCode, task plugin"
+   },
+   {
+    "comment_id": "50378530",
+    "evidence": "the OpenChamber app is awesome",
+    "detail": "phone and desktop apps"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "NodeCode",
+  "count": 2,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50387654",
+    "evidence": "nodecode + dirge + deepseek superagent harness",
+    "detail": "current"
+   },
+   {
+    "comment_id": "50376722",
+    "evidence": "I'll be trying it out as soon as I can get some time",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": [
+   "https://nodecode.ai/"
+  ]
+ },
+ {
+  "name": "DeepSeek Superagent",
+  "count": 2,
+  "categories": [
+   "harness",
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50387654",
+    "evidence": "nodecode + dirge + deepseek superagent harness",
+    "detail": "current harness"
+   },
+   {
+    "comment_id": "50387654",
+    "evidence": "4) deepseek superagent harness",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "JetBrains AI / Junie",
+  "count": 2,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378907",
+    "evidence": "I primarily use Zed and JetBrains IDEs",
+    "detail": "JetBrains IDEs"
+   },
+   {
+    "comment_id": "50375427",
+    "evidence": "I tried IDE integrations with Jetbrains for a few months and hated it",
+    "detail": "tried for months, hated it"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Warp",
+  "count": 2,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50384963",
+    "evidence": "from opencode, warp, paseo, orca",
+    "detail": ""
+   },
+   {
+    "comment_id": "50374804",
+    "evidence": "I used to use Warp",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Open WebUI",
+  "count": 2,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385251",
+    "evidence": "I use self hosted Open WebUI",
+    "detail": "self-hosted with open-terminal and custom plugins"
+   },
+   {
+    "comment_id": "50377715",
+    "evidence": "or Open WebUI",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "CLI harness (unspecified)",
+  "count": 2,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50381456",
+    "evidence": "CLI harnesses",
+    "detail": "in Ghostty"
+   },
+   {
+    "comment_id": "50379016",
+    "evidence": "cli harnesses for coding",
+    "detail": "vendor CLIs for coding"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Juggler",
+  "count": 2,
+  "categories": [
+   "harness",
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379165",
+    "evidence": "I run Juggler",
+    "detail": "manages local and remote sessions on PC and Mac"
+   },
+   {
+    "comment_id": "50376056",
+    "evidence": "I'm using https://github.com/juggler-ai/juggler",
+    "detail": "github.com/juggler-ai/juggler"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/juggler-ai/juggler"
+  ]
+ },
+ {
+  "name": "ZeroStack",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379315",
+    "evidence": "Also used by ZeroStack[1], which I quite like",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/gi-dellav/zerostack"
+  ]
+ },
+ {
+  "name": "Pendant",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374298",
+    "evidence": "(and trying Pendant)",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Hax",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380281",
+    "evidence": "Hax harness",
+    "detail": "personal"
+   }
+  ],
+  "urls_in_comments": [
+   "https://usehax.dev/"
+  ]
+ },
+ {
+  "name": "FreeBuff",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50385108",
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff",
+    "detail": "free tier"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "MetaGPT",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50387654",
+    "evidence": "gone aider, MetaGPT, gemini, pi, claude",
+    "detail": "earlier"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Dirge",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50387654",
+    "evidence": "nodecode + dirge + deepseek superagent harness",
+    "detail": "current"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "OpenHands",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376538",
+    "evidence": "yes i tested openhands, hermes, etc...",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "ZCode",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380818",
+    "evidence": "I use zcode as well rarely",
+    "detail": "rarely, for bigger limit"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "jotter (MCP)",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380579",
+    "evidence": "i wrote a small MCP thing for it (jotter, mine)",
+    "detail": "own handoff MCP"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Lynx",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378756",
+    "evidence": "Lynx (lynx.railcode.dev)",
+    "detail": "lynx.railcode.dev"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Ori",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367965",
+    "evidence": "lately I started using openrouter's ori coding agent",
+    "detail": "OpenRouter's coding agent"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "llm-desktop-electron",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367146",
+    "evidence": "https://github.com/mkornreich/llm-desktop-electron with OpenRouter",
+    "detail": "desktop chat app"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Corgi",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376149",
+    "evidence": "corgi + claude at work",
+    "detail": "at work"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Grok CLI",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373740",
+    "evidence": "Claude Code, Codex CLI, Grok CLI",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Kepler",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379808",
+    "evidence": "Kepler (cool ticketing system integration, but the UI wasn't very pleasant)",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "MiMo Code",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374722",
+    "evidence": "MiMocode for working with Mimo",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Swival",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376601",
+    "evidence": "I use Swival.dev",
+    "detail": "swival.dev"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Volt",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374680",
+    "evidence": "and Volt",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Lyre",
+  "count": 1,
+  "categories": [
+   "harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373286",
+    "evidence": "Lyre runs the agent and the preview as separate lifecycles",
+    "detail": "runs agent and app preview separately"
+   }
+  ],
+  "urls_in_comments": []
+ }
+]

@@ -1,0 +1,433 @@
+[
+ {
+  "name": "OpenCode Go",
+  "count": 41,
+  "roles": [
+   "via:api_or_model",
+   "via:harness",
+   "via:subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50381117",
+    "evidence": "it cost me 7% of my $10 opencode go sub",
+    "text_excerpt": "Are they? (genuine question, i've got no experience with Claude) This month I used 1 billion tokens (including cache) with DS4.1 flash and it cost me 7% of my $10 opencode go sub.\n\nIf you meant in developer time, then I don't know but it seems very fast to me (rarely thinks more than ~10sec, never more than ~30sec) and usually oneshots what I prompt it to do. I use opencode tui as harness."
+   },
+   {
+    "comment_id": "50381117",
+    "evidence": "I use opencode tui as harness",
+    "text_excerpt": "Are they? (genuine question, i've got no experience with Claude) This month I used 1 billion tokens (including cache) with DS4.1 flash and it cost me 7% of my $10 opencode go sub.\n\nIf you meant in developer time, then I don't know but it seems very fast to me (rarely thinks more than ~10sec, never more than ~30sec) and usually oneshots what I prompt it to do. I use opencode tui as harness."
+   },
+   {
+    "comment_id": "50378279",
+    "evidence": "The 10$ sub gets me quite a bit of distance for hobby work",
+    "text_excerpt": "On the subject of OpenCode Go, I believe OpenCode lets you switch between Go models and normal models on the fly. You could choose to go for a Go sub to use DeepSeek 4.1 flash at its subsidized subscription price until you hit the cap if you'd like to save some extra money. The 10$ sub gets me quite a bit of distance for hobby work, though might run out for you if you program for longer periods.\n\nAt the very least, you can benefit from the subsidized prices for smaller models as implementers, and use other subs or Zen/Console to access stronger models for planning and reviews. Something to con"
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "OpenCode Zen",
+  "count": 10,
+  "roles": [
+   "via:api_or_model",
+   "via:harness",
+   "via:subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378067",
+    "evidence": "OpenCode Console (I think this used to be called Zen)",
+    "text_excerpt": "I'm (somewhat unexpectedly) retiring [1] soon and need to come up with an affordable setup for when I no longer have an organisation paying for my tokens. I use Github Copilot through work, which is actually not bad, but the affordable personal subscription doesn't include many of the models I like to use. I tried Claude, Codex, DeepSeek, and a few others. I think I'm settling on the following:\n\n1. OpenCode Console (I think this used to be called Zen). It's a pay-as-you-go system, but I get access to almost any model at open market rates. I'll then set up an affordable regular monthly top-up. "
+   },
+   {
+    "comment_id": "50378067",
+    "evidence": "I use the OpenCode TUI and desktop app sometimes",
+    "text_excerpt": "I'm (somewhat unexpectedly) retiring [1] soon and need to come up with an affordable setup for when I no longer have an organisation paying for my tokens. I use Github Copilot through work, which is actually not bad, but the affordable personal subscription doesn't include many of the models I like to use. I tried Claude, Codex, DeepSeek, and a few others. I think I'm settling on the following:\n\n1. OpenCode Console (I think this used to be called Zen). It's a pay-as-you-go system, but I get access to almost any model at open market rates. I'll then set up an affordable regular monthly top-up. "
+   },
+   {
+    "comment_id": "50378067",
+    "evidence": "I mostly use Editor Code Assistant [2] with Emacs as my go-to harness",
+    "text_excerpt": "I'm (somewhat unexpectedly) retiring [1] soon and need to come up with an affordable setup for when I no longer have an organisation paying for my tokens. I use Github Copilot through work, which is actually not bad, but the affordable personal subscription doesn't include many of the models I like to use. I tried Claude, Codex, DeepSeek, and a few others. I think I'm settling on the following:\n\n1. OpenCode Console (I think this used to be called Zen). It's a pay-as-you-go system, but I get access to almost any model at open market rates. I'll then set up an affordable regular monthly top-up. "
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Unified Cursor + Grok + Grok Bot",
+  "count": 4,
+  "roles": [
+   "via:orchestration",
+   "via:platform",
+   "via:subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367523",
+    "evidence": "Settled on the unified Cursor, Grok, Grok Bot plan for about $200 / month.",
+    "text_excerpt": "Tried just about everything over the last couple of years. Settled on the unified Cursor, Grok, Grok Bot plan for about $200 / month. Doing everything within herdr for programming and Grok Bot for all non-programming related AI life stuff.\n\nIt's a solid groove. Grok Bot helped me get so much stuff off of my plate."
+   },
+   {
+    "comment_id": "50367523",
+    "evidence": "Settled on the unified Cursor, Grok, Grok Bot plan for about $200 / month.",
+    "text_excerpt": "Tried just about everything over the last couple of years. Settled on the unified Cursor, Grok, Grok Bot plan for about $200 / month. Doing everything within herdr for programming and Grok Bot for all non-programming related AI life stuff.\n\nIt's a solid groove. Grok Bot helped me get so much stuff off of my plate."
+   },
+   {
+    "comment_id": "50367523",
+    "evidence": "Doing everything within herdr for programming",
+    "text_excerpt": "Tried just about everything over the last couple of years. Settled on the unified Cursor, Grok, Grok Bot plan for about $200 / month. Doing everything within herdr for programming and Grok Bot for all non-programming related AI life stuff.\n\nIt's a solid groove. Grok Bot helped me get so much stuff off of my plate."
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Kilo",
+  "count": 3,
+  "roles": [
+   "via:api_or_model",
+   "via:harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374637",
+    "evidence": "I am using Kilo Code (https://kilo.ai) extension on VSCodium",
+    "text_excerpt": "For software development, I am using Kilo Code (https://kilo.ai) extension on VSCodium, with Kilo credits that gives access to hundreds of models at API pricing.\n\nFor day-to-day tasks, I am using Goose (https://goose-docs.ai) with OpenRouter."
+   },
+   {
+    "comment_id": "50374637",
+    "evidence": "with Kilo credits that gives access to hundreds of models at API pricing",
+    "text_excerpt": "For software development, I am using Kilo Code (https://kilo.ai) extension on VSCodium, with Kilo credits that gives access to hundreds of models at API pricing.\n\nFor day-to-day tasks, I am using Goose (https://goose-docs.ai) with OpenRouter."
+   },
+   {
+    "comment_id": "50383792",
+    "evidence": "I'm doing that just to use a number of models without needing to manage separate accounts for the model providers",
+    "text_excerpt": "I'm doing that just to use a number of models without needing to manage separate accounts for the model providers. Kilo claims they charge at the provider's API pricing, not extra like OpenRouter does.\n\nI am not sure however if this approach is optimal. Monthly subscriptions may be offering much higher value than API pricing.\n\nHow do you find Kilo vs. various other alternatives? I observe that it is barely talked about on HN and elsewhere. Thanks."
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": [
+   "https://goose-docs.ai",
+   "https://kilo.ai"
+  ]
+ },
+ {
+  "name": "SuperGrok",
+  "count": 3,
+  "roles": [
+   "via:harness",
+   "via:subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50370886",
+    "evidence": "Claude Ultra, Codex Plus, SuperGrok, Gemini Pro.",
+    "text_excerpt": "1) Claude Ultra, Codex Plus, SuperGrok, Gemini Pro.\n\n2) No.\n\n3) Opus 5.5 on high for all the work. Reviewed by Codex by default. Additionally by Grok and Gemini (agy) for critical work.\n\nI switched from Claude CLI to a custom-built harness because I got overwhelmed by walls of text in parallel sessions. Now I have a canvas per project where I spatially lay out cards. Each card spawns an agent in a worktree. The chat with it is condensed to WhatsApp style chat bubbles with all the thinking and tool calls folded away. The result of a card is a demo, usually a narrated video that I can comment on"
+   },
+   {
+    "comment_id": "50373740",
+    "evidence": "SuperGrok",
+    "text_excerpt": "1. Claude Ultra, ChatGPT Pro 200, SuperGrok, Kimi Pro, Cursor Pro, Google AI Pro, Muse Code High Usage. It comes out to ~$500/mo, mostly from Claude+ChatGPT\n\n2. I use OpenAI/Anthropic APIs for various workloads (app features, automations, etc.), but not for personal inference/coding. Recently both of these providers started giving $200/mo in API credits, and OpenAI already gives free tokens, so I don't usually pay for this usage.\n\n3. I always use the provider's preferred CLI: Claude Code, Codex CLI, Grok CLI, Kimi CLI, Antigravity CLI, Muse CLI. I use this with herdr to manage everything, and "
+   },
+   {
+    "comment_id": "50373740",
+    "evidence": "Claude Code, Codex CLI, Grok CLI",
+    "text_excerpt": "1. Claude Ultra, ChatGPT Pro 200, SuperGrok, Kimi Pro, Cursor Pro, Google AI Pro, Muse Code High Usage. It comes out to ~$500/mo, mostly from Claude+ChatGPT\n\n2. I use OpenAI/Anthropic APIs for various workloads (app features, automations, etc.), but not for personal inference/coding. Recently both of these providers started giving $200/mo in API credits, and OpenAI already gives free tokens, so I don't usually pay for this usage.\n\n3. I always use the provider's preferred CLI: Claude Code, Codex CLI, Grok CLI, Kimi CLI, Antigravity CLI, Muse CLI. I use this with herdr to manage everything, and "
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "ComfyUI",
+  "count": 2,
+  "roles": [
+   "via:api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380232",
+    "evidence": "local ComfyUI + Flux + some LoRAs for image work",
+    "text_excerpt": "1) I pay $20/month for Nous model access, and spend an additional $20-40/month to Google for Gemini model API access.\n\n2) My main daily driver is Deepseek 4.1-Flash. For bigger coding projects, Argon. I run a local Qwen 3.6-27B quantized to 4-bit so that it fits comfortably in my 4090's VRAM, using this for any easy things that can be done locally. Also have local ComfyUI + Flux + some LoRAs for image work.\n\n3) I exclusively use Hermes\n\n4) N/A for anything I do\n\n5) Yep, just Hermes, for months now, never going with anything else as I love how it works.\n\n- I'm mainly using all this stuff for lo"
+   },
+   {
+    "comment_id": "50377455",
+    "evidence": "moss-image/minimax h3",
+    "text_excerpt": "1) Subscriptions: Claude Ultra for coding and analysis (Opus 5.5 mostly, sometimes Fable for more complex questions) + ChatGPT Business (premium seat) for more allround tasks, although I now mix in Codex (Astra) too for reviewing work or if I hit a usage limit.\n\nAlso I have a Cursor Pro plan but I notice I'm not using that enough actually. Only for backup and for file-level changes.\n\n2) Others: I have a DGX Spark running Qwen 3.8 27b (for confidential/sensitive work, narrow coding and narrow agentic work), but it's often running ComfyUI instead, with models like moss-image/minimax h3 for image"
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "ninfer",
+  "count": 2,
+  "roles": [
+   "via:api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375966",
+    "evidence": "I run Qwen 3.8 27B NVFP4 with ninfer on my 5090",
+    "text_excerpt": "I do not like terminal tui much as I think it's a poor fit for a coding agent.\n\nBut I do use claude code tui because I have a sub: it is a good model and I like its aesthetics. If I could use the sub in my own harness I would. It's also a foil to GPT's models that overengineer everything.\n\nI have a Codex subscription that I use in my own harness, dreamcoder.ai, which has a tiling window manager and all the other mod cons you'd expect a frontier harness to have.\n\nIn addition to that, I run Qwen 3.8 27B NVFP4 with ninfer on my 5090. It's a great model for local development. I also use that in dr"
+   },
+   {
+    "comment_id": "50378737",
+    "evidence": "one locally hosted Qwen-3.8-27b",
+    "text_excerpt": "I have two Claude Ultra subs and one Codex Pro sub. I also use a few pay per token endpoints from various providers (these change a lot though because here I'm mainly testing and comparing capabilities) and one locally hosted Qwen-3.8-27b (on a custom inference engine [0]).\n\nOpus 5.5 high is currently my main driver for planning. Via the \"poteto-mode\" (adapted from Cursor's pstack) skill, more Opus, Sonnet, Astra, and Sol (sometimes also Grok) subagents are spawned for the actual implementations. This is really powerful and often implements features completely e2e with proper verification and "
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "ThinkRail",
+  "count": 1,
+  "roles": [
+   "via:orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376352",
+    "evidence": "Super easy to start worktrees from any branch",
+    "text_excerpt": "At work we have both Anthropic and Copilot subscriptions, plus Google AI as it’s included in our business plan anyway. I have personally been using the Claude Code Desktop App and was happy with it until they made it harder to pick a branch for each worktree! Which is why I tried JetBrains experimental agent IDE, ThinkRail, and I love it! Super easy to start worktrees from any branch and the spec driven development experience they promote is great!\n\nIt also let me connect to Requesty for my hobby projects and with that I can easily try any model, from any provider. That gave me a much better a"
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "ChatGPT Go",
+  "count": 1,
+  "roles": [
+   "via:subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375134",
+    "evidence": "chatgpt go plan",
+    "text_excerpt": "1. Claude code, ultra plan, chatgpt go plan (India has a ~3$ plan) 2. Use pay as you yo openrouter with kimi2.6 for an api wrapper interface I have to work with my business APIs, connected to whatsapp. 3. I use opencode alot at my office that connects to a bunch of mixed models gpt-luna, claude. But prefer claude code, because (dunno if others feel it) opencode feels clunkier, and slow. I suspect that's because of the llm routing through my companies infra. 4. Have not made anything work, have tried GasTown, its horrible imo. Also, I think I am not able to trust the setup, and worry about toke"
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Radiance engine",
+  "count": 1,
+  "roles": [
+   "via:api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375265",
+    "evidence": "local Qwen 27b fp8 on Radiance engine",
+    "text_excerpt": "I built railvio.com for myself initially, it’s taken me a year to build and it’s a full harness for building applications + fully integrated Jira and Confluence clone. That altogether has become a lovable clone which I’ve used now to deploy a tradingview clone, a risk rating rules engine clone, and an agent terminal that is a stripped down clone of Iterm2 but built with a middle layer so I can connect to long lived tmux sessions. 3x Claude ultra, codex pro, + local Qwen 27b fp8 on Radiance engine on 2xRS700 and ComfyUi on a separate machine with a rtx 4090. It’s been super fun building everyth"
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Basalt",
+  "count": 1,
+  "roles": [
+   "via:api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378776",
+    "evidence": "Qwen3.8 Flash via Basalt (Local)",
+    "text_excerpt": "1) $20 Codex Plan\n\n2) Qwen3.8 Flash via Basalt (Local) + OpenRouter for DeepSeek V4.1 Flash\n\n3) I primarily use Pi with many custom extensions. Occasionally I will use Codex.\n\n4) I use Pi Subagents and Herdr. With QFN being the worker, and Sol 6.1 xHigh for planning/review.\n\n5) Hermes Agent via Telegram. I use this to follow-up, check status and work on projects while away from the house."
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "DeepSeek Chat",
+  "count": 1,
+  "roles": [
+   "via:harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50382719",
+    "evidence": "DeepSeek Chat for reasoning about some idea",
+    "text_excerpt": "I'm very happy right now with:\n\n- DeepSeek Chat for reasoning about some idea\n\n- DeepSeek Flash as pay-as-you-go API provider\n\n- Maki as my harness\n\nIt is cheap, and I feel like it is a sustainable workflow, both financially and cognitively."
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Claude for Open Source",
+  "count": 1,
+  "roles": [
+   "via:subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378077",
+    "evidence": "Claude Max 20x (Granted via Claude for Open Source)",
+    "text_excerpt": "1. - OpenAI $200 - Claude Max 20x (Granted via Claude for Open Source) 2. - Various Qwen via Local 128GB Strix Halo - Some HuggingFace API use when I need a specific model for something 3. Pi, Pi-web, Custom built 4. No 5. No"
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Hugging Face",
+  "count": 1,
+  "roles": [
+   "via:api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378077",
+    "evidence": "Some HuggingFace API use when I need a specific model",
+    "text_excerpt": "1. - OpenAI $200 - Claude Max 20x (Granted via Claude for Open Source) 2. - Various Qwen via Local 128GB Strix Halo - Some HuggingFace API use when I need a specific model for something 3. Pi, Pi-web, Custom built 4. No 5. No"
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "LocalLM",
+  "count": 1,
+  "roles": [
+   "via:api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367453",
+    "evidence": "Ok occasion using models in LocalLM.",
+    "text_excerpt": "Mainly CC Max with some API calls to OpenAI for different things.\n\nNo harnesses right now. Ok occasion using models in LocalLM.\n\nHaven't got into agent orchestration much other than Paperclip earlier this year."
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "DGX Spark",
+  "count": 1,
+  "roles": [
+   "via:api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50369791",
+    "evidence": "locally hosted Qwen 3.8 Flash Next running on a DGX Spark",
+    "text_excerpt": "1/2) OpenAI Business Premium subscription and a locally hosted Qwen 3.8 Flash Next running on a DGX Spark.\n\n3) I use both Opencode and Pi."
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "duck.ai",
+  "count": 1,
+  "roles": [
+   "via:harness"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374626",
+    "evidence": "duck.ai for random questions/research for private use",
+    "text_excerpt": "1) None. duck.ai for random questions/research for private use. No personal coding project or anything like that.\n\n2) Yes, Anthropic models usually, at work. Pay as you go API. Company is trialing limits, routers and open weight and even local models. Since the Anthropic 5.5 models none seem reasonable to use any longer (for now at least)\n\n3) Claude Code at work. Tried Aider early on and it failed to even read its initial context (Claude models like a year+ ago). I dropped it dead after that - unusable if you need me to specifically \"load\" and point our files. That's not agentic coding, sorry."
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "ONNX",
+  "count": 1,
+  "roles": [
+   "via:api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380334",
+    "evidence": "patching onnx myself to run parakeet model",
+    "text_excerpt": "A key part of mine is using voice input to give max context quickly to my agents. I know some solutions exist, but on Linux they all frankly suck\n\nSo I made my own. Including patching onnx myself to run parakeet model (way better than whisper)\n\nFully FOSS: voiceio.dev"
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "llama.app",
+  "count": 1,
+  "roles": [
+   "via:api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377715",
+    "evidence": "I also run small models through llama.app",
+    "text_excerpt": "My use cases are mostly analytical work, document generation, and code generation and review.\n\nI used to have the Pro subcription for Claude but switched recently to the equivalent Plus subscription for ChatGPT. With Anthropic, you cannot access their inference servers without going through one their client software or paying the API pricing. It is really annoying as those are two different product categories and I'd like to use the client of my choice with an LLM. OpenAI allows you to do that, so I have a proxy running on my computer which connects to OpenAI's servers in the back ground and s"
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Handy",
+  "count": 1,
+  "roles": [
+   "via:api_or_model"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374502",
+    "evidence": "local voice-to-text w/Parakeet Unified EN 0.6B via Handy",
+    "text_excerpt": "I mostly work on problems at the intersection of manufacturing, mechatronic design, electronics, software and physics. So I'm not really building software per-se which likely accounts for the probably slightly weird choices here.\n\n1. Claude Max (upsold me as of today); generally Sonnet 5.5 with the occasional Fable 5.1 when it gets stuck or I am executing a high value step; and Perplexity Pro (legacy).\n\n2. Mostly local voice-to-text w/Parakeet Unified EN 0.6B via Handy[0] (awesome; use it!). Not for coding, but for note taking, AI interfacing, and general typing reduction and RSI avoidance.\n\n3"
+   }
+  ],
+  "categories": [
+   "via"
+  ],
+  "urls_in_comments": []
+ }
+]

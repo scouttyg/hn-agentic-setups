@@ -1,0 +1,92 @@
+[
+  {
+    "id": "50373322",
+    "author": "bitforger",
+    "headline": "Personal agent books rideshares and checks bus schedules from a dumb phone",
+    "summary": "Their homemade miniclaw agent builds a personal wiki, counts calories, and lets them book rideshares and check MTA bus times from a dumb phone.",
+    "kind": "funny",
+    "score": 7,
+    "evidence": "Usage is mainly wiki building around personal info (finances, topics of interest), calorie counting, and doing various things from my dumb phone (rideshare booking, checking MTA Bus schedules, etc.)"
+  },
+  {
+    "id": "50375427",
+    "author": "anigbrowl",
+    "headline": "Ten agents translate medieval Japanese Buddhist parables for language study",
+    "summary": "On a roughly $20/week DeepSeek setup with 99% cache hits, they run a fleet of ten agents finding and translating medieval Japanese Buddhist parables for study.",
+    "kind": "funny",
+    "score": 7,
+    "evidence": "Sometimes I despatch it on open-ended tasks that I'd never take on otherwise; for example I have a little fleet of 10 agents digging up medieval Japanese Buddhist parables, translating them from scratch, and feeding them into a custom interface optimized for language study."
+  },
+  {
+    "id": "50382143",
+    "author": "sigbottle",
+    "headline": "Burnt out on AI; their AI-forbidding job became more exciting",
+    "summary": "After trying ambitious AI setups they burned out, found their AI-free job more exciting, and say AI killed their drive to learn how things work.",
+    "kind": "personal",
+    "score": 7,
+    "evidence": "I was trying some crazy stuff but at this point I'm burnt out and ironically, my job, which forbids AI, has gotten more exciting.\n\nI think I really value the whole culture of knowing how things work, and AI has kind of killed that drive for me."
+  },
+  {
+    "id": "50377554",
+    "author": "jvidalv",
+    "headline": "Hasn't opened an IDE in months; agents run nearly everything",
+    "summary": "Two months into a job without opening an IDE, they let agents send email, fill forms, configure APIs and submit their successful mobile apps to stores.",
+    "kind": "win",
+    "score": 6,
+    "evidence": "In the personal level I use the agents for everything, basically the only thing that I still do on my computer outside of agents is consuming content like HackerNews, random forums, reddit or youtube. All the rest: sending emails, reading them, filling forms, configuring apis, submitting apps to stores ( run a couple of successful mobile apps), building them... Is all done by the agents on my behalf."
+  },
+  {
+    "id": "50385840",
+    "author": "degrees57",
+    "headline": "Perplexity walked a non-C programmer through patching and recompiling llama.cpp",
+    "summary": "An older user whose GPU only supported HIP 5.7 was guided by Perplexity Pro to strip newer code from llama.cpp and recompile it, and it worked.",
+    "kind": "win",
+    "score": 6,
+    "evidence": "PP talked me through downloading the code from Github and running a command to remove everything newer than HIP 5.7 from the source code and then recompiling the whole thing.\n\nIt worked!\n\nI am not a C programmer, but PP walked me through everything. It is astonishing."
+  },
+  {
+    "id": "50385251",
+    "author": "Primer81",
+    "headline": "Billions of DeepSeek tokens per week for about 20 dollars",
+    "summary": "Their self-hosted Open WebUI setup with DeepSeek Flash burns billions of tokens weekly for around $20, thanks to cheap cached tokens.",
+    "kind": "cost",
+    "score": 6,
+    "evidence": "Been burning billions of tokens per week for maybe ~20 bucks thanks to how cheap Deepseek is with token caching for a wide range of development tasks."
+  },
+  {
+    "id": "50377144",
+    "author": "shantnutiwari",
+    "headline": "Quit ChatGPT over ads and Gemini over autoplaying YouTube videos",
+    "summary": "They cancelled ChatGPT when ads appeared, then cancelled Gemini after it kept inserting autoplaying YouTube videos that polluted their watch history; now on Mistral.",
+    "kind": "personal",
+    "score": 5,
+    "evidence": "Moved to lowest paid tier of Gemini, and liked it but it kept ignoring my instructions and putting in auto playing youtube videos (which also got saved to my youtube history). This pissed me off, after trying everything I just cancelled it"
+  },
+  {
+    "id": "50377814",
+    "author": "jorjon",
+    "headline": "Uses Codex to drive Claude Desktop because Codex can handle secrets",
+    "summary": "They have started telling Codex to control Claude Desktop, since Codex can create and store secrets while Claude cannot.",
+    "kind": "security",
+    "score": 5,
+    "evidence": "I’m even now starting to tell Codex to control Claude desktop, because Codex can create secrets, store them, etc, while Claude cannot."
+  },
+  {
+    "id": "50380232",
+    "author": "diseasedyak",
+    "headline": "Hermes wrote a custom Linux haptics app for a new game controller",
+    "summary": "Gaming only on CachyOS, they had Hermes write a custom app to control haptics on their new Flydigi Apex 6 Pro controller.",
+    "kind": "win",
+    "score": 5,
+    "evidence": "For instance, I recently bought a Flydigi Apex 6 Pro controller, but I game exclusively in CachyOS so I had Hermes write my own custom app for controlling haptics and such."
+  },
+  {
+    "id": "50374096",
+    "author": "Jabrov",
+    "headline": "Opus maxed out with 5-8 agents at work; at home, cry",
+    "summary": "At work they run Opus 5.5 at max settings with five to eight agents at once; their home setup is summed up as crying.",
+    "kind": "funny",
+    "score": 5,
+    "evidence": "Opus 5.5, fast mode, xhigh/max reasoning, ultracode as needed. Usually 5-8 agents going at any given moment. In-house frameworks for Claw-like workflows and agent orchestration.\n\nAt home:\n\nCry"
+  }
+]

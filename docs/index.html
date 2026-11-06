@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ask HN: What's your AI agentic setup? Answers, analyzed</title>
+<meta name="description" content="What Hacker News developers actually use for AI coding: subscriptions, APIs and models, harnesses like Claude Code and Codex, orchestration and platforms. Every count links back to the comment it came from.">
+<meta name="author" content="Scott Goci">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ask HN: What's your AI agentic setup? Answers, analyzed">
+<meta property="og:description" content="Subscriptions, models, harnesses, orchestration and platforms from the Nov 2026 Ask HN thread, grouped and counted, with every number traceable to a quote.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ask HN: What's your AI agentic setup? Answers, analyzed">
+<meta name="twitter:description" content="Subscriptions, models, harnesses, orchestration and platforms from the Nov 2026 Ask HN thread, grouped and counted.">
+<link rel="canonical" href="https://scouttyg.github.io/hn-agentic-setups/">
+<meta property="og:url" content="https://scouttyg.github.io/hn-agentic-setups/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23ff6600'/%3E%3Ctext x='8' y='12.5' font-family='Verdana' font-size='11' font-weight='bold' fill='white' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>if (localStorage.getItem("hn-report-theme") === "dark") document.documentElement.dataset.theme = "dark";</script>
+</head>
+<body>
+<div class="topbar">
+<div class="band"><div class="wrap">
+  <a class="brand" href="#top"><b>Thread analysis</b></a>
+  <nav>
+    <a href="#q-stories">stories</a><span class="pipe">|</span><a href="#q-subscription">subscriptions</a><span class="pipe">|</span><a href="#q-api_or_model">apis</a><span class="pipe">|</span><a href="#q-models">models</a><span class="pipe">|</span><a href="#q-harness">harnesses</a><span class="pipe">|</span><a href="#q-orchestration">orchestration</a><span class="pipe">|</span><a href="#q-platform">platforms</a><span class="pipe">|</span><a href="#tools">tools</a><span class="pipe">|</span><a href="#comments">comments</a>
+  </nav>
+  <span class="band-right"><button class="bandbtn" data-dialog="settings" id="settingsBtn">settings</button><span class="pipe">|</span><button class="bandbtn" data-dialog="help">help</button></span>
+</div></div>
+</div>
+
+<dialog class="panel" id="dlg-settings" aria-labelledby="settingsTitle">
+  <header><h2 id="settingsTitle">Settings</h2><button class="x" data-close aria-label="Close">×</button></header>
+  <section>
+    <h3>What to count</h3>
+    <p class="hint2">Each mention has a status based on the commenter's wording. Every number on the page counts the statuses you pick here.</p>
+    <div class="filters" id="filters">
+      <button class="fchip" data-stance="uses" aria-pressed="true" title="Part of their setup today (“I use…”, “my daily driver is…”)">current use <span class="k"></span></button>
+      <button class="fchip" data-stance="tried" aria-pressed="false" title="Used before or experimenting (“I tried…”, “used to use…”, “moved on from…”)">tried <span class="k"></span></button>
+      <button class="fchip" data-stance="rejected" aria-pressed="false" title="Explicitly stopped or refuses (“cancelled”, “dropped”, “won't touch”)">stopped <span class="k"></span></button>
+      <button class="fchip" data-stance="planned" aria-pressed="false" title="Intends to try or switch to it">planned <span class="k"></span></button>
+    </div>
+  </section>
+  <section>
+    <h3>Dead and flagged comments</h3>
+    <p class="hint2">HN marks some comments dead or flagged, often spam or brand-new accounts.</p>
+    <button class="fchip" data-dead aria-pressed="true">include them in every count <span class="k"></span></button>
+  </section>
+  <section>
+    <h3>Appearance</h3>
+    <div class="seg2"><button class="fopt" data-theme-set="light" aria-pressed="true">Light</button><button class="fopt" data-theme-set="dark" aria-pressed="false">Dark</button></div>
+  </section>
+  <section data-editor-only>
+    <h3>Your corrections</h3>
+    <p class="hint2" id="corrHint">Use ✗ on any extraction to mark it wrong, or ✎ to rename it. Corrections are saved in this browser.</p>
+    <span class="corr" id="corr"></span>
+  </section>
+  <footer><button class="linkbtn" data-reset-settings>Reset to defaults</button></footer>
+</dialog>
+
+<dialog class="panel wide" id="dlg-help" aria-labelledby="helpTitle">
+  <header><h2 id="helpTitle">How to read this</h2><button class="x" data-close aria-label="Close">×</button></header>
+  <section><h3>What this is</h3>
+    <p>An analysis of every comment in the Ask HN thread “What's your current AI agentic setup?”. Almost nobody followed the question format, so an LLM read each comment and pulled out the tools, models and plans people mentioned. Every extraction keeps the verbatim quote it's based on, and every number links back to those quotes.</p>
+    <p class="by">Built by Scott Goci (<a data-utm href="https://scottgoci.com" target="_blank" rel="noopener">scottgoci.com</a>, <a href="https://github.com/scouttyg" target="_blank" rel="noopener">GitHub</a>, <a href="mailto:me@scottgoci.com">me@scottgoci.com</a>), with help from Claude (AI).</p></section>
+  <section><h3>Charts</h3>
+    <p>Every chart counts people, once each, however many comments they wrote. A top-level row's percentage is its share of everyone who described a setup (shown at the top of each question). An indented row's percentage is its share of the row above it, and “No further detail” is everyone who didn't say more. Click ▸ to expand a row, or click its name to read every quote behind it.</p></section>
+  <section><h3>Current use, tried, stopped, planned</h3>
+    <p>Each mention got a status from the commenter's wording: “I use” is current, “I tried” or “moved on from” is tried, “cancelled” or “dropped” is stopped, and “going to try” is planned. By default the page counts current use only; change that in <button class="linkbtn" data-dialog="settings">settings</button>. The line between tried and stopped is fuzzy, so you can count several together.</p></section>
+  <section><h3>Quotes</h3>
+    <p>Quotes are the commenter's own words, lightly edited for reading: <b>[brackets]</b> mark words an editor added for context, and <b>…</b> marks cuts. “context” shows the surrounding part of the comment, and “on hn” opens the original.</p></section>
+  <section><h3>Tools, licenses and pricing</h3>
+    <p>Tool descriptions, links, licenses and pricing were researched from each tool's website, GitHub repo and license file. GitHub stars are fetched live. Licenses read from GitHub are exact; pricing and some categorisations are judgment calls, and the uncertain ones say so.</p></section>
+  <section data-issues hidden><h3>Spotted a mistake?</h3>
+    <p>Extractions were made by an LLM and checked against the comments, but some calls are judgment calls. <a href="#" target="_blank" rel="noopener">Report it here</a>.</p></section>
+  <section data-editor-only><h3>Fixing mistakes</h3>
+    <p>Hover any highlighted text to see what was extracted from it. Use ✗ to mark an extraction wrong or ✎ to rename it; every number updates immediately. Export your corrections from <button class="linkbtn" data-dialog="settings">settings</button> to make them permanent.</p></section>
+  <section><h3>Keyboard</h3>
+    <p><b>Esc</b> closes any panel or dialog. Tabs, rows and buttons are all reachable with <b>Tab</b>.</p></section>
+</dialog>
+
+<header class="top" id="top"><div class="wrap">
+  <h1 id="title"></h1>
+  <p class="meta" id="meta"></p>
+</div></header>
+
+<main class="wrap">
+  <div id="sections"></div>
+  <section class="q" id="comments">
+    <header class="q-side">
+      <span class="qn">Source</span>
+      <h2>Every comment</h2>
+      <p class="ask">Highlighted text is the evidence for each count. Hover it to see the question it answers.<span data-editor-only> Use ✗ to mark an extraction wrong, or ✎ to rename it. Corrections update every number right away, and Export saves them to <code>extraction/corrections.json</code>.</span></p>
+    </header>
+    <div class="q-main">
+      <div class="browser-tools">
+        <input type="search" id="q" placeholder="Search text, author, tool or model">
+        <select id="catFilter"><option value="">All questions</option></select>
+        <label class="chk"><input type="checkbox" id="onlyAns"> Only comments with extractions</label>
+        <label class="chk">Sort
+          <select id="sortBy">
+            <option value="thread">Thread order (as on HN)</option>
+            <option value="replies">Most replies</option>
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+            <option value="extractions">Most extractions</option>
+          </select></label>
+        <span id="threadBtns"><button class="linkbtn" id="collapseAll">Collapse all</button> <button class="linkbtn" id="expandAll">Expand all</button></span>
+        <span class="sub" id="shown"></span>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div id="list"></div>
+    </div>
+  </section>
+  <footer>
+    <p class="credit">Built by <b>Scott Goci</b> <span class="pipe">|</span> <a data-utm href="https://scottgoci.com" target="_blank" rel="noopener">scottgoci.com</a> <span class="pipe">|</span> <a href="https://github.com/scouttyg" target="_blank" rel="noopener">GitHub</a> <span class="pipe">|</span> <a href="mailto:me@scottgoci.com">me@scottgoci.com</a><br>Made with help from Claude (AI).</p>
+    <p class="flinks"><button class="linkbtn" data-howto>how to read this</button><span class="pipe">|</span><a href="#comments">every comment</a><span class="pipe">|</span><a id="footThread" href="#">open the thread on hn</a></p>
+  </footer>
+</main>
+
+<div class="drawer-bg" id="drawerBg"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <button class="close" id="drawerClose" aria-label="Close">×</button>
+  <header><h2 id="dTitle"></h2><div class="sub" id="dSub"></div></header>
+  <div class="body" id="dBody"></div>
+</aside>
+<div id="tip"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

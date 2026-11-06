@@ -1,0 +1,222 @@
+{
+  "OpenCode Go": {
+    "description": "OpenCode's $10/month subscription giving subsidized, capped access to open coding models (e.g. GLM, Kimi, DeepSeek 4.1 Flash) inside the OpenCode harness. Sold by Anomaly, the company behind OpenCode.",
+    "vendor": "Anomaly (OpenCode)",
+    "website": "https://opencode.ai/go",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": ["https://opencode.ai/docs/go.md", "https://opencode.ai/go"]
+  },
+  "OpenCode Zen": {
+    "description": "OpenCode's pay-as-you-go model gateway (since renamed the OpenCode Console): prepaid credits buy access to many hosted models at roughly provider list prices, for use in OpenCode and other tools. Run by Anomaly, the company behind OpenCode.",
+    "vendor": "Anomaly (OpenCode)",
+    "website": "https://opencode.ai/zen",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": ["https://opencode.ai/v2/docs/console/", "https://opencode.ai/docs/zen"]
+  },
+  "Unified Cursor + Grok + Grok Bot": {
+    "description": "\"The X Subscription\", a bundle launched 12 October 2026 by SpaceX Super Intelligence (formerly xAI, which also owns Cursor) that combines Grok, Grok Bot, Cursor and X Premium with one shared usage pool. Tiers run Free, Plus $8, Premium $30, Super $100 and Ultra $200 a month; the commenter's ~$200/month is the Ultra tier.",
+    "vendor": "SpaceX Super Intelligence (xAI)",
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "medium",
+    "sources": ["https://teslanorth.com/2026/10/12/x-subscription-grok-cursor-premium-plans/", "https://fourweekmba.com/ai-spacex-bundles-grok-cursor-and-x-premium-from-8-to-200/"]
+  },
+  "Kilo": {
+    "description": "Kilo (Kilo Code), maker of an open-source coding agent for VS Code and JetBrains. Here it's used through Kilo Gateway credits, which give access to hundreds of models at provider API prices on one bill.",
+    "vendor": "Kilo Code",
+    "website": "https://kilo.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": ["https://kilo.ai", "https://kilo.ai/docs/providers/kilocode"]
+  },
+  "SuperGrok": {
+    "description": "xAI's paid Grok subscription, long priced at $30/month ($300/year), giving higher limits on Grok models and features. Since 12 October 2026 new customers get the bundled X Subscription instead, while existing SuperGrok subscribers keep their plans.",
+    "vendor": "xAI (SpaceX Super Intelligence)",
+    "website": "https://grok.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "medium",
+    "sources": ["https://tech.co/news/grok-ai-pricing", "https://teslanorth.com/2026/10/12/x-subscription-grok-cursor-premium-plans/"]
+  },
+  "ComfyUI": {
+    "description": "Open-source, node-based graph interface and backend for running image/video diffusion models (e.g. Flux) locally. Maintained by Comfy Org.",
+    "vendor": "Comfy Org",
+    "website": "https://www.comfy.org",
+    "github": "Comfy-Org/ComfyUI",
+    "harness_type": null,
+    "interface": "web",
+    "open_source": true,
+    "confidence": "high",
+    "sources": ["https://github.com/Comfy-Org/ComfyUI"]
+  },
+  "ninfer": {
+    "description": "NInfer, an open-source (Apache-2.0) C++/CUDA inference engine for selected Qwen checkpoints (including NVFP4 Qwen3.8-27B) on a single RTX 5090 or DGX Spark, served through a CLI or OpenAI/Anthropic-compatible APIs. Made by GitHub user Neroued.",
+    "vendor": "Neroued",
+    "website": null,
+    "github": "Neroued/ninfer",
+    "harness_type": null,
+    "interface": "cli",
+    "open_source": true,
+    "confidence": "high",
+    "sources": ["https://github.com/Neroued/ninfer", "https://huggingface.co/neroued/Qwen3.6-27B-nvfp4-NInfer"]
+  },
+  "ThinkRail": {
+    "description": "JetBrains' experimental agentic IDE (incubator project) built around the pi coding agent, with per-chat git worktrees and spec-driven development. It can connect to model routers such as Requesty.",
+    "vendor": "JetBrains",
+    "website": "https://thinkrail.ai",
+    "github": "JetBrains/thinkrail",
+    "harness_type": null,
+    "interface": "desktop",
+    "open_source": true,
+    "confidence": "high",
+    "sources": ["https://github.com/JetBrains/thinkrail"]
+  },
+  "ChatGPT Go": {
+    "description": "OpenAI's low-cost ChatGPT tier, launched in India in August 2025 at Rs 399/month (about $4.50). It gives higher message limits than the free tier, plus image generation, file uploads and longer memory, but not Plus/Pro features such as deep research, agent mode or Sora.",
+    "vendor": "OpenAI",
+    "website": "https://chatgpt.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": ["https://inc42.com/buzz/openai-launches-cheapest-chatgpt-plan-at-inr-399-in-india/", "https://www.outlookbusiness.com/artificial-intelligence/openai-rolls-out-low-cost-chatgpt-go-for-indian-users-check-details-here"]
+  },
+  "Radiance engine": {
+    "description": "Most likely Radiance, a community C++/HIP LLM inference engine for AMD RDNA4 GPUs (e.g. 2x Radeon AI PRO R9700) that runs Qwen 27B FP8 models from .rad containers, by Hugging Face user StillDeadcode. The commenter's '2xRS700' fits that hardware.",
+    "vendor": "StillDeadcode",
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": "cli",
+    "open_source": null,
+    "confidence": "medium",
+    "sources": ["https://huggingface.co/StillDeadcode/qwen3.8-27b-fp8", "https://forum.level1techs.com/t/ultimate-2x-r9700-guide-for-qwen-3-8-27b-mxfp4-200t-s-c-1-500t-s-at-c-8/257789"]
+  },
+  "Basalt": {
+    "description": "Basalt, an open-source (MIT) Linux inference engine tuned for running Qwen3.8 Flash-Next locally on NVIDIA Blackwell GPUs. It is a fork of the Strata engine, made by jesdga95.",
+    "vendor": "jesdga95",
+    "website": null,
+    "github": "jesdga95/basalt",
+    "harness_type": null,
+    "interface": "cli",
+    "open_source": true,
+    "confidence": "medium",
+    "sources": ["https://github.com/jesdga95/basalt", "https://prismix.dev/news/bb0f0693cafc"]
+  },
+  "DeepSeek Chat": {
+    "description": "DeepSeek's consumer chat assistant (web at chat.deepseek.com and mobile apps), free to use with DeepSeek's models.",
+    "vendor": "DeepSeek",
+    "website": "https://chat.deepseek.com",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": ["https://chat.deepseek.com"]
+  },
+  "Claude for Open Source": {
+    "description": "Anthropic program that gives qualifying open-source maintainers and contributors six months of a free top-tier Claude subscription (Max 20x at launch, now listed as Claude Ultra). Eligibility is based on project impact or contribution activity.",
+    "vendor": "Anthropic",
+    "website": "https://claude.com/contact-sales/claude-for-oss",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": ["https://claude.com/contact-sales/claude-for-oss", "https://pasqualepillitteri.it/en/news/7643/claude-for-open-source-max-20x-free-maintainers"]
+  },
+  "Hugging Face": {
+    "description": "Hugging Face's hosted inference APIs (Inference Providers / Inference Endpoints) for calling models from the Hugging Face Hub.",
+    "vendor": "Hugging Face",
+    "website": "https://huggingface.co/inference",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": ["https://huggingface.co/inference"]
+  },
+  "LocalLM": {
+    "description": "Unclear. The comment only says the person occasionally runs models 'in LocalLM'. It is probably a misspelling of a local-model app such as LM Studio, or the small LocalLLM llama.cpp control panel. No product called exactly 'LocalLM' was found.",
+    "vendor": null,
+    "website": null,
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": null,
+    "confidence": "low",
+    "sources": ["https://github.com/TRI-Tech-Revolution-Intelligence/LocalLLM"]
+  },
+  "DGX Spark": {
+    "description": "NVIDIA's compact desktop AI computer (GB10 Grace Blackwell chip, 128 GB unified memory), used here to host open-weight models locally.",
+    "vendor": "NVIDIA",
+    "website": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+    "github": null,
+    "harness_type": null,
+    "interface": null,
+    "open_source": false,
+    "confidence": "high",
+    "sources": ["https://www.nvidia.com/en-us/products/workstations/dgx-spark/"]
+  },
+  "duck.ai": {
+    "description": "DuckDuckGo's free, privacy-focused AI chat (Duck.ai), which offers anonymized access to several third-party chat models.",
+    "vendor": "DuckDuckGo",
+    "website": "https://duck.ai",
+    "github": null,
+    "harness_type": null,
+    "interface": "web",
+    "open_source": false,
+    "confidence": "high",
+    "sources": ["https://duck.ai"]
+  },
+  "ONNX": {
+    "description": "Open Neural Network Exchange, an open model format, together with its ONNX Runtime inference engine (Microsoft). The commenter patched it to run NVIDIA's Parakeet speech model locally.",
+    "vendor": "Linux Foundation AI & Data / Microsoft (ONNX Runtime)",
+    "website": "https://onnx.ai",
+    "github": "microsoft/onnxruntime",
+    "harness_type": null,
+    "interface": null,
+    "open_source": true,
+    "confidence": "high",
+    "sources": ["https://github.com/onnx/onnx", "https://github.com/microsoft/onnxruntime"]
+  },
+  "llama.app": {
+    "description": "The llama.cpp project's official local-LLM app (website llama.app): a cross-platform installer and menu-bar/tray app that downloads open models and serves them through a local OpenAI-compatible server.",
+    "vendor": "ggml-org (llama.cpp)",
+    "website": "https://llama.app",
+    "github": "ggml-org/Llama-macOS",
+    "harness_type": null,
+    "interface": "desktop",
+    "open_source": true,
+    "confidence": "high",
+    "sources": ["https://llama.app", "https://github.com/ggml-org/Llama-macOS"]
+  },
+  "Handy": {
+    "description": "Free, open-source (MIT) offline speech-to-text desktop app for Windows, macOS and Linux that transcribes with Whisper or NVIDIA Parakeet models and pastes the text into the active app. Made by CJ Pais.",
+    "vendor": "CJ Pais",
+    "website": null,
+    "github": "cjpais/Handy",
+    "harness_type": null,
+    "interface": "desktop",
+    "open_source": true,
+    "confidence": "high",
+    "sources": ["https://github.com/cjpais/Handy"]
+  }
+}

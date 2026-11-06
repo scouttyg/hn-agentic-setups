@@ -1,0 +1,713 @@
+{
+ "Claude": {
+  "kind": "subscription"
+ },
+ "Claude Code": {
+  "kind": "harness"
+ },
+ "ChatGPT / Codex": {
+  "kind": "subscription"
+ },
+ "Codex": {
+  "kind": "harness",
+  "move": {
+   "orchestration": "harness"
+  }
+ },
+ "Custom orchestration": {
+  "kind": "bucket"
+ },
+ "Pi": {
+  "kind": "harness"
+ },
+ "DeepSeek": {
+  "kind": "model",
+  "move": {
+   "subscription": "api_or_model"
+  },
+  "note": "Sold pay-per-token, no subscription plan."
+ },
+ "OpenCode": {
+  "kind": "harness"
+ },
+ "OpenRouter": {
+  "kind": "api_provider"
+ },
+ "Qwen": {
+  "kind": "model"
+ },
+ "Hermes Agent": {
+  "kind": "platform",
+  "move": {
+   "harness": "platform",
+   "orchestration": "platform"
+  }
+ },
+ "Chat UI (web/app)": {
+  "kind": "bucket"
+ },
+ "Custom harness": {
+  "kind": "bucket"
+ },
+ "Cursor": {
+  "kind": "harness",
+  "note": "Legitimately both a harness and a subscription."
+ },
+ "OpenCode Go/Zen": {
+  "kind": "subscription"
+ },
+ "Custom assistant": {
+  "kind": "bucket"
+ },
+ "Herdr": {
+  "kind": "orchestration"
+ },
+ "GitHub Copilot": {
+  "kind": "harness",
+  "note": "Product is a harness; subscription mentions are legitimate too."
+ },
+ "GLM": {
+  "kind": "model"
+ },
+ "Subagents (built-in)": {
+  "kind": "technique"
+ },
+ "OpenClaw": {
+  "kind": "platform"
+ },
+ "Gemini": {
+  "kind": "subscription"
+ },
+ "Git worktrees": {
+  "kind": "technique"
+ },
+ "Muse": {
+  "kind": "platform",
+  "move": {
+   "orchestration": "platform"
+  },
+  "note": "Multi-product family; model and subscription mentions are legitimate."
+ },
+ "Antigravity": {
+  "kind": "harness"
+ },
+ "Anthropic API": {
+  "kind": "api_provider"
+ },
+ "Grok bot": {
+  "kind": "platform"
+ },
+ "tmux / zellij": {
+  "kind": "technique"
+ },
+ "OpenAI API": {
+  "kind": "api_provider"
+ },
+ "Grok": {
+  "kind": "subscription",
+  "note": "Grok Build harness mention bundled with plan; left in place."
+ },
+ "Local models (unspecified)": {
+  "kind": "bucket"
+ },
+ "Zed": {
+  "kind": "harness"
+ },
+ "Gemma": {
+  "kind": "model"
+ },
+ "Kimi": {
+  "kind": "model",
+  "note": "Kimi subscriptions exist; both questions legitimate."
+ },
+ "Z.ai (GLM)": {
+  "kind": "subscription"
+ },
+ "Orca": {
+  "kind": "orchestration",
+  "move": {
+   "harness": "orchestration"
+  },
+  "note": "Runs fleets of agents in parallel terminals."
+ },
+ "T3 Code": {
+  "kind": "harness",
+  "note": "Agent control surface; orchestration mentions plausible, left in place."
+ },
+ "Dots": {
+  "kind": "platform"
+ },
+ "DeepSeek Harness": {
+  "kind": "harness"
+ },
+ "Emacs (gptel etc.)": {
+  "kind": "harness",
+  "note": "Emacs packages (gptel, ECA) act as the harness."
+ },
+ "Google / Gemini API": {
+  "kind": "api_provider"
+ },
+ "Paseo": {
+  "kind": "orchestration",
+  "move": {
+   "harness": "orchestration",
+   "platform": "orchestration"
+  },
+  "note": "Multi-agent daemon/clients; instructions list it as orchestration."
+ },
+ "Ollama": {
+  "kind": "runtime"
+ },
+ "MLX": {
+  "kind": "runtime"
+ },
+ "Cline": {
+  "kind": "harness"
+ },
+ "Kiro": {
+  "kind": "harness"
+ },
+ "llama.cpp": {
+  "kind": "runtime"
+ },
+ "Ollama Cloud": {
+  "kind": "subscription"
+ },
+ "Rex": {
+  "kind": "orchestration",
+  "note": "General terminal multiplexer used for agent sessions, like tmux."
+ },
+ "Melious": {
+  "kind": "api_provider",
+  "move": {
+   "subscription": "api_or_model"
+  },
+  "note": "Pay-per-token inference provider."
+ },
+ "Mistral": {
+  "kind": "subscription"
+ },
+ "Kilo Code": {
+  "kind": "harness"
+ },
+ "Perplexity": {
+  "kind": "subscription"
+ },
+ "LM Studio": {
+  "kind": "runtime"
+ },
+ "Goose": {
+  "kind": "harness"
+ },
+ "cmux": {
+  "kind": "orchestration"
+ },
+ "Aider": {
+  "kind": "harness"
+ },
+ "Instinct": {
+  "kind": "platform"
+ },
+ "Gemini CLI": {
+  "kind": "harness"
+ },
+ "AWS Bedrock": {
+  "kind": "api_provider"
+ },
+ "VS Code": {
+  "kind": "harness",
+  "note": "Editor hosting agent extensions; treated as the harness surface."
+ },
+ "Mercury": {
+  "kind": "model"
+ },
+ "Nemotron": {
+  "kind": "model"
+ },
+ "Maki": {
+  "kind": "harness"
+ },
+ "Devin": {
+  "kind": "harness"
+ },
+ "Strata": {
+  "kind": "runtime"
+ },
+ "OpenRig": {
+  "kind": "orchestration"
+ },
+ "Kimi Code": {
+  "kind": "harness"
+ },
+ "Parakeet": {
+  "kind": "model"
+ },
+ "Muse Code": {
+  "kind": "harness"
+ },
+ "MiMo": {
+  "kind": "model"
+ },
+ "Cloud agents": {
+  "kind": "bucket"
+ },
+ "Ctlflow": {
+  "kind": "orchestration"
+ },
+ "3code": {
+  "kind": "harness"
+ },
+ "Exa": {
+  "kind": "api_provider",
+  "note": "Web search API for agents, not an LLM."
+ },
+ "DeepInfra": {
+  "kind": "api_provider"
+ },
+ "Whisper": {
+  "kind": "model"
+ },
+ "Conductor": {
+  "kind": "orchestration"
+ },
+ "Amp": {
+  "kind": "harness"
+ },
+ "CodeBuddy": {
+  "kind": "harness",
+  "note": "Tencent coding assistant; Pro plan mention legitimately a subscription."
+ },
+ "Mistral Vibe": {
+  "kind": "harness"
+ },
+ "JetBrains Thinkrail": {
+  "kind": "harness"
+ },
+ "OpenChamber": {
+  "kind": "harness"
+ },
+ "NodeCode": {
+  "kind": "harness"
+ },
+ "DeepSeek Superagent": {
+  "kind": "orchestration",
+  "note": "Router/Worker multi-agent system built on DeepSeek Harness."
+ },
+ "NanoClaw": {
+  "kind": "platform"
+ },
+ "JetBrains AI / Junie": {
+  "kind": "harness"
+ },
+ "MiniMax": {
+  "kind": "model"
+ },
+ "Atlas Cloud": {
+  "kind": "api_provider"
+ },
+ "Warp": {
+  "kind": "harness"
+ },
+ "Gas Town": {
+  "kind": "orchestration"
+ },
+ "Open WebUI": {
+  "kind": "harness"
+ },
+ "CLI harness (unspecified)": {
+  "kind": "bucket"
+ },
+ "Raven": {
+  "kind": "orchestration"
+ },
+ "Duet": {
+  "kind": "platform"
+ },
+ "Juggler": {
+  "kind": "orchestration",
+  "note": "Workbench managing persistent sessions of other agents."
+ },
+ "Argon": {
+  "kind": "model"
+ },
+ "Jev": {
+  "kind": "model"
+ },
+ "Various API providers": {
+  "kind": "bucket"
+ },
+ "Kilo Credits": {
+  "kind": "api_provider"
+ },
+ "OpenBot": {
+  "kind": "platform"
+ },
+ "agent-swarm.dev": {
+  "kind": "orchestration"
+ },
+ "NVIDIA NIM": {
+  "kind": "api_provider"
+ },
+ "Llama": {
+  "kind": "model"
+ },
+ "LangGraph": {
+  "kind": "orchestration"
+ },
+ "Collie": {
+  "kind": "orchestration"
+ },
+ "Abliterated models": {
+  "kind": "bucket"
+ },
+ "ZeroStack": {
+  "kind": "harness"
+ },
+ "Pendant": {
+  "kind": "harness",
+  "note": "Unidentified; harness is a best guess."
+ },
+ "Osaurus": {
+  "kind": "platform"
+ },
+ "Contextify": {
+  "kind": "orchestration",
+  "note": "Session monitor/context sharing across agents; loose fit."
+ },
+ "Open Agent Harness (OAH)": {
+  "kind": "orchestration"
+ },
+ "TensorX": {
+  "kind": "api_provider"
+ },
+ "OpenCode swarm plugins": {
+  "kind": "bucket"
+ },
+ "yaac": {
+  "kind": "orchestration"
+ },
+ "Letta": {
+  "kind": "platform"
+ },
+ "Entrim": {
+  "kind": "api_provider"
+ },
+ "LiteLLM": {
+  "kind": "api_provider"
+ },
+ "Hax": {
+  "kind": "harness"
+ },
+ "Rakazo": {
+  "kind": "platform"
+ },
+ "Command Code": {
+  "kind": "subscription"
+ },
+ "FreeBuff": {
+  "kind": "harness"
+ },
+ "Requesty": {
+  "kind": "api_provider"
+ },
+ "Discount provider (unnamed)": {
+  "kind": "bucket"
+ },
+ "Agenta": {
+  "kind": "not_a_tool",
+  "move": {
+   "platform": null
+  },
+  "note": "LLMOps/prompt-eval platform, not an agent platform."
+ },
+ "Kagi": {
+  "kind": "subscription"
+ },
+ "MetaGPT": {
+  "kind": "orchestration",
+  "move": {
+   "harness": "orchestration"
+  },
+  "note": "Multi-agent framework simulating a software company."
+ },
+ "Dirge": {
+  "kind": "harness"
+ },
+ "Baseten": {
+  "kind": "api_provider"
+ },
+ "Novita": {
+  "kind": "api_provider"
+ },
+ "MTPLX": {
+  "kind": "runtime"
+ },
+ "Together": {
+  "kind": "api_provider"
+ },
+ "IFM K2 Horizon": {
+  "kind": "model"
+ },
+ "Helyn Implement": {
+  "kind": "orchestration",
+  "note": "Unidentified multi-model agentic workflow."
+ },
+ "gpt-oss": {
+  "kind": "model"
+ },
+ "Kokoro": {
+  "kind": "model"
+ },
+ "Venice": {
+  "kind": "api_provider"
+ },
+ "OpenHands": {
+  "kind": "harness"
+ },
+ "ZCode": {
+  "kind": "harness"
+ },
+ "Nous Research": {
+  "kind": "subscription"
+ },
+ "Flux": {
+  "kind": "model"
+ },
+ "Munder Difflin": {
+  "kind": "orchestration"
+ },
+ "Muster": {
+  "kind": "orchestration"
+ },
+ "Claude Cowork": {
+  "kind": "platform"
+ },
+ "Scion": {
+  "kind": "orchestration"
+ },
+ "OpenCode Big Pickle": {
+  "kind": "model"
+ },
+ "clawpatrol": {
+  "kind": "orchestration",
+  "note": "Agent action-approval proxy; governance, closest fit is orchestration."
+ },
+ "Paseo / Orca / Superset": {
+  "kind": "orchestration"
+ },
+ "Other API models": {
+  "kind": "bucket"
+ },
+ "Other providers": {
+  "kind": "bucket"
+ },
+ "Fizzy": {
+  "kind": "technique",
+  "note": "General kanban app; delegating via a board is the practice."
+ },
+ "jotter (MCP)": {
+  "kind": "technique",
+  "move": {
+   "harness": null
+  },
+  "note": "Personal MCP handoff script, not a harness."
+ },
+ "API (work)": {
+  "kind": "bucket"
+ },
+ "WanGP": {
+  "kind": "runtime"
+ },
+ "Hangar": {
+  "kind": "orchestration"
+ },
+ "Command Center": {
+  "kind": "orchestration"
+ },
+ "Bivia": {
+  "kind": "model"
+ },
+ "Pickle": {
+  "kind": "platform"
+ },
+ "Circus Chief": {
+  "kind": "orchestration"
+ },
+ "BYO API keys": {
+  "kind": "bucket"
+ },
+ "Luna": {
+  "kind": "model"
+ },
+ "Friendli": {
+  "kind": "api_provider"
+ },
+ "Codealong": {
+  "kind": "orchestration"
+ },
+ "Agent Orchestrator": {
+  "kind": "orchestration",
+  "note": "Unspecified; may be generic."
+ },
+ "Hugging Face API": {
+  "kind": "api_provider"
+ },
+ "Lynx": {
+  "kind": "harness",
+  "note": "Unverified product used in place of agent CLIs."
+ },
+ "Hetzner Inference API": {
+  "kind": "api_provider"
+ },
+ "freellmapi": {
+  "kind": "api_provider"
+ },
+ "Meta AI": {
+  "kind": "subscription"
+ },
+ "OpenSWE": {
+  "kind": "platform"
+ },
+ "DevArch": {
+  "kind": "orchestration",
+  "note": "Claude Code layer of agents/hooks/skills; loose fit."
+ },
+ "agentcron.ai": {
+  "kind": "orchestration",
+  "note": "Workspace/kanban agents use via MCP."
+ },
+ "Mistral / Devstral": {
+  "kind": "model"
+ },
+ "Ori": {
+  "kind": "harness"
+ },
+ "Vercel AI Gateway": {
+  "kind": "api_provider"
+ },
+ "llm-desktop-electron": {
+  "kind": "harness"
+ },
+ "Abliterated.ai": {
+  "kind": "api_provider"
+ },
+ "epiq": {
+  "kind": "orchestration"
+ },
+ "Belfry": {
+  "kind": "orchestration",
+  "note": "tmux front-end used to manage agent sessions."
+ },
+ "Paperclip": {
+  "kind": "orchestration"
+ },
+ "Corgi": {
+  "kind": "orchestration",
+  "move": {
+   "harness": "orchestration"
+  },
+  "note": "Herdr-like agent multiplexer, not a harness itself."
+ },
+ "Grok CLI": {
+  "kind": "harness"
+ },
+ "Desert Ant / Laya": {
+  "kind": "model"
+ },
+ "Kepler": {
+  "kind": "harness"
+ },
+ "Xiaomi MiMo": {
+  "kind": "subscription"
+ },
+ "Tailscale Aperture": {
+  "kind": "api_provider"
+ },
+ "MiMo Code": {
+  "kind": "harness"
+ },
+ "Charm Hyper": {
+  "kind": "subscription"
+ },
+ "Synthetic": {
+  "kind": "subscription"
+ },
+ "Termic": {
+  "kind": "orchestration"
+ },
+ "Halogen": {
+  "kind": "runtime"
+ },
+ "Clef": {
+  "kind": "model"
+ },
+ "Ornith": {
+  "kind": "model"
+ },
+ "Swival": {
+  "kind": "harness"
+ },
+ "Comet": {
+  "kind": "platform"
+ },
+ "NBClaw": {
+  "kind": "platform"
+ },
+ "exe.dev": {
+  "kind": "subscription",
+  "note": "Cloud VM subscription for agents, not a model plan."
+ },
+ "Volt": {
+  "kind": "harness"
+ },
+ "Kapitsa": {
+  "kind": "runtime"
+ },
+ "Claude Desktop": {
+  "kind": "platform"
+ },
+ "GPT Luna": {
+  "kind": "model"
+ },
+ "Briefkin": {
+  "kind": "orchestration"
+ },
+ "ElevenLabs": {
+  "kind": "api_provider"
+ },
+ "Fal.ai": {
+  "kind": "api_provider"
+ },
+ "Chinese open-weight models": {
+  "kind": "bucket"
+ },
+ "Kiro Crew": {
+  "kind": "orchestration"
+ },
+ "llama-swap": {
+  "kind": "runtime"
+ },
+ "LoopX": {
+  "kind": "orchestration"
+ },
+ "Lyre": {
+  "kind": "orchestration",
+  "note": "Runs agents across machines; built on Paseo code."
+ },
+ "Azure AI Foundry": {
+  "kind": "api_provider"
+ },
+ "CrewAI": {
+  "kind": "orchestration"
+ },
+ "Vantegrate": {
+  "kind": "platform"
+ },
+ "agent-chat": {
+  "kind": "orchestration"
+ },
+ "LongCat": {
+  "kind": "model",
+  "note": "Model family; subscription mention left, no known plan."
+ }
+}

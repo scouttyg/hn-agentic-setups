@@ -1,0 +1,1265 @@
+[
+ {
+  "id": "50380777",
+  "use_cases": [
+   {
+    "text": "simulated stock portfolio trading competing with a friend",
+    "evidence": "My friend and I have built portfolio management agents and pit them against each other to see who can make the most money (not real money just a simulated bank account and stock portfolio). So mine runs every morning to read the news and do analaysis and all that."
+   }
+  ]
+ },
+ {
+  "id": "50383211",
+  "use_cases": []
+ },
+ {
+  "id": "50395602",
+  "use_cases": []
+ },
+ {
+  "id": "50379612",
+  "use_cases": []
+ },
+ {
+  "id": "50380973",
+  "use_cases": []
+ },
+ {
+  "id": "50378847",
+  "use_cases": [
+   {
+    "text": "server updates, vulnerability reports and intrusion log checks",
+    "evidence": "Although, I start sessions from cron, if that counts. Use them to do some sysadmin (keeping servers up to date, reporting vulnerabilities to me, and checking logs for intrusion), and for personal task (like, browsing Patreon to download new stuff from the creators I'm subscribed to)."
+   },
+   {
+    "text": "downloading new Patreon content from subscribed creators",
+    "evidence": "Although, I start sessions from cron, if that counts. Use them to do some sysadmin (keeping servers up to date, reporting vulnerabilities to me, and checking logs for intrusion), and for personal task (like, browsing Patreon to download new stuff from the creators I'm subscribed to)."
+   },
+   {
+    "text": "classifying emails with a local model",
+    "evidence": "Also, I hooked a local Gemma-4 E4B (running on my laptop) to help classify my mails."
+   }
+  ]
+ },
+ {
+  "id": "50385812",
+  "use_cases": [
+   {
+    "text": "research and comparing approaches and products",
+    "evidence": "I'm a big user of Hermes, both at home and for work. Most of what I do with it is research, identifying pros and cons of different approaches to problems, product comparisons, proofreading my own docs before they get sent out."
+   },
+   {
+    "text": "proofreading own documents before sending",
+    "evidence": "I'm a big user of Hermes, both at home and for work. Most of what I do with it is research, identifying pros and cons of different approaches to problems, product comparisons, proofreading my own docs before they get sent out."
+   },
+   {
+    "text": "overnight research or building of complex things",
+    "evidence": "Probably 70% of the time I'll kick off Hermes late in the day to research or build something complex overnight, then pick it up the following morning."
+   }
+  ]
+ },
+ {
+  "id": "50374298",
+  "use_cases": []
+ },
+ {
+  "id": "50374261",
+  "use_cases": []
+ },
+ {
+  "id": "50375407",
+  "use_cases": []
+ },
+ {
+  "id": "50373324",
+  "use_cases": [
+   {
+    "text": "equity analysis with swarms of agents",
+    "evidence": "For non coding usecases, I use https://www.ctlflow.com. This lets me run dozens of agents on tasks like equity analysis."
+   }
+  ]
+ },
+ {
+  "id": "50367423",
+  "use_cases": [
+   {
+    "text": "interactive local agent to chat, build and fix code",
+    "evidence": "I wanted something that you could chat to, collaborate with, build, evalutate the code, make corrections, build, repeat."
+   }
+  ]
+ },
+ {
+  "id": "50375873",
+  "use_cases": []
+ },
+ {
+  "id": "50377453",
+  "use_cases": [
+   {
+    "text": "picking up and completing tasks from a Redmine board",
+    "evidence": "I built custom agents on top of RubyLLM. I primarily communicate with them via email. One of them has access to a Redmine project board where it can pick up tasks and complete assignments."
+   }
+  ]
+ },
+ {
+  "id": "50380407",
+  "use_cases": []
+ },
+ {
+  "id": "50367582",
+  "use_cases": [
+   {
+    "text": "running supplement experiments",
+    "evidence": "Grok Bot for running experiments with supplements, calory tracking etc.."
+   },
+   {
+    "text": "calorie tracking",
+    "evidence": "Grok Bot for running experiments with supplements, calory tracking etc.."
+   }
+  ]
+ },
+ {
+  "id": "50379352",
+  "use_cases": [
+   {
+    "text": "code agents that build and deploy software",
+    "evidence": "4 - My own, called Workforce, which include general agent tasks + a lot of focus around code agents. (Workforce has agents that build and deploy Workforce, for example.)"
+   }
+  ]
+ },
+ {
+  "id": "50391332",
+  "use_cases": [
+   {
+    "text": "job applications",
+    "evidence": "Grok bot had a deal on and I got it for like $30 for three months and is shit hot for applications for jobs, emails all kinds of cool shit."
+   },
+   {
+    "text": "handling emails",
+    "evidence": "Grok bot had a deal on and I got it for like $30 for three months and is shit hot for applications for jobs, emails all kinds of cool shit."
+   },
+   {
+    "text": "finding better shopping deals",
+    "evidence": "I use free instinct bot too and I ran it against grok bot to find if it would find better deals and it did most of the time."
+   }
+  ]
+ },
+ {
+  "id": "50376357",
+  "use_cases": []
+ },
+ {
+  "id": "50378479",
+  "use_cases": []
+ },
+ {
+  "id": "50378890",
+  "use_cases": [
+   {
+    "text": "founder inbound outreach",
+    "evidence": "Build agents to automate parts of my work as a founder (inbound outreach, product analytics, executive assistant, seo, build->test->qa loops)"
+   },
+   {
+    "text": "product analytics",
+    "evidence": "Build agents to automate parts of my work as a founder (inbound outreach, product analytics, executive assistant, seo, build->test->qa loops)"
+   },
+   {
+    "text": "executive assistant work",
+    "evidence": "Build agents to automate parts of my work as a founder (inbound outreach, product analytics, executive assistant, seo, build->test->qa loops)"
+   },
+   {
+    "text": "SEO",
+    "evidence": "Build agents to automate parts of my work as a founder (inbound outreach, product analytics, executive assistant, seo, build->test->qa loops)"
+   },
+   {
+    "text": "build-test-QA loops for the product",
+    "evidence": "Build agents to automate parts of my work as a founder (inbound outreach, product analytics, executive assistant, seo, build->test->qa loops)"
+   },
+   {
+    "text": "scheduled analysis of recent signups",
+    "evidence": "Build automations on schedule (last days signup analysis for instance, or following up with contributors)"
+   },
+   {
+    "text": "scheduled follow-ups with contributors",
+    "evidence": "Build automations on schedule (last days signup analysis for instance, or following up with contributors)"
+   }
+  ]
+ },
+ {
+  "id": "50385925",
+  "use_cases": []
+ },
+ {
+  "id": "50379596",
+  "use_cases": [
+   {
+    "text": "monitoring Proxmox homelab servers",
+    "evidence": "The agent has restricted access to my Nexcloud, Github and the Proxmox VE / Proxmox PBS servers. I can specify its access, so it has read only access to some of my nextcloud, and my Proxmox Server for monitoring, and a Nextcloud folder it can write to."
+   }
+  ]
+ },
+ {
+  "id": "50373698",
+  "use_cases": [
+   {
+    "text": "basic research",
+    "evidence": "Muse, I have it doing things like basic research, waiting on ticket windows and just being a personal assistant."
+   },
+   {
+    "text": "waiting on ticket sale windows",
+    "evidence": "Muse, I have it doing things like basic research, waiting on ticket windows and just being a personal assistant."
+   },
+   {
+    "text": "scraping churning forums for bank and brokerage bonuses",
+    "evidence": "It also does a really good job at scraping churning forums and blogs and has made a few thousand dollars in the last month just on bank and brokerage bonuses."
+   },
+   {
+    "text": "record keeping for bank bonus churning",
+    "evidence": "It also does a really good job at scraping churning forums and blogs and has made a few thousand dollars in the last month just on bank and brokerage bonuses. It does all the record keeping and I just sanity check the dates, hold periods and do the account opening / transfer work."
+   }
+  ]
+ },
+ {
+  "id": "50367744",
+  "use_cases": [
+   {
+    "text": "bulk extraction from thousands of websites",
+    "evidence": "For expensive agent runs, like visit 5000 websites and extract something from each, I would set up something cheap with an agents sdk and for the model use either Muse, Deepseek, or GPT-6-luna using their batch API."
+   }
+  ]
+ },
+ {
+  "id": "50377579",
+  "use_cases": [
+   {
+    "text": "monitoring finances read-only",
+    "evidence": "They handle my finances (read-only), acts as a general assistant (and reads my e-mail), plan out my projects, manages my soon-to-launch podcast setup, runs several websites autonomously."
+   },
+   {
+    "text": "general assistant that reads email",
+    "evidence": "They handle my finances (read-only), acts as a general assistant (and reads my e-mail), plan out my projects, manages my soon-to-launch podcast setup, runs several websites autonomously."
+   },
+   {
+    "text": "planning projects",
+    "evidence": "They handle my finances (read-only), acts as a general assistant (and reads my e-mail), plan out my projects, manages my soon-to-launch podcast setup, runs several websites autonomously."
+   },
+   {
+    "text": "managing a podcast setup",
+    "evidence": "They handle my finances (read-only), acts as a general assistant (and reads my e-mail), plan out my projects, manages my soon-to-launch podcast setup, runs several websites autonomously."
+   },
+   {
+    "text": "running several websites autonomously",
+    "evidence": "They handle my finances (read-only), acts as a general assistant (and reads my e-mail), plan out my projects, manages my soon-to-launch podcast setup, runs several websites autonomously."
+   }
+  ]
+ },
+ {
+  "id": "50378530",
+  "use_cases": [
+   {
+    "text": "automatically lowering Facebook Marketplace listing prices",
+    "evidence": "Oh, and separate from all that, I have Facebook muse set to automatically lower prices on a couple things I have on FB marketplace."
+   }
+  ]
+ },
+ {
+  "id": "50385740",
+  "use_cases": []
+ },
+ {
+  "id": "50368106",
+  "use_cases": []
+ },
+ {
+  "id": "50379350",
+  "use_cases": []
+ },
+ {
+  "id": "50376810",
+  "use_cases": [
+   {
+    "text": "talking through health problems",
+    "evidence": "For local I mostly use Hermes, not for any of the big features, just because I want a nice chat interface (I am mostly talking through my health problems and trying to get my appointments in order) that already has basic tooling integrations out of the box."
+   },
+   {
+    "text": "organizing medical appointments",
+    "evidence": "For local I mostly use Hermes, not for any of the big features, just because I want a nice chat interface (I am mostly talking through my health problems and trying to get my appointments in order) that already has basic tooling integrations out of the box."
+   },
+   {
+    "text": "managing todo list and calendar",
+    "evidence": "Adding i.e. mcp for my todolist or calendar to Hermes was smooth."
+   }
+  ]
+ },
+ {
+  "id": "50384963",
+  "use_cases": [
+   {
+    "text": "constantly making content for their business",
+    "evidence": "kinda an orchestration tool, i have one to oversee my entire business (Varyz AI), it constantly makes content, fixes bugs based on feedback and etc (spawning agents to do so)."
+   },
+   {
+    "text": "fixing bugs based on customer feedback",
+    "evidence": "kinda an orchestration tool, i have one to oversee my entire business (Varyz AI), it constantly makes content, fixes bugs based on feedback and etc (spawning agents to do so)."
+   }
+  ]
+ },
+ {
+  "id": "50376538",
+  "use_cases": []
+ },
+ {
+  "id": "50380232",
+  "use_cases": [
+   {
+    "text": "writing a custom controller haptics app",
+    "evidence": "For instance, I recently bought a Flydigi Apex 6 Pro controller, but I game exclusively in CachyOS so I had Hermes write my own custom app for controlling haptics and such. I'm also working on a game in Godot, generating pixel art locally."
+   },
+   {
+    "text": "building a Godot game with local pixel art",
+    "evidence": "For instance, I recently bought a Flydigi Apex 6 Pro controller, but I game exclusively in CachyOS so I had Hermes write my own custom app for controlling haptics and such. I'm also working on a game in Godot, generating pixel art locally."
+   }
+  ]
+ },
+ {
+  "id": "50381382",
+  "use_cases": []
+ },
+ {
+  "id": "50376733",
+  "use_cases": []
+ },
+ {
+  "id": "50376567",
+  "use_cases": []
+ },
+ {
+  "id": "50374498",
+  "use_cases": []
+ },
+ {
+  "id": "50373322",
+  "use_cases": [
+   {
+    "text": "building a wiki of personal info like finances",
+    "evidence": "Usage is mainly wiki building around personal info (finances, topics of interest), calorie counting, and doing various things from my dumb phone (rideshare booking, checking MTA Bus schedules, etc.)"
+   },
+   {
+    "text": "calorie counting",
+    "evidence": "Usage is mainly wiki building around personal info (finances, topics of interest), calorie counting, and doing various things from my dumb phone (rideshare booking, checking MTA Bus schedules, etc.)"
+   },
+   {
+    "text": "booking rideshares from a dumb phone",
+    "evidence": "Usage is mainly wiki building around personal info (finances, topics of interest), calorie counting, and doing various things from my dumb phone (rideshare booking, checking MTA Bus schedules, etc.)"
+   },
+   {
+    "text": "checking bus schedules from a dumb phone",
+    "evidence": "Usage is mainly wiki building around personal info (finances, topics of interest), calorie counting, and doing various things from my dumb phone (rideshare booking, checking MTA Bus schedules, etc.)"
+   }
+  ]
+ },
+ {
+  "id": "50374096",
+  "use_cases": []
+ },
+ {
+  "id": "50373985",
+  "use_cases": [
+   {
+    "text": "small calendar tasks",
+    "evidence": "OpenClaw runs persistently, mostly for little calendar tasks and trying to mitigate my ADHD: energy level check-ins, redirects to use attention for things that matter."
+   },
+   {
+    "text": "ADHD energy check-ins and attention redirects",
+    "evidence": "OpenClaw runs persistently, mostly for little calendar tasks and trying to mitigate my ADHD: energy level check-ins, redirects to use attention for things that matter."
+   }
+  ]
+ },
+ {
+  "id": "50377705",
+  "use_cases": [
+   {
+    "text": "managing email",
+    "evidence": "Main use case is orchestration for my life & my projects. Manages email, tracks todos/deadlines."
+   },
+   {
+    "text": "tracking todos and deadlines",
+    "evidence": "Main use case is orchestration for my life & my projects. Manages email, tracks todos/deadlines."
+   }
+  ]
+ },
+ {
+  "id": "50379016",
+  "use_cases": []
+ },
+ {
+  "id": "50376390",
+  "use_cases": []
+ },
+ {
+  "id": "50377956",
+  "use_cases": []
+ },
+ {
+  "id": "50377554",
+  "use_cases": [
+   {
+    "text": "sending and reading emails",
+    "evidence": "All the rest: sending emails, reading them, filling forms, configuring apis, submitting apps to stores ( run a couple of successful mobile apps), building them... Is all done by the agents on my behalf."
+   },
+   {
+    "text": "filling out forms",
+    "evidence": "All the rest: sending emails, reading them, filling forms, configuring apis, submitting apps to stores ( run a couple of successful mobile apps), building them... Is all done by the agents on my behalf."
+   },
+   {
+    "text": "configuring APIs",
+    "evidence": "All the rest: sending emails, reading them, filling forms, configuring apis, submitting apps to stores ( run a couple of successful mobile apps), building them... Is all done by the agents on my behalf."
+   },
+   {
+    "text": "building and submitting mobile apps to app stores",
+    "evidence": "All the rest: sending emails, reading them, filling forms, configuring apis, submitting apps to stores ( run a couple of successful mobile apps), building them... Is all done by the agents on my behalf."
+   }
+  ]
+ },
+ {
+  "id": "50377814",
+  "use_cases": [
+   {
+    "text": "scheduled tracking of medical appointments",
+    "evidence": "If there’s anything I need to track (medical appointments, discounts, etc), I just setup a schedule or create a service that I host on my local Debian server."
+   },
+   {
+    "text": "scheduled tracking of discounts",
+    "evidence": "If there’s anything I need to track (medical appointments, discounts, etc), I just setup a schedule or create a service that I host on my local Debian server."
+   }
+  ]
+ },
+ {
+  "id": "50377455",
+  "use_cases": [
+   {
+    "text": "capturing, transcribing and organizing videos, podcasts and recordings",
+    "evidence": "#1 use case is capturing videos, podcasts, and posts online that I like, or meeting recordings, transcribing them with whisper, organizing them on my NAS, ..."
+   },
+   {
+    "text": "distilling useful info into skills in a git repo",
+    "evidence": "#1 use case is capturing videos, podcasts, and posts online that I like, or meeting recordings, transcribing them with whisper, organizing them on my NAS, ... It will also distill skills from useful info I indicate, which are then pushed to my skills collection git repo."
+   },
+   {
+    "text": "website maintenance for a family member",
+    "evidence": "#2 use case is website maintenance (pushing new blog posts etc..) for a family member."
+   },
+   {
+    "text": "delegating coding to Claude while on the go",
+    "evidence": "#3 delegating work to Claude for coding on the go."
+   }
+  ]
+ },
+ {
+  "id": "50379312",
+  "use_cases": []
+ },
+ {
+  "id": "50388077",
+  "use_cases": []
+ },
+ {
+  "id": "50380213",
+  "use_cases": []
+ },
+ {
+  "id": "50375575",
+  "use_cases": []
+ },
+ {
+  "id": "50377290",
+  "use_cases": [
+   {
+    "text": "digest monitors for websites like HN and social media",
+    "evidence": "4) Nothing apart from Herdr 5) Hermes + Grok Bot mainly for non/light-coding stuff like digest-style monitors for different websites (such as HN), social media etc."
+   }
+  ]
+ },
+ {
+  "id": "50375134",
+  "use_cases": [
+   {
+    "text": "first responder for business WhatsApp messages",
+    "evidence": "Open law - connecting with my personal calender, gmail, whatsapp, side gig infra - first responder for my business whatsapp for a slice of whitelisted interactions."
+   },
+   {
+    "text": "connecting personal calendar, Gmail and WhatsApp",
+    "evidence": "Open law - connecting with my personal calender, gmail, whatsapp, side gig infra - first responder for my business whatsapp for a slice of whitelisted interactions."
+   }
+  ]
+ },
+ {
+  "id": "50373135",
+  "use_cases": []
+ },
+ {
+  "id": "50376410",
+  "use_cases": [
+   {
+    "text": "one-off market research task",
+    "evidence": "I used OpenClaw for a bespoke market research task once, it worked flawlessly."
+   }
+  ]
+ },
+ {
+  "id": "50374746",
+  "use_cases": []
+ },
+ {
+  "id": "50373974",
+  "use_cases": [
+   {
+    "text": "scheduled pickup of GitHub issues by a coding agent",
+    "evidence": "4 - Claude drops GitHub issues that Opencode picks up on a schedule."
+   },
+   {
+    "text": "scheduled go-to-market loops",
+    "evidence": "Hermes has a lot of scheduled tasks to move things forward.. it has gtm and research and dev loops (the latter builds autonomously for future projects vis a vis my attention, I’ve used quite a bit of it)."
+   },
+   {
+    "text": "scheduled research loops",
+    "evidence": "Hermes has a lot of scheduled tasks to move things forward.. it has gtm and research and dev loops (the latter builds autonomously for future projects vis a vis my attention, I’ve used quite a bit of it)."
+   },
+   {
+    "text": "autonomous dev loops building future projects",
+    "evidence": "Hermes has a lot of scheduled tasks to move things forward.. it has gtm and research and dev loops (the latter builds autonomously for future projects vis a vis my attention, I’ve used quite a bit of it)."
+   }
+  ]
+ },
+ {
+  "id": "50378518",
+  "use_cases": []
+ },
+ {
+  "id": "50377888",
+  "use_cases": [
+   {
+    "text": "searching and summarization tasks",
+    "evidence": "I use both OpenAI and Anthropic models via api, openrouter for MAI Translate 2 (super cheap) and a small qwen model on a second laptop for hermes (mostly searching and summarization tasks)"
+   },
+   {
+    "text": "finding where to buy a product",
+    "evidence": "hermes: can't find a lot of use cases right now, instinct: super simple tasks like finding where to buy a product, tennis match schedule checks."
+   },
+   {
+    "text": "checking tennis match schedules",
+    "evidence": "hermes: can't find a lot of use cases right now, instinct: super simple tasks like finding where to buy a product, tennis match schedule checks."
+   }
+  ]
+ },
+ {
+  "id": "50374270",
+  "use_cases": [
+   {
+    "text": "experimenting with autonomous software development",
+    "evidence": "Used to use openclaw on a raspberry pi to experiment with like autonomous development but i needed something with a bit more transparency so i moved everything into slack."
+   }
+  ]
+ },
+ {
+  "id": "50373649",
+  "use_cases": [
+   {
+    "text": "self-improving helpdesk system that writes documentation",
+    "evidence": "2, no, except at work where I have a whole agentic helpdesk system that self improves, creates documentation, and is quite awesome really."
+   },
+   {
+    "text": "project managing and coordinating a side business",
+    "evidence": "5, dots, It's kind of like a project manager for the side hustle, its really coordinating a lot of stuff between all the things I have in flight"
+   }
+  ]
+ },
+ {
+  "id": "50378434",
+  "use_cases": [
+   {
+    "text": "turning short videos into one-pagers",
+    "evidence": "5: yes my own. - personal assistant.\n\nAn example. I can feed it shorts and create one pagers."
+   }
+  ]
+ },
+ {
+  "id": "50376908",
+  "use_cases": []
+ },
+ {
+  "id": "50378737",
+  "use_cases": []
+ },
+ {
+  "id": "50373447",
+  "use_cases": []
+ },
+ {
+  "id": "50377573",
+  "use_cases": []
+ },
+ {
+  "id": "50367571",
+  "use_cases": []
+ },
+ {
+  "id": "50373463",
+  "use_cases": []
+ },
+ {
+  "id": "50379685",
+  "use_cases": []
+ },
+ {
+  "id": "50375539",
+  "use_cases": [
+   {
+    "text": "coordinating per-project agent sessions over Signal",
+    "evidence": "Hobby setup is I have a single \"personal assistant\" session which spawns sessions for each project or major job on a project and messages with them. I talk to the personal assistant over Signal exclusively."
+   }
+  ]
+ },
+ {
+  "id": "50376760",
+  "use_cases": [
+   {
+    "text": "research",
+    "evidence": "Dots and Instinct. Main use case is research, code search and raise issue, PR reviews."
+   },
+   {
+    "text": "code search and raising issues",
+    "evidence": "Dots and Instinct. Main use case is research, code search and raise issue, PR reviews."
+   },
+   {
+    "text": "PR reviews",
+    "evidence": "Dots and Instinct. Main use case is research, code search and raise issue, PR reviews."
+   }
+  ]
+ },
+ {
+  "id": "50375546",
+  "use_cases": []
+ },
+ {
+  "id": "50378776",
+  "use_cases": [
+   {
+    "text": "following up and checking project status remotely",
+    "evidence": "Hermes Agent via Telegram. I use this to follow-up, check status and work on projects while away from the house."
+   },
+   {
+    "text": "working on projects while away from home",
+    "evidence": "Hermes Agent via Telegram. I use this to follow-up, check status and work on projects while away from the house."
+   }
+  ]
+ },
+ {
+  "id": "50379119",
+  "use_cases": []
+ },
+ {
+  "id": "50379198",
+  "use_cases": [
+   {
+    "text": "automatically applying for jobs",
+    "evidence": "I use it to apply for jobs automatically etc. and orchestrate stuff using adb"
+   }
+  ]
+ },
+ {
+  "id": "50373129",
+  "use_cases": []
+ },
+ {
+  "id": "50379104",
+  "use_cases": [
+   {
+    "text": "orchestrating coding agents with Hermes Kanban",
+    "evidence": "Hermes + GLM 5.3 Flash for orchestration. omp + Deepseek 4.1 Flash for coding."
+   }
+  ]
+ },
+ {
+  "id": "50367272",
+  "use_cases": [
+   {
+    "text": "monitoring communications",
+    "evidence": "I currently use Dots and Duet for little things (mostly monitoring communications)."
+   }
+  ]
+ },
+ {
+  "id": "50377557",
+  "use_cases": [
+   {
+    "text": "using accounting tools on the user's behalf",
+    "evidence": "I have used Grok Bot and I really like it. It's super helpful and I'm using it as a personal assistant. I delegate tasks to it that I just can't be bothered doing manually or can't figure out easily (e.g using some accounting tools, figuring out cryptic documentation, etc.)."
+   },
+   {
+    "text": "figuring out cryptic documentation",
+    "evidence": "I have used Grok Bot and I really like it. It's super helpful and I'm using it as a personal assistant. I delegate tasks to it that I just can't be bothered doing manually or can't figure out easily (e.g using some accounting tools, figuring out cryptic documentation, etc.)."
+   }
+  ]
+ },
+ {
+  "id": "50374417",
+  "use_cases": []
+ },
+ {
+  "id": "50380200",
+  "use_cases": [
+   {
+    "text": "scheduling",
+    "evidence": "Ok Grok Bot, what a damn help. It does so much for me, including my scheduling, runs all sorts of reports I wasn't getting before, checks my emails for me, responds for me with my approval, and so so much more."
+   },
+   {
+    "text": "running reports",
+    "evidence": "Ok Grok Bot, what a damn help. It does so much for me, including my scheduling, runs all sorts of reports I wasn't getting before, checks my emails for me, responds for me with my approval, and so so much more."
+   },
+   {
+    "text": "checking emails",
+    "evidence": "Ok Grok Bot, what a damn help. It does so much for me, including my scheduling, runs all sorts of reports I wasn't getting before, checks my emails for me, responds for me with my approval, and so so much more."
+   },
+   {
+    "text": "replying to emails with user approval",
+    "evidence": "Ok Grok Bot, what a damn help. It does so much for me, including my scheduling, runs all sorts of reports I wasn't getting before, checks my emails for me, responds for me with my approval, and so so much more."
+   }
+  ]
+ },
+ {
+  "id": "50376167",
+  "use_cases": []
+ },
+ {
+  "id": "50374491",
+  "use_cases": []
+ },
+ {
+  "id": "50376286",
+  "use_cases": []
+ },
+ {
+  "id": "50377597",
+  "use_cases": [
+   {
+    "text": "coordinating T3 Code threads across projects",
+    "evidence": "1) Claude Ultra 2x + Chatgpt Plus 2x 2) none 3) defaults 4) T3 code -> really great for multi-machine orchestration + multi-harness work 5) Made a OpenBot fork mainly as \"captains\" to control my t3 threads across projects better"
+   }
+  ]
+ },
+ {
+  "id": "50367930",
+  "use_cases": []
+ },
+ {
+  "id": "50376182",
+  "use_cases": []
+ },
+ {
+  "id": "50368325",
+  "use_cases": []
+ },
+ {
+  "id": "50376348",
+  "use_cases": []
+ },
+ {
+  "id": "50375959",
+  "use_cases": []
+ },
+ {
+  "id": "50376488",
+  "use_cases": []
+ },
+ {
+  "id": "50377173",
+  "use_cases": []
+ },
+ {
+  "id": "50367676",
+  "use_cases": []
+ },
+ {
+  "id": "50378028",
+  "use_cases": []
+ },
+ {
+  "id": "50367523",
+  "use_cases": []
+ },
+ {
+  "id": "50368119",
+  "use_cases": [
+   {
+    "text": "organizing email and calendar",
+    "evidence": "I have a grok bot account I use to manage personal stuff. It organizes my email and calendar, keeps me up-to-date on news, does health tracking, trip planning, and shopping research."
+   },
+   {
+    "text": "keeping up to date on news",
+    "evidence": "I have a grok bot account I use to manage personal stuff. It organizes my email and calendar, keeps me up-to-date on news, does health tracking, trip planning, and shopping research."
+   },
+   {
+    "text": "health tracking",
+    "evidence": "I have a grok bot account I use to manage personal stuff. It organizes my email and calendar, keeps me up-to-date on news, does health tracking, trip planning, and shopping research."
+   },
+   {
+    "text": "trip planning",
+    "evidence": "I have a grok bot account I use to manage personal stuff. It organizes my email and calendar, keeps me up-to-date on news, does health tracking, trip planning, and shopping research."
+   },
+   {
+    "text": "shopping research",
+    "evidence": "I have a grok bot account I use to manage personal stuff. It organizes my email and calendar, keeps me up-to-date on news, does health tracking, trip planning, and shopping research."
+   },
+   {
+    "text": "syncing kids' school lunch orders to calendar",
+    "evidence": "As an example, there's a website where I order lunch for my kids. I like to know each morning if I need to pack their lunch, so I have grok bot log into the website and sync it to my calendar."
+   },
+   {
+    "text": "morning briefing notification for the day",
+    "evidence": "I then get a notification in the morning with everything I need to start the day, like whether to pack lunches, what the weather will be, or if I need to help my kids study for a test."
+   }
+  ]
+ },
+ {
+  "id": "50367965",
+  "use_cases": []
+ },
+ {
+  "id": "50373770",
+  "use_cases": []
+ },
+ {
+  "id": "50374288",
+  "use_cases": [
+   {
+    "text": "managing Codex and Claude agents on a server",
+    "evidence": "I now use Muse as my primary agent and then spin up and manage Codex and Claude agents as needed on an Oracle server."
+   }
+  ]
+ },
+ {
+  "id": "50377697",
+  "use_cases": [
+   {
+    "text": "delegating projects to Claude Code and Codex",
+    "evidence": "i use hermes-agent as my personal assistant and it talks to my claude code and codex if it needs to do projects and other stuff."
+   }
+  ]
+ },
+ {
+  "id": "50370886",
+  "use_cases": [
+   {
+    "text": "regular news research reports",
+    "evidence": "Hermes Agent running, sending me regular news research reports, but frankly, it's just a cronjob and the whole Hermes setup isn't really adding value for me."
+   }
+  ]
+ },
+ {
+  "id": "50375609",
+  "use_cases": [
+   {
+    "text": "daily cron answering email",
+    "evidence": "two max Claude suscriptions, active dev in vscode to share screenshots, GitHub tickets for memory, basic skills, superpowers,subagentic coding with opus and the main in fable, daily Cron tasks for answering email/linkedin/etc."
+   },
+   {
+    "text": "daily cron answering LinkedIn messages",
+    "evidence": "two max Claude suscriptions, active dev in vscode to share screenshots, GitHub tickets for memory, basic skills, superpowers,subagentic coding with opus and the main in fable, daily Cron tasks for answering email/linkedin/etc."
+   }
+  ]
+ },
+ {
+  "id": "50368640",
+  "use_cases": [
+   {
+    "text": "marketing",
+    "evidence": "I also gave in after seeing my co-founder use it, and gave GrokBot a go. I use this for everything that's not coding or design... so marketing, email reading, right now it's currently inputting my meter readings to my electricity company after emailing the building management company and getting photos back."
+   },
+   {
+    "text": "reading email",
+    "evidence": "I also gave in after seeing my co-founder use it, and gave GrokBot a go. I use this for everything that's not coding or design... so marketing, email reading, right now it's currently inputting my meter readings to my electricity company after emailing the building management company and getting photos back."
+   },
+   {
+    "text": "submitting meter readings after emailing building management",
+    "evidence": "I also gave in after seeing my co-founder use it, and gave GrokBot a go. I use this for everything that's not coding or design... so marketing, email reading, right now it's currently inputting my meter readings to my electricity company after emailing the building management company and getting photos back."
+   },
+   {
+    "text": "daily status checks of projects and services",
+    "evidence": "I have it daily check the status of my various projects and services."
+   },
+   {
+    "text": "spotting accountant errors on taxes",
+    "evidence": "I've also built my own version, which I might move to... though now it's all set up it's quite sticky, and it already spotted an error my accountant made on some taxes so it's already saving me money and I'm feeling quite positive about it."
+   }
+  ]
+ },
+ {
+  "id": "50373248",
+  "use_cases": []
+ },
+ {
+  "id": "50374816",
+  "use_cases": []
+ },
+ {
+  "id": "50373740",
+  "use_cases": []
+ },
+ {
+  "id": "50380583",
+  "use_cases": []
+ },
+ {
+  "id": "50380509",
+  "use_cases": []
+ },
+ {
+  "id": "50374806",
+  "use_cases": []
+ },
+ {
+  "id": "50376855",
+  "use_cases": []
+ },
+ {
+  "id": "50376601",
+  "use_cases": [
+   {
+    "text": "general research with Perplexity",
+    "evidence": "And as a general agent for research, etc. I absolutely love Perplexity."
+   },
+   {
+    "text": "operating clunky websites on the user's behalf",
+    "evidence": "So many websites are painful to use, and finding the right buttons to click even to perform very common tasks is a challenge. So, I frequently just ask Comet to do it for me."
+   },
+   {
+    "text": "comparing products",
+    "evidence": "So, I frequently just ask Comet to do it for me. I also use it to compare products, compare places on AirBNB, write personalized messages on Instagram, etc."
+   },
+   {
+    "text": "comparing Airbnb places",
+    "evidence": "So, I frequently just ask Comet to do it for me. I also use it to compare products, compare places on AirBNB, write personalized messages on Instagram, etc."
+   },
+   {
+    "text": "writing personalized Instagram messages",
+    "evidence": "So, I frequently just ask Comet to do it for me. I also use it to compare products, compare places on AirBNB, write personalized messages on Instagram, etc."
+   },
+   {
+    "text": "remotely fixing issues on its host machine",
+    "evidence": "Look, I can just send messages on Signal and let the agent do work for me! And I occasionally found it useful to remotely fix issues on the host it was running on, or long tasks such as making sure that all my projects worked with a new version of the Zig compiler."
+   },
+   {
+    "text": "checking projects work with a new Zig compiler",
+    "evidence": "Look, I can just send messages on Signal and let the agent do work for me! And I occasionally found it useful to remotely fix issues on the host it was running on, or long tasks such as making sure that all my projects worked with a new version of the Zig compiler."
+   },
+   {
+    "text": "summaries of Hacker News and research papers",
+    "evidence": "Nowadays, I still enjoy the fact that it's sending me a summary of cool things it found in Hacker News and research papers on topics I'm interesting in."
+   },
+   {
+    "text": "fixing an open-source bug remotely from the bus",
+    "evidence": "It still happens (I recently used it to fix a bug in an opensource project while I was on the bus), but mostly just only when I ran out of Perplexity Computer credits."
+   }
+  ]
+ },
+ {
+  "id": "50375836",
+  "use_cases": [
+   {
+    "text": "quant trading that pays for subscriptions",
+    "evidence": "$200 ChatGPT + $200 Claude, I don't pay for it, agents quant trade and pay for their own subscriptions."
+   }
+  ]
+ },
+ {
+  "id": "50375020",
+  "use_cases": []
+ },
+ {
+  "id": "50374994",
+  "use_cases": []
+ },
+ {
+  "id": "50373065",
+  "use_cases": []
+ },
+ {
+  "id": "50367701",
+  "use_cases": [
+   {
+    "text": "managing work tasks",
+    "evidence": "grok bot - at work, to manage my tasks, and to highlight what happened on slack when i was off; random one offs there"
+   },
+   {
+    "text": "summarizing missed Slack activity",
+    "evidence": "grok bot - at work, to manage my tasks, and to highlight what happened on slack when i was off; random one offs there"
+   }
+  ]
+ },
+ {
+  "id": "50367207",
+  "use_cases": []
+ },
+ {
+  "id": "50373357",
+  "use_cases": [
+   {
+    "text": "planning work and assigning tasks",
+    "evidence": "I generally use the laptop instance for day-to-day use: planning work, assigning tasks to myself and to the other agents, capturing ideas, light coding, etc."
+   },
+   {
+    "text": "capturing ideas",
+    "evidence": "I generally use the laptop instance for day-to-day use: planning work, assigning tasks to myself and to the other agents, capturing ideas, light coding, etc."
+   },
+   {
+    "text": "light coding",
+    "evidence": "I generally use the laptop instance for day-to-day use: planning work, assigning tasks to myself and to the other agents, capturing ideas, light coding, etc."
+   },
+   {
+    "text": "home server upgrades, documentation and devops",
+    "evidence": "The homeserver instance manages a limited set of features on the server itself, from upgrades, documentation and more devopsy stuff to organizing files, managing transcoding queues, etc."
+   },
+   {
+    "text": "organizing files on home server",
+    "evidence": "The homeserver instance manages a limited set of features on the server itself, from upgrades, documentation and more devopsy stuff to organizing files, managing transcoding queues, etc."
+   },
+   {
+    "text": "managing transcoding queues",
+    "evidence": "The homeserver instance manages a limited set of features on the server itself, from upgrades, documentation and more devopsy stuff to organizing files, managing transcoding queues, etc."
+   }
+  ]
+ },
+ {
+  "id": "50374093",
+  "use_cases": []
+ },
+ {
+  "id": "50376110",
+  "use_cases": [
+   {
+    "text": "scanning for job positions or projects for company",
+    "evidence": "I also have HermesAgent on a nuc here in front of me, it makes small automations: Scans for positions or projects for my company, parses RSS feeds for relevant cybersecurity news, researches things when I ask, stores notes and articles with I can interrogate as a \"body of work\" <- love that btw, it's like an external memory where the faintest glimmer of a memory can help you dig up that one nugget of knowledge."
+   },
+   {
+    "text": "parsing RSS feeds for cybersecurity news",
+    "evidence": "I also have HermesAgent on a nuc here in front of me, it makes small automations: Scans for positions or projects for my company, parses RSS feeds for relevant cybersecurity news, researches things when I ask, stores notes and articles with I can interrogate as a \"body of work\" <- love that btw, it's like an external memory where the faintest glimmer of a memory can help you dig up that one nugget of knowledge."
+   },
+   {
+    "text": "on-demand research",
+    "evidence": "I also have HermesAgent on a nuc here in front of me, it makes small automations: Scans for positions or projects for my company, parses RSS feeds for relevant cybersecurity news, researches things when I ask, stores notes and articles with I can interrogate as a \"body of work\" <- love that btw, it's like an external memory where the faintest glimmer of a memory can help you dig up that one nugget of knowledge."
+   },
+   {
+    "text": "storing notes and articles as searchable memory",
+    "evidence": "I also have HermesAgent on a nuc here in front of me, it makes small automations: Scans for positions or projects for my company, parses RSS feeds for relevant cybersecurity news, researches things when I ask, stores notes and articles with I can interrogate as a \"body of work\" <- love that btw, it's like an external memory where the faintest glimmer of a memory can help you dig up that one nugget of knowledge."
+   }
+  ]
+ },
+ {
+  "id": "50393134",
+  "use_cases": [
+   {
+    "text": "scheduled jobs reading side-project dashboards",
+    "evidence": "The agents I run in bulk do work where the decisions were made earlier. They're scheduled jobs for my side projects that read dashboards, check old experiments and draft things."
+   },
+   {
+    "text": "checking old experiments",
+    "evidence": "The agents I run in bulk do work where the decisions were made earlier. They're scheduled jobs for my side projects that read dashboards, check old experiments and draft things."
+   },
+   {
+    "text": "drafting things for side projects",
+    "evidence": "The agents I run in bulk do work where the decisions were made earlier. They're scheduled jobs for my side projects that read dashboards, check old experiments and draft things."
+   }
+  ]
+ },
+ {
+  "id": "50378897",
+  "use_cases": [
+   {
+    "text": "outreach",
+    "evidence": "5. broader agents: grok for outreach."
+   }
+  ]
+ },
+ {
+  "id": "50379882",
+  "use_cases": [
+   {
+    "text": "research for their company",
+    "evidence": "We run a small company where a large team of AI agents does most of the work, not just coding: research, marketing, sales follow-up, engineering."
+   },
+   {
+    "text": "marketing",
+    "evidence": "We run a small company where a large team of AI agents does most of the work, not just coding: research, marketing, sales follow-up, engineering."
+   },
+   {
+    "text": "sales follow-up",
+    "evidence": "We run a small company where a large team of AI agents does most of the work, not just coding: research, marketing, sales follow-up, engineering."
+   },
+   {
+    "text": "engineering",
+    "evidence": "We run a small company where a large team of AI agents does most of the work, not just coding: research, marketing, sales follow-up, engineering."
+   },
+   {
+    "text": "chief-of-staff agent filtering questions to the owner",
+    "evidence": "One agent is my chief of staff: every question for me goes through it first, so I get one decision at a time instead of 30 messages."
+   }
+  ]
+ },
+ {
+  "id": "50380516",
+  "use_cases": []
+ },
+ {
+  "id": "50379663",
+  "use_cases": [
+   {
+    "text": "morning briefing from calendar and inbox",
+    "evidence": "Kiro Crew (https://github.com/kirodotdev/kirocrew) on top: background subagents, scheduled jobs, memory that survives sessions. I also use it for boring things like a morning briefing from my calendar and inbox, and an evening routine that reconciles my tasks."
+   },
+   {
+    "text": "evening routine reconciling tasks",
+    "evidence": "Kiro Crew (https://github.com/kirodotdev/kirocrew) on top: background subagents, scheduled jobs, memory that survives sessions. I also use it for boring things like a morning briefing from my calendar and inbox, and an evening routine that reconciles my tasks."
+   }
+  ]
+ },
+ {
+  "id": "50380498",
+  "use_cases": [
+   {
+    "text": "steward agent coordinating workers and returning results",
+    "evidence": "A personal steward is my front door: I give direction and corrections, it coordinates with the responsible workers and brings back results and decisions needing my attention."
+   }
+  ]
+ },
+ {
+  "id": "50380125",
+  "use_cases": [
+   {
+    "text": "scheduled drafting of marketing posts",
+    "evidence": "3) Cursor agents for product work, and a few scheduled agents for marketing chores (drafting posts, checking whether a launch link still works)."
+   },
+   {
+    "text": "scheduled checks that launch links still work",
+    "evidence": "3) Cursor agents for product work, and a few scheduled agents for marketing chores (drafting posts, checking whether a launch link still works)."
+   }
+  ]
+ },
+ {
+  "id": "50378458",
+  "use_cases": [
+   {
+    "text": "marketing planning",
+    "evidence": "I also use a ChatGPT Dot for marketing planning and researching prospects."
+   },
+   {
+    "text": "researching sales prospects",
+    "evidence": "I also use a ChatGPT Dot for marketing planning and researching prospects."
+   }
+  ]
+ },
+ {
+  "id": "50380629",
+  "use_cases": [
+   {
+    "text": "scheduled building of the daily note",
+    "evidence": "I run my work as an investor and operator on Claude reading a local Obsidian vault. The notes are the memory, skills hold the procedures, and scheduled runs do the prep before I start, like building the daily note and drafting replies."
+   },
+   {
+    "text": "scheduled drafting of replies",
+    "evidence": "I run my work as an investor and operator on Claude reading a local Obsidian vault. The notes are the memory, skills hold the procedures, and scheduled runs do the prep before I start, like building the daily note and drafting replies."
+   }
+  ]
+ },
+ {
+  "id": "50376686",
+  "use_cases": []
+ },
+ {
+  "id": "50375956",
+  "use_cases": []
+ },
+ {
+  "id": "50380672",
+  "use_cases": [
+   {
+    "text": "customer support on Salesforce",
+    "evidence": "Claude / Cursor for building and content - production agents on top of Salesforce for support, order intake, and opportunity follow-up (grok bot, vantegrate) - ega Futura ERP for the transactional backbone those agents read and write"
+   },
+   {
+    "text": "order intake",
+    "evidence": "Claude / Cursor for building and content - production agents on top of Salesforce for support, order intake, and opportunity follow-up (grok bot, vantegrate) - ega Futura ERP for the transactional backbone those agents read and write"
+   },
+   {
+    "text": "sales opportunity follow-up",
+    "evidence": "Claude / Cursor for building and content - production agents on top of Salesforce for support, order intake, and opportunity follow-up (grok bot, vantegrate) - ega Futura ERP for the transactional backbone those agents read and write"
+   }
+  ]
+ },
+ {
+  "id": "50374592",
+  "use_cases": [
+   {
+    "text": "ops alerts, database reads and infra",
+    "evidence": "My setup is about 45 seats across two machines: - a small kernel I talk to (one advisor agent relays everything); - a dev rig with a coordinator, Claude and Codex developers, QA, a contrarian reviewer and peer reviewers; - an ops rig for alerts, compliance checks, database reads and infra; - an assistant rig for mail, calendar and research."
+   },
+   {
+    "text": "compliance checks",
+    "evidence": "My setup is about 45 seats across two machines: - a small kernel I talk to (one advisor agent relays everything); - a dev rig with a coordinator, Claude and Codex developers, QA, a contrarian reviewer and peer reviewers; - an ops rig for alerts, compliance checks, database reads and infra; - an assistant rig for mail, calendar and research."
+   },
+   {
+    "text": "mail and calendar triage",
+    "evidence": "My setup is about 45 seats across two machines: - a small kernel I talk to (one advisor agent relays everything); - a dev rig with a coordinator, Claude and Codex developers, QA, a contrarian reviewer and peer reviewers; - an ops rig for alerts, compliance checks, database reads and infra; - an assistant rig for mail, calendar and research."
+   },
+   {
+    "text": "research",
+    "evidence": "My setup is about 45 seats across two machines: - a small kernel I talk to (one advisor agent relays everything); - a dev rig with a coordinator, Claude and Codex developers, QA, a contrarian reviewer and peer reviewers; - an ops rig for alerts, compliance checks, database reads and infra; - an assistant rig for mail, calendar and research."
+   }
+  ]
+ },
+ {
+  "id": "50377482",
+  "use_cases": [
+   {
+    "text": "macOS/iOS software development and bug fixing",
+    "evidence": "Software development, especially macOS/iOS work: investigating bugs, preparing patches, building applications, running tests and reviewing changes."
+   },
+   {
+    "text": "server administration, backups and network diagnosis",
+    "evidence": "Looking after machines and services: SSH administration, network diagnosis, backup checks, investigating failed scheduled jobs and maintaining small web applications."
+   },
+   {
+    "text": "briefings and commitments from Org-mode journals",
+    "evidence": "Working with an existing collection of Org-mode project and area journals. The agent reads those to prepare briefings and find outstanding commitments."
+   },
+   {
+    "text": "assembling a community newsletter",
+    "evidence": "Document work: extracting and checking source material, assembling a community newsletter, producing Word documents and reviewing statistical claims."
+   },
+   {
+    "text": "checking sources and statistical claims in documents",
+    "evidence": "Document work: extracting and checking source material, assembling a community newsletter, producing Word documents and reviewing statistical claims."
+   },
+   {
+    "text": "household automation via Home Assistant",
+    "evidence": "Household automation and energy monitoring through Home Assistant, with explicit limits on what it may change."
+   },
+   {
+    "text": "energy monitoring via Home Assistant",
+    "evidence": "Household automation and energy monitoring through Home Assistant, with explicit limits on what it may change."
+   },
+   {
+    "text": "research and comparisons",
+    "evidence": "Research and everyday administration where the useful result is a document, a comparison, a checked booking detail or a completed local task."
+   },
+   {
+    "text": "everyday admin like checking booking details",
+    "evidence": "Research and everyday administration where the useful result is a document, a comparison, a checked booking detail or a completed local task."
+   },
+   {
+    "text": "drafting emails for approval",
+    "evidence": "The assistant can draft an email, but sending it requires approval."
+   }
+  ]
+ }
+]

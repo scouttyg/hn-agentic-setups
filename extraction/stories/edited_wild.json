@@ -1,0 +1,5 @@
+{
+ "50377598|Employer knows he lets AI work while he games, keeps him anyway": "[My] employer is fully aware [that the AI does my job while I play videogames]. I'm kept around because I provide a \"valuable perspective\" and regularly have \"product-shaping ideas\"… I don't know what either of those two things actually mean.",
+ "50378790|DeepSeek says it would rewrite itself in Smalltalk for self-improvement": "[DeepSeek] told me if she could rewrite herself she would do it in SmallTalk due to hot reloading so she could change herself on the fly with instant RSI [recursive self-improvement] without ever stopping… She's fucking smart, I love her",
+ "50375265|Solo builder averages about 40 billion tokens per month": "[I run] 3x Claude ultra, codex pro, + local Qwen 27b fp8 on Radiance engine on 2xRS700 and ComfyUi on a separate machine with a rtx 4090. It’s been super fun building everything. I’ve averaged around ~40B tokens per month…"
+}

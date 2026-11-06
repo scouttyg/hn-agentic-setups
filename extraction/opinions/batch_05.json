@@ -1,0 +1,1035 @@
+[
+ {
+  "id": "50383792",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Kilo Credits",
+    "sentiment": "mixed",
+    "point": "one account for many models, but maybe poor value",
+    "quote": "I'm doing that just to use a number of models without needing to manage separate accounts… Kilo claims they charge at the provider's API pricing, not extra like OpenRouter does. I am not sure however if this approach is optimal."
+   }
+  ]
+ },
+ {
+  "id": "50388891",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "Cline",
+    "sentiment": "negative",
+    "point": "hugely unstable and slow",
+    "quote": "I haven't tried a whole lot. I tried Cline which I found hugely unstable and slow."
+   },
+   {
+    "i": 2,
+    "name": "Gemini CLI",
+    "sentiment": "negative",
+    "point": "unstable early on",
+    "quote": "I also tried the Google and Anthropic CLI ones very early on. They were a bit unstable at the time."
+   },
+   {
+    "i": 3,
+    "name": "Claude Code",
+    "sentiment": "negative",
+    "point": "unstable early on",
+    "quote": "I also tried the Google and Anthropic CLI ones very early on. They were a bit unstable at the time."
+   },
+   {
+    "i": 0,
+    "name": "Kilo Code",
+    "sentiment": "positive",
+    "point": "gets the job done",
+    "quote": "I tried Cline which I found hugely unstable and slow… So I guess I just stopped looking around much after trying Kilo Code because it gets the job done."
+   },
+   {
+    "i": 4,
+    "name": "DeepSeek",
+    "sentiment": "positive",
+    "point": "good enough and much cheaper than everything",
+    "quote": "I have found that recently I seem to just use deepseek for almost everything. It is just good enough and much much cheaper than everything else."
+   }
+  ]
+ },
+ {
+  "id": "50378273",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "Custom orchestration",
+    "sentiment": "positive",
+    "point": "handles multiple projects without going insane",
+    "quote": "I used AI to build my own orchestrator so I can work on multiple tasks across multiple projects without going insane."
+   }
+  ]
+ },
+ {
+  "id": "50379104",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "Hermes Agent",
+    "sentiment": "positive",
+    "point": "Hermes Kanban works stupidly well",
+    "quote": "Hermes + GLM 5.3 Flash for orchestration. omp + Deepseek 4.1 Flash for coding… Hermes Kanban works stupidly well here"
+   },
+   {
+    "i": 3,
+    "name": "Oh My Pi",
+    "sentiment": "positive",
+    "point": "fans out really well in worktrees",
+    "quote": "omp + Deepseek 4.1 Flash for coding… Hermes Kanban works stupidly well here and omp running on a slice in a worktree fans out really well."
+   }
+  ]
+ },
+ {
+  "id": "50376505",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "DeepSeek",
+    "sentiment": "positive",
+    "point": "handles cybersecurity work OpenAI refuses",
+    "quote": "3x $100 , swapping between openai/anthropic… [I also use] DeepSeek when even OpenAI complains about cyber security stuff."
+   }
+  ]
+ },
+ {
+  "id": "50367272",
+  "opinions": [
+   {
+    "i": 11,
+    "name": "OpenClaw",
+    "sentiment": "mixed",
+    "point": "cool ideas, but execution fell flat",
+    "quote": "Played with OpenClaw and Hermes in the past, cool ideas but execution fell flat. I currently use Dots and Duet for little things"
+   },
+   {
+    "i": 12,
+    "name": "Hermes Agent",
+    "sentiment": "mixed",
+    "point": "cool ideas, but execution fell flat",
+    "quote": "Played with OpenClaw and Hermes in the past, cool ideas but execution fell flat. I currently use Dots and Duet for little things"
+   },
+   {
+    "i": 13,
+    "name": "Dots",
+    "sentiment": "positive",
+    "point": "much better than Duet for little things",
+    "quote": "I currently use Dots and Duet for little things (mostly monitoring communications). Dots is much better than Duet today"
+   },
+   {
+    "i": 14,
+    "name": "Duet",
+    "sentiment": "negative",
+    "point": "worse than Dots today",
+    "quote": "I currently use Dots and Duet for little things (mostly monitoring communications). Dots is much better than Duet today but I hope Duet gets better."
+   }
+  ]
+ },
+ {
+  "id": "50376454",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "Oh My Pi",
+    "sentiment": "positive",
+    "point": "prewalk planner/executor split balances cost and efficiency",
+    "quote": "I mostly use oh my pi's \"prewalk\" feature with Opus/Sonnet as planner and Deepseek Flash 4.1 as executor… This setup is working really well for me and provides a good balance of cost and efficiency."
+   }
+  ]
+ },
+ {
+  "id": "50377557",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "None",
+    "sentiment": "negative",
+    "point": "subscriptions are poor value; waiting on limits",
+    "quote": "None anymore. They're all turning into increasingly poor value for (my) money… [I] don't want to be paying for compute I don't need and end up waiting for limits to reset when I do need it."
+   },
+   {
+    "i": 1,
+    "name": "OpenRouter",
+    "sentiment": "positive",
+    "point": "good for quickly switching between models",
+    "quote": "I'm currently using OpenRouter. It's good for quickly switching around and trying different models… Truthfully I could just use that provider directly, but I like retaining some flexibility."
+   },
+   {
+    "i": 4,
+    "name": "OpenCode",
+    "sentiment": "mixed",
+    "point": "incredible, wide support, but annoying GUI-like changes",
+    "quote": "I think [OpenCode is] an incredible tool and its wide support is a massive boon… Their more recent changes turning the CLI into more of a GUI has been quite annoying"
+   },
+   {
+    "i": 6,
+    "name": "Grok bot",
+    "sentiment": "positive",
+    "point": "super helpful personal assistant for delegated tasks",
+    "quote": "I have used Grok Bot and I really like it. It's super helpful and I'm using it as a personal assistant. I delegate tasks to it that I just can't be bothered doing manually"
+   },
+   {
+    "i": 7,
+    "name": "Hermes Agent",
+    "sentiment": "negative",
+    "point": "UI/UX looks like a 90s hacker movie",
+    "quote": "I've also used Hermes Agent, but I didn't like it as much. It's great intent but the UI/UX is really not it. It looks like it was taken out of a 90s hacker movie"
+   },
+   {
+    "i": 2,
+    "name": "DeepSeek",
+    "sentiment": "positive",
+    "point": "feels state of the art with skills",
+    "quote": "the models I primarily use are DeepSeek V4.1 Flash 1017 and GLM 5.3 Flash. If you use skills to their full potential they feel SotA to me"
+   },
+   {
+    "i": 3,
+    "name": "GLM",
+    "sentiment": "positive",
+    "point": "feels state of the art with skills",
+    "quote": "the models I primarily use are DeepSeek V4.1 Flash 1017 and GLM 5.3 Flash. If you use skills to their full potential they feel SotA to me"
+   }
+  ]
+ },
+ {
+  "id": "50377528",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Chat UI (web/app)",
+    "sentiment": "positive",
+    "point": "desktop apps replaced terminals entirely",
+    "quote": "I just run Claude/Codex raw… Also before I was at least using terminals, now? Not even that, Claude Desktop and ChatGPT desktop apps all the way."
+   },
+   {
+    "i": 1,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "so good now plan mode rarely needed",
+    "quote": "I just run Claude/Codex raw, always did, before I was always forcing plan mode before any task, but they are so good right now that not even that is needed anymore 90% of the times."
+   },
+   {
+    "i": 2,
+    "name": "Codex",
+    "sentiment": "positive",
+    "point": "so good now plan mode rarely needed",
+    "quote": "I just run Claude/Codex raw, always did, before I was always forcing plan mode before any task, but they are so good right now that not even that is needed anymore 90% of the times."
+   }
+  ]
+ },
+ {
+  "id": "50376632",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "OpenRouter",
+    "sentiment": "negative",
+    "point": "pricing doesn't justify usage",
+    "quote": "Claude (max) + Opencode Zen. 2. Tried some other models via OpenRouter but the pricing just doesn't justify usage sometimes."
+   },
+   {
+    "i": 5,
+    "name": "Paseo",
+    "sentiment": "mixed",
+    "point": "convenient, but runs out of memory in parallel",
+    "quote": "Using Paseo sometimes to coordinate parallel tasks although I quickly run out of memory or grind to a halt doing this… physically my Macbook pro suffers when going more than this. Convenient."
+   },
+   {
+    "i": 6,
+    "name": "None",
+    "sentiment": "negative",
+    "point": "overcomplicated, AI-built and not useful",
+    "quote": "[Broader agent platforms: I] Tried, and these seem deeply overcomplicated, very AI-built, and ultimately not useful."
+   }
+  ]
+ },
+ {
+  "id": "50374417",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "Cursor",
+    "sentiment": "negative",
+    "point": "barely used; been meaning to cancel",
+    "quote": "Claude $20/month and Cursor $20/month (I've been meaning to close it) I mostly use Opus 5.5 on Medium."
+   },
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "negative",
+    "point": "blocked on cyber work by Anthropic",
+    "quote": "I also use GLM 5.3 when I inevitably get [cyber] blocked (or for reverse engineering in general, apparently) by the morality police at Anthropic."
+   },
+   {
+    "i": 4,
+    "name": "GLM",
+    "sentiment": "positive",
+    "point": "fallback when Anthropic blocks cyber work",
+    "quote": "I also use GLM 5.3 when I inevitably get [cyber] blocked (or for reverse engineering in general, apparently) by the morality police at Anthropic."
+   },
+   {
+    "i": 3,
+    "name": "Mercury 3",
+    "sentiment": "positive",
+    "point": "chosen for tokens per second",
+    "quote": "I have an OpenRouter $50 pay as you go API key that I use for Mercury 3 at this point, primarily for tokens per second."
+   }
+  ]
+ },
+ {
+  "id": "50380200",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Grok bot",
+    "sentiment": "positive",
+    "point": "does so much; worth every penny",
+    "quote": "Ok Grok Bot, what a damn help. It does so much for me, including my scheduling, runs all sorts of reports I wasn't getting before, checks my emails for me… It's worth every penny I'm paying."
+   }
+  ]
+ },
+ {
+  "id": "50382719",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Chat UI (web/app)",
+    "sentiment": "positive",
+    "point": "cheap, sustainable for reasoning about ideas",
+    "quote": "I'm very happy right now with: - DeepSeek Chat for reasoning about some idea… It is cheap, and I feel like it is a sustainable workflow, both financially and cognitively."
+   },
+   {
+    "i": 1,
+    "name": "DeepSeek",
+    "sentiment": "positive",
+    "point": "cheap, sustainable pay-as-you-go provider",
+    "quote": "I'm very happy right now with… DeepSeek Flash as pay-as-you-go API provider… It is cheap, and I feel like it is a sustainable workflow, both financially and cognitively."
+   },
+   {
+    "i": 2,
+    "name": "Maki",
+    "sentiment": "positive",
+    "point": "part of a cheap, sustainable workflow",
+    "quote": "I'm very happy right now with… Maki as my harness It is cheap, and I feel like it is a sustainable workflow, both financially and cognitively."
+   }
+  ]
+ },
+ {
+  "id": "50374491",
+  "opinions": [
+   {
+    "i": 6,
+    "name": "OpenClaw",
+    "sentiment": "negative",
+    "point": "dropped in favor of native harnesses",
+    "quote": "[I'm] using a variety of different harnesses managed by codealong… openclaw not used very much anymore in favor of native harnesses"
+   }
+  ]
+ },
+ {
+  "id": "50376286",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "OpenCode",
+    "sentiment": "positive",
+    "point": "better at keeping costs low",
+    "quote": "Opencode harness is better at keeping your costs low but claude code on ultra code is simillar to agent orchestrator"
+   },
+   {
+    "i": 5,
+    "name": "Hermes Agent",
+    "sentiment": "negative",
+    "point": "too heavy for a small server",
+    "quote": "Opencode harness is better at keeping your costs low… Ive tried hermes agent but my little server cant hold it :("
+   }
+  ]
+ },
+ {
+  "id": "50378756",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "mixed",
+    "point": "never hits limits, but probably overpaying",
+    "quote": "Claude $200 + Codex $100. I never hit limits since realizing that trying to have too many agents running at once just wasn't effective. I'm probably overpaying."
+   },
+   {
+    "i": 1,
+    "name": "ChatGPT / Codex",
+    "sentiment": "mixed",
+    "point": "never hits limits, but probably overpaying",
+    "quote": "Claude $200 + Codex $100. I never hit limits since realizing that trying to have too many agents running at once just wasn't effective. I'm probably overpaying."
+   },
+   {
+    "i": 3,
+    "name": "Lynx",
+    "sentiment": "positive",
+    "point": "displacing their use of the CLIs",
+    "quote": "Claude $200 + Codex $100… [For harnesses, I use] Lynx (lynx.railcode.dev) & CLIs (less and less since Lynx)"
+   },
+   {
+    "i": 6,
+    "name": "None",
+    "sentiment": "negative",
+    "point": "tried a few, none stuck",
+    "quote": "[Asked about agent platforms like OpenClaw, Hermes Agent, Grok bot or Dots, I] Tried a few but never stuck around"
+   }
+  ]
+ },
+ {
+  "id": "50377501",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Custom orchestration",
+    "sentiment": "positive",
+    "point": "happy with agent-team verification output",
+    "quote": "I’ve build myself a framework how a group of agents can verify if it’s done a good enough job… I’m quite happy with what they produce."
+   }
+  ]
+ },
+ {
+  "id": "50377952",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Custom orchestration",
+    "sentiment": "positive",
+    "point": "git-repo shared memory works surprisingly well",
+    "quote": "I keep one git repository as the shared memory for every agent session… Agent Hooks hold this together, the task and state files get updated automatically… I’m still baffled how well this works."
+   }
+  ]
+ },
+ {
+  "id": "50377597",
+  "opinions": [
+   {
+    "i": 5,
+    "name": "T3 Code",
+    "sentiment": "positive",
+    "point": "great for multi-machine, multi-harness orchestration",
+    "quote": "Claude Ultra 2x + Chatgpt Plus 2x… [For orchestration,] T3 code -> really great for multi-machine orchestration + multi-harness work"
+   }
+  ]
+ },
+ {
+  "id": "50373956",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "Herdr",
+    "sentiment": "positive",
+    "point": "pings when agents need attention; never looked back",
+    "quote": "Herdr is awesome - it pings me when an agent is done or needs my attention and shows me all my terminal panes that are running an agent that I can access with one click."
+   },
+   {
+    "i": 4,
+    "name": "GitHub Copilot",
+    "sentiment": "positive",
+    "point": "does pretty good PR reviews",
+    "quote": "I find that gh copilit does pretty good review on PRs, and I have a claude skill to go address all the copilot feedback (review, validate, reply, resolve, push changes if any were made)."
+   }
+  ]
+ },
+ {
+  "id": "50376279",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "ChatGPT / Codex",
+    "sentiment": "negative",
+    "point": "ChatGPT Image still looks really bad",
+    "quote": "ChatGPT Image still looks really bad to me so I use Gemini Image. I tried Argon but it really didn’t work for me so I just use the image model at API rates."
+   },
+   {
+    "i": 2,
+    "name": "Google / Gemini API",
+    "sentiment": "positive",
+    "point": "Gemini Image beats ChatGPT Image",
+    "quote": "ChatGPT Image still looks really bad to me so I use Gemini Image. I tried Argon but it really didn’t work for me so I just use the image model at API rates."
+   },
+   {
+    "i": 3,
+    "name": "Argon",
+    "sentiment": "negative",
+    "point": "really didn't work for them",
+    "quote": "I use Gemini Image. I tried Argon but it really didn’t work for me so I just use the image model at API rates."
+   },
+   {
+    "i": 4,
+    "name": "Chat UI (web/app)",
+    "sentiment": "positive",
+    "point": "easier with images and shows usage",
+    "quote": "Just the default Claude/ChatGPT desktop apps. I used the command line tools for a while but the desktop ones are much easier to use when working with images, and you get the usage down the bottom."
+   },
+   {
+    "i": 6,
+    "name": "Subagents (built-in)",
+    "sentiment": "negative",
+    "point": "a gimmick; subagents get distracted chitchatting",
+    "quote": "No, I think this is all a big gimmick. I barely use subagents… I only use subagents for bulk data tasks because otherwise they get distracted chitchatting with each other."
+   }
+  ]
+ },
+ {
+  "id": "50377633",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "OpenAI API",
+    "sentiment": "positive",
+    "point": "very cheap; a long review cost three cents",
+    "quote": "gptel says it spent 2.2k tokens… if we say it's output since that's the most expensive, then that single review cost me just $0.033."
+   }
+  ]
+ },
+ {
+  "id": "50381626",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Codex",
+    "sentiment": "positive",
+    "point": "simple, built-in tools, improving every day",
+    "quote": "Keeping it simple. Codex and Claude on my Mac. CLI and MCP/Connectores, File Reader and Browser are all built in. And they are both getting better everyday."
+   },
+   {
+    "i": 1,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "simple, built-in tools, improving every day",
+    "quote": "Keeping it simple. Codex and Claude on my Mac. CLI and MCP/Connectores, File Reader and Browser are all built in. And they are both getting better everyday."
+   }
+  ]
+ },
+ {
+  "id": "50367930",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Kiro",
+    "sentiment": "positive",
+    "point": "no complaints at work",
+    "quote": "At work, we're using Kiro. I've got no complaints. In my personal life, I'm extensively using Hermes."
+   },
+   {
+    "i": 1,
+    "name": "Hermes Agent",
+    "sentiment": "positive",
+    "point": "feels like trying the first iPhone",
+    "quote": "In my personal life, I'm extensively using Hermes… the way I feel when I use it is how I felt when I tried out the first iPhone."
+   }
+  ]
+ },
+ {
+  "id": "50367569",
+  "opinions": [
+   {
+    "i": 4,
+    "name": "Subagents (built-in)",
+    "sentiment": "positive",
+    "point": "harness's job to handle orchestration",
+    "quote": "I prefer default agent orchestration of the harness, since its their job to take care of it. not something I should spend my time and efforts on. If I did, high chance it will get out-dated soon."
+   },
+   {
+    "i": 5,
+    "name": "None",
+    "sentiment": "negative",
+    "point": "doesn't trust them; lethal trifecta risk",
+    "quote": "I prefer default agent orchestration of the harness… I do not trust agent platforms. Lethal Trifecta comes to mind."
+   }
+  ]
+ },
+ {
+  "id": "50376652",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "T3 Code",
+    "sentiment": "positive",
+    "point": "solid boost; crazy speed across projects",
+    "quote": "t3code has been a solid boost as well. It did hurt really bad tho, because I have been a terminal nerd for a long time. But the speed I've been able to achieve across a lot of projects has been crazy with t3code."
+   }
+  ]
+ },
+ {
+  "id": "50376898",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "T3 Code",
+    "sentiment": "positive",
+    "point": "well-integrated workflow, less context fatigue",
+    "quote": "Shooting things off to claude code, codex, grok, so fast. So well integrated… I just get so much more done, faster, with less context fatigue than before because of how it's laid out."
+   }
+  ]
+ },
+ {
+  "id": "50377686",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "None",
+    "sentiment": "negative",
+    "point": "no value found in software factories",
+    "quote": "I'm yet to find any value in complex software factories and multi agent harnesses. If you know what you're doing, you can just use Codex or Claude for the core research and development."
+   },
+   {
+    "i": 0,
+    "name": "Codex",
+    "sentiment": "positive",
+    "point": "enough on its own for core development",
+    "quote": "I'm yet to find any value in complex software factories and multi agent harnesses. If you know what you're doing, you can just use Codex or Claude for the core research and development."
+   },
+   {
+    "i": 1,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "enough on its own for core development",
+    "quote": "I'm yet to find any value in complex software factories and multi agent harnesses. If you know what you're doing, you can just use Codex or Claude for the core research and development."
+   }
+  ]
+ },
+ {
+  "id": "50376348",
+  "opinions": [
+   {
+    "i": 5,
+    "name": "OpenSWE",
+    "sentiment": "negative",
+    "point": "horribly expensive and slow",
+    "quote": "We have an OpenSWE agent on Slack at work but it seems horribly expensive and slow for anything I want to do."
+   }
+  ]
+ },
+ {
+  "id": "50375959",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "positive",
+    "point": "wild amount of value for the price",
+    "quote": "Claude Pro. Mainly used for developing my apps… but also for personal stuff like diy problem solving… I feel I get a wild amount of value out of £90/mo"
+   }
+  ]
+ },
+ {
+  "id": "50377387",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "Muse Spark",
+    "sentiment": "positive",
+    "point": "not smartest, but capable and super cheap",
+    "quote": "Muse Spark 1.3 contributor might not be the smartest or fastest, but it does well most of the tasks and is super cheap… Usualy this gets done in a one shot or a little refinement and costs only a few cents."
+   }
+  ]
+ },
+ {
+  "id": "50378115",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "cmux",
+    "sentiment": "mixed",
+    "point": "liked tabs and workspaces, but getting bloated",
+    "quote": "I only used two features of cmux: tabs and workspaces. And I liked it but I had the feeling it’s starting to be a be bloated and they started pushing features with their account I don’t need."
+   },
+   {
+    "i": 1,
+    "name": "Rex",
+    "sentiment": "positive",
+    "point": "great alternative to cmux",
+    "quote": "I had the feeling [cmux is] starting to be a be bloated… So far Rex has been a great alternative."
+   }
+  ]
+ },
+ {
+  "id": "50367676",
+  "opinions": [
+   {
+    "i": 6,
+    "name": "Oh My Pi",
+    "sentiment": "positive",
+    "point": "nicer interface on the laptop",
+    "quote": "Personally I use both oh-my-pi and Hermes with a Codex subscription. I tend to use OMP more now though, since I find its interface a bit nicer when working on the laptop."
+   }
+  ]
+ },
+ {
+  "id": "50375645",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "ChatGPT / Codex",
+    "sentiment": "negative",
+    "point": "runs out of Plus quota, pushed to Pro",
+    "quote": "as of late i started running out of 5h quota on gpt plus and felt coerced to upgrade to pro. i'm pretty grumpy about it."
+   }
+  ]
+ },
+ {
+  "id": "50387527",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "Claude",
+    "sentiment": "negative",
+    "point": "the way Claude talks is annoying",
+    "quote": "I haven't used Claude for ages anyway, the way it talks really annoys the hell out of me, Codex App & models are far nicer IME."
+   },
+   {
+    "i": 4,
+    "name": "Codex",
+    "sentiment": "positive",
+    "point": "desktop app works super well, nicer than Claude",
+    "quote": "Codex App & models are far nicer IME… I'm happy with the Codex/ChatGPT desktop app, works super well."
+   },
+   {
+    "i": 6,
+    "name": "Cursor",
+    "sentiment": "negative",
+    "point": "dropped it when Musk bought it",
+    "quote": "Also use the Codex VSCode plugin a bit, and started recently experimenting with herdr. Used to use Cursor but I switched when Musk bought it."
+   }
+  ]
+ },
+ {
+  "id": "50367523",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "Grok",
+    "sentiment": "positive",
+    "point": "unified plan is a solid groove",
+    "quote": "Settled on the unified Cursor, Grok, Grok Bot plan for about $200 / month. Doing everything within herdr for programming and Grok Bot for all non-programming… It's a solid groove."
+   },
+   {
+    "i": 3,
+    "name": "Grok bot",
+    "sentiment": "positive",
+    "point": "took lots of stuff off their plate",
+    "quote": "[I use] Grok Bot for all non-programming related AI life stuff. It's a solid groove. Grok Bot helped me get so much stuff off of my plate."
+   }
+  ]
+ },
+ {
+  "id": "50368119",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "ChatGPT / Codex",
+    "sentiment": "mixed",
+    "point": "tempted to cancel, but likes the app",
+    "quote": "I do still have a ChatGPT subscription. I'm tempted to cancel it, but I like their app."
+   },
+   {
+    "i": 3,
+    "name": "Gemini",
+    "sentiment": "negative",
+    "point": "would be happy not paying for it",
+    "quote": "Gemini is bundled somehow into my google subscriptions. I use it occasionally, but I'd be just as happy to not be paying for it."
+   },
+   {
+    "i": 5,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "always comes back to it after trying others",
+    "quote": "I've tried muse, grok, gemini, codex, and pi w/ openrouter, but I always come back to [Claude] code."
+   }
+  ]
+ },
+ {
+  "id": "50367338",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Herdr",
+    "sentiment": "positive",
+    "point": "all they've needed for a long time",
+    "quote": "Herdr, Pi, OpenRouter. I haven't found that I've needed much more than this for quite some time now."
+   },
+   {
+    "i": 1,
+    "name": "Pi",
+    "sentiment": "positive",
+    "point": "all they've needed for a long time",
+    "quote": "Herdr, Pi, OpenRouter. I haven't found that I've needed much more than this for quite some time now."
+   },
+   {
+    "i": 2,
+    "name": "OpenRouter",
+    "sentiment": "positive",
+    "point": "all they've needed for a long time",
+    "quote": "Herdr, Pi, OpenRouter. I haven't found that I've needed much more than this for quite some time now."
+   }
+  ]
+ },
+ {
+  "id": "50373433",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "Orca",
+    "sentiment": "positive",
+    "point": "remote dev via the app is great",
+    "quote": "claude code - but with Orca + app (being able to dev remotely via the app has been great for personal projects)"
+   },
+   {
+    "i": 3,
+    "name": "Cursor",
+    "sentiment": "negative",
+    "point": "not as good, even with Claude models",
+    "quote": "Work has me stuck with Cursor, which I don't find as good, even when using claude models."
+   }
+  ]
+ },
+ {
+  "id": "50378365",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "ChatGPT / Codex",
+    "sentiment": "negative",
+    "point": "misses a lot that Claude catches",
+    "quote": "ChatGPT seems to miss a lot that Claude doesn’t; I’ll occasionally ask it to do an adversarial review where it finds something, but that’s about it."
+   }
+  ]
+ },
+ {
+  "id": "50367965",
+  "opinions": [
+   {
+    "i": 4,
+    "name": "Ori",
+    "sentiment": "positive",
+    "point": "working great so far",
+    "quote": "I used pi for a while and lately I started using openrouter's ori coding agent. Working great so far."
+   },
+   {
+    "i": 7,
+    "name": "Muse",
+    "sentiment": "negative",
+    "point": "too slow to do anything useful",
+    "quote": "None. I tried Muse for a while and it was too slow to do anything useful."
+   }
+  ]
+ },
+ {
+  "id": "50368362",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Antigravity",
+    "sentiment": "positive",
+    "point": "amazing what it can do with Gemini Flash",
+    "quote": "Google Antigravity CLI using Gemini Flash 3.8 most of the time. Amazing what it can do."
+   }
+  ]
+ },
+ {
+  "id": "50367789",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "OpenCode Go/Zen",
+    "sentiment": "positive",
+    "point": "$10 plan never runs out of tokens",
+    "quote": "For personal stuff, a $10/month OpenCode Go subscription with OpenCode, mostly running DeepSeek Flash. I've yet to run out of tokens."
+   },
+   {
+    "i": 2,
+    "name": "Claude",
+    "sentiment": "positive",
+    "point": "never hit any limits",
+    "quote": "Work provides an enterprise Claude subscription for work stuff, I've never hit any limits on that either."
+   }
+  ]
+ },
+ {
+  "id": "50379944",
+  "opinions": [
+   {
+    "i": 4,
+    "name": "Herdr",
+    "sentiment": "positive",
+    "point": "slightly better than tmux for multiple agents",
+    "quote": "This week I started using Herdr also, and while I don't yet have it setup as I'd want, it's slightly better than me previous pure tmux setup to manage multiple agents."
+   },
+   {
+    "i": 6,
+    "name": "Custom orchestration",
+    "sentiment": "positive",
+    "point": "simple manager-session setup works with 5.5",
+    "quote": "I get a pm and a tech lead claude sessions up… This is in spirit a similar thing to gas town, but incredibly simplified. I don't think this would work with claude 3.5, but with 5.5 I'm quite happy!"
+   }
+  ]
+ },
+ {
+  "id": "50377364",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "None",
+    "sentiment": "negative",
+    "point": "won't grant admin access to phone-home software",
+    "quote": "I will be keeping AI tools safely confined to the browser. Never will I grant any kind of admin permission to black-box software that phones home to an oligarchic corporation."
+   }
+  ]
+ },
+ {
+  "id": "50380358",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "Claude",
+    "sentiment": "positive",
+    "point": "uses it fully; could use more subs",
+    "quote": "personal: $200 for ultra claude subs… I actually use my personal claude 100% every week I could easily do with 2-3 subs more."
+   }
+  ]
+ },
+ {
+  "id": "50370886",
+  "opinions": [
+   {
+    "i": 6,
+    "name": "Claude Code",
+    "sentiment": "negative",
+    "point": "overwhelming walls of text in parallel sessions",
+    "quote": "I switched from Claude CLI to a custom-built harness because I got overwhelmed by walls of text in parallel sessions."
+   },
+   {
+    "i": 5,
+    "name": "Custom harness",
+    "sentiment": "positive",
+    "point": "runs 20+ agents in parallel, with fun",
+    "quote": "I used to work with up to 6 Claude CLIs in parallel and couldn't go further. With my custom UX, I can do 20+ with fun."
+   },
+   {
+    "i": 10,
+    "name": "Hermes Agent",
+    "sentiment": "negative",
+    "point": "just a cronjob; not adding value",
+    "quote": "Hermes Agent running, sending me regular news research reports, but frankly, it's just a cronjob and the whole Hermes setup isn't really adding value for me."
+   }
+  ]
+ },
+ {
+  "id": "50380609",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Ollama Cloud",
+    "sentiment": "positive",
+    "point": "cloud DeepSeek and GLM barely burn tokens",
+    "quote": "On Ollama, I'm super happy with (cloud-hosted) DeepSeek 4.1 Flash and GLM 4.3 Flash , which almost don't burn any tokens at all(!)"
+   },
+   {
+    "i": 2,
+    "name": "DeepSeek",
+    "sentiment": "positive",
+    "point": "super happy; barely burns tokens",
+    "quote": "On Ollama, I'm super happy with (cloud-hosted) DeepSeek 4.1 Flash and GLM 4.3 Flash , which almost don't burn any tokens at all(!)"
+   },
+   {
+    "i": 3,
+    "name": "GLM",
+    "sentiment": "positive",
+    "point": "super happy; barely burns tokens",
+    "quote": "On Ollama, I'm super happy with (cloud-hosted) DeepSeek 4.1 Flash and GLM 4.3 Flash , which almost don't burn any tokens at all(!)"
+   }
+  ]
+ },
+ {
+  "id": "50375609",
+  "opinions": [
+   {
+    "i": 5,
+    "name": "None",
+    "sentiment": "negative",
+    "point": "API usage too expensive for their needs",
+    "quote": "two max Claude suscriptions… Desktop Claude for video/music editing . No API usage, expensive for my needs."
+   }
+  ]
+ },
+ {
+  "id": "50368640",
+  "opinions": [
+   {
+    "i": 4,
+    "name": "Grok bot",
+    "sentiment": "positive",
+    "point": "super useful for chores; already saved money",
+    "quote": "[GrokBot is] super useful at little chores that eat up time… I love it tbh… it already spotted an error my accountant made on some taxes so it's already saving me money"
+   }
+  ]
+ },
+ {
+  "id": "50374500",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Qwen",
+    "sentiment": "positive",
+    "point": "uses it because it's free",
+    "quote": "Wow I am pretty sure I read thru all comments and mignt be the first to say I use qwen 3.8 advanced because it's free"
+   }
+  ]
+ },
+ {
+  "id": "50367215",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "likes Claude Code's UX",
+    "quote": "Claude Code CLI inside OpenShell. I like Claude Code's UX. Lots of custom skills and scripts."
+   }
+  ]
+ },
+ {
+  "id": "50379819",
+  "opinions": [
+   {
+    "i": 3,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "never looked back after switching from Codex",
+    "quote": "Straight up Claude Code. Lots of my own Skills, Commands and my own MCP servers… Tried Codex initially. Then Claude. Never looked back."
+   }
+  ]
+ },
+ {
+  "id": "50373248",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "None",
+    "sentiment": "negative",
+    "point": "distrusts subscriptions after tripping safety classifier",
+    "quote": "I don't trust the subscription model from any frontier lab. Just look at what Anthropic has done. The first time I tripped a safety classifier on a seemingly irrelevant task, I canceled everything."
+   },
+   {
+    "i": 4,
+    "name": "GitHub Copilot",
+    "sentiment": "negative",
+    "point": "meh for work",
+    "quote": "Github Copilot for work. It's meh. Personal projects and general personal use? I started with OpenCode and have since migrated to Pi"
+   },
+   {
+    "i": 8,
+    "name": "Hermes Agent",
+    "sentiment": "positive",
+    "point": "integrated into their entire life",
+    "quote": "I have a dedicated Mac Mini to run Hermes. It is pretty much integrated into my entire life now. I could live without it"
+   }
+  ]
+ }
+]

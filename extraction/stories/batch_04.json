@@ -1,0 +1,74 @@
+[
+ {
+  "id": "50372070",
+  "author": "chris1993",
+  "headline": "Claude tried logging into remote systems, prompting an SSH key lockdown",
+  "summary": "Alarmed that Claude tried to SSH into remote machines to verify its work, they moved all keys into an agent that prompts for each use.",
+  "kind": "agent_went_too_far",
+  "score": 8,
+  "evidence": "I've moved all my ssh keys into a key-agent which prompts for key use as I got alarmed by claude attempting to login to remote systems to verify things as it worked through problems."
+ },
+ {
+  "id": "50375539",
+  "author": "furyofantares",
+  "headline": "Hobby AI spend dwarfs a $1000/month work API bill",
+  "summary": "They spend about $1000 a month at API prices at work, which is only 5-10% of their hobby usage, run through a Signal-controlled assistant.",
+  "kind": "cost",
+  "score": 7,
+  "evidence": "For my side quests at any given time I am subscribed to one or the other of Claude $200 or Codex $200 or both. I was briefly on 200+500. Getting to be a real expensive hobby.\n\nAt my day job I spend about $1000/mo at API prices. So like 5-10% of my hobby usage."
+ },
+ {
+  "id": "50367399",
+  "author": "marshalla",
+  "headline": "Typing silly messages every 30 minutes to keep session caches alive",
+  "summary": "Running more than three sessions makes them anxious about cache expiry, so they type nonsense into idle sessions every 30-45 minutes.",
+  "kind": "funny",
+  "score": 6,
+  "evidence": "I try not to run more than three sessions at once, or I get anxiety about having to keep all the session caches fresh and end up typing silly things into some of them every 30-45 min so they don't expire or auto-compact."
+ },
+ {
+  "id": "50374646",
+  "author": "dofm",
+  "headline": "Using AI to cope with burnout while considering quitting IT",
+  "summary": "Struggling with post-burnout mental health, they learn AI mainly to stay in the loop and use it to get past blank pages and feel less stuck.",
+  "kind": "personal",
+  "score": 6,
+  "evidence": "Until recently my mental health post-burnout has been so absolutely poor that I have been learning all of this just to try to concentrate on anything so I don’t feel further out of the loop. Most days I still feel like I should quit IT."
+ },
+ {
+  "id": "50375265",
+  "author": "drgoodvibe",
+  "headline": "A year building a personal harness that cloned Jira, Lovable and TradingView",
+  "summary": "Their self-built harness with Jira/Confluence clones became a Lovable clone used to ship several other clones, averaging about 40B tokens a month.",
+  "kind": "win",
+  "score": 6,
+  "evidence": "I built railvio.com for myself initially, it’s taken me a year to build and it’s a full harness for building applications + fully integrated Jira and Confluence clone. That altogether has become a lovable clone which I’ve used now to deploy a tradingview clone, a risk rating rules engine clone, and an agent terminal that is a stripped down clone of Iterm2 but built with a middle layer so I can connect to long lived tmux sessions."
+ },
+ {
+  "id": "50373734",
+  "author": "muppetman",
+  "headline": "Home Assistant asks an LLM daily whether the pool cover is on",
+  "summary": "They use OpenCode to edit Home Assistant automations, which ask gpt-5-luna twice a day to check a photo of the pool cover.",
+  "kind": "funny",
+  "score": 5,
+  "evidence": "Home Assistant also does two lightweight checks a day using gpt-5-luna (Look at this photo is the pool cover on or off?)."
+ },
+ {
+  "id": "50379466",
+  "author": "laxjester",
+  "headline": "Longtime iOS developer now builds apps from his phone",
+  "summary": "After building iOS apps since Objective-C, they hardly open a laptop, driving sandboxed agents on a home server from a phone app.",
+  "kind": "win",
+  "score": 5,
+  "evidence": "I've been building iOs apps since the Objective C days. Now I hardly open my laptop."
+ },
+ {
+  "id": "50379198",
+  "author": "dustypotato",
+  "headline": "Custom Android frontend applies for jobs automatically",
+  "summary": "A homemade Android UI over Claude and Antigravity CLIs now handles 40% of their usage, including automatic job applications via adb.",
+  "kind": "funny",
+  "score": 5,
+  "evidence": "It's now about 40 % of my usage . I use it to apply for jobs automatically etc. and orchestrate stuff using adb"
+ }
+]

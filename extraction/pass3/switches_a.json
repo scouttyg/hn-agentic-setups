@@ -1,0 +1,1283 @@
+[
+ {
+  "id": "50376720",
+  "switches": []
+ },
+ {
+  "id": "50392572",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code"
+    ],
+    "to": [
+     "Pi"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "experiment for fun and lower costs",
+    "evidence": "Been using Claude since day one and wanted to experiment with Pi for fun, and try to get my costs down."
+   },
+   {
+    "kind": "provider",
+    "from": [
+     "Open models"
+    ],
+    "to": [
+     "ChatGPT / Codex"
+    ],
+    "direction": null,
+    "reason": "open models more expensive; OpenAI subscription better value",
+    "evidence": "I found the open models more expensive, eventually had to plug my Pi set up into an OpenAI subscription, that was the only way to get good value…"
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Pi"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "OpenAI behind Opus 5.5; its subscription less generous",
+    "evidence": "Then I realised OpenAI is way behind Opus 5.5 and their subscription is far less generous with usage, so I’ve come full circle and am back on Claude Code."
+   },
+   {
+    "kind": "provider",
+    "from": [
+     "ChatGPT / Codex"
+    ],
+    "to": [
+     "Claude"
+    ],
+    "direction": null,
+    "reason": "OpenAI models behind Opus 5.5; less generous usage",
+    "evidence": "Then I realised OpenAI is way behind Opus 5.5 and their subscription is far less generous with usage, so I’ve come full circle and am back on Claude Code."
+   }
+  ]
+ },
+ {
+  "id": "50367037",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Cursor"
+    ],
+    "to": [
+     "Codex"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "",
+    "evidence": "I used to use Cursor, then Codex, but since Opus 5.5 came out, I just use the Claude IDE."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Codex"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "official_to_official",
+    "reason": "Opus 5.5 came out",
+    "evidence": "I used to use Cursor, then Codex, but since Opus 5.5 came out, I just use the Claude IDE."
+   }
+  ]
+ },
+ {
+  "id": "50385453",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "T3 Code"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "T3 Code too buggy, missing Claude Code Desktop features",
+    "evidence": "I tried a T3 code for a hot second, but found it too buggy and missing features I missed from Claude Code Desktop."
+   }
+  ]
+ },
+ {
+  "id": "50378013",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Cursor"
+    ],
+    "to": [
+     "Claude Code",
+     "T3 Code"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "ran out of usage on Grok 4.7",
+    "evidence": "I switched from Cursor to Claude Code (via T3.codes) because I was running out of usage on Grok 4.7."
+   },
+   {
+    "kind": "model",
+    "from": [
+     "Grok 4.7"
+    ],
+    "to": [
+     "Opus 5.5"
+    ],
+    "direction": null,
+    "reason": "ran out of Grok usage; Opus 5.5 much better",
+    "evidence": "I switched from Cursor to Claude Code (via T3.codes) because I was running out of usage on Grok 4.7."
+   }
+  ]
+ },
+ {
+  "id": "50395313",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "Cursor"
+    ],
+    "to": [
+     "Claude"
+    ],
+    "direction": null,
+    "reason": "Anthropic $200 plan gives more value than Cursor's",
+    "evidence": "My $200 Anthropic subscription is giving me way more value than my $200 Cursor subscription was."
+   }
+  ]
+ },
+ {
+  "id": "50376177",
+  "switches": []
+ },
+ {
+  "id": "50373063",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code CLI"
+    ],
+    "to": [
+     "Claude Code desktop app"
+    ],
+    "direction": "interface_change",
+    "reason": "desktop app's Code tab is now pretty good",
+    "evidence": "Yeah, I used to hate the Claude desktop app's Code tab, but it's actually pretty good nowadays. I actually prefer it now over claude CLI."
+   }
+  ]
+ },
+ {
+  "id": "50376807",
+  "switches": []
+ },
+ {
+  "id": "50378856",
+  "switches": [
+   {
+    "kind": "orchestration",
+    "from": [
+     "tmux / zellij"
+    ],
+    "to": [
+     "Herdr"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "I have also been happy using zellij previously and might go back to it if the experimental Collie integration works."
+   }
+  ]
+ },
+ {
+  "id": "50379612",
+  "switches": []
+ },
+ {
+  "id": "50378067",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "GitHub Copilot"
+    ],
+    "to": [
+     "OpenCode Go/Zen"
+    ],
+    "direction": null,
+    "reason": "retiring; Copilot personal plan lacks models; pay-as-you-go any model",
+    "evidence": "OpenCode Console (I think this used to be called Zen). It's a pay-as-you-go system, but I get access to almost any model at open market rates."
+   }
+  ]
+ },
+ {
+  "id": "50375046",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code",
+     "Codex"
+    ],
+    "to": [
+     "Custom harness"
+    ],
+    "direction": "official_to_own",
+    "reason": "trouble managing multiple tasks and syncing work across machines",
+    "evidence": "https://github.com/oscscull/quarterdeck built my own harness. I had trouble with both claude and codex. In particular, managing multiple tasks in a kanban, syncing between my machines, making sure work is done on the right machine and can be triggered from either."
+   }
+  ]
+ },
+ {
+  "id": "50380973",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Custom harness"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "own_to_other",
+    "reason": "",
+    "evidence": "I went from an early adopter of AI tools, building my own tools, setting up a crazy openClaw rig, back to just the default coding apps."
+   },
+   {
+    "kind": "platform",
+    "from": [
+     "OpenClaw"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "",
+    "evidence": "I went from an early adopter of AI tools, building my own tools, setting up a crazy openClaw rig, back to just the default coding apps."
+   }
+  ]
+ },
+ {
+  "id": "50378847",
+  "switches": []
+ },
+ {
+  "id": "50387438",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [],
+    "direction": "dropped",
+    "reason": "agent reused a plaintext DB password it found in config",
+    "evidence": "My OpenCode one day was like \"and now I'm signing into your local mysql instance with your (plaintext) pw that I picked up last week to make some schema updates... \" and I was like, ok we're done here."
+   },
+   {
+    "kind": "route",
+    "from": [
+     "Cloud agents"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "agents read config/dotfiles and store them in the cloud",
+    "evidence": "I'm now avoiding any cloud-agents until further notice."
+   }
+  ]
+ },
+ {
+  "id": "50374298",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [
+     "Pi"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "OpenCode's terribly messy source code",
+    "evidence": "I tried OpenCode first. I couldn’t quite get on with it and what ultimately made me switch was trying to understand its terribly messy source code."
+   }
+  ]
+ },
+ {
+  "id": "50374261",
+  "switches": []
+ },
+ {
+  "id": "50376642",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "TensorX"
+    ],
+    "to": [
+     "Melious"
+    ],
+    "direction": null,
+    "reason": "Melious' DeepSeek offering is much cheaper",
+    "evidence": "I was on tensorx.ai first, but melious’ deepseek offering is way cheaper. I switched to them, no issues so far."
+   }
+  ]
+ },
+ {
+  "id": "50374344",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "",
+    "evidence": "I also use OpenRouter with OpenCode, and a homegrown harness I wrote initially without AI help but later on with AI help. But I haven't used this setup for a while."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Custom harness"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "own_to_other",
+    "reason": "",
+    "evidence": "I also use OpenRouter with OpenCode, and a homegrown harness I wrote initially without AI help but later on with AI help. But I haven't used this setup for a while."
+   },
+   {
+    "kind": "route",
+    "from": [
+     "OpenRouter"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "",
+    "evidence": "I also use OpenRouter with OpenCode, and a homegrown harness I wrote initially without AI help but later on with AI help. But I haven't used this setup for a while."
+   },
+   {
+    "kind": "route",
+    "from": [
+     "Local models (Qwen)"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "",
+    "evidence": "I also can run Qwen 27B A3B on my NVIDIA 5060 Ti 16GB but I don't bother with that anymore either."
+   }
+  ]
+ },
+ {
+  "id": "50370525",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Codex"
+    ],
+    "to": [
+     "3code"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "Codex sandbox buggy; documented features don't work",
+    "evidence": "Then used Codex for the built-in sandbox but it's buggy like hell, documented features just do not work properly."
+   }
+  ]
+ },
+ {
+  "id": "50367423",
+  "switches": [
+   {
+    "kind": "platform",
+    "from": [
+     "OpenClaw",
+     "Letta"
+    ],
+    "to": [
+     "Custom assistant"
+    ],
+    "direction": null,
+    "reason": "felt like emailing your AI; too much latency, not built for local",
+    "evidence": "I use a custom Daemon. I tried OpenClaw and Letta and it was like emailing your AI."
+   }
+  ]
+ },
+ {
+  "id": "50367557",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "Mistral"
+    ],
+    "to": [
+     "Melious",
+     "Entrim"
+    ],
+    "direction": null,
+    "reason": "needed more capacity than two Mistral subscriptions",
+    "evidence": "I used to have two Mistral subscriptions, because I needed the extra capacity, but quickly realised I'd need three or more, so switched to the two providers above."
+   },
+   {
+    "kind": "harness",
+    "from": [],
+    "to": [
+     "Maki"
+    ],
+    "direction": "unclear",
+    "reason": "token saving strategies; stayed for ergonomics",
+    "evidence": "I switched to Maki for the token saving strategies and stayed for the ergonomics, which I think I like, but maybe just feel comfortable with now."
+   }
+  ]
+ },
+ {
+  "id": "50375873",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code"
+    ],
+    "to": [
+     "T3 Code"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "T3 Code better in every regard",
+    "evidence": "It's just baffling to me how it is better in every regard than every other harness that I've ever tried (Claude Desktop, Github Copilot App, OpenCode Desktop, all the CLIs, Integrated Agents in VSCode and Zed, etc.)"
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "GitHub Copilot",
+     "OpenCode",
+     "Zed"
+    ],
+    "to": [
+     "T3 Code"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "T3 Code better in every regard",
+    "evidence": "It's just baffling to me how it is better in every regard than every other harness that I've ever tried (Claude Desktop, Github Copilot App, OpenCode Desktop, all the CLIs, Integrated Agents in VSCode and Zed, etc.)"
+   }
+  ]
+ },
+ {
+  "id": "50367587",
+  "switches": [
+   {
+    "kind": "route",
+    "from": [
+     "Cloud models"
+    ],
+    "to": [
+     "Local models (self-hosted GLM Flash)"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "Phasing out my usage of cloud based LLMs/harnesses."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Cloud harnesses"
+    ],
+    "to": [
+     "Pi"
+    ],
+    "direction": "unclear",
+    "reason": "Pi is lightweight, extensible, minimal noise",
+    "evidence": "Phasing out my usage of cloud based LLMs/harnesses."
+   }
+  ]
+ },
+ {
+  "id": "50380407",
+  "switches": [
+   {
+    "kind": "platform",
+    "from": [
+     "OpenClaw"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "simplicity; fancy setups abandoned after weeks",
+    "evidence": "Stopped OpenClaw and fancy setups after a few weeks each time. Simplicity is the ultimate sophistication."
+   }
+  ]
+ },
+ {
+  "id": "50367582",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "Claude"
+    ],
+    "to": [
+     "ChatGPT / Codex"
+    ],
+    "direction": null,
+    "reason": "between jobs, cutting subscriptions; ChatGPT voice mode better",
+    "evidence": "I wanted to really keep Claude but ChatGPT voice mode is too good tbh and no other comes close."
+   }
+  ]
+ },
+ {
+  "id": "50379352",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code CLI",
+     "Codex CLI"
+    ],
+    "to": [
+     "Claude Code desktop app",
+     "Codex desktop app"
+    ],
+    "direction": "interface_change",
+    "reason": "desktop apps much more useful than the command line",
+    "evidence": "3 - If I'm using Codex or Claude directly, I'm using the desktop apps. The apps are MUCH more useful than doing everything on the command line now."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code",
+     "Codex"
+    ],
+    "to": [
+     "Custom harness"
+    ],
+    "direction": "official_to_own",
+    "reason": "",
+    "evidence": "But mainly, I'm switching to my own harnesses via my own agent factory."
+   }
+  ]
+ },
+ {
+  "id": "50367546",
+  "switches": []
+ },
+ {
+  "id": "50367876",
+  "switches": []
+ },
+ {
+  "id": "50393227",
+  "switches": []
+ },
+ {
+  "id": "50376352",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code"
+    ],
+    "to": [
+     "JetBrains Thinkrail"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "Claude Code Desktop made picking a branch per worktree harder",
+    "evidence": "I have personally been using the Claude Code Desktop App and was happy with it until they made it harder to pick a branch for each worktree! Which is why I tried JetBrains experimental agent IDE, ThinkRail, and I love it!"
+   },
+   {
+    "kind": "model",
+    "from": [
+     "Opus 5.5"
+    ],
+    "to": [
+     "Haiku 5",
+     "Opus 5.5",
+     "Argon 4"
+    ],
+    "direction": null,
+    "reason": "smaller models much faster and dramatically cheaper",
+    "evidence": "I was only using Opus 5.5 before as I wanted the highest quality, but using smaller models you can get much faster work, and the difference in price is dramatic."
+   }
+  ]
+ },
+ {
+  "id": "50376216",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Codex"
+    ],
+    "to": [
+     "OpenCode",
+     "OpenChamber"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "",
+    "evidence": "I initially just used codex cloud but more recently have been using opencode with the open chamber ui over the top of it."
+   }
+  ]
+ },
+ {
+  "id": "50376357",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Pi"
+    ],
+    "to": [
+     "Hermes Agent"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "",
+    "evidence": "I was using oh-my-pi, but currently playing around with Hermes as an alternative."
+   }
+  ]
+ },
+ {
+  "id": "50375773",
+  "switches": [
+   {
+    "kind": "route",
+    "from": [
+     "Free cloud models"
+    ],
+    "to": [
+     "Local models (Strata)"
+    ],
+    "direction": null,
+    "reason": "laptop runs Qwen at 60 tok/s",
+    "evidence": "I use free models in opencode, mainly DeepSeek, but it turns out my laptop can run Qwen3.8 flash next at 60 tok/s via Strata. So I mostly use Qwen now in a customized version of pi."
+   },
+   {
+    "kind": "model",
+    "from": [
+     "DeepSeek"
+    ],
+    "to": [
+     "Qwen"
+    ],
+    "direction": null,
+    "reason": "laptop runs Qwen at 60 tok/s",
+    "evidence": "I use free models in opencode, mainly DeepSeek, but it turns out my laptop can run Qwen3.8 flash next at 60 tok/s via Strata. So I mostly use Qwen now in a customized version of pi."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [
+     "Pi"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "",
+    "evidence": "I use free models in opencode, mainly DeepSeek, but it turns out my laptop can run Qwen3.8 flash next at 60 tok/s via Strata. So I mostly use Qwen now in a customized version of pi."
+   }
+  ]
+ },
+ {
+  "id": "50375312",
+  "switches": [
+   {
+    "kind": "route",
+    "from": [
+     "OpenRouter"
+    ],
+    "to": [
+     "Discount provider (unnamed)"
+    ],
+    "direction": null,
+    "reason": "two-thirds discount; saved $300 last month",
+    "evidence": "I typically stay with OpenRouter, but I've found a discount provider that offers a 2/3 discount and have migrated to them."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [
+     "Pi"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "too many unfixed and weird issues in OpenCode",
+    "evidence": "I used to use OpenCode for my API usage, but there are too many issues which have gone unfixed and too many weird issues that I became tired of working around, so I switched to Oh my Pi."
+   }
+  ]
+ },
+ {
+  "id": "50378651",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "ChatGPT / Codex ($200)"
+    ],
+    "to": [
+     "ChatGPT / Codex ($20)"
+    ],
+    "direction": null,
+    "reason": "usage resets made the $200 plan feel wasteful",
+    "evidence": "Amusingly I was a $200 codex plan person not that long ago but Tibo's month of resets made me feel like I was wasting my money so I've just been ratcheting down..."
+   }
+  ]
+ },
+ {
+  "id": "50378415",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Codex"
+    ],
+    "to": [],
+    "direction": "dropped",
+    "reason": "Codex cloud setup was a mess, ignored startup instructions",
+    "evidence": "I briefly tried to set up codex cloud and it was a mess, not following startup instructions so I gave up."
+   }
+  ]
+ },
+ {
+  "id": "50374449",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "Perplexity"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "using Perplexity Pro felt physically sickening",
+    "evidence": "I evaluated using Perplexity Pro for a while, paying for both subscriptions at the same time for a few months. I find it hard to describe the experience of using Perplexity Pro beyond making me feel physically ill when I used it."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Codex"
+    ],
+    "to": [
+     "Pi"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "minimalist philosophy; Codex default prompts ate limited local context",
+    "evidence": "The default prompts of Codex ate into that a lot, and Pi was a much better match for the resources I had."
+   }
+  ]
+ },
+ {
+  "id": "50387654",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Aider"
+    ],
+    "to": [
+     "MetaGPT"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "",
+    "evidence": "1) None, pay go deepseek v4 pro 2) N/A 3) My timeline has gone aider, MetaGPT, gemini, pi, claude, claude, pi, dirge, nodecode + dirge, nodecode + dirge + deepseek superagent harness 4) deepseek superagent harness 5) yes"
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "MetaGPT"
+    ],
+    "to": [
+     "Gemini CLI"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "",
+    "evidence": "1) None, pay go deepseek v4 pro 2) N/A 3) My timeline has gone aider, MetaGPT, gemini, pi, claude, claude, pi, dirge, nodecode + dirge, nodecode + dirge + deepseek superagent harness 4) deepseek superagent harness 5) yes"
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Gemini CLI"
+    ],
+    "to": [
+     "Pi"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "",
+    "evidence": "1) None, pay go deepseek v4 pro 2) N/A 3) My timeline has gone aider, MetaGPT, gemini, pi, claude, claude, pi, dirge, nodecode + dirge, nodecode + dirge + deepseek superagent harness 4) deepseek superagent harness 5) yes"
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Pi"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "",
+    "evidence": "1) None, pay go deepseek v4 pro 2) N/A 3) My timeline has gone aider, MetaGPT, gemini, pi, claude, claude, pi, dirge, nodecode + dirge, nodecode + dirge + deepseek superagent harness 4) deepseek superagent harness 5) yes"
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code"
+    ],
+    "to": [
+     "Pi"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "",
+    "evidence": "1) None, pay go deepseek v4 pro 2) N/A 3) My timeline has gone aider, MetaGPT, gemini, pi, claude, claude, pi, dirge, nodecode + dirge, nodecode + dirge + deepseek superagent harness 4) deepseek superagent harness 5) yes"
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Pi"
+    ],
+    "to": [
+     "Dirge"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "",
+    "evidence": "1) None, pay go deepseek v4 pro 2) N/A 3) My timeline has gone aider, MetaGPT, gemini, pi, claude, claude, pi, dirge, nodecode + dirge, nodecode + dirge + deepseek superagent harness 4) deepseek superagent harness 5) yes"
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Dirge"
+    ],
+    "to": [
+     "NodeCode",
+     "Dirge"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "",
+    "evidence": "1) None, pay go deepseek v4 pro 2) N/A 3) My timeline has gone aider, MetaGPT, gemini, pi, claude, claude, pi, dirge, nodecode + dirge, nodecode + dirge + deepseek superagent harness 4) deepseek superagent harness 5) yes"
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "NodeCode",
+     "Dirge"
+    ],
+    "to": [
+     "DeepSeek Superagent"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "",
+    "evidence": "1) None, pay go deepseek v4 pro 2) N/A 3) My timeline has gone aider, MetaGPT, gemini, pi, claude, claude, pi, dirge, nodecode + dirge, nodecode + dirge + deepseek superagent harness 4) deepseek superagent harness 5) yes"
+   }
+  ]
+ },
+ {
+  "id": "50374774",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Cline"
+    ],
+    "to": [
+     "Custom harness"
+    ],
+    "direction": "third_party_to_own",
+    "reason": "code generated so fast they needed to optimize for review",
+    "evidence": "I switched away from Cline + VS Code primarily because code is being generated so fast that I needed to optimize for review."
+   }
+  ]
+ },
+ {
+  "id": "50385925",
+  "switches": [
+   {
+    "kind": "route",
+    "from": [
+     "DeepSeek",
+     "Z.ai (GLM)"
+    ],
+    "to": [
+     "Local models (Qwen via MTPLX)"
+    ],
+    "direction": null,
+    "reason": "bought M5 Max Mac Studio to self-host",
+    "evidence": "For heavier works im using deepseek v4.1 flash and pro, I also have z.ai coding subscription but probably trying to move away from all of these because:"
+   }
+  ]
+ },
+ {
+  "id": "50367744",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "ChatGPT / Codex"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "kept reaching Codex usage limits",
+    "evidence": "Codex with gpt used to be good value but recently I canceled it cause I kept reaching my limits."
+   }
+  ]
+ },
+ {
+  "id": "50373811",
+  "switches": []
+ },
+ {
+  "id": "50377579",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Codex",
+     "Claude Code",
+     "Kimi Code"
+    ],
+    "to": [
+     "Custom assistant"
+    ],
+    "direction": "official_to_own",
+    "reason": "self-built claw-like agent setup is more flexible",
+    "evidence": "I'm using Codex, Claude Code, Kimi Code for different things, but most of my interactions now is with claw-like agents hanging off a self-hosted Matrix server in my VPN, and I expect to migrate pretty much all of my use to that setup because it's a lot more flexible."
+   }
+  ]
+ },
+ {
+  "id": "50378946",
+  "switches": []
+ },
+ {
+  "id": "50376782",
+  "switches": []
+ },
+ {
+  "id": "50376810",
+  "switches": []
+ },
+ {
+  "id": "50384963",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode",
+     "Warp",
+     "Paseo",
+     "Orca"
+    ],
+    "to": [
+     "Claude Code",
+     "Codex"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "",
+    "evidence": "3)I tried many; from opencode, warp, paseo, orca to openclaw, hermes, etc. I always end up returning to the default claude and codex."
+   },
+   {
+    "kind": "platform",
+    "from": [
+     "OpenClaw",
+     "Hermes Agent"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "",
+    "evidence": "3)I tried many; from opencode, warp, paseo, orca to openclaw, hermes, etc. I always end up returning to the default claude and codex."
+   }
+  ]
+ },
+ {
+  "id": "50376538",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "OpenHands",
+     "Hermes Agent"
+    ],
+    "to": [
+     "Custom harness"
+    ],
+    "direction": "third_party_to_own",
+    "reason": "none of the tested harnesses worked well for them",
+    "evidence": "Harness: I tested alot and ended up writing my own harness ( https://github.com/laughingmandev/loa ) since none of the ones i tested (yes i tested openhands, hermes, etc...) did work well for me."
+   }
+  ]
+ },
+ {
+  "id": "50380818",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "Sonnet and Opus are so good",
+    "evidence": "Coding agent is mostly opencode + ds 4 flash/glm 5.3 flash, however with sonnet and opus being so good, my usage is leaning to claude code right now."
+   },
+   {
+    "kind": "model",
+    "from": [
+     "DeepSeek",
+     "GLM"
+    ],
+    "to": [
+     "Sonnet",
+     "Opus"
+    ],
+    "direction": null,
+    "reason": "Sonnet and Opus are so good",
+    "evidence": "Coding agent is mostly opencode + ds 4 flash/glm 5.3 flash, however with sonnet and opus being so good, my usage is leaning to claude code right now."
+   }
+  ]
+ },
+ {
+  "id": "50381382",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code CLI",
+     "Codex CLI"
+    ],
+    "to": [
+     "Zed"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "",
+    "evidence": "6 mo ago: same subs, mostly Zed as baseline thread / worktree manager using ACP to drive cluade/codex."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Zed"
+    ],
+    "to": [
+     "Amp"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "likes Amp's direction; can now bring own subscriptions",
+    "evidence": "today: still zed as a base rather than relying too much on anthropic or openai tooling, but rapidly increasing use of Amp, including their orbs (vm) and local runners"
+   }
+  ]
+ },
+ {
+  "id": "50380092",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code"
+    ],
+    "to": [
+     "Codex"
+    ],
+    "direction": "official_to_official",
+    "reason": "",
+    "evidence": "Coding harnesses - Codex, Pi. (Switched from claude code)"
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code"
+    ],
+    "to": [
+     "Pi"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "",
+    "evidence": "Coding harnesses - Codex, Pi. (Switched from claude code)"
+   }
+  ]
+ },
+ {
+  "id": "50376308",
+  "switches": []
+ },
+ {
+  "id": "50377144",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "ChatGPT / Codex"
+    ],
+    "to": [
+     "Gemini"
+    ],
+    "direction": null,
+    "reason": "ChatGPT started showing ads",
+    "evidence": "I was on ChatGpt, the lowest paid option, but stopped it after they started putting ads in"
+   },
+   {
+    "kind": "provider",
+    "from": [
+     "Gemini"
+    ],
+    "to": [
+     "Mistral"
+    ],
+    "direction": null,
+    "reason": "Gemini ignored instructions and inserted autoplaying YouTube videos",
+    "evidence": "Moved to lowest paid tier of Gemini, and liked it but it kept ignoring my instructions and putting in auto playing youtube videos (which also got saved to my youtube history). This pissed me off, after trying everything I just cancelled it"
+   }
+  ]
+ },
+ {
+  "id": "50376567",
+  "switches": []
+ },
+ {
+  "id": "50377417",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Cline"
+    ],
+    "to": [
+     "Kilo Code"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "Cline was very slow and unstable",
+    "evidence": "I did switch harness at some point because I previously used Cline which was dog slow and unstable."
+   }
+  ]
+ },
+ {
+  "id": "50373985",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Aider"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "",
+    "evidence": "I used Aider before Claude Code’s beta."
+   }
+  ]
+ },
+ {
+  "id": "50377705",
+  "switches": [
+   {
+    "kind": "platform",
+    "from": [
+     "OpenClaw"
+    ],
+    "to": [
+     "Claude Cowork"
+    ],
+    "direction": null,
+    "reason": "labs would build those features better",
+    "evidence": "I used OpenClaw for about a month 6 months ago, but realized that the features would be done & better by the labs, so gave up and ported my work to Claude Cowork at the time."
+   },
+   {
+    "kind": "platform",
+    "from": [
+     "Claude Cowork"
+    ],
+    "to": [
+     "Dots"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "Atm, just OpenAI's dot. I used OpenClaw for about a month 6 months ago, but realized that the features would be done & better by the labs, so gave up and ported my work to Claude Cowork at the time."
+   }
+  ]
+ },
+ {
+  "id": "50375427",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "JetBrains AI / Junie"
+    ],
+    "to": [
+     "DeepSeek Harness"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "hated JetBrains IDE integrations",
+    "evidence": "I tried IDE integrations with Jetbrains for a few months and hated it. Now I enjoy juggling 3-4 projects at once."
+   }
+  ]
+ },
+ {
+  "id": "50377554",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code CLI",
+     "Codex CLI"
+    ],
+    "to": [
+     "Claude Code desktop app",
+     "Codex desktop app"
+    ],
+    "direction": "interface_change",
+    "reason": "",
+    "evidence": "I run them from their native desktop apps, no longer I use any terminal app to run them."
+   }
+  ]
+ },
+ {
+  "id": "50378733",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code CLI"
+    ],
+    "to": [],
+    "direction": "unclear",
+    "reason": "tasks too complex to manage inside a TUI",
+    "evidence": "I've been claude code user since day one but also abandoned that terminal workflow completely. The tasks i'm doing are way to complex to manage inside a tui."
+   }
+  ]
+ },
+ {
+  "id": "50377455",
+  "switches": [
+   {
+    "kind": "platform",
+    "from": [
+     "OpenClaw"
+    ],
+    "to": [
+     "Hermes Agent"
+    ],
+    "direction": null,
+    "reason": "OpenClaw broke every update; more fixing than value",
+    "evidence": "Agent platforms: Tried OpenClaw earlier this year, when it was such a hype. Did not like it. Every update something broke, and I spent more time fixing things than I got value out of it."
+   }
+  ]
+ },
+ {
+  "id": "50388077",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "Claude ($100)"
+    ],
+    "to": [
+     "Claude ($20)"
+    ],
+    "direction": null,
+    "reason": "couldn't use the $100 plan's quota",
+    "evidence": "before that I have $100 plan and have a hard timr to use all the quota I often doing useless things with that"
+   }
+  ]
+ }
+]

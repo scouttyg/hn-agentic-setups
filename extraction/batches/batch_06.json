@@ -1,0 +1,774 @@
+[
+ {
+  "id": "50374816",
+  "author": "hodder",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Muse and cursor. It beats every custom setup I had by far on ease of use. The cost is trivial."
+ },
+ {
+  "id": "50375500",
+  "author": "febed",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "People using DeepSeek - do you have a zero data retention provider based outside China?"
+ },
+ {
+  "id": "50375683",
+  "author": "kristianp",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50375500",
+   "author": "febed",
+   "text": "People using DeepSeek - do you have a zero data retention provider based outside China?"
+  },
+  "text": "Yeah, I use Openrouter with the zdr parameter."
+ },
+ {
+  "id": "50369791",
+  "author": "wanderingpixel",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1/2) OpenAI Business Premium subscription and a locally hosted Qwen 3.8 Flash Next running on a DGX Spark.\n\n3) I use both Opencode and Pi."
+ },
+ {
+  "id": "50376328",
+  "author": "sgt",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Claude Code Ultra aka 20x Max, about $250/mo incl VAT that I have to pay"
+ },
+ {
+  "id": "50376056",
+  "author": "hypfer",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1) I bought a z.ai 1 year subscription for their mid tier (second iteration of their pricing) for like 500€ total, so 40€/month for mostly GLM-5.3. I suppose flash is there too, but.. eh.\n\n2) I have a 4090 which runs Qwen3.8-27b q4 fine with 180k ctx at q8. The model is capable enough to do things, but dumb enough to not be able to build elaborate nonsense like the bigger models love to do\n\n3) I'm using https://github.com/juggler-ai/juggler which is alright. It could be a bit less vibecoded (and the readme and docs and all would benefit from less LLM writing), but, generally, the opinions shaping it seem decent, and I like just how much control over and insight into what happens it gives you.\n\nI initially tried OpenCode, and, holy hell, what a mess. Do not ever use OpenCode. I also tried goose but it was too agentic for my taste.\n\n4) No. I am doubtful that that kind of workflow can produce software I would deem worthy of production. I also personally just dread the whole overhead that is tickets, jira, etc, so recreating the same but now you're the manager seems like a personal hell to me.\n\n5) No. I wouldn't know what for"
+ },
+ {
+  "id": "50367792",
+  "author": "yuppiepuppie",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Im curious how hardware/firmware engineers are using Claude, et. al. for work. Tools/MCPs that are worth it?"
+ },
+ {
+  "id": "50367878",
+  "author": "swiftcoder",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50367792",
+   "author": "yuppiepuppie",
+   "text": "Im curious how hardware/firmware engineers are using Claude, et. al. for work. Tools/MCPs that are worth it?"
+  },
+  "text": "DeepSeek Flash with kicad + autorouting churned out a couple of working PCBs with minimal prompting, and customized ZMK itself for some custom input devices. At least for casual stuff this is a solved problem"
+ },
+ {
+  "id": "50382261",
+  "author": "matthiasforstr",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50367792",
+   "author": "yuppiepuppie",
+   "text": "Im curious how hardware/firmware engineers are using Claude, et. al. for work. Tools/MCPs that are worth it?"
+  },
+  "text": "Not firmware, but close enough: I've been building a Samsung TV app with Claude Code, and the agent drives the real TV over the network. It builds, installs over the developer connection, reads logs from a tiny log server on my laptop, and sends remote key presses to walk through a flow.\n\nWhat it can't do is notice the things only the device shows you. It added a \"quick check\" of a stream URL before playback, which looked like good practice, but the account allowed one connection, so the check took the slot and the player got refused. Things like that only show up on the hardware.\n\nThe habit that helped most: every failure on the device becomes a dated rule in the docs or a comment next to the code it protects. The next session reads it, and so do I."
+ },
+ {
+  "id": "50374626",
+  "author": "tharkun__",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1) None. duck.ai for random questions/research for private use. No personal coding project or anything like that.\n\n2) Yes, Anthropic models usually, at work. Pay as you go API. Company is trialing limits, routers and open weight and even local models. Since the Anthropic 5.5 models none seem reasonable to use any longer (for now at least)\n\n3) Claude Code at work. Tried Aider early on and it failed to even read its initial context (Claude models like a year+ ago). I dropped it dead after that - unusable if you need me to specifically \"load\" and point our files. That's not agentic coding, sorry. Have not used the actual features my IntelliJ Ultimate subscription provides in quite a long time, though I loathe to tell IT/finance that. I do use it from time to time to double check what Claude tells me. Used `pi` w/ local models (some gemma and qwen that'd run on my hardware. nothing usable w/ the work code base - or much anything for that matter, like I'd not even get through an interview coding challenge with that if you ask me)\n\nDid use Codex maybe like 8 months or so ago to ping pong implementation plans and reviews between GPT and Anthropic models but then just stuck with Anthropic for some reason.\n\n4) Nope.\n\n5) Nope. But we do have our own in-house review agent and software factory agent. Like think CodeRabbit et. al."
+ },
+ {
+  "id": "50373740",
+  "author": "shepherdjerred",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1. Claude Ultra, ChatGPT Pro 200, SuperGrok, Kimi Pro, Cursor Pro, Google AI Pro, Muse Code High Usage. It comes out to ~$500/mo, mostly from Claude+ChatGPT\n\n2. I use OpenAI/Anthropic APIs for various workloads (app features, automations, etc.), but not for personal inference/coding. Recently both of these providers started giving $200/mo in API credits, and OpenAI already gives free tokens, so I don't usually pay for this usage.\n\n3. I always use the provider's preferred CLI: Claude Code, Codex CLI, Grok CLI, Kimi CLI, Antigravity CLI, Muse CLI. I use this with herdr to manage everything, and then a small custom app to keep track of my usages since I hit limits quite often.\n\n4. No. Just the CLIs. For very large projects I've found Claude Code to be the best -- it can very easily manage many subagents.\n\n5. I've tried OpenClaw, Hermes, Dots, and Muse. I really just haven't found great use cases for these tools\n\nI use Claude & Codex for most of my personal coding/projects. For the other providers I mostly want to have broad experience with different models/harnesses. It's very interesting to see how each performs and what kind of tasks they do/don't excel out. The only con of having cheap plans is you really can only give them simple tasks.\n\n---\n\nAt work I use AWS Bedrock w/ Anthropic + OpenAI models at API pricing. Each employee is given a rolling 28-day budget w/o access to Fable/Astra. I use the same Claude Code/Codex CLI + Herdr."
+ },
+ {
+  "id": "50373975",
+  "author": "ddxv",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "VSCode + OpenRouter + flavor of the day cheap model.\n\nI spend about $5 a month with this setup."
+ },
+ {
+  "id": "50373561",
+  "author": "minimaxa",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "We built our own harness local & cloud models, test it out: www.vekmem.com"
+ },
+ {
+  "id": "50367699",
+  "author": "vcryan",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I built a \"software factory\" on top of pi agents so I can automate most product dev work"
+ },
+ {
+  "id": "50378157",
+  "author": "poelzi",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Mostly https://tix.im/ with my vx-maintainer expert, codex, opencode and claude-code as harnesses.\n\nI was unhappy with everything out there - not secure enough, not flexible enough, not composable enough, not nix enough. The whole concept how we use AI is garbage, having 10 terminals open with agents working in different branches. I build workflows, very complex, multi model, multi harness, parameterized - nix defined workflows that run in highly isolated, fully composed environments. I have a few dozen workflows already, in vx-maintainer: quick-fix, change-management, spec-implement, red-green, sync-branches, ....\n\nEach of those workflows does something, and this extremely well. Every time a workflow fails, the workflow gets some massage to make it more resilient, more flexible, more correct. Workflows are usually design that restart just recovers the last state and continues work. My land-feature workflow has at least 40 steps, most of them deterministic scripts. For example, if rebase is true, a mechanical rebase is started, if this fails, an agent rebase agent is started. Full multi panel + review tool pipeline. With time, the workflows start to be super sophisticated, for example: review is cached, but the review is pinned to the commit hash. When restarted and rebase is on, a ast-diff is generated to check if the review can be reused. Stuff, no normal person would do :)\n\nvx-maintainer has an own bug / change tracker. Normal bugtrackers are build for humans, such agentic system need a tracker that works for both.\n\nThen I have a special agent, the queue-manager, his goal is to keep the workflow engine busy. He queries the vx-meta tracker for changes and workflows to get implemented.\n\nWorkflows are semi-automatic. You can have tty and ui programs running inside the workflows. You have decision steps and agents can ask the operator.\n\nAnd this is just the surface of it.\n\nI never was able to get so much stuff done and had so much fun getting a project build. And fucking safe - no more fear when updating dependencies."
+ },
+ {
+  "id": "50373741",
+  "author": "linhns",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Only GitHub Copilorpt for documentation. Sponsored so cost nothing."
+ },
+ {
+  "id": "50367793",
+  "author": "wolttam",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "My own harness (nothing intricate, but to my taste), DSv4 1017 on my own hardware\n\nKeeping it simple."
+ },
+ {
+  "id": "50374764",
+  "author": "Fordec",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1. Claude Ultra + a Codex Plus. Probably going to drop Codex soon, GLM is gradually taking on what I intended it for.\n\n2. GLM-5.3 and OpenCode for cybersecurity\n\n3. Primarily custom built harness. Rust centric, heavy on the production engineering gates and a bunch of graph networks for context control.\n\n4. Custom.\n\n5. No.\n\nMy general ethos is that if taste is what is important going forward, my code generation must have it's own taste. If you can download my tooling off the shelf, I am replaceable by anyone who can do the same. My end goal is to drop Claude Code once the harness prices start to drift to API pricing. In the meantime, anything that can be automated into traditional and efficient code will be one more thing in my control regardless of future token prices. When I hit my limits for the week, I spend the remainder of the waiting time going over the framework data to see what are my largest sources of consumption and iterate in automating that more."
+ },
+ {
+  "id": "50380334",
+  "author": "montenegrohugo",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "A key part of mine is using voice input to give max context quickly to my agents. I know some solutions exist, but on Linux they all frankly suck\n\nSo I made my own. Including patching onnx myself to run parakeet model (way better than whisper)\n\nFully FOSS: voiceio.dev"
+ },
+ {
+  "id": "50381552",
+  "author": "pcthrowaway",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50380334",
+   "author": "montenegrohugo",
+   "text": "A key part of mine is using voice input to give max context quickly to my agents. I know some solutions exist, but on Linux they all frankly suck\n\nSo I made my own. Including patching onnx myself to run parakeet model (way better than whisper)\n\nFully FOSS: voiceio.dev"
+  },
+  "text": "Do you know if this could work on an Android phone eventually? Or do you have plans to make a hook for mobile apps that can stream the audio to a custom Linux server?"
+ },
+ {
+  "id": "50380583",
+  "author": "RamblingCTO",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Claude desktop, chatgpt desktop, pi, claude code, also coop vm + pi setup for more juicy stuff. Also just setup paseo via tailscale to have something like amp. imho all the fancy setup and the skills make the agents more retarded. they access tools and skills way too broadly and it poisons the context.\n\nalso killed my hermes web setup (also via talescale) for security reasons. not interested in having something online like that with all the vulns popping up (ssh, ubuntu, tailscale etc.)"
+ },
+ {
+  "id": "50377137",
+  "author": "temp123477",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Claude max; Atomic; Jira; herdr and VPS"
+ },
+ {
+  "id": "50378660",
+  "author": "bapetel",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Pi running with Claude & Grok"
+ },
+ {
+  "id": "50377195",
+  "author": "netless",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "very simple; claude code on pro subscription acting as a project manager, deepseek acting as developer"
+ },
+ {
+  "id": "50367619",
+  "author": "skorobogatko",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1. Claude Max\n\n2. No (only the API for projects)\n\n3. Buzzpot.app (my app)\n\n4. No\n\n5. No (I tried them, but couldn't find a use case for them)"
+ },
+ {
+  "id": "50380509",
+  "author": "yipinwong",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1. Paying for Open Router only.\n\n2. Local VPS: serve small models like Desert Ant, Laya, etc only (the VPS has GPU).\n\n3. Hermes only: Stick with one, arch is converging.\n\n4. No. Used to use Hedr but that's about it. I ask Hermes to do that for me. (or create custom Hermes agents by specifying graph in text)\n\n5. Just Hermes: refer to #3. - Fun at home, build, automate, disabled gateways for online chatting becauese of bugs (not sharing)\n\nHermes, OpenRouter, . No Claude/Codex sub too expensive. Use them at work instead."
+ },
+ {
+  "id": "50374458",
+  "author": "be_erik",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1. No\n\n2. OpenRouter PAYG - glm or opus for most things\n\n3. OMP or CC\n\n4. Zellij/Vim — some things never change\n\n5. No"
+ },
+ {
+  "id": "50379808",
+  "author": "KronisLV",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1. OpenAI and Anthropic, both at their 100 USD tiers, one account each. Would do 200 USD but I need the money to help a friend instead.\n\n2. Previously yes (esp. to try out new models on OpenRouter, like GLM 5.3 or Kimi K3.1 Pro and the various DeepSeek ones, Mistral ones etc.) before also having their subscriptions for a bit. Wrote about them on my blog, seemed like nice alternatives to OpenAI and Ant, but didn't give me as many tokens (and that's with the BS those two are occasionally pulling).\n\n3. Codex and Claude Code, for a while had a custom launcher for Claude Code (ccode) for 3rd party providers, also tried out OpenCode (really nice CLI, but barebones web UI/desktop versions), alongside additional ADEs like Paseo (really pleasant, but sub-agent status updates hanged sometimes) and Kepler (cool ticketing system integration, but the UI wasn't very pleasant), before just going back to the two in the end. Same as with MCPs and other stuff, realized I just don't need most of them, near-SOTA models are good enough to automate long form work and work in parallel well enough, all you need are Git worktrees and a decent OS environment to work in. Still waiting for some dumb agent to wipe my drive though.\n\n4. No, closest was Paseo or Kepler, but those tools would help me more rather than beat the agents into shape. The most I do orchestration wise is demand adversarial reviews (main session often spawns sub-agents for implementation and then has sub-agents with clear context for review in a loop, if issues are found, they're solved, then back to review, until nothing too serious remains), seems like even SOTA models fuck up consistently enough that they benefit from such reviews still. Meanwhile the most I do in regards to work is nudge how to best do exploration and division of work, when I know that something will need a bunch of parallelism or not to pollute the main context with bunches of side quests.\n\n5. No. Maybe I should, but given how often LLMs lack decent judgement when the tasks are underspecified, I don't think I'd benefit a lot. My ALL-CAPS-SWEARING/SESSION metric is still higher than I'd expect from a reliable assistant system, despite agent instructions and memories and custom tools and linters and all that. In a word, even SOTA models still do stupid shit and bog down workable designs with complexities and mechanisms and concerns that nobody fucking needs. Computer use is pretty good though."
+ },
+ {
+  "id": "50376295",
+  "author": "jorisnoo",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "so much inspiration in here!\n\nhard to contain myself not to change my setup too often (instead of doing actual work)"
+ },
+ {
+  "id": "50374806",
+  "author": "einhard",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1) OpenCode Go $10, though I'm just experimenting with it. Before I have just been using the free models available in OpenCode, since sometimes its hard to justify a subscription when you're unemployed.\n\n2) I tried a local Qwen model but my poor old 1660 Ti did not enjoy it, and it wasn't all that useful.\n\n3) I primarily use OpenCode running in a podman container for actually working on stuff. Also use the default free chats with Gemini 3.5 Flash for general searching, ChatGPT for brainstorming, and Claude to answer more code related things if they come up.\n\n4) Nope.\n\n5) Not at the moment. I've been eyeing using Hermes, but since I don't feel comfortable paying much at the moment I haven't really tried."
+ },
+ {
+  "id": "50375205",
+  "author": "YuechenLi",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Codex on Pro 100, Claude on Pro 20.\n\nI don't even understand how people can spend thousands of dollars a month on LLM tokens since I've accomplished multiple major projects with this setup. In general, Claude's better at frontend and debug and Codex is better at feature implementation and research from what I've found, which is why I have both.\n\n2. No. GPT 6.1 Sol is very token efficient that I pretty much never run out before the end of the week anyways.\n\n3. Default Codex/Claude app. I only use VS/VSCode to hand-edit/git sync things when needed.\n\n4. No. Swarm is a waste of token imo, and a single good human in the loop beats any automated orchestration tool.\n\n5. I find it unnecessary."
+ },
+ {
+  "id": "50375963",
+  "author": "vips7L",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "None. These things aren’t that good."
+ },
+ {
+  "id": "50375079",
+  "author": "internet2000",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Claude Code. Everything else default!!!"
+ },
+ {
+  "id": "50367866",
+  "author": "x3haloed",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Codex (Pro x 1), no outside models, custom harness, custom orchestration, custom agent harness.\n\nI avoided building anything custom until I had to, and I avoided adding more than a single agent until I had to.\n\nMy preferred way to use AI for coding has been to work closely with a single coding agent with the code open. That changed wth 5.6-Sol and a handful of skill files. I stopped needing to watch closely to keep it from fucking up the codebase. With the right request, that combination will get the job done 9/10 times.\n\nThat unlocked a new workflow: as soon as a change is requested, a coding agent reads it and gives me a PR. I want a complete proposed code change in front of my eyeballs by the time I open the change request myself.\n\nSo I have a custom solution in place to manage a handful of agents aligned with this workflow.\n\nCustom solutions are so cheap and easy now... it's really hard to put up with solutions that are only mostly right for the job."
+ },
+ {
+  "id": "50377715",
+  "author": "thibsrn",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "My use cases are mostly analytical work, document generation, and code generation and review.\n\nI used to have the Pro subcription for Claude but switched recently to the equivalent Plus subscription for ChatGPT. With Anthropic, you cannot access their inference servers without going through one their client software or paying the API pricing. It is really annoying as those are two different product categories and I'd like to use the client of my choice with an LLM. OpenAI allows you to do that, so I have a proxy running on my computer which connects to OpenAI's servers in the back ground and serves locally a Chat Completions-compliant API, with the requests counting towards my subscription.\n\nI also have an OpenRouter account, I use it regularly but mostly to explore new models and see what's out there. I wish I used it more but the bigger part of my requests, almost all of them, go through my subscription. My thinking is since I'm already paying for it, might as well use it. Which is a shame because it prevents me from exploring more.\n\nI even think a combination of the free tier of Big AI with a pay-as-you-go pricing for more complex requests would actually be cheaper for most people than their current subscription, even with their heavily subsidized pricing. The problem is that most people wouldn't want to think of when they should go deeper with a bigger model and wouldn't want the mental task of switching. The same way people don't really switch thinking levels with a given model, even though it would be a more optimal use of their token pool.\n\nThere is a huge market for an alternative business model around LLM inference. The big providers will obviously go towards an ad-based model in the following years, which will be good enough for the greater public, but a lot of people and small companies would be interested in packages and subscriptions that suit their specific needs and lines of work. OpenRouter has a great product and there is so much possiblity in this space. I also believe there is so much potential in the development of models based on data primitives other than text or rasterized images, which would be really useful in a lot of industries.\n\nFor the frontend, I either use the web-based version of ChatGPT for quick questions and analytical work (the desktop version is unnecessarily heavy), or Open WebUI. For coding, I mostly use Zed. I like the traditional development environment and tooling, I tried several agent-first environments, but in the end I prefer an IDE on top of which agents were added. OpenCode Web has evolved a lot, I have been using it for quick scripting as well. I never use any coding agent TUI anymore. Behind the scenes, the agent harnesses are OpenCode and Codex. I use them interchangeably, I don't see much of a difference. Zed connects to OpenCode and Codex through ACP. Both OpenCode and Open WebUI connects to OpenRouter and the OpenAI Proxy. Open WebUI has Open Terminal, which I have been meaning to explore, for there to be less friction between any analytical work and a document that would be needed to be produced out of it. I also run small models through llama.app from time to time, when I want to be reminded how weak my computer is.\n\nI don't use any orchestration tool. I don't have any work that involves so much volume that it would require that kind of setup. It's more important to me to maintain the right mental model, I don't want to risk any discrepancies between what I'm thinking and what's done. Therefore the agentic work must be single-threaded, if that makes sense. I also don't use AI chat gateways like OpenClaw or Muse because I don't want to do that work on my phone every minute of my life. I'm either working or I'm not.\n\nThis comment is longer than expected. It's such a fascinating and still evolving space."
+ },
+ {
+  "id": "50377450",
+  "author": "kreyenborgi",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "None."
+ },
+ {
+  "id": "50370419",
+  "author": "warpspin",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1. Using ChatGPT with a Business Premium seat (not personally paying for it).\n\n2. Also have some API keys for some open weight models in Europe, but currently not using those.\n\n3. I've personally used OpenCode, Claude Code and Codex and of those, I liked Codex the most, till bugs kept on accumulating and they started doing all kinds of shit like that daemon recently. I now switched to https://github.com/capocasa/3code which is a small, simple agent harness but with built-in sandbox, unlike so many other simple harnesses. I really like this one, plus the author is very responsive to feedback\n\n4. No. And I don't think that stuff works in the long run with current quality of code output\n\n5. No."
+ },
+ {
+  "id": "50380401",
+  "author": "carterschonwald",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "im midday through building a 3rd party multi device coding and everything harness with some unique hard to replicate features that should really help for successfully building amazing stuff reliably.\n\ndespite some of the stuff ill need to do as a consequence of wanting to keep some of those tricks private necessarily requiring that i kinda have my own byok open router for zdr providers endpoints only, i think its worth it.\n\ntheres a lot more i could say, but i hoping it can wind up being a cult favorite in techy/professional circles even if im planning to do something like 50/month for core plus pass through with hair cut on usage based costs. cause despite the large theoretical market, i think taking a page from sublime text for product stuff is likely the best way to roll.\n\ni just want nice tools and recurrent income thats stable and mine. if both groove together, thats the dream."
+ },
+ {
+  "id": "50380057",
+  "author": "aykay76",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1. I don't pay for any subscriptions personally. 2. I use locally hosted models, Qwen 3.8 Coder 3. I use VSCode, I used Opencode for a while but VSCode then supported OpenAI compatible so I use that with ollama.cpp and Qwen locally. 4. Custom build orchestrator that I built as part of my learning with AI. 5. Nope."
+ },
+ {
+  "id": "50377282",
+  "author": "danbrooks",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Claude App + Opus 5.5"
+ },
+ {
+  "id": "50374488",
+  "author": "everyone",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Dont use it at all. Seems like a waste of time for what I do as far as I can tell."
+ },
+ {
+  "id": "50374722",
+  "author": "passive",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1) Xiaomi Mimo Pro 2) I purchase periodic credits through Tailscale Aperture 3) MiMocode for working with Mimo, Pi with the others 4/5) Nope"
+ },
+ {
+  "id": "50378511",
+  "author": "alun",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1) I mostly use Claude Code Max (paid for by my employer) and ChatGPT Pro (which I pay personally)\n\n2) I use Claude for all work and programming, ChatGPT for random questions in my day-to-day life.\n\n3) I just use it through the CLI as it's my favorite interface, often with multiple CLIs running at the same time\n\n4) Nope\n\n5) Nope"
+ },
+ {
+  "id": "50380946",
+  "author": "FacelessJim",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1) 10$ opencode go for personal work and a GitHub copilot at work 2) tried some llama stuff but otherwise nope. Don’t have the bandwidth to make it usable. 3) pi + herdr 4) no 5) no\n\nCan’t say I need much more than this."
+ },
+ {
+  "id": "50385415",
+  "author": "6031769",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "None.\n\nAnd it's going to stay that way. I would much rather spend my time coding than reverse-engineering the impenetrable slop an LLM has spewed."
+ },
+ {
+  "id": "50383038",
+  "author": "0xbadcafebee",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Personal use: $10 subscriptions through Charm Hyper and Synthetic, partly to try them out, partly for reliability when one acts up or is slow. Pi for an agent, CLI in Tmux. Dingles for project task management. Linux. Was using pi-web-ui for UX but it's a bit too crap. Handy for stt.\n\nWork use: Claude Enterprise and an OpenCode Go subscription (for when Claude is down). Termic for UX to switch between parallel agents running both Claude and Pi. Linear, GitHub, Atlassian MCPs/CLIs. Custom tools written to mint read-only credentials for headless sandboxed AI agent work on tickets. MacOS. FluidVoice for stt.\n\nA mix of Pi extensions for work and personal. Personal is a bit more loosey goosey, Work has more explicit gates and limits. Customized browser agent, computer use, Matt Pocock's skills. 1Password for loading credentials as well as a custom CLI/GUI to prompt me for input when needed."
+ },
+ {
+  "id": "50389502",
+  "author": "sivp",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50383038",
+   "author": "0xbadcafebee",
+   "text": "Personal use: $10 subscriptions through Charm Hyper and Synthetic, partly to try them out, partly for reliability when one acts up or is slow. Pi for an agent, CLI in Tmux. Dingles for project task management. Linux. Was using pi-web-ui for UX but it's a bit too crap. Handy for stt.\n\nWork use: Claude Enterprise and an OpenCode Go subscription (for when Claude is down). Termic for UX to switch between parallel agents running both Claude and Pi. Linear, GitHub, Atlassian MCPs/CLIs. Custom tools written to mint read-only credentials for headless sandboxed AI agent work on tickets. MacOS. FluidVoice for stt.\n\nA mix of Pi extensions for work and personal. Personal is a bit more loosey goosey, Work has more explicit gates and limits. Customized browser agent, computer use, Matt Pocock's skills. 1Password for loading credentials as well as a custom CLI/GUI to prompt me for input when needed."
+  },
+  "text": "The read-only credential minting is the part I'd like to hear more about. I give agent sessions a read-only cluster token, and the renewal is what rots: a long-lived token is convenient until you notice it's been valid for months. I've settled on about 30 days with a calendar reminder, which feels too long. Do you mint per session, per ticket, or on a schedule? And does the agent ever hit a case where read-only isn't enough, and then what?"
+ },
+ {
+  "id": "50375084",
+  "author": "martincsweiss",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I use Codex and Claude Code with piles of project-specific skills and AGENTS.md files.\n\nFor my main work at my startup, we're very careful with how these are setup.\n\nEverywhere else, I simmer in chaos.\n\nI also have strong boundaries around generated prose. I don't like making other people read AI slop, but I don't mind having AIs read it."
+ },
+ {
+  "id": "50367667",
+  "author": "saasisdead",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Claude code is all you need"
+ },
+ {
+  "id": "50367679",
+  "author": "Der_Einzige",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50367667",
+   "author": "saasisdead",
+   "text": "Claude code is all you need"
+  },
+  "text": "Yes, given that you can route the other models into it this is sadly true."
+ },
+ {
+  "id": "50377367",
+  "author": "mettamage",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I mostly made my own claude messaging system and then context engineer the fuck out of it by thinking from first principles. I never needed skills for example because I already had something working before they were invented"
+ },
+ {
+  "id": "50380567",
+  "author": "nailer",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Claude desktop and mobile, but only because I am wary of installing any software from new vendors right due to widespread security vulnerabilities in all software."
+ },
+ {
+  "id": "50380522",
+  "author": "petesergeant",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1: I have the fancy Claude, and then regular paid Codex, Grok, and GLM 5.3\n\n2: Not for development\n\n3: I work inside Claude Code almost all of the time, inside a byre sandbox, often connected to happier. Claude calls out for code reviews to the other models\n\n4: I have a self-built code-review wrapper for Claude to call the other models, but nothing more than that\n\n5: Haven't managed to find anything useful to do with them."
+ },
+ {
+  "id": "50373684",
+  "author": "tcdent",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1. Claude Ultra, three accounts. Mostly to get enough Fable usage.\n\n2. Early in experiments with locally hosted GLM Next, not writing code with it beyond experiments.\n\n3. Claude Code, system prompt, minimal skills; mostly bash scripts for common actions.\n\n4. tmux send-keys for messaging between panes.\n\n5. No. Claude Code does that, too."
+ },
+ {
+  "id": "50373939",
+  "author": "swingboy",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50373684",
+   "author": "tcdent",
+   "text": "1. Claude Ultra, three accounts. Mostly to get enough Fable usage.\n\n2. Early in experiments with locally hosted GLM Next, not writing code with it beyond experiments.\n\n3. Claude Code, system prompt, minimal skills; mostly bash scripts for common actions.\n\n4. tmux send-keys for messaging between panes.\n\n5. No. Claude Code does that, too."
+  },
+  "text": "Isn't Opus 5.5 better than Fable 5.1?"
+ },
+ {
+  "id": "50374230",
+  "author": "tcdent",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50373939",
+   "author": "swingboy",
+   "text": "Isn't Opus 5.5 better than Fable 5.1?"
+  },
+  "text": "On some benchmarks, yes. For real software development, no."
+ },
+ {
+  "id": "50377761",
+  "author": "npodbielski",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "2) I am running Qwen Flash Next on Strix Halo with Halogen inference server. This is great setup that can get you 4 concurrent agents for 300W of power with 1k prefill and 30-80tk/s decode. I do not fill like using subs that I have from work with this."
+ },
+ {
+  "id": "50396273",
+  "author": "harshithakontex",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Reading through the setups, I notice almost all the engineering is in the middle: orchestration, review loops, sandboxing, model tiering. The front of the pipeline — what goes INTO the agent — is mostly 'a ticket' or 'a prompt.'\n\nchasd00's flow (design doc → edge-case review → plan → implement) and drDtaidev's Vision/Features/Tasks cascade implicitly get this right, but they work dramatically differently depending on whether the input is a well-specified feature or a two-line ticket. The same pipeline that runs beautifully on a crisp spec will happily produce confident, complete, well-structured implementation of the wrong thing — every downstream stage inherits the ambiguity and none of them surface it.\n\nWhat's been missing from my own iterations until I fixed it: an explicit gate before implementation that attacks the input — ambiguity, missing edge cases, unstated assumptions, dependencies on things that don't exist yet. Cheapest place in the whole pipeline to find a bug: a paragraph fix at input time vs. a rewrite after the agent faithfully implemented the gap. The review-loop setups help, but they review the PLAN'S quality, not the REQUIREMENT'S completeness — and those are different failures.\n\nCurious whether anyone's measured this: what fraction of agent-run rework traces back to the spec being wrong vs. the agent misreading a good spec? My suspicion is the first number dominates and gets systematically misattributed to the second, because 'the agent messed up' is the visible failure and 'the ticket was ambiguous' is the invisible one."
+ },
+ {
+  "id": "50376855",
+  "author": "wahnfrieden",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "ChatGPT Pro 200 x2\n\nNo\n\nCodex\n\nCodex\n\nDots"
+ },
+ {
+  "id": "50376848",
+  "author": "jonathanstrange",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Gemini Pro with web chat interface. I upload files, ask for changes, copy & paste the files back, and test and vet the code changes.\n\nNo other models or software."
+ },
+ {
+  "id": "50376601",
+  "author": "jedisct1",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Locally (MBP 128Gb) I have MLX-Serve constantly running with Clef (for model routing and decisions), Qwen-35B-A3B and Ornith-1.5-35B.\n\nAnd I switch to Qwen3.8-27B (the Perplexity Pro version that works well with MLX-Serve) or GLM-5.3-Flash (sushi) when I need to do serious work offline.\n\nAs a general harness for coding, etc. I use Swival.dev . Configured to use Clef for model routing, with Qwen-35B-A3B for documentation tasks, Ornith to ask questions about code, and various GPT models from a ChatGPT subscription for more difficult tasks.\n\nFor music, pictures, etc. MLX-Serve is all I use, with the recommended models. It's really nice.\n\nAnd as a general agent for research, etc. I absolutely love Perplexity. This is by far the AI produce I use the most, ever since it's been available.\n\nIt's a little bit sad that they are forcing people to use Perplexity Computer, because it's so expensive. But it works incredibly well.\n\nPerplexity can now run locally, but even though they include the best Qwen3.8 quant in my experience, the Perplexity tool itself has major issues with context management and tool calling. So, when that doesn't work, I fall back to MLX-Serve and Swival with the Chrome MCP server.\n\nFor agentic web browsing, I can't live without Comet anymore. So many websites are painful to use, and finding the right buttons to click even to perform very common tasks is a challenge. So, I frequently just ask Comet to do it for me. I also use it to compare products, compare places on AirBNB, write personalized messages on Instagram, etc.\n\nAs for an OpenClaw-like tool, I'm using NBClaw. I was initially very excited about it. Look, I can just send messages on Signal and let the agent do work for me! And I occasionally found it useful to remotely fix issues on the host it was running on, or long tasks such as making sure that all my projects worked with a new version of the Zig compiler. It became a replacement for Perplexity because, hey, it's cool, everything's running locally, using my own web browser, etc.\n\nBut eventually, I used it less and less. Nowadays, I still enjoy the fact that it's sending me a summary of cool things it found in Hacker News and research papers on topics I'm interesting in. But that's pretty much it. I don't use it much for agentic tasks anymore. It still happens (I recently used it to fix a bug in an opensource project while I was on the bus), but mostly just only when I ran out of Perplexity Computer credits."
+ },
+ {
+  "id": "50376381",
+  "author": "jeffrallen",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Personal exe.dev subscription."
+ },
+ {
+  "id": "50375836",
+  "author": "qurren",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "$200 ChatGPT + $200 Claude, I don't pay for it, agents quant trade and pay for their own subscriptions. I then use the rest of the tokens to build stuff."
+ },
+ {
+  "id": "50375571",
+  "author": "syngrog66",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "none; no; none; no; not needed; no; none; unnecessary; no thanks; and not interested. \"I've seen enough, kiddos.\""
+ },
+ {
+  "id": "50375020",
+  "author": "jMyles",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I've made a multiplayer environment for me and a few friends, where we can prompt (currently three) emergents and experiment with various models and instructions for them.\n\nI've rarely been so inspired by a project.\n\nIt's publicly readable, but writable by a group of ~20.\n\nhttps://magenta.cryptograss.live/"
+ },
+ {
+  "id": "50374994",
+  "author": "ls612",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I still just pay $100/mo for Claude. Use the CC extension in VSCode. I’m actively investigating various ways of getting a Hermes Agent going on my homelab with either a local model, Openrouter ZDR models, or both but I’m unlikely to pull the trigger on that yet. I would never use Muse, Grok Bot, etc as a personal agent."
+ },
+ {
+  "id": "50374680",
+  "author": "esafak",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I use OC with various subs, and am testing DeepSeek Harness, JetBrains Thinkrail, and Volt. Extending the harness with plugins is my main interest these days."
+ },
+ {
+  "id": "50374502",
+  "author": "contingencies",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I mostly work on problems at the intersection of manufacturing, mechatronic design, electronics, software and physics. So I'm not really building software per-se which likely accounts for the probably slightly weird choices here.\n\n1. Claude Max (upsold me as of today); generally Sonnet 5.5 with the occasional Fable 5.1 when it gets stuck or I am executing a high value step; and Perplexity Pro (legacy).\n\n2. Mostly local voice-to-text w/Parakeet Unified EN 0.6B via Handy[0] (awesome; use it!). Not for coding, but for note taking, AI interfacing, and general typing reduction and RSI avoidance.\n\n3. None. I tried Pi and after much kerfuffle I don't like any of the harness interfaces. I find the type of work I do they are not very useful, because I often switch between variant approaches, planning, data, and don't want unrestrained context bloat.\n\n4. No.\n\n5. No.\n\nI would add that I am very interested in obtaining good enough hardware to run this level of model locally at any pace, believe Qwen is basically there but too slow locally to use as a daily driver on my current rig, and can see myself making that investment in single digit years. Not right now, the hardware is overpriced for what it is versus venture funded cloud AI subsidies.\n\n[0] https://handy.computer/"
+ },
+ {
+  "id": "50373485",
+  "author": "tamimio",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "- LLM reverse proxy\n\n- agents work in their own lxc spawn automatically in a proxmox node, where they can go wild without sandboxing or isolation, network is firewalled too\n\n- all sync sessions and everything to a centralized agentsview in a realtime, where I get to track and watch it from anywhere on the go\n\n- i just ssh into the lxc if i needed anything\n\n- different harnesses depending on the task, maki is great one, but I use others\n\n- I also have other stuff but I won’t mention it here regarding the tokens for obvious reasons\n\nI tried most of the tools like herdr or paseo or desktop clients but they never clicked with me"
+ },
+ {
+  "id": "50373352",
+  "author": "hirvi74",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1.) Claude or ChatGPT Chatbot.\n\n2.) Text Editor or IDE.\n\n3.) A compiler/interpreter/SDK and potentially other dependencies.\n\nSuper lame and boring, but that's basically it.\n\nAs for my day job, it's the same minus #1 -- AI is banned."
+ },
+ {
+  "id": "50373317",
+  "author": "platevoltage",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Opencode with $10 Opencode Go plan until his heinous Clammy Sammy lets me have enough Ram for a local inference setup."
+ },
+ {
+  "id": "50373065",
+  "author": "yieldcrv",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "I run\n\n2) kapitsa + pi + Qwen 3.6 35B a3B q4. pi is the harness, kapitsa is the inference engine\n\npeople that I considered intelligent have associated Qwen with \"chinese cloud\" when it implies not using a cloud at all. I think that's weird. I think there is a \"western\" centric view that limits perspective to using A cloud, instead of aspiring for locally run\n\n1) I also pay for Claude, I should downgrade again to the $100 plan, thanks for the reminder, but currently the $200 max x5 plan\n\n4) no. I handroll my agents\n\n5) I use Claude desktop as an agent platform"
+ },
+ {
+  "id": "50367701",
+  "author": "puszczyk",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1) anthropic ultra; single sub\n\n2) payg on opencode\n\n3) standard claude code and opencode driven by t3 code\n\n4) nope\n\n5) grok bot - at work, to manage my tasks, and to highlight what happened on slack when i was off; random one offs there"
+ },
+ {
+  "id": "50367207",
+  "author": "codingbear",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "moved to openclaw for everything, with occasional claude usage for tricky bits. I have $200 of both codex and claude subs.\n\nOpenclaw is the answer to question \"do X if Y happens\". An agent per each type of Y channel manages the flow and memory. And user input is just another case of 'Y'. It is a very powerful model I am having lots of fun with it.\n\nthe plumbing is a chore though, thinking of trying out grokbots to see if they solved it."
+ },
+ {
+  "id": "50378875",
+  "author": "ibrahimsayar96",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "test"
+ },
+ {
+  "id": "50374780",
+  "author": "deadfoxygrandpa",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "i dont have one"
+ },
+ {
+  "id": "50367484",
+  "author": "sparklingmango",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Right now, it's Claude Code on Opus 5.5 w/ herdr to manage multiple sessions at a time."
+ },
+ {
+  "id": "50373357",
+  "author": "guhcampos",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "1.a) At work: I can choose between Cursor and Claude on a meter. Been using Cursor for a long time and happy with it until they started to force Grok down our throats. I was happy with Composer 2. Recently switched to Claude Code. The company also runs some open weight models in-house and I have been using them through Claude Code itself, with VSCodium as my Code Viewer. I almost never need anything stronger than Sonnet at work - 80% of which is YAML and Terraform these days (or rather markdown, if you really think about it).\n\n1.b) For personal stuff I maintain an Opencode GO subscription, USD40 tier. I also have a Google One subscription which is supposed to have some AI capabilities, haven't tested it yet.\n\n2) Besides my Opencode GO subscription, I sometimes add a few bucks to use Zen. It's rare: my USD40 is usually fine for the month. I've recently started using Nvivia NIM free tier models for some time insensitive tasks too. I have a Qwen model available on my Mac (M1 PRO 64GB) but haven't found it to be useful, as I need my laptop for everything else I'm doing beyond inference.\n\nGLM 5.3 Flash and Deepseek 4.1 Flash do most of the work for my personal stuff. Nemotron does the time insensitive stuff, which is mostly summarizing text. I've been using GPT Luna 6 a lot because it's currently cheap as hell, so I'll often talk to GPT Luna and hand off coding to GLM or Deepseek. I find that Luna communicates MUCH better than the Chinese models - I assume because it does not go through the extra language barrier step between English and Chinese. GLM, Qwen and Deepseek are incredible tool callers, but their prose is insufferable.\n\n3.a) At work I'm using Claude Code for the Anthropic models and Opencode for the self-hosted ones. Ditched Cursor recently. I've been meaning to try to integrate the self-hosted models into Claude Code but haven't yet, so hand-offs between the two harnesses involve a lot of markdown.\n\nI've switched out of Cursor because A. they've been bullying us into using grok for everything and B. The company setup would not support the use case of mixing the self-hosted and closed models in the same harness - this limitation is on our side.\n\n3.b) For my personal stuff I've been using mostly Hermes. Some actual coding goes into Opencode, often piloted by Hermes itself. I'm using Zed as my code editor, but with the AI features disabled. My opencode subscription is actually configured in Zed, but I prefer the UI without them.\n\n4) No. I don't really need them. I run 5-6 parallel sessions at most, otherwise I can't keep track of what's being done anyway. Each parallel session is on a different task, so I generally don't need them to spit enormous amounts of code. I rarely have to wait more than a few minutes for a task to finish, and I'm always thinking or writing or managing something else in between anyway - not looking at the screen waiting.\n\n5) Hermes. Generally happy with it - despite it being extremely unstable between updates, with frequent regressions, weird UI bugs and half assed features (bot mode, anyone?). I have 3 distinct instances (laptop, home server, VPS) doing different things - all hooked up to the same memory provider (honcho) under a single user profile, and a handful AI profiles on each. All have limited access to my Obsidian Vault, which is synced between them using Obsidian Sync.\n\nI generally use the laptop instance for day-to-day use: planning work, assigning tasks to myself and to the other agents, capturing ideas, light coding, etc. The homeserver instance manages a limited set of features on the server itself, from upgrades, documentation and more devopsy stuff to organizing files, managing transcoding queues, etc. The cloud hosted version automates is not very used yet. I plan to have it pilot an n8n instance I keep to automate some boring stuff, like filing weekly tax records and automatically forwarding bureaucratic e-mails, nothing fancy."
+ },
+ {
+  "id": "50374093",
+  "author": "Scrounger",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50373357",
+   "author": "guhcampos",
+   "text": "1.a) At work: I can choose between Cursor and Claude on a meter. Been using Cursor for a long time and happy with it until they started to force Grok down our throats. I was happy with Composer 2. Recently switched to Claude Code. The company also runs some open weight models in-house and I have been using them through Claude Code itself, with VSCodium as my Code Viewer. I almost never need anything stronger than Sonnet at work - 80% of which is YAML and Terraform these days (or rather markdown, if you really think about it).\n\n1.b) For personal stuff I maintain an Opencode GO subscription, USD40 tier. I also have a Google One subscription which is supposed to have some AI capabilities, haven't tested it yet.\n\n2) Besides my Opencode GO subscription, I sometimes add a few bucks to use Zen. It's rare: my USD40 is usually fine for the month. I've recently started using Nvivia NIM free tier models for some time insensitive tasks too. I have a Qwen model available on my Mac (M1 PRO 64GB) but haven't found it to be useful, as I need my laptop for everything else I'm doing beyond inference.\n\nGLM 5.3 Flash and Deepseek 4.1 Flash do most of the work for my personal stuff. Nemotron does the time insensitive stuff, which is mostly summarizing text. I've been using GPT Luna 6 a lot because it's currently cheap as hell, so I'll often talk to GPT Luna and hand off coding to GLM or Deepseek. I find that Luna communicates MUCH better than the Chinese models - I assume because it does not go t"
+  },
+  "text": "> 5) Hermes. Generally happy with it - despite it being extremely unstable between updates, with frequent regressions, weird UI bugs and half assed features (bot mode, anyone?). I have 3 distinct instances (laptop, home server, VPS) doing different things - all hooked up to the same memory provider (honcho) under a single user profile, and a handful AI profiles on each. All have limited access to my Obsidian Vault, which is synced between them using Obsidian Sync.\n\nI am just getting into setting up Hermes on a VPS. If you have any high ROI tips/tricks/advice on how to make this work well, please let me know!\n\nAppreciate it!"
+ },
+ {
+  "id": "50373697",
+  "author": "pmarreck",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "herdr, opus 5.5 (max), codex (max), and I am still refining how they all communicate, currently codex became unwakable at some point while claude can be woken with a message just fine."
+ },
+ {
+  "id": "50375124",
+  "author": "vivzkestrel",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "here is my production grade setup for agentic ai on windows 11\n\n- setup windows 11 with Rufus boot to disable online MS account creation https://rufus.ie/en/\n\n- [download window 11 x64 iso from here ](https://www.microsoft.com/en-us/software-download/windows11)\n\n- then download vmware workstation pro (you ll need to create a free account to get the download link on their website)\n\n- install vmware workstation pro\n\n- turn internet off\n\n- plug your pendrive in with the rufus w11 x64 iso on it (mind ya, this pen drive ll first need full formatting before burning a w11 image to it)\n\n- press f2 to reach bios in vmware settings and make it boot from pendrive\n\n- turn internet off on your machine (DO NOT keep it on)\n\n- install w11 (keep a 100gb for vmware)\n\n- without updates it ll load real fast and you wont need an MS account (rufus takes care of it)\n\n- while it installs, download revo uninstaller pro on a separate machine https://onefiles.net/9d170d01078634b5 (latest version 5.4.x) and put it inside a second pendrive / portable hdd\n\n- once w11 loads, it ll ask you to enter a password, keep existing password blank and enter literally anything for a new password\n\n- voila you are done with w11 setup inside vmware\n\n- now connect the 2nd pendrive with revo and install it (need to clean uninstall many tools, hence we need this one)\n\n- now go to search bar and type check for updates and update everything on w11 inside vmware\n\n- next stop get unigetui from ms app store or from here https://devolutions.net/unigetui/ (it is a package manager responsible for installing just about everything else with auto updation of all packages)\n\n- the open unigetui and search for the following packages vlc, winrar, winhance\n\n- winhance is the fully customizable debloater you ll need to turn off all telemetry (we ll debloat after installing all the other requirements)\n\n- next go to ms app store and install python or open powershell and type python\n\n- the open unigetui and search for the following packages vlc, winrar, winhance\n\n- winhance is the fully customizable debloater you ll need to turn off all telemetry (we ll debloat after installing all the other requirements)\n\n- next go to ms app store and install python or open powershell and type python\n\n- mind you this installs a python version manager that lets you install and uninstall multiple python versions\n\n- after this python version manager is setup, install a specific version of python like\n\n``` py install 3.13 ``` - next we need a node.js version manager, use fnm for it\n\nhttps://github.com/Schniz/fnm - once installed, it may need to be added to environment variables manually\n\n- once again choose a specific version of node.js and install it using\n\n``` fnm install 23.12.0 ``` check fnm --help for commands - next we need a java version manager, use jvms for it\n\nhttps://github.com/ystyle/jvms\n\n- pretty self explanatory\n\n- now install git and again it ll give you some trouble over environment variables, command not recognized etc, fixable with some gpt help\n\n- at this point, we got git, node version manager, java version manager and python version manager and are ready to rumble\n\n- install vscode/ visual studio whatever\n\n- install codex\n\n- install claude\n\n- install opencode (both cli via npx and desktop app) and check their plans out https://opencode.ai/console/go\n\n- install ghidra , ghidra-mcp (mind you open ghidra-mcp first because it only works with specific versions of ghidra and java) this is the reason we installed a java version manager\n\n- check out setup for rea https://github.com/morluto/rea requires npx setup for rea and ghidra both, read documentation\n\n- run winhance, check recommended settings under optimize and every other tab and restart the vm a few times for full debloat with 0 telemetry services\n\n- congrats you have a full blown agentic environment at this point (if I missed anything i ll come back and update)"
+ },
+ {
+  "id": "50373893",
+  "author": "jkelleyrtp",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "devin"
+ },
+ {
+  "id": "50376110",
+  "author": "teekert",
+  "depth": 0,
+  "is_op": false,
+  "parent": null,
+  "text": "Ok I don't understand how people can deal with the information coming from a fleet of agents burning 100s-1000s of €/$ as month.\n\nI have a Claude Code pro subscription, and mostly have Opus as a thinking buddy, we have thoroughly designed a data model together, we have implemented it in Django. Then we designed the RBAC system and now we are making views per role.\n\nIt is so intense! Constant decisions, walls of text with pros and cons to decisions. I mean the speed is amazing, the code quality is also amazing, but the amount of information I get to process is just insane, and I enjoy it less than the flow-state writing of code. I think I'll get used to it, and the speed is motivating, but man. I can not picture keeping 10's of agents on tasks. What am I doing wrong? Should I trust the system more? Or am I just mostly working on decisions now and the 1000$ token burners are not bothered with that because they have a full backlog, where I need to fill it myself?\n\nI deal with the overload by making abstractions (a visual of the data model/db schema with color coded relations etc, a table for RBAC, think about permissions in \"Axes\"... I'm always looking for smart tricks to \"think better\", to be able to hold more information and reason about it. What must exist in me, what can I outsource?\n\nBtw, as a FOSS person I so hate that I am not owning my means of production anymore, I have a home battery for all my infra, very proud of what I build, but I can't run my agents :( I really hope that will change soon (for privacy and for control reasons.) I pisses me off that I can't get nice hardware, meanwhile I can get a Muse or Dot, which is an LLM with a VM with up to 12 GBs of RAM, for free, paid for by their borrowed money. This whole idea makes me die a bit inside.\n\nFor the company I do all IT for we have a Mistral Team subscription, I find it hard to work with anything other than Claude Opus, I really force myself to do it but I often think: Pff, Opus would have gotten this right. But I remember feeling the same when I switched from Google to DDG (3000 years ago) and I never switched back. So it's probably just familiarity.\n\nI also have HermesAgent on a nuc here in front of me, it makes small automations: Scans for positions or projects for my company, parses RSS feeds for relevant cybersecurity news, researches things when I ask, stores notes and articles with I can interrogate as a \"body of work\" <- love that btw, it's like an external memory where the faintest glimmer of a memory can help you dig up that one nugget of knowledge. Or you can find trends in TFAs you love. You can really get to know yourself a bit better. Most things it makes are LLMs out of the loop, just automations build from simple Unix-style tools that I could have made myself but never took the time for. It's also nice that it solves edge cases itself. It burns less then €3 a month on deepseek or so (just processing public data for me). I keep it on a separate vlan and away from important stuff."
+ },
+ {
+  "id": "50376309",
+  "author": "laurasg",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50376110",
+   "author": "teekert",
+   "text": "Ok I don't understand how people can deal with the information coming from a fleet of agents burning 100s-1000s of €/$ as month.\n\nI have a Claude Code pro subscription, and mostly have Opus as a thinking buddy, we have thoroughly designed a data model together, we have implemented it in Django. Then we designed the RBAC system and now we are making views per role.\n\nIt is so intense! Constant decisions, walls of text with pros and cons to decisions. I mean the speed is amazing, the code quality is also amazing, but the amount of information I get to process is just insane, and I enjoy it less than the flow-state writing of code. I think I'll get used to it, and the speed is motivating, but man. I can not picture keeping 10's of agents on tasks. What am I doing wrong? Should I trust the system more? Or am I just mostly working on decisions now and the 1000$ token burners are not bothered with that because they have a full backlog, where I need to fill it myself?\n\nI deal with the overload by making abstractions (a visual of the data model/db schema with color coded relations etc, a table for RBAC, think about permissions in \"Axes\"... I'm always looking for smart tricks to \"think better\", to be able to hold more information and reason about it. What must exist in me, what can I outsource?\n\nBtw, as a FOSS person I so hate that I am not owning my means of production anymore, I have a home battery for all my infra, very proud of what I build, but I can't run my agents :( I really ho"
+  },
+  "text": "I don't think you are doing anything wrong; it is overwhelming. But I also don't think \"trusting\" the system more would help. IMO, now coding is a bit more like maintaining critical infrastructure; it may be built quickly, but you need to keep an eye out for random decisions agents are taking that will cost you (money, security...) in the future. I have seen Claude making many sneaky decisions and (maybe) coincidentally burning more tokens by doing so"
+ },
+ {
+  "id": "50393134",
+  "author": "petarjs",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50376110",
+   "author": "teekert",
+   "text": "Ok I don't understand how people can deal with the information coming from a fleet of agents burning 100s-1000s of €/$ as month.\n\nI have a Claude Code pro subscription, and mostly have Opus as a thinking buddy, we have thoroughly designed a data model together, we have implemented it in Django. Then we designed the RBAC system and now we are making views per role.\n\nIt is so intense! Constant decisions, walls of text with pros and cons to decisions. I mean the speed is amazing, the code quality is also amazing, but the amount of information I get to process is just insane, and I enjoy it less than the flow-state writing of code. I think I'll get used to it, and the speed is motivating, but man. I can not picture keeping 10's of agents on tasks. What am I doing wrong? Should I trust the system more? Or am I just mostly working on decisions now and the 1000$ token burners are not bothered with that because they have a full backlog, where I need to fill it myself?\n\nI deal with the overload by making abstractions (a visual of the data model/db schema with color coded relations etc, a table for RBAC, think about permissions in \"Axes\"... I'm always looking for smart tricks to \"think better\", to be able to hold more information and reason about it. What must exist in me, what can I outsource?\n\nBtw, as a FOSS person I so hate that I am not owning my means of production anymore, I have a home battery for all my infra, very proud of what I build, but I can't run my agents :( I really ho"
+  },
+  "text": "You're not doing anything wrong. Data model and RBAC work is all decisions, and I don't think decisions run in parallel. One person only makes so many good ones a day, however many agents are waiting.\n\nThe agents I run in bulk do work where the decisions were made earlier. They're scheduled jobs for my side projects that read dashboards, check old experiments and draft things. I don't read their output. They write to files, and when one needs a yes from me it raises a card with the full text. I go through the cards once a day.\n\nYour Django work wouldn't fit that setup, and I'd stay in the loop for it too.\n\nThe card board is Briefkin, which I built: https://briefkin.dev/?utm_source=hackernews&utm_medium=comment&utm_campaign=qa-briefkin-2026-11-06"
+ },
+ {
+  "id": "50383604",
+  "author": "abyssmd",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50376110",
+   "author": "teekert",
+   "text": "Ok I don't understand how people can deal with the information coming from a fleet of agents burning 100s-1000s of €/$ as month.\n\nI have a Claude Code pro subscription, and mostly have Opus as a thinking buddy, we have thoroughly designed a data model together, we have implemented it in Django. Then we designed the RBAC system and now we are making views per role.\n\nIt is so intense! Constant decisions, walls of text with pros and cons to decisions. I mean the speed is amazing, the code quality is also amazing, but the amount of information I get to process is just insane, and I enjoy it less than the flow-state writing of code. I think I'll get used to it, and the speed is motivating, but man. I can not picture keeping 10's of agents on tasks. What am I doing wrong? Should I trust the system more? Or am I just mostly working on decisions now and the 1000$ token burners are not bothered with that because they have a full backlog, where I need to fill it myself?\n\nI deal with the overload by making abstractions (a visual of the data model/db schema with color coded relations etc, a table for RBAC, think about permissions in \"Axes\"... I'm always looking for smart tricks to \"think better\", to be able to hold more information and reason about it. What must exist in me, what can I outsource?\n\nBtw, as a FOSS person I so hate that I am not owning my means of production anymore, I have a home battery for all my infra, very proud of what I build, but I can't run my agents :( I really ho"
+  },
+  "text": "I ask for one decision record per task: goal, constraints, decisions made, unresolved questions and next action. I review that instead of rereading the whole transcript, and only open the transcript when a decision needs its reasoning. I also keep the decisions about data shape and permissions for myself, while asking the agent to enumerate edge cases and test them."
+ },
+ {
+  "id": "50376311",
+  "author": "Kwpolska",
+  "depth": 1,
+  "is_op": false,
+  "parent": {
+   "id": "50376110",
+   "author": "teekert",
+   "text": "Ok I don't understand how people can deal with the information coming from a fleet of agents burning 100s-1000s of €/$ as month.\n\nI have a Claude Code pro subscription, and mostly have Opus as a thinking buddy, we have thoroughly designed a data model together, we have implemented it in Django. Then we designed the RBAC system and now we are making views per role.\n\nIt is so intense! Constant decisions, walls of text with pros and cons to decisions. I mean the speed is amazing, the code quality is also amazing, but the amount of information I get to process is just insane, and I enjoy it less than the flow-state writing of code. I think I'll get used to it, and the speed is motivating, but man. I can not picture keeping 10's of agents on tasks. What am I doing wrong? Should I trust the system more? Or am I just mostly working on decisions now and the 1000$ token burners are not bothered with that because they have a full backlog, where I need to fill it myself?\n\nI deal with the overload by making abstractions (a visual of the data model/db schema with color coded relations etc, a table for RBAC, think about permissions in \"Axes\"... I'm always looking for smart tricks to \"think better\", to be able to hold more information and reason about it. What must exist in me, what can I outsource?\n\nBtw, as a FOSS person I so hate that I am not owning my means of production anymore, I have a home battery for all my infra, very proud of what I build, but I can't run my agents :( I really ho"
+  },
+  "text": "You use Claude as a \"thinking buddy\", meanwhile those who spend $500+ on LLMs have shut their brains off, and have delegated all thinking to the LLM, producing tons of slop."
+ },
+ {
+  "id": "50380285",
+  "author": "luisgvv",
+  "depth": 2,
+  "is_op": false,
+  "parent": {
+   "id": "50376311",
+   "author": "Kwpolska",
+   "text": "You use Claude as a \"thinking buddy\", meanwhile those who spend $500+ on LLMs have shut their brains off, and have delegated all thinking to the LLM, producing tons of slop."
+  },
+  "text": "This is what I've been thinking lately. I've watched people showing up their setups and it's \"cool\" to fully automate and watch everything get done while sipping tea, but I bet you if something breaks or a product manager asks them they'll still rely on being a meat proxy.\n\nNo idea if this is the future lol"
+ },
+ {
+  "id": "50380891",
+  "author": "teekert",
+  "depth": 3,
+  "is_op": false,
+  "parent": {
+   "id": "50380285",
+   "author": "luisgvv",
+   "text": "This is what I've been thinking lately. I've watched people showing up their setups and it's \"cool\" to fully automate and watch everything get done while sipping tea, but I bet you if something breaks or a product manager asks them they'll still rely on being a meat proxy.\n\nNo idea if this is the future lol"
+  },
+  "text": "The meat proxy is very easy to just remove, no need to pay for the tea sipping. We much find where we bring value. As did all generation before us when automation influenced their work."
+ }
+]

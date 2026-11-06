@@ -1,0 +1,1382 @@
+[
+ {
+  "id": "50375575",
+  "switches": [
+   {
+    "kind": "platform",
+    "from": [
+     "OpenClaw"
+    ],
+    "to": [
+     "Hermes Agent"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "1) Subscriptions - None Using OpenCode BigPickle 2) Models - OpenCode BigPickle and deepseek v1 3) Harness - OpenCode as primary , but started liking Pi recently because of all the customizations 4) None 5) Played around with OpenClaw for a really long time , now been exploring the Hermes Agent"
+   }
+  ]
+ },
+ {
+  "id": "50378086",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [],
+    "to": [
+     "Claude"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "I rotated over many LLM providers and tried out different harnesses, but I always come back to an honest Claude Pro subscription, plus the work account that gives me a GitHub Copilot Enterprise seat."
+   }
+  ]
+ },
+ {
+  "id": "50375134",
+  "switches": [
+   {
+    "kind": "orchestration",
+    "from": [
+     "Gas Town"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "found Gas Town horrible",
+    "evidence": "4. Have not made anything work, have tried GasTown, its horrible imo."
+   }
+  ]
+ },
+ {
+  "id": "50380252",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [],
+    "to": [],
+    "direction": "unclear",
+    "reason": "wants modular, open-source tools that can each be replaced",
+    "evidence": "I want things modular and open source and be able to replace anything in the chain of tools by better tools if possible."
+   }
+  ]
+ },
+ {
+  "id": "50373135",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Kiro"
+    ],
+    "to": [
+     "Antigravity"
+    ],
+    "direction": "official_to_official",
+    "reason": "",
+    "evidence": "For building, I started with Kiro and later switched to Antigravity (Opus 5.5 for planning, Gemini 3.8 for implementation - but now using Argon for everything and quite happy)."
+   },
+   {
+    "kind": "model",
+    "from": [
+     "Opus 5.5",
+     "Gemini 3.8"
+    ],
+    "to": [
+     "Argon"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "For building, I started with Kiro and later switched to Antigravity (Opus 5.5 for planning, Gemini 3.8 for implementation - but now using Argon for everything and quite happy)."
+   },
+   {
+    "kind": "platform",
+    "from": [
+     "Hermes Agent"
+    ],
+    "to": [
+     "Custom harness"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "Had a Hermes set up with a dual NVIDIA DGX Spark and Deepseek v4 Flash, but then built my own harness (getcinnamon.ai) and pretty much switched to that 100% including family members."
+   }
+  ]
+ },
+ {
+  "id": "50377746",
+  "switches": []
+ },
+ {
+  "id": "50378227",
+  "switches": [
+   {
+    "kind": "route",
+    "from": [
+     "Paid hosted models"
+    ],
+    "to": [
+     "Local models"
+    ],
+    "direction": null,
+    "reason": "work does not need super-intelligent models",
+    "evidence": "Tried the popular agents and paid models for some time, and now settled with a local model (Qwen3.8-27B-Q_6) and opencode desktop."
+   },
+   {
+    "kind": "harness",
+    "from": [],
+    "to": [
+     "OpenCode"
+    ],
+    "direction": "unclear",
+    "reason": "",
+    "evidence": "Tried the popular agents and paid models for some time, and now settled with a local model (Qwen3.8-27B-Q_6) and opencode desktop."
+   }
+  ]
+ },
+ {
+  "id": "50373974",
+  "switches": [
+   {
+    "kind": "platform",
+    "from": [
+     "OpenClaw"
+    ],
+    "to": [
+     "Hermes Agent"
+    ],
+    "direction": null,
+    "reason": "OpenClaw spirals and crashes after about a week",
+    "evidence": "I’ve tried to use Openclaw but it has not been something I can keep running. It spirals and crashes after a week in ways I’ve never experienced from Hermes, doing the same things."
+   }
+  ]
+ },
+ {
+  "id": "50377512",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Zed"
+    ],
+    "to": [
+     "Codex"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "",
+    "evidence": "Went from using Codex and Claude via ACP in zed to Codex app, then harness aggregators like Paseo, Orca and Superset to Claude Projects."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Codex"
+    ],
+    "to": [
+     "Paseo / Orca / Superset"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "",
+    "evidence": "Went from using Codex and Claude via ACP in zed to Codex app, then harness aggregators like Paseo, Orca and Superset to Claude Projects."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Paseo / Orca / Superset"
+    ],
+    "to": [
+     "Chat UI (web/app)"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "Claude Projects remembers context and integrates with Artifacts",
+    "evidence": "Went from using Codex and Claude via ACP in zed to Codex app, then harness aggregators like Paseo, Orca and Superset to Claude Projects."
+   }
+  ]
+ },
+ {
+  "id": "50374270",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code CLI"
+    ],
+    "to": [
+     "Claude remote control"
+    ],
+    "direction": "interface_change",
+    "reason": "",
+    "evidence": "honestly still using the default IDE, used to use claude code cli but nowadays i just launch claude remote control and just talk to it through my phone."
+   },
+   {
+    "kind": "platform",
+    "from": [
+     "OpenClaw"
+    ],
+    "to": [
+     "Custom assistant"
+    ],
+    "direction": null,
+    "reason": "needed more transparency",
+    "evidence": "Used to use openclaw on a raspberry pi to experiment with like autonomous development but i needed something with a bit more transparency so i moved everything into slack."
+   }
+  ]
+ },
+ {
+  "id": "50376058",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code TUI"
+    ],
+    "to": [
+     "Custom ticketing system"
+    ],
+    "direction": "interface_change",
+    "reason": "",
+    "evidence": "I recently moved away from using tui to directly interact with claude code."
+   }
+  ]
+ },
+ {
+  "id": "50374223",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [
+     "Claude Code",
+     "Codex"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "recent Codex and Claude models are token efficient",
+    "evidence": "I also used to have open code for a while but the recent codex and Claude models are token efficient so don’t need additional models."
+   }
+  ]
+ },
+ {
+  "id": "50373624",
+  "switches": [
+   {
+    "kind": "route",
+    "from": [
+     "Local models"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "local models too dumb and too slow on their hardware",
+    "evidence": "I’ve experimented with Qwen locally but the models that run on my hardware are too dumb for extended use cases and too slow for quick questions."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [],
+    "direction": "dropped",
+    "reason": "uninspiring security track record",
+    "evidence": "I’ve tried OpenCode but their security track record is uninspiring and I’m way more defensive about my personal hardware than my employer is about their hardware fleet."
+   }
+  ]
+ },
+ {
+  "id": "50375546",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Pi"
+    ],
+    "to": [],
+    "direction": "dropped",
+    "reason": "OMP felt clunky",
+    "evidence": "I have also tried OMP but find it a bit clunky to use."
+   }
+  ]
+ },
+ {
+  "id": "50371770",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "ChatGPT",
+     "Claude"
+    ],
+    "to": [
+     "Gemini"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "I no longer use ChatGPT or Claude's general-purpose chat bots."
+   }
+  ]
+ },
+ {
+  "id": "50378293",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "OpenCode stopped supporting Claude",
+    "evidence": "I used Open Code, but they stopped supporting Claude, so I was searching for something different (I had a free 20x Max plan as an open source maintainer). First used Claude Code and then found out about Agent-Shell."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code"
+    ],
+    "to": [
+     "Emacs Agent-Shell"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "",
+    "evidence": "First used Claude Code and then found out about Agent-Shell."
+   },
+   {
+    "kind": "provider",
+    "from": [
+     "Claude Max (free OSS plan)"
+    ],
+    "to": [
+     "Claude Pro"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "I used Open Code, but they stopped supporting Claude, so I was searching for something different (I had a free 20x Max plan as an open source maintainer). First used Claude Code and then found out about Agent-Shell. Now I'm using the Claude Pro plan."
+   }
+  ]
+ },
+ {
+  "id": "50374679",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Cline"
+    ],
+    "to": [
+     "Pi"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "hit walls with previous setup",
+    "evidence": "I'd hit walls with openrouter (sonnet/opus/sol) + cline\n\nNow I'm running qwen 3.8 FN + omp + https://github.com/mattpocock/skills"
+   },
+   {
+    "kind": "route",
+    "from": [
+     "OpenRouter"
+    ],
+    "to": [
+     "Local models"
+    ],
+    "direction": null,
+    "reason": "hit walls with previous setup",
+    "evidence": "I'd hit walls with openrouter (sonnet/opus/sol) + cline\n\nNow I'm running qwen 3.8 FN + omp + https://github.com/mattpocock/skills"
+   },
+   {
+    "kind": "model",
+    "from": [
+     "Sonnet",
+     "Opus",
+     "Sol"
+    ],
+    "to": [
+     "Qwen"
+    ],
+    "direction": null,
+    "reason": "hit walls with previous setup",
+    "evidence": "I'd hit walls with openrouter (sonnet/opus/sol) + cline\n\nNow I'm running qwen 3.8 FN + omp + https://github.com/mattpocock/skills"
+   }
+  ]
+ },
+ {
+  "id": "50378153",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code"
+    ],
+    "to": [
+     "OpenCode"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "industry regulations",
+    "evidence": "In the process of moving from claude code (opus 5.5 sub) to opencode with a custom sandbox system and using openrouter locked to certain models and providers with US data region requirements. Claude code is/was great. Just need to move due to industry regulations."
+   },
+   {
+    "kind": "route",
+    "from": [
+     "Claude subscription"
+    ],
+    "to": [
+     "OpenRouter"
+    ],
+    "direction": null,
+    "reason": "industry regulations require US data region",
+    "evidence": "In the process of moving from claude code (opus 5.5 sub) to opencode with a custom sandbox system and using openrouter locked to certain models and providers with US data region requirements. Claude code is/was great. Just need to move due to industry regulations."
+   }
+  ]
+ },
+ {
+  "id": "50388891",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Cline"
+    ],
+    "to": [
+     "Kilo Code"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "Cline hugely unstable and slow",
+    "evidence": "I tried Cline which I found hugely unstable and slow."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Gemini CLI",
+     "Claude Code"
+    ],
+    "to": [
+     "Kilo Code"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "official CLIs were unstable early on; Kilo Code gets the job done",
+    "evidence": "I also tried the Google and Anthropic CLI ones very early on. They were a bit unstable at the time. So I guess I just stopped looking around much after trying Kilo Code because it gets the job done."
+   }
+  ]
+ },
+ {
+  "id": "50367272",
+  "switches": [
+   {
+    "kind": "orchestration",
+    "from": [],
+    "to": [
+     "Custom orchestration"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "I've tried a number of these tools and settled on my own tool (not released) to oversee my agents"
+   },
+   {
+    "kind": "platform",
+    "from": [
+     "OpenClaw",
+     "Hermes Agent"
+    ],
+    "to": [
+     "Dots",
+     "Duet"
+    ],
+    "direction": null,
+    "reason": "cool ideas but execution fell flat",
+    "evidence": "Played with OpenClaw and Hermes in the past, cool ideas but execution fell flat. I currently use Dots and Duet for little things (mostly monitoring communications)."
+   }
+  ]
+ },
+ {
+  "id": "50377557",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "AI subscriptions"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "poor value; pays for unneeded compute and waits on limits",
+    "evidence": "1.) None anymore. They're all turning into increasingly poor value for (my) money. I need AI on my own schedule and don't want to be paying for compute I don't need and end up waiting for limits to reset when I do need it."
+   },
+   {
+    "kind": "platform",
+    "from": [
+     "Hermes Agent"
+    ],
+    "to": [
+     "Grok bot"
+    ],
+    "direction": null,
+    "reason": "Hermes UI/UX not polished",
+    "evidence": "I've also used Hermes Agent, but I didn't like it as much. It's great intent but the UI/UX is really not it."
+   }
+  ]
+ },
+ {
+  "id": "50377528",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code CLI",
+     "Codex CLI"
+    ],
+    "to": [
+     "Claude Desktop",
+     "ChatGPT desktop"
+    ],
+    "direction": "interface_change",
+    "reason": "",
+    "evidence": "Also before I was at least using terminals, now? Not even that, Claude Desktop and ChatGPT desktop apps all the way."
+   }
+  ]
+ },
+ {
+  "id": "50374491",
+  "switches": [
+   {
+    "kind": "platform",
+    "from": [
+     "OpenClaw"
+    ],
+    "to": [
+     "Native harnesses"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "1) claude, claude again, codex, antigravity, cursor 2) no 3) using a variety of different harnesses managed by codealong 4) built https://github.com/codealong/codealong 5) openclaw not used very much anymore in favor of native harnesses"
+   }
+  ]
+ },
+ {
+  "id": "50378756",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code",
+     "Codex"
+    ],
+    "to": [
+     "Lynx"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "",
+    "evidence": "Lynx (lynx.railcode.dev) & CLIs (less and less since Lynx)"
+   }
+  ]
+ },
+ {
+  "id": "50373956",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code (VS Code extension)"
+    ],
+    "to": [
+     "Claude Code CLI"
+    ],
+    "direction": "interface_change",
+    "reason": "",
+    "evidence": "I was using VSCode with Claude Code extension, multiple tabs at once, multiple instances per worktree.... then I listened to the Lex Fridman episode with DHH [1] and they mentioned Herdr [2] and I tried it out - NEVER LOOKED BACK!"
+   },
+   {
+    "kind": "orchestration",
+    "from": [
+     "VS Code tabs"
+    ],
+    "to": [
+     "Herdr"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "I was using VSCode with Claude Code extension, multiple tabs at once, multiple instances per worktree.... then I listened to the Lex Fridman episode with DHH [1] and they mentioned Herdr [2] and I tried it out - NEVER LOOKED BACK!"
+   },
+   {
+    "kind": "provider",
+    "from": [
+     "Claude Max"
+    ],
+    "to": [
+     "Claude Team"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "I was on the 200/mo Claude plan but had to switch to the Team plan, so I pay 120/mo for two users and I swap to the 20 plan when I hit my 5hr limit on my 100/mo plan."
+   }
+  ]
+ },
+ {
+  "id": "50376279",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code CLI",
+     "Codex CLI"
+    ],
+    "to": [
+     "Claude desktop",
+     "ChatGPT desktop"
+    ],
+    "direction": "interface_change",
+    "reason": "desktop apps easier with images and show usage",
+    "evidence": "I used the command line tools for a while but the desktop ones are much easier to use when working with images, and you get the usage down the bottom."
+   },
+   {
+    "kind": "model",
+    "from": [
+     "ChatGPT Image"
+    ],
+    "to": [
+     "Gemini Image"
+    ],
+    "direction": null,
+    "reason": "ChatGPT Image output looks bad",
+    "evidence": "2. ChatGPT Image still looks really bad to me so I use Gemini Image."
+   },
+   {
+    "kind": "model",
+    "from": [
+     "Argon"
+    ],
+    "to": [
+     "Gemini Image"
+    ],
+    "direction": null,
+    "reason": "Argon didn't work for them",
+    "evidence": "I tried Argon but it really didn’t work for me so I just use the image model at API rates."
+   }
+  ]
+ },
+ {
+  "id": "50391246",
+  "switches": []
+ },
+ {
+  "id": "50379530",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [
+     "Pi"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "",
+    "evidence": "Oh my pi in bwrap sandbox, used to use Opencode"
+   }
+  ]
+ },
+ {
+  "id": "50376652",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Terminal CLI agents"
+    ],
+    "to": [
+     "T3 Code"
+    ],
+    "direction": "unclear",
+    "reason": "much faster across many projects",
+    "evidence": "t3code has been a solid boost as well. It did hurt really bad tho, because I have been a terminal nerd for a long time. But the speed I've been able to achieve across a lot of projects has been crazy with t3code."
+   }
+  ]
+ },
+ {
+  "id": "50376898",
+  "switches": []
+ },
+ {
+  "id": "50380504",
+  "switches": [
+   {
+    "kind": "model",
+    "from": [],
+    "to": [],
+    "direction": null,
+    "reason": "favorite model degrades every few months",
+    "evidence": "Every few months my favorite model becomes an idiot savant so I need to switch."
+   }
+  ]
+ },
+ {
+  "id": "50378115",
+  "switches": [
+   {
+    "kind": "orchestration",
+    "from": [
+     "cmux"
+    ],
+    "to": [
+     "Rex"
+    ],
+    "direction": null,
+    "reason": "cmux getting bloated, pushing unneeded account features",
+    "evidence": "I have been using cmux for a year before transitioning to Rex. In the end I realized I only used two features of cmux: tabs and workspaces.\n\nAnd I liked it but I had the feeling it’s starting to be a be bloated and they started pushing features with their account I don’t need."
+   }
+  ]
+ },
+ {
+  "id": "50375338",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "ChatGPT / Codex"
+    ],
+    "to": [
+     "Claude"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "I started using ChatGPT in the beginning then switched to Claude then Claude Code then developed DevArch over that entire time."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Chat UI (web/app)"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "official_to_official",
+    "reason": "",
+    "evidence": "I started using ChatGPT in the beginning then switched to Claude then Claude Code then developed DevArch over that entire time."
+   }
+  ]
+ },
+ {
+  "id": "50387527",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "Claude"
+    ],
+    "to": [
+     "ChatGPT / Codex"
+    ],
+    "direction": null,
+    "reason": "Claude's tone annoys them; Codex app and models nicer",
+    "evidence": "I had the free Claude Max for Open Source plan, but haven't paid for it again now that it lapsed. I haven't used Claude for ages anyway, the way it talks really annoys the hell out of me, Codex App & models are far nicer IME."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Cursor"
+    ],
+    "to": [
+     "Codex"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "Musk bought Cursor",
+    "evidence": "Used to use Cursor but I switched when Musk bought it."
+   }
+  ]
+ },
+ {
+  "id": "50368119",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Muse Code",
+     "Grok CLI",
+     "Gemini CLI",
+     "Codex"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "official_to_official",
+    "reason": "",
+    "evidence": "I've tried muse, grok, gemini, codex, and pi w/ openrouter, but I always come back to code."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Pi"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "",
+    "evidence": "I've tried muse, grok, gemini, codex, and pi w/ openrouter, but I always come back to code."
+   }
+  ]
+ },
+ {
+  "id": "50367849",
+  "switches": []
+ },
+ {
+  "id": "50367965",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Pi"
+    ],
+    "to": [
+     "Ori"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "",
+    "evidence": "I used pi for a while and lately I started using openrouter's ori coding agent."
+   },
+   {
+    "kind": "platform",
+    "from": [
+     "Muse"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "too slow to do anything useful",
+    "evidence": "I tried Muse for a while and it was too slow to do anything useful."
+   }
+  ]
+ },
+ {
+  "id": "50367146",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "Anthropic"
+    ],
+    "to": [
+     "OpenRouter"
+    ],
+    "direction": null,
+    "reason": "Anthropic is expensive and too restrictive",
+    "evidence": "https://github.com/mkornreich/llm-desktop-electron with OpenRouter. I love Claude but Anthropic is expensive and too restrictive"
+   }
+  ]
+ },
+ {
+  "id": "50379944",
+  "switches": [
+   {
+    "kind": "orchestration",
+    "from": [
+     "tmux / zellij"
+    ],
+    "to": [
+     "Herdr"
+    ],
+    "direction": null,
+    "reason": "slightly better for managing multiple agents",
+    "evidence": "This week I started using Herdr also, and while I don't yet have it setup as I'd want, it's slightly better than me previous pure tmux setup to manage multiple agents."
+   }
+  ]
+ },
+ {
+  "id": "50373770",
+  "switches": []
+ },
+ {
+  "id": "50374288",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "ChatGPT / Codex"
+    ],
+    "to": [
+     "Claude"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "I’ve moved from paid subscriptions on Codex to Claude to Muse."
+   },
+   {
+    "kind": "provider",
+    "from": [
+     "Claude"
+    ],
+    "to": [
+     "Muse"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "I’ve moved from paid subscriptions on Codex to Claude to Muse."
+   }
+  ]
+ },
+ {
+  "id": "50370886",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code"
+    ],
+    "to": [
+     "Custom harness"
+    ],
+    "direction": "official_to_own",
+    "reason": "overwhelmed by walls of text in parallel sessions",
+    "evidence": "I switched from Claude CLI to a custom-built harness because I got overwhelmed by walls of text in parallel sessions."
+   }
+  ]
+ },
+ {
+  "id": "50379819",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Codex"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "official_to_official",
+    "reason": "",
+    "evidence": "Tried Codex initially. Then Claude. Never looked back."
+   }
+  ]
+ },
+ {
+  "id": "50373248",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "Frontier lab subscriptions"
+    ],
+    "to": [
+     "Local models",
+     "OpenRouter"
+    ],
+    "direction": null,
+    "reason": "distrusts subscriptions; cancelled after tripping a safety classifier",
+    "evidence": "I moved off of subscriptions earlier this year. I don't trust the subscription model from any frontier lab. Just look at what Anthropic has done. The first time I tripped a safety classifier on a seemingly irrelevant task, I canceled everything."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [
+     "Pi"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "",
+    "evidence": "I started with OpenCode and have since migrated to Pi (omp specifically)."
+   }
+  ]
+ },
+ {
+  "id": "50376056",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [
+     "Juggler"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "OpenCode was a mess",
+    "evidence": "I initially tried OpenCode, and, holy hell, what a mess."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Goose"
+    ],
+    "to": [
+     "Juggler"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "Goose too agentic for their taste",
+    "evidence": "I also tried goose but it was too agentic for my taste."
+   }
+  ]
+ },
+ {
+  "id": "50374626",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Aider"
+    ],
+    "to": [],
+    "direction": "dropped",
+    "reason": "failed to read initial context; required manually loading files",
+    "evidence": "Tried Aider early on and it failed to even read its initial context (Claude models like a year+ ago). I dropped it dead after that - unusable if you need me to specifically \"load\" and point our files."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Codex"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "official_to_official",
+    "reason": "",
+    "evidence": "Did use Codex maybe like 8 months or so ago to ping pong implementation plans and reviews between GPT and Anthropic models but then just stuck with Anthropic for some reason."
+   },
+   {
+    "kind": "route",
+    "from": [
+     "Local models"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "local models unusable on their hardware",
+    "evidence": "Used `pi` w/ local models (some gemma and qwen that'd run on my hardware. nothing usable w/ the work code base - or much anything for that matter, like I'd not even get through an interview coding challenge with that if you ask me)"
+   }
+  ]
+ },
+ {
+  "id": "50378157",
+  "switches": [
+   {
+    "kind": "orchestration",
+    "from": [],
+    "to": [
+     "tix / vx-maintainer (custom)"
+    ],
+    "direction": null,
+    "reason": "existing tools not secure, flexible, composable or nix enough",
+    "evidence": "Mostly https://tix.im/ with my vx-maintainer expert, codex, opencode and claude-code as harnesses.\n\nI was unhappy with everything out there - not secure enough, not flexible enough, not composable enough, not nix enough."
+   }
+  ]
+ },
+ {
+  "id": "50380583",
+  "switches": [
+   {
+    "kind": "platform",
+    "from": [
+     "Hermes Agent"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "security concerns about exposed web setup",
+    "evidence": "also killed my hermes web setup (also via talescale) for security reasons."
+   }
+  ]
+ },
+ {
+  "id": "50379808",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "OpenRouter",
+     "GLM",
+     "Kimi",
+     "DeepSeek",
+     "Mistral"
+    ],
+    "to": [
+     "ChatGPT / Codex",
+     "Claude"
+    ],
+    "direction": null,
+    "reason": "alternatives didn't give as many tokens as OpenAI and Anthropic",
+    "evidence": "Previously yes (esp. to try out new models on OpenRouter, like GLM 5.3 or Kimi K3.1 Pro and the various DeepSeek ones, Mistral ones etc.) before also having their subscriptions for a bit. Wrote about them on my blog, seemed like nice alternatives to OpenAI and Ant, but didn't give me as many tokens (and that's with the BS those two are occasionally pulling)."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "ccode (custom launcher)"
+    ],
+    "to": [
+     "Claude Code",
+     "Codex"
+    ],
+    "direction": "own_to_other",
+    "reason": "realized they do not need most extra tools",
+    "evidence": "Codex and Claude Code, for a while had a custom launcher for Claude Code (ccode) for 3rd party providers, also tried out OpenCode (really nice CLI, but barebones web UI/desktop versions), alongside additional ADEs like Paseo (really pleasant, but sub-agent status updates hanged sometimes) and Kepler (cool ticketing system integration, but the UI wasn't very pleasant), before just going back to the two in the end."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode",
+     "Paseo",
+     "Kepler"
+    ],
+    "to": [
+     "Claude Code",
+     "Codex"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "barebones UIs, hanging status updates; realized extra tools unnecessary",
+    "evidence": "Codex and Claude Code, for a while had a custom launcher for Claude Code (ccode) for 3rd party providers, also tried out OpenCode (really nice CLI, but barebones web UI/desktop versions), alongside additional ADEs like Paseo (really pleasant, but sub-agent status updates hanged sometimes) and Kepler (cool ticketing system integration, but the UI wasn't very pleasant), before just going back to the two in the end."
+   }
+  ]
+ },
+ {
+  "id": "50377715",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "Claude"
+    ],
+    "to": [
+     "ChatGPT / Codex"
+    ],
+    "direction": null,
+    "reason": "Anthropic restricts subscription to its own clients; OpenAI allows any client",
+    "evidence": "I used to have the Pro subcription for Claude but switched recently to the equivalent Plus subscription for ChatGPT. With Anthropic, you cannot access their inference servers without going through one their client software or paying the API pricing."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Agent-first environments"
+    ],
+    "to": [
+     "Zed"
+    ],
+    "direction": "unclear",
+    "reason": "prefers a traditional IDE with agents added",
+    "evidence": "I like the traditional development environment and tooling, I tried several agent-first environments, but in the end I prefer an IDE on top of which agents were added."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Coding agent TUIs"
+    ],
+    "to": [
+     "Zed (ACP)",
+     "OpenCode Web"
+    ],
+    "direction": "interface_change",
+    "reason": "",
+    "evidence": "I never use any coding agent TUI anymore. Behind the scenes, the agent harnesses are OpenCode and Codex."
+   }
+  ]
+ },
+ {
+  "id": "50370419",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Codex"
+    ],
+    "to": [
+     "3code"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "accumulating bugs and unwanted changes like a daemon",
+    "evidence": "I've personally used OpenCode, Claude Code and Codex and of those, I liked Codex the most, till bugs kept on accumulating and they started doing all kinds of shit like that daemon recently. I now switched to https://github.com/capocasa/3code which is a small, simple agent harness but with built-in sandbox, unlike so many other simple harnesses."
+   }
+  ]
+ },
+ {
+  "id": "50380057",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "OpenCode"
+    ],
+    "to": [
+     "VS Code"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "VS Code added OpenAI-compatible model support",
+    "evidence": "I use VSCode, I used Opencode for a while but VSCode then supported OpenAI compatible so I use that with ollama.cpp and Qwen locally."
+   }
+  ]
+ },
+ {
+  "id": "50374680",
+  "switches": []
+ },
+ {
+  "id": "50374502",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [],
+    "to": [
+     "Claude Max"
+    ],
+    "direction": null,
+    "reason": "",
+    "evidence": "1. Claude Max (upsold me as of today); generally Sonnet 5.5 with the occasional Fable 5.1 when it gets stuck or I am executing a high value step; and Perplexity Pro (legacy)."
+   },
+   {
+    "kind": "harness",
+    "from": [
+     "Pi"
+    ],
+    "to": [],
+    "direction": "dropped",
+    "reason": "harnesses not useful for their work; context bloat",
+    "evidence": "I tried Pi and after much kerfuffle I don't like any of the harness interfaces. I find the type of work I do they are not very useful, because I often switch between variant approaches, planning, data, and don't want unrestrained context bloat."
+   }
+  ]
+ },
+ {
+  "id": "50373485",
+  "switches": [
+   {
+    "kind": "orchestration",
+    "from": [
+     "Herdr",
+     "Paseo"
+    ],
+    "to": [],
+    "direction": null,
+    "reason": "never clicked",
+    "evidence": "I tried most of the tools like herdr or paseo or desktop clients but they never clicked with me"
+   }
+  ]
+ },
+ {
+  "id": "50373357",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Cursor"
+    ],
+    "to": [
+     "Claude Code"
+    ],
+    "direction": "third_party_to_official",
+    "reason": "pushed Grok on them; could not mix self-hosted and closed models",
+    "evidence": "I've switched out of Cursor because A. they've been bullying us into using grok for everything and B. The company setup would not support the use case of mixing the self-hosted and closed models in the same harness - this limitation is on our side."
+   }
+  ]
+ },
+ {
+  "id": "50379882",
+  "switches": [
+   {
+    "kind": "platform",
+    "from": [
+     "OpenClaw",
+     "Hermes Agent",
+     "Grok bot"
+    ],
+    "to": [
+     "Custom assistant"
+    ],
+    "direction": null,
+    "reason": "none came close to their Claude Code-based system",
+    "evidence": "We tried OpenClaw, Hermes Agent and Grok Bot. None of them came close to what we built on Claude Code, so we dropped them."
+   }
+  ]
+ },
+ {
+  "id": "50380516",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Claude Code"
+    ],
+    "to": [
+     "OpenCode"
+    ],
+    "direction": "official_to_third_party",
+    "reason": "open source; can switch models/providers, avoid vendor lock-in",
+    "evidence": "OpenCode as the coding agent. Moved off Claude Code mostly because it's open source and I can switch models/providers and use subscriptions I already pay for."
+   },
+   {
+    "kind": "orchestration",
+    "from": [
+     "Herdr"
+    ],
+    "to": [
+     "OpenCode desktop"
+    ],
+    "direction": null,
+    "reason": "pilot everything from one service, including mobile",
+    "evidence": "I am not using plan mode and i am slowly moving away from herdr + opencode to be only opencode desktop cause it allows me to pilot everything on a single service."
+   }
+  ]
+ },
+ {
+  "id": "50379663",
+  "switches": []
+ },
+ {
+  "id": "50367038",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [],
+    "to": [
+     "Claude Code",
+     "Cursor",
+     "Pi"
+    ],
+    "direction": "unclear",
+    "reason": "how well the harness exposes lifecycle events (hooks)",
+    "evidence": "I switched around mostly for one reason: how well the harness exposes lifecycle events."
+   }
+  ]
+ },
+ {
+  "id": "50376686",
+  "switches": []
+ },
+ {
+  "id": "50375777",
+  "switches": [
+   {
+    "kind": "provider",
+    "from": [
+     "ChatGPT / Codex"
+    ],
+    "to": [
+     "Claude Max"
+    ],
+    "direction": null,
+    "reason": "got a free Max trial",
+    "evidence": "Started with a few subs to use Codex, then got a free Max trial coupon and couldn't go back."
+   }
+  ]
+ },
+ {
+  "id": "50374804",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [
+     "Warp"
+    ],
+    "to": [
+     "cmux"
+    ],
+    "direction": "third_party_to_third_party",
+    "reason": "faster; lets Claude sessions on different accounts talk",
+    "evidence": "For the terminal, I used to use Warp, but switched to cmux. It feels faster, and it lets Claude sessions running on different accounts talk to each other."
+   }
+  ]
+ },
+ {
+  "id": "50376952",
+  "switches": [
+   {
+    "kind": "harness",
+    "from": [],
+    "to": [
+     "Relay (custom)"
+    ],
+    "direction": "unclear",
+    "reason": "work around 429 rate limits and agentic tooling constraints",
+    "evidence": "Instead of relying on an integrated coding agent, I use ChatGPT as the reasoning interface and Relay as the execution transport."
+   }
+  ]
+ }
+]

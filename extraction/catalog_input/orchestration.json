@@ -1,0 +1,866 @@
+[
+ {
+  "name": "Custom orchestration",
+  "count": 99,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378856",
+    "evidence": "A standard /implement skill creates separate agents for different parts of the workflow",
+    "detail": "/implement skill spawning agents per workflow stage; quota-dispatcher plugin"
+   },
+   {
+    "comment_id": "50395602",
+    "evidence": "I sort of hack together a swarm in Codex+ClaudeCode, then use a separate tool I built for a collaboration layer",
+    "detail": "hacked-together swarm plus self-built collaboration layer"
+   },
+   {
+    "comment_id": "50375606",
+    "evidence": "really simple redis-backed message bus called \"nova-bus\"",
+    "detail": "nova-bus redis message bus + nova-sprint card system across 20 machines"
+   },
+   {
+    "comment_id": "50375921",
+    "evidence": "If a card fails at a particular tier, it's going to get escalated up tiers",
+    "detail": "tiered card escalation with coordinator model"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Herdr",
+  "count": 33,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378856",
+    "evidence": "herdr for organizing multiple projects/agents",
+    "detail": "organizing multiple projects/agents"
+   },
+   {
+    "comment_id": "50391245",
+    "evidence": "run inside lima with herdr",
+    "detail": "5-7 worktrees"
+   },
+   {
+    "comment_id": "50376357",
+    "evidence": "I'm going to take a look at Hedr",
+    "detail": "planning to look at it"
+   },
+   {
+    "comment_id": "50374449",
+    "evidence": "I use Herdr (tui)[3] to manage Pi agents",
+    "detail": "TUI to manage Pi agents"
+   }
+  ],
+  "urls_in_comments": [
+   "https://herdr.dev/",
+   "https://herdr.dev/tui/"
+  ]
+ },
+ {
+  "name": "Subagents (built-in)",
+  "count": 29,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367037",
+    "evidence": "It'll automatically create subagents and all that stuff",
+    "detail": ""
+   },
+   {
+    "comment_id": "50374732",
+    "evidence": "it spawns a sub-agent",
+    "detail": ""
+   },
+   {
+    "comment_id": "50378856",
+    "evidence": "I need to switch to a different sub agent plugin for Pi",
+    "detail": "Pi subagent plugin, planning to switch"
+   },
+   {
+    "comment_id": "50395602",
+    "evidence": "15-20 chats and additional subagents going",
+    "detail": "15-20 chats plus subagents"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Git worktrees",
+  "count": 24,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378336",
+    "evidence": "creating worktrees with the right naming convention",
+    "detail": "skill creates worktrees per ticket"
+   },
+   {
+    "comment_id": "50375606",
+    "evidence": "(worktrees, subtasks etc...)",
+    "detail": ""
+   },
+   {
+    "comment_id": "50391245",
+    "evidence": "I utilize worktrees as much as possible to work on stuff in parallel",
+    "detail": ""
+   },
+   {
+    "comment_id": "50386447",
+    "evidence": "open a worktree",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Muse",
+  "count": 23,
+  "categories": [
+   "api_or_model",
+   "orchestration",
+   "platform",
+   "subscription"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374298",
+    "evidence": "Muse Glimmer",
+    "detail": "Muse Glimmer for interactive coding sessions"
+   },
+   {
+    "comment_id": "50375407",
+    "evidence": "I have been trying out Muse for a while",
+    "detail": "not yet a solid place; privacy concerns"
+   },
+   {
+    "comment_id": "50373698",
+    "evidence": "5) Muse",
+    "detail": "personal assistant"
+   },
+   {
+    "comment_id": "50367744",
+    "evidence": "I have a Muse $5/month subscription",
+    "detail": "$5/month backup"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "tmux / zellij",
+  "count": 15,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378856",
+    "evidence": "I have also been happy using zellij previously",
+    "detail": "zellij previously"
+   },
+   {
+    "comment_id": "50379612",
+    "evidence": "opens a tmux session keyed off the plan name so I can run separate sessions per-plan",
+    "detail": "tmux session per plan"
+   },
+   {
+    "comment_id": "50391245",
+    "evidence": "All this inside `tmux`",
+    "detail": "tmux with alert popups"
+   },
+   {
+    "comment_id": "50375407",
+    "evidence": "tmux -> herdr-tui -> herdr-core",
+    "detail": "tmux backend replaced by herdr"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Rex",
+  "count": 6,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377121",
+    "evidence": "I'm using Rex as a multiplexer (recently switched from Tmux)",
+    "detail": "multiplexer, switched from tmux"
+   },
+   {
+    "comment_id": "50367970",
+    "evidence": "Rex/Ghostty as the interface to it all.",
+    "detail": "Rex/Ghostty as interface"
+   },
+   {
+    "comment_id": "50378115",
+    "evidence": "So far Rex has been a great alternative.",
+    "detail": ""
+   },
+   {
+    "comment_id": "50375578",
+    "evidence": "rex",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "cmux",
+  "count": 4,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50388928",
+    "evidence": "CMUX",
+    "detail": ""
+   },
+   {
+    "comment_id": "50378479",
+    "evidence": "CMUX with folders per project",
+    "detail": "folders per project + Stream Deck agent status"
+   },
+   {
+    "comment_id": "50378115",
+    "evidence": "I have been using cmux for a year before transitioning to Rex.",
+    "detail": "a year, tabs and workspaces"
+   },
+   {
+    "comment_id": "50374804",
+    "evidence": "switched to cmux",
+    "detail": "sessions on different accounts can talk"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "OpenRig",
+  "count": 3,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377449",
+    "evidence": "my new favorite, OpenRig",
+    "detail": "product and engineering rigs"
+   },
+   {
+    "comment_id": "50385555",
+    "evidence": "On my saas projects I've done with openrig",
+    "detail": "own product, dogfood rigs"
+   },
+   {
+    "comment_id": "50374592",
+    "evidence": "Orchestration: OpenRig",
+    "detail": "~45 seats across two machines in tmux"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/mvschwarz/openrig"
+  ]
+ },
+ {
+  "name": "Cloud agents",
+  "count": 2,
+  "categories": [
+   "orchestration",
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50384905",
+    "evidence": "If I've got 5 agents going at once, each is in their own dedicated, isolated cloud environment",
+    "detail": "~5 parallel agents in isolated cloud environments; service not specified"
+   },
+   {
+    "comment_id": "50367744",
+    "evidence": "I also use cloud agents to setup reoccurring jobs",
+    "detail": "recurring jobs"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Ctlflow",
+  "count": 2,
+  "categories": [
+   "orchestration",
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373324",
+    "evidence": "This lets me run dozens of agents on tasks like equity analysis.",
+    "detail": "dozens of agents for non-coding tasks"
+   },
+   {
+    "comment_id": "50373324",
+    "evidence": "now I just use ctlflow.com",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": [
+   "https://www.ctlflow.com"
+  ]
+ },
+ {
+  "name": "Conductor",
+  "count": 2,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367546",
+    "evidence": "I'm currently using https://www.conductor.build/",
+    "detail": "multiple projects at once"
+   },
+   {
+    "comment_id": "50379292",
+    "evidence": "Workspace orchestration: Conductor.build (RIP)",
+    "detail": "RIP, seeking substitute"
+   }
+  ],
+  "urls_in_comments": [
+   "https://www.conductor.build/"
+  ]
+ },
+ {
+  "name": "Gas Town",
+  "count": 2,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50381382",
+    "evidence": "openclaw, gas town, munder difflin etc",
+    "detail": "toy experiments"
+   },
+   {
+    "comment_id": "50375134",
+    "evidence": "have tried GasTown, its horrible imo",
+    "detail": "horrible"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Raven",
+  "count": 2,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367434",
+    "evidence": "I'm currently on Raven as a sort of \"meta harness\"",
+    "detail": "meta harness orchestrator delegating to other harnesses"
+   },
+   {
+    "comment_id": "50368268",
+    "evidence": "codex under raven",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "agent-swarm.dev",
+  "count": 2,
+  "categories": [
+   "orchestration",
+   "platform"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378028",
+    "evidence": "We use agent-swarm.dev (self-hosted OSS MIT)",
+    "detail": "self-hosted OSS"
+   },
+   {
+    "comment_id": "50378028",
+    "evidence": "5. See 4 :D",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "LangGraph",
+  "count": 2,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378839",
+    "evidence": "settled on LangGraph for anything serious",
+    "detail": ""
+   },
+   {
+    "comment_id": "50379558",
+    "evidence": "running a mix of LangGraph and CrewAI for internal tooling",
+    "detail": "internal tooling"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Collie",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50378856",
+    "evidence": "Collie for mobile access",
+    "detail": "mobile access over tailscale"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Contextify",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374243",
+    "evidence": "contextify to share past sessions between them",
+    "detail": "share past sessions between agents"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Open Agent Harness (OAH)",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375796",
+    "evidence": "I maintain it as a free open source CLI",
+    "detail": "self-maintained, file leases and task history"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/KenSuh/open-agent-harness"
+  ]
+ },
+ {
+  "name": "OpenCode swarm plugins",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50368526",
+    "evidence": "I tried some of the opencode swarm plugins",
+    "detail": "did not work right"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "yaac",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376836",
+    "evidence": "I built something which auto-containerizes the agents for you",
+    "detail": "self-built, gvisor containers with inter-agent orchestration"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/bsklaroff/yaac"
+  ]
+ },
+ {
+  "name": "Helyn Implement",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380633",
+    "evidence": "Helyn Implement for coding",
+    "detail": "multi-model agentic protocol"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Munder Difflin",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50381382",
+    "evidence": "openclaw, gas town, munder difflin etc",
+    "detail": "toy experiments"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Muster",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374498",
+    "evidence": "crucially thru Muster[0]",
+    "detail": "own agent-aware terminal (libghostty)"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/amterp/muster"
+  ]
+ },
+ {
+  "name": "Scion",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374549",
+    "evidence": "I've used Scion at work",
+    "detail": "at work"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "clawpatrol",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380252",
+    "evidence": "clawpatrol to manage action approvals rules",
+    "detail": "action approval rules and credentials"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Paseo / Orca / Superset",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377512",
+    "evidence": "harness aggregators like Paseo, Orca and Superset",
+    "detail": "harness aggregators"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Fizzy",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373366",
+    "evidence": "I use a locally running instance of Fizzy kanban board to manage and track all work",
+    "detail": "local kanban board for delegating to agents"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Hangar",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377945",
+    "evidence": "I built Hangar, open source and self-hosted",
+    "detail": "own, self-hosted"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/jeffer1312/hangar"
+  ]
+ },
+ {
+  "name": "Command Center",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50390611",
+    "evidence": "I'm the founder of Command Center",
+    "detail": "own product"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Circus Chief",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374678",
+    "evidence": "I use Circus Chief to orchestrate workflows",
+    "detail": "own, subscription fallback tiers"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/ferrislucas/Circus-Chief"
+  ]
+ },
+ {
+  "name": "Codealong",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50374491",
+    "evidence": "using a variety of different harnesses managed by codealong",
+    "detail": "self-built, manages harnesses"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/codealong/codealong"
+  ]
+ },
+ {
+  "name": "Agent Orchestrator",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50376286",
+    "evidence": "4) Agent orchestrator",
+    "detail": ""
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "DevArch",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50375338",
+    "evidence": "My own engineering harness: https://devarch.ai/",
+    "detail": "own engineering harness"
+   }
+  ],
+  "urls_in_comments": [
+   "https://devarch.ai/"
+  ]
+ },
+ {
+  "name": "agentcron.ai",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50377430",
+    "evidence": "It connects to agentcron.ai mcp for kanban boards.",
+    "detail": "MCP kanban boards"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "epiq",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380609",
+    "evidence": "Exploring https://epiq.sh",
+    "detail": "exploring local TUI issue board"
+   }
+  ],
+  "urls_in_comments": [
+   "https://epiq.sh"
+  ]
+ },
+ {
+  "name": "Belfry",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50368640",
+    "evidence": "I built https://belfry.robgough.net",
+    "detail": "self-built tmux visualizer"
+   }
+  ],
+  "urls_in_comments": [
+   "https://belfry.robgough.net"
+  ]
+ },
+ {
+  "name": "Paperclip",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50367453",
+    "evidence": "other than Paperclip earlier this year",
+    "detail": "earlier this year"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Termic",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50383038",
+    "evidence": "Termic for UX to switch between parallel agents running both Claude and Pi",
+    "detail": "switch between parallel Claude and Pi agents"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "Briefkin",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50393134",
+    "evidence": "The card board is Briefkin, which I built",
+    "detail": "own card board for agent approvals"
+   }
+  ],
+  "urls_in_comments": [
+   "https://briefkin.dev/?utm_source=hackernews&utm_medium=comment&utm_campaign=qa-briefkin-2026-11-06"
+  ]
+ },
+ {
+  "name": "Kiro Crew",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379663",
+    "evidence": "Kiro Crew (https://github.com/kirodotdev/kirocrew) on top",
+    "detail": "background subagents, scheduled jobs, persistent memory"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/kirodotdev/kirocrew"
+  ]
+ },
+ {
+  "name": "LoopX",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50380498",
+    "evidence": "with LoopX for work spanning multiple long-running sessions",
+    "detail": "own project, long-running multi-session work"
+   }
+  ],
+  "urls_in_comments": [
+   "https://github.com/loopx-project/loopx"
+  ]
+ },
+ {
+  "name": "CrewAI",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50379558",
+    "evidence": "running a mix of LangGraph and CrewAI for internal tooling",
+    "detail": "internal tooling"
+   }
+  ],
+  "urls_in_comments": []
+ },
+ {
+  "name": "agent-chat",
+  "count": 1,
+  "categories": [
+   "orchestration"
+  ],
+  "examples": [
+   {
+    "comment_id": "50373599",
+    "evidence": "in agent-chat, which we build",
+    "detail": "own product; writer and cross-family reviewer agents"
+   }
+  ],
+  "urls_in_comments": []
+ }
+]

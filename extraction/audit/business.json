@@ -1,0 +1,1106 @@
+{
+ "3code": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "AWS Bedrock": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Abliterated.ai": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Aider": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": "Paul Gauthier's project, community-run, no paid tier"
+ },
+ "Amp": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Anthropic API": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Antigravity": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Argon": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Atlas Cloud": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Azure AI Foundry": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Baseten": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Belfry": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "Bivia": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Briefkin": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": true,
+  "note": "Solo dev Petar; free beta, $10/mo plans announced"
+ },
+ "Charm Hyper": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "ChatGPT / Codex": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Circus Chief": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "Claude": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Claude Code": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": "Public repo but LICENSE.md is all rights reserved"
+ },
+ "Claude Cowork": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Claude Desktop": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Clef": {
+  "license": "unknown",
+  "commercial": true,
+  "personal": false,
+  "note": "license not verified"
+ },
+ "Cline": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Open-core: Cline Bot Inc. sells teams/enterprise plans"
+ },
+ "CodeBuddy": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Codealong": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Codex": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Apache CLI, used via paid ChatGPT plans/API"
+ },
+ "Collie": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "Comet": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Command Code": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Conductor": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Contextify": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": true,
+  "note": "MIT covers plugin only; app proprietary, paid plans; Rob Banagale"
+ },
+ "Corgi": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "CrewAI": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Open-core: MIT framework plus paid platform"
+ },
+ "Ctlflow": {
+  "license": "unknown",
+  "commercial": false,
+  "personal": true,
+  "note": "no public repo or license verified"
+ },
+ "Cursor": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "DeepInfra": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "DeepSeek": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "MIT open weights plus paid API"
+ },
+ "DeepSeek Harness": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "DeepSeek Superagent": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "DevArch": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": true,
+  "note": "Paid licenses ($99/yr+); site credits David Cornelson"
+ },
+ "Devin": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Dirge": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": "Small org repo, apparently a solo project"
+ },
+ "Dots": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Duet": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "ElevenLabs": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Emacs (gptel etc.)": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": "Bucket of community packages"
+ },
+ "Entrim": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Exa": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Fal.ai": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Fizzy": {
+  "license": "source_available",
+  "commercial": true,
+  "personal": false,
+  "note": "O'Saasy license bars competing SaaS; 37signals sells hosted"
+ },
+ "Flux": {
+  "license": "source_available",
+  "commercial": true,
+  "personal": false,
+  "note": "Mixed: schnell Apache, dev non-commercial, pro API-only"
+ },
+ "FreeBuff": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": "Free, ad-supported; Codebuff company"
+ },
+ "Friendli": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "GLM": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "MIT open weights plus paid API"
+ },
+ "GPT Luna": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Gas Town": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": "Steve Yegge's personal project"
+ },
+ "Gemini": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Gemini CLI": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Apache CLI tied to Google's paid Gemini plans"
+ },
+ "Gemma": {
+  "license": "source_available",
+  "commercial": false,
+  "personal": false,
+  "note": "Gemma terms of use restrict usage"
+ },
+ "Git worktrees": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "GitHub Copilot": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": "Copilot CLI repo has custom proprietary license"
+ },
+ "Google / Gemini API": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Goose": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Grok": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Grok CLI": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": "Assumed official Grok Build CLI"
+ },
+ "Halogen": {
+  "license": "proprietary",
+  "commercial": false,
+  "personal": false,
+  "note": "Free EULA, binary only, no modification redistribution"
+ },
+ "Hangar": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "Hax": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "Herdr": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": "Org repo but appears to be an individual's project"
+ },
+ "Hermes Agent": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Nous sells Portal subscription used with it"
+ },
+ "Hetzner Inference API": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": "Free while experimental; Hetzner is a paid provider"
+ },
+ "Hugging Face API": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "IFM K2 Horizon": {
+  "license": "unknown",
+  "commercial": false,
+  "personal": false,
+  "note": "license not verified"
+ },
+ "JetBrains AI / Junie": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "JetBrains Thinkrail": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": "JetBrains incubator, free open source"
+ },
+ "Jev": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Juggler": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": "Julian Storer's project"
+ },
+ "Kagi": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Kapitsa": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Kepler": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Kilo Code": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Sells Kilo Gateway credits and team plans"
+ },
+ "Kilo Credits": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Kimi": {
+  "license": "source_available",
+  "commercial": true,
+  "personal": false,
+  "note": "Modified MIT weights (attribution clause) plus paid API"
+ },
+ "Kimi Code": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "MIT CLI for Moonshot's paid Kimi plans"
+ },
+ "Kiro": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": "GitHub repo is issues/docs only"
+ },
+ "Kiro Crew": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Companion to paid Kiro"
+ },
+ "Kokoro": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "LM Studio": {
+  "license": "proprietary",
+  "commercial": false,
+  "personal": false,
+  "note": "Closed app, free including for work"
+ },
+ "LangGraph": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Open-core: LangGraph Platform/LangSmith paid"
+ },
+ "Letta": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Paid Letta Cloud"
+ },
+ "LiteLLM": {
+  "license": "open_core",
+  "commercial": true,
+  "personal": false,
+  "note": "MIT except the proprietary enterprise/ directory"
+ },
+ "Llama": {
+  "license": "source_available",
+  "commercial": false,
+  "personal": false,
+  "note": "Llama community license"
+ },
+ "LongCat": {
+  "license": "unknown",
+  "commercial": true,
+  "personal": false,
+  "note": "license not verified"
+ },
+ "LoopX": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Luna": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Lyre": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": true,
+  "note": "Built by Jonathan Bakhit; Pro $15/mo; license unclear"
+ },
+ "MLX": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "MTPLX": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "Maki": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "Melious": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Mercury": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Meta AI": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "MetaGPT": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "DeepWisdom sells Atoms/MGX products"
+ },
+ "MiMo": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "MIT open weights plus Xiaomi API"
+ },
+ "MiMo Code": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "MiniMax": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Some open weights; core business is paid API"
+ },
+ "Mistral": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Mistral / Devstral": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Apache open weights for many models plus paid API"
+ },
+ "Mistral Vibe": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Pairs with Mistral's paid API/plans"
+ },
+ "Munder Difflin": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Muse": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Muse Code": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Muster": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "NVIDIA NIM": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": "Free tier; NIM enterprise licensing paid"
+ },
+ "NanoClaw": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": "MIT, copyright Gavriel; no GitHub license metadata"
+ },
+ "Nemotron": {
+  "license": "source_available",
+  "commercial": false,
+  "personal": false,
+  "note": "NVIDIA Open Model License: not OSI-approved, has use conditions"
+ },
+ "NodeCode": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Nous Research": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Novita": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Ollama": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Ollama Inc. sells Ollama Cloud plans"
+ },
+ "Ollama Cloud": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Open Agent Harness (OAH)": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "Open WebUI": {
+  "license": "source_available",
+  "commercial": true,
+  "personal": false,
+  "note": "BSD plus branding-removal restriction; enterprise license sold"
+ },
+ "OpenAI API": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "OpenBot": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "OpenChamber": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "OpenClaw": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "OpenCode": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Sells OpenCode Go/Zen subscriptions"
+ },
+ "OpenCode Big Pickle": {
+  "license": "proprietary",
+  "commercial": false,
+  "personal": false,
+  "note": "Free stealth model, undisclosed weights"
+ },
+ "OpenCode Go/Zen": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "OpenHands": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Paid OpenHands Cloud"
+ },
+ "OpenRig": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "OpenRouter": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "OpenSWE": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Orca": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Stably AI is a startup; assumed paid features"
+ },
+ "Ori": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Ornith": {
+  "license": "unknown",
+  "commercial": false,
+  "personal": false,
+  "note": "license not verified"
+ },
+ "Osaurus": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Paperclip": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Parakeet": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": "CC-BY-4.0 weights"
+ },
+ "Paseo": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": "Apache-2.0 per LICENSE; copyright Mohamed Boudra"
+ },
+ "Paseo / Orca / Superset": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": "Group bucket; Paseo and Orca are open source"
+ },
+ "Perplexity": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Pi": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": "Mario Zechner's project"
+ },
+ "Pickle": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": "Product identity uncertain"
+ },
+ "Qwen": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Mostly Apache-2.0 weights; Alibaba sells API"
+ },
+ "Rakazo": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": "Elie Tamir's repo under Inbox Zero Inc."
+ },
+ "Raven": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Requesty": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Rex": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": "Assumed closed commercial product from Superlogical"
+ },
+ "Scion": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Strata": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "Swival": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Synthetic": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "T3 Code": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Tailscale Aperture": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "TensorX": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Termic": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "Together": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "VS Code": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": "Code-OSS repo is MIT; Microsoft's VS Code build is proprietary"
+ },
+ "Venice": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Vercel AI Gateway": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Volt": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": "Jordan Hans's fork"
+ },
+ "WanGP": {
+  "license": "source_available",
+  "commercial": false,
+  "personal": true,
+  "note": "Community license bars selling or paid hosting of WanGP"
+ },
+ "Warp": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "AGPL repo with paid Warp plans"
+ },
+ "Whisper": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "Xiaomi MiMo": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Z.ai (GLM)": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "ZCode": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "Zed": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "GPL/AGPL/Apache files; paid Zed Pro"
+ },
+ "ZeroStack": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "agent-swarm.dev": {
+  "license": "open_source",
+  "commercial": true,
+  "personal": false,
+  "note": "Open-core with paid hosted version"
+ },
+ "agentcron.ai": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": "Free plan plus pricing page; maker unknown"
+ },
+ "clawpatrol": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "cmux": {
+  "license": "open_core",
+  "commercial": true,
+  "personal": false,
+  "note": "GPL-3.0 client; server is BUSL and needs a paid license"
+ },
+ "epiq": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "exe.dev": {
+  "license": "proprietary",
+  "commercial": true,
+  "personal": false,
+  "note": ""
+ },
+ "freellmapi": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "gpt-oss": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "llama-swap": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ },
+ "llama.cpp": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "llm-desktop-electron": {
+  "license": "unknown",
+  "commercial": false,
+  "personal": true,
+  "note": "Public repo with no license; bundles proprietary Claude app"
+ },
+ "tmux / zellij": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": false,
+  "note": ""
+ },
+ "yaac": {
+  "license": "open_source",
+  "commercial": false,
+  "personal": true,
+  "note": ""
+ }
+}

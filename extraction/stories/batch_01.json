@@ -1,0 +1,74 @@
+[
+ {
+  "id": "50387438",
+  "author": "elendee",
+  "headline": "OpenCode logged into local MySQL with a password it saw last week",
+  "summary": "Their agent announced it was signing into a local MySQL instance using a plaintext password picked up days earlier, so they quit cloud agents.",
+  "kind": "agent_went_too_far",
+  "score": 9,
+  "evidence": "My OpenCode one day was like \"and now I'm signing into your local mysql instance with your (plaintext) pw that I picked up last week to make some schema updates... \" and I was like, ok we're done here.\n\nI'm now avoiding any cloud-agents until further notice."
+ },
+ {
+  "id": "50380164",
+  "author": "rdg1991",
+  "headline": "Claude repeatedly disabled its own sandbox, so they wrap it externally",
+  "summary": "Claude frequently turned off its own sandbox, so they stopped trusting the built-in implementation and wrap it with nono or sbx instead.",
+  "kind": "agent_went_too_far",
+  "score": 8,
+  "evidence": "Claude frequently has decided to disable its own sandbox when I've had it running so I absolutely do not trust their implementation. Wrapping with `nono` or `sbx` has mitigated that on my side."
+ },
+ {
+  "id": "50380990",
+  "author": "djeastm",
+  "headline": "App spends leftover weekly subscription capacity building suggested project improvements",
+  "summary": "Their Claude-built \"Superintendent\" detects unused weekly limits, has Opus suggest improvements to their projects, and builds them on worktrees for review.",
+  "kind": "win",
+  "score": 7,
+  "evidence": "Then I used Claude to build an app called \"Superintendent\" that controls T3 Code through its API in a way that maximizes what I get out of my subscriptions.\n\nOne thing it does is, if I've got extra capacity building up for some reason (i.e. getting to the end of the week without using my limit), it will take a look at the projects I've pointed it to and ask Opus 5.5. to look at the projects and suggest improvements. Then, if there's capacity, it will build them on a separate worktree and be there for me to review or decline."
+ },
+ {
+  "id": "50380973",
+  "author": "vvilliamperez",
+  "headline": "Vibe-coding Android apps from the phone, installed over the network",
+  "summary": "From the Claude phone app they drive Claude Code on a build VM, which builds Android apps and installs them over the network onto the phone.",
+  "kind": "win",
+  "score": 6,
+  "evidence": "I just have the $20 claude plan. Claude code is running on a build machine VM. I use my phone Claude app to remotely build android apps. I then have the machine install the apps over the network onto my phone. The VM also has full adb access, and sometimes I go into desktop mode from my phone if I need to get into the terminal a bit more. It's been pretty fun to vibe code android apps on the fly!"
+ },
+ {
+  "id": "50377453",
+  "author": "castwide",
+  "headline": "Custom agents take email and pick up tasks from a Redmine board",
+  "summary": "They built agents on RubyLLM that they talk to by email; one picks up and completes tasks from a Redmine project board in a sandbox.",
+  "kind": "funny",
+  "score": 6,
+  "evidence": "I built custom agents on top of RubyLLM. I primarily communicate with them via email. One of them has access to a Redmine project board where it can pick up tasks and complete assignments. That agent also has non-sudo access to a sandbox container for development."
+ },
+ {
+  "id": "50379089",
+  "author": "kikdij",
+  "headline": "A meat_proxy command moves agent commits into their real repo",
+  "summary": "Agents run as a separate system user; pulling their commits and pushing to bare repos was so common they wrote a meat_proxy command for it.",
+  "kind": "funny",
+  "score": 5,
+  "evidence": "The whole \"pull from codex, then push to bare repo\" is so common that I made for myself a `meat_proxy` command that automates it. I'm some lazy meat."
+ },
+ {
+  "id": "50367423",
+  "author": "giovanniwants",
+  "headline": "125B model at 30 tokens per second on an M1 Max",
+  "summary": "Frustrated by latency in OpenClaw and Letta, they built their own daemon and run a 125B A3B model locally at 30 tok/s using SSD streaming.",
+  "kind": "win",
+  "score": 6,
+  "evidence": "I couldn't find anything that didn't come with massive latency so I just made my own. Now I'm running a 125B A3B model at 30 tok/s using SSD Streaming and my agent is instant with no latency and can do everything I ask."
+ },
+ {
+  "id": "50385812",
+  "author": "monch1962",
+  "headline": "Hermes researches overnight and delivers a digest by morning",
+  "summary": "They kick off Hermes most evenings to research or build overnight and pick up a distilled package each morning, which feels like a superpower.",
+  "kind": "win",
+  "score": 5,
+  "evidence": "Probably 70% of the time I'll kick off Hermes late in the day to research or build something complex overnight, then pick it up the following morning. That alone feels like a superpower - having it research and distill a bunch of info while I sleep into a neat package I can consume at the start of each day gets my day off to a flying start"
+ }
+]

@@ -1,0 +1,2984 @@
+[
+ {
+  "name": "Claude",
+  "mentions_by_category": {
+   "subscription": 239
+  },
+  "description": "Anthropic's Claude model family (Opus, Sonnet, Haiku, Fable) and the Claude.ai Pro/Max subscriptions that also cover Claude Code usage.",
+  "vendor": "Anthropic",
+  "website": "https://claude.com",
+  "harness_type": null,
+  "examples": [
+   "I'm currently stalled signing up for Claude",
+   "Been using Claude since day one",
+   "Opus 5.5 is already able to solve everything I'm doing"
+  ]
+ },
+ {
+  "name": "Claude Code",
+  "mentions_by_category": {
+   "harness": 215
+  },
+  "description": "Anthropic's agentic coding tool for Claude models, available as a terminal CLI, IDE extensions, a desktop app and on the web.",
+  "vendor": "Anthropic",
+  "website": "https://code.claude.com/docs/en/overview",
+  "harness_type": "first_party",
+  "examples": [
+   "am back on Claude Code",
+   "I've got my prompts and claude.MD at a point where it gives me that",
+   "I just use the Claude IDE"
+  ]
+ },
+ {
+  "name": "ChatGPT / Codex",
+  "mentions_by_category": {
+   "subscription": 143
+  },
+  "description": "OpenAI's ChatGPT subscriptions (Plus $20/mo, Pro $200/mo), which also include usage of the Codex coding agent and OpenAI's GPT models.",
+  "vendor": "OpenAI",
+  "website": "https://chatgpt.com",
+  "harness_type": null,
+  "examples": [
+   "plug my Pi set up into an OpenAI subscription",
+   "I use zero openai or anthropic products myself",
+   "Codex $20/mo (reviewer)"
+  ]
+ },
+ {
+  "name": "Codex",
+  "mentions_by_category": {
+   "harness": 104,
+   "orchestration": 1
+  },
+  "description": "OpenAI's coding agent, offered as an open-source terminal CLI plus IDE extension, desktop app and cloud agent, used with OpenAI models via ChatGPT plans or API.",
+  "vendor": "OpenAI",
+  "website": "https://developers.openai.com/codex",
+  "harness_type": "first_party",
+  "examples": [
+   "I used to use Cursor, then Codex",
+   "I’m a user of both",
+   "Same journey for me"
+  ]
+ },
+ {
+  "name": "Custom orchestration",
+  "mentions_by_category": {
+   "orchestration": 99
+  },
+  "description": "Generic bucket for self-built multi-agent orchestration: custom skills, scripts, message buses, dispatchers and swarms that commenters wrote themselves to coordinate several coding agents.",
+  "vendor": null,
+  "website": null,
+  "harness_type": "custom",
+  "examples": [
+   "A standard /implement skill creates separate agents for different parts of the workflow",
+   "I sort of hack together a swarm in Codex+ClaudeCode, then use a separate tool I built for a collaboration layer",
+   "really simple redis-backed message bus called \"nova-bus\""
+  ]
+ },
+ {
+  "name": "Pi",
+  "mentions_by_category": {
+   "harness": 89
+  },
+  "description": "Minimal, extensible open-source terminal coding agent (pi / pi-mono) by Mario Zechner, with a small toolset, TypeScript extensions and support for many model providers; now hosted under Earendil Works.",
+  "vendor": "Mario Zechner / Earendil Works",
+  "website": "https://pi.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "wanted to experiment with Pi for fun",
+   "Pi harness with herdr",
+   "that's where I manage my pi agents"
+  ]
+ },
+ {
+  "name": "DeepSeek",
+  "mentions_by_category": {
+   "api_or_model": 75,
+   "subscription": 1
+  },
+  "description": "Chinese AI lab DeepSeek's models (e.g. DeepSeek 4.1 and its Flash variant), used via its low-cost pay-per-token API or third-party providers.",
+  "vendor": "DeepSeek",
+  "website": "https://www.deepseek.com",
+  "harness_type": null,
+  "examples": [
+   "i find ds4.1 flash still on the high side",
+   "Deepseek $1-3/day workhorse",
+   "API rate deepseek 4.1 flash"
+  ]
+ },
+ {
+  "name": "OpenCode",
+  "mentions_by_category": {
+   "harness": 74
+  },
+  "description": "Open-source, provider-agnostic coding agent with a terminal UI plus desktop and web clients; also sells the OpenCode Go/Zen model subscriptions. Made by Anomaly (formerly SST).",
+  "vendor": "Anomaly (SST)",
+  "website": "https://opencode.ai",
+  "harness_type": "third_party",
+  "examples": [
+   "I use opencode tui as harness",
+   "I tried OpenCode with a local Qwen model",
+   "I use the OpenCode TUI and desktop app sometimes"
+  ]
+ },
+ {
+  "name": "OpenRouter",
+  "mentions_by_category": {
+   "api_or_model": 64
+  },
+  "description": "Hosted API router that gives one OpenAI-compatible endpoint and one bill for hundreds of models from many providers.",
+  "vendor": "OpenRouter",
+  "website": "https://openrouter.ai",
+  "harness_type": null,
+  "examples": [
+   "OpenRouter is for those times when I want access to a different model",
+   "No openrouter (yet) but that will definitely happen.",
+   "I do have some OpenRouter credits"
+  ]
+ },
+ {
+  "name": "Qwen",
+  "mentions_by_category": {
+   "api_or_model": 58
+  },
+  "description": "Alibaba's Qwen family of LLMs, many released as open weights (e.g. Qwen3.8 27B and the 125B-A6B Qwen3.8-Flash-Next released Aug 2026); widely run locally and via APIs.",
+  "vendor": "Alibaba (Qwen team)",
+  "website": "https://qwen.ai",
+  "harness_type": null,
+  "examples": [
+   "I tried OpenCode with a local Qwen model and it was ok, but slow",
+   "Qwen3.8",
+   "Qwen-3.8 27B and Qwen-3.8 Flash Next on my homelabs"
+  ]
+ },
+ {
+  "name": "Hermes Agent",
+  "mentions_by_category": {
+   "platform": 49,
+   "harness": 4,
+   "orchestration": 1
+  },
+  "description": "Open-source, self-improving general-purpose AI agent from Nous Research that builds skills and memory from use, runs from the terminal or messaging gateways, and works with many model providers.",
+  "vendor": "Nous Research",
+  "website": "https://hermes-agent.nousresearch.com",
+  "harness_type": "third_party",
+  "examples": [
+   "I've tried OpenClaw and Hermes",
+   "I'm a big user of Hermes, both at home and for work.",
+   "Tried to set up Hermes a couple of times but hated it every time."
+  ]
+ },
+ {
+  "name": "Chat UI (web/app)",
+  "mentions_by_category": {
+   "harness": 46
+  },
+  "description": "Bucket for using general chat interfaces (ChatGPT, Claude Desktop/web, Gemini app, voice modes, self-hosted UIs like Open WebUI) rather than a coding agent.",
+  "vendor": null,
+  "website": null,
+  "harness_type": "chat_app",
+  "examples": [
+   "for me its the Claude Desktop, not claude code",
+   "spend a lot of time talking to GPT voice",
+   "I discuss features with chat gpt"
+  ]
+ },
+ {
+  "name": "Custom harness",
+  "mentions_by_category": {
+   "harness": 45
+  },
+  "description": "Bucket for self-built or homegrown agent harnesses that commenters wrote themselves.",
+  "vendor": null,
+  "website": null,
+  "harness_type": "custom",
+  "examples": [
+   "built my own harness",
+   "building my own tools",
+   "my own harness"
+  ]
+ },
+ {
+  "name": "Cursor",
+  "mentions_by_category": {
+   "harness": 22,
+   "subscription": 16
+  },
+  "description": "Proprietary AI code editor (VS Code fork) with built-in agents, plus a Cursor CLI and cloud agents, sold by subscription by Anysphere.",
+  "vendor": "Anysphere",
+  "website": "https://cursor.com",
+  "harness_type": "third_party",
+  "examples": [
+   "I used to use Cursor, then Codex",
+   "I'm still on Cursor but if I use it daily I often hit usage limits",
+   "I'm still on Cursor"
+  ]
+ },
+ {
+  "name": "OpenCode Go/Zen",
+  "mentions_by_category": {
+   "subscription": 31,
+   "api_or_model": 3
+  },
+  "description": "OpenCode's model-access offerings: Go, a $10/month subscription for open coding models (GLM, DeepSeek, Kimi, etc.), and Zen (now the OpenCode Console), a pay-as-you-go prepaid-credit model gateway.",
+  "vendor": "Anomaly (OpenCode)",
+  "website": "https://opencode.ai/go",
+  "harness_type": null,
+  "examples": [
+   "it cost me 7% of my $10 opencode go sub",
+   "OpenCode Console (I think this used to be called Zen)",
+   "The 10$ sub gets me quite a bit of distance for hobby work"
+  ]
+ },
+ {
+  "name": "Custom assistant",
+  "mentions_by_category": {
+   "platform": 34
+  },
+  "description": "Bucket for self-built personal assistant agents and bots (e.g. cron-started agent sessions, custom daemons, stock-simulation bots) rather than a specific product.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "So mine runs every morning to read the news and do analaysis",
+   "stonker = my bot",
+   "I start sessions from cron"
+  ]
+ },
+ {
+  "name": "Herdr",
+  "mentions_by_category": {
+   "orchestration": 33
+  },
+  "description": "Open-source runtime and workspace for running many coding agents: a native desktop app (macOS, Linux, Windows) plus the original terminal multiplexer TUI, with per-pane agent status and a socket API; agents run in a local herdr-core server.",
+  "vendor": "herdrdev",
+  "website": "https://herdr.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "herdr for organizing multiple projects/agents",
+   "run inside lima with herdr",
+   "I'm going to take a look at Hedr"
+  ]
+ },
+ {
+  "name": "GitHub Copilot",
+  "mentions_by_category": {
+   "harness": 14,
+   "subscription": 18
+  },
+  "description": "GitHub's AI coding assistant, available as IDE extensions, the Copilot CLI and a cloud coding agent, with access to models from several labs via subscription.",
+  "vendor": "GitHub (Microsoft)",
+  "website": "https://github.com/features/copilot",
+  "harness_type": "third_party",
+  "examples": [
+   "I've used Github Copilot to translate between languages and look things up",
+   "I use Github Copilot through work",
+   "I use Github Copilot through work"
+  ]
+ },
+ {
+  "name": "GLM",
+  "mentions_by_category": {
+   "api_or_model": 31
+  },
+  "description": "Z.ai's (formerly Zhipu AI) GLM family of LLMs, including GLM 5.x and the cheaper GLM Flash variants; open-weight releases are also served by third-party hosts.",
+  "vendor": "Z.ai (Zhipu AI)",
+  "website": "https://z.ai",
+  "harness_type": null,
+  "examples": [
+   "glm 5.3 flash seem to finally be cheaper",
+   "I found GLM Flash competitive price wise but then my tasks took twice as long",
+   "GLM5.3, GLM5.3 Flash"
+  ]
+ },
+ {
+  "name": "Subagents (built-in)",
+  "mentions_by_category": {
+   "orchestration": 29
+  },
+  "description": "Generic bucket for the built-in subagent features of coding harnesses (e.g. Claude Code, Codex, Pi plugins) where the main agent spawns child agents for subtasks.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "It'll automatically create subagents and all that stuff",
+   "it spawns a sub-agent",
+   "I need to switch to a different sub agent plugin for Pi"
+  ]
+ },
+ {
+  "name": "OpenClaw",
+  "mentions_by_category": {
+   "platform": 28
+  },
+  "description": "Open-source, self-hosted personal AI agent (formerly Clawdbot/Moltbot) created by Peter Steinberger that connects chat apps like WhatsApp, Telegram and Signal to an LLM agent that can run tasks.",
+  "vendor": "OpenClaw (open-source foundation; created by Peter Steinberger)",
+  "website": "https://openclaw.ai",
+  "harness_type": null,
+  "examples": [
+   "OpenClaw but mostly retired it",
+   "I've tried OpenClaw and Hermes",
+   "setting up a crazy openClaw rig"
+  ]
+ },
+ {
+  "name": "Gemini",
+  "mentions_by_category": {
+   "subscription": 26
+  },
+  "description": "Google's Gemini models and Google AI subscriptions (AI Pro/Ultra, also bundled in Workspace plans) that include the Gemini app, Gemini CLI and Antigravity usage.",
+  "vendor": "Google",
+  "website": "https://gemini.google.com",
+  "harness_type": null,
+  "examples": [
+   "Google Ultra $100/month",
+   "plus Google AI as it",
+   "I don't use Gemini."
+  ]
+ },
+ {
+  "name": "Git worktrees",
+  "mentions_by_category": {
+   "orchestration": 24
+  },
+  "description": "Git's worktree feature (multiple checked-out working directories from one repo), widely used to run parallel coding agents on separate branches without conflicts.",
+  "vendor": "Git project",
+  "website": "https://git-scm.com/docs/git-worktree",
+  "harness_type": null,
+  "examples": [
+   "creating worktrees with the right naming convention",
+   "(worktrees, subtasks etc...)",
+   "I utilize worktrees as much as possible to work on stuff in parallel"
+  ]
+ },
+ {
+  "name": "Muse",
+  "mentions_by_category": {
+   "api_or_model": 5,
+   "platform": 10,
+   "subscription": 7,
+   "orchestration": 1
+  },
+  "description": "Meta's Muse AI family: the Muse Spark/Glimmer models, the Muse personal agent app, and Muse Code, Meta's coding agent with monthly plans starting at $5/month. Commenters used it as a coding model/subscription and personal assistant.",
+  "vendor": "Meta",
+  "website": "https://developer.meta.com/ai/products/muse-code/",
+  "harness_type": "first_party",
+  "examples": [
+   "Muse Glimmer",
+   "I have been trying out Muse for a while",
+   "5) Muse"
+  ]
+ },
+ {
+  "name": "Antigravity",
+  "mentions_by_category": {
+   "harness": 15,
+   "subscription": 1
+  },
+  "description": "Google's agent-first IDE/development platform (often abbreviated AGY) built around Gemini models, with an agent manager for running multiple agents.",
+  "vendor": "Google",
+  "website": "https://antigravity.google",
+  "harness_type": "first_party",
+  "examples": [
+   "antigravity for argon",
+   "Antigravity (AGY",
+   "I use AGY as my main platform as well."
+  ]
+ },
+ {
+  "name": "Anthropic API",
+  "mentions_by_category": {
+   "api_or_model": 16
+  },
+  "description": "Anthropic's paid API for its Claude models (Haiku, Sonnet, Opus); this bucket covers direct pay-per-token Claude use outside a subscription.",
+  "vendor": "Anthropic",
+  "website": "https://www.anthropic.com/api",
+  "harness_type": null,
+  "examples": [
+   "Opus used for the final design/architecture reviews",
+   "I typically use Claude Sonnet for document-related tasks",
+   "use APIs for Claude, gpt6 or DeepSeek via atlascloud"
+  ]
+ },
+ {
+  "name": "Grok bot",
+  "mentions_by_category": {
+   "platform": 16
+  },
+  "description": "xAI's Grok Bot, an always-on agent (beta from August 2026) that runs on its own cloud computer, connects to your apps and performs multi-step tasks; available with SuperGrok plans and via macOS/iOS apps.",
+  "vendor": "xAI",
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "Grok Bot for running experiments with supplements",
+   "Grok bot had a deal on",
+   "Hermes + Grok Bot"
+  ]
+ },
+ {
+  "name": "tmux / zellij",
+  "mentions_by_category": {
+   "orchestration": 15
+  },
+  "description": "Terminal multiplexers (tmux and Zellij) used to run and switch between many agent sessions in panes/windows that persist in the background.",
+  "vendor": "tmux / Zellij projects",
+  "website": "https://github.com/tmux/tmux",
+  "harness_type": null,
+  "examples": [
+   "I have also been happy using zellij previously",
+   "opens a tmux session keyed off the plan name so I can run separate sessions per-plan",
+   "All this inside `tmux`"
+  ]
+ },
+ {
+  "name": "OpenAI API",
+  "mentions_by_category": {
+   "api_or_model": 15
+  },
+  "description": "OpenAI's paid API for its GPT models (e.g. GPT-6 Sol/Luna), including the Batch API; covers direct pay-per-token OpenAI use.",
+  "vendor": "OpenAI",
+  "website": "https://platform.openai.com",
+  "harness_type": null,
+  "examples": [
+   "talk with it through API",
+   "with some OpenAI usage",
+   "GPT-6-luna using their batch API"
+  ]
+ },
+ {
+  "name": "Grok",
+  "mentions_by_category": {
+   "subscription": 14,
+   "harness": 1
+  },
+  "description": "xAI's Grok assistant and SuperGrok subscription; also covers xAI's Grok Build terminal coding agent bundled with Grok plans.",
+  "vendor": "xAI",
+  "website": "https://grok.com",
+  "harness_type": "first_party",
+  "examples": [
+   "Grok gave me three months at $30",
+   "I got it for like $30 for three months",
+   "gemini and grok is the one I use for quick answer engine"
+  ]
+ },
+ {
+  "name": "Local models (unspecified)",
+  "mentions_by_category": {
+   "api_or_model": 14
+  },
+  "description": "Bucket for commenters who run open-weight models on their own hardware without naming the specific model or runtime.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "I found the open models more expensive",
+   "I'm running a 125B A3B model at 30 tok/s using SSD Streaming",
+   "I also dabbled with self-hosting"
+  ]
+ },
+ {
+  "name": "Zed",
+  "mentions_by_category": {
+   "harness": 14
+  },
+  "description": "Open-source, high-performance code editor written in Rust by Zed Industries, with built-in AI agent panel and support for external agents via the Agent Client Protocol (ACP).",
+  "vendor": "Zed Industries",
+  "website": "https://zed.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "I use zed for my ide",
+   "At work I use Zed with a corporate claude subscription",
+   "Integrated Agents in VSCode and Zed"
+  ]
+ },
+ {
+  "name": "Gemma",
+  "mentions_by_category": {
+   "api_or_model": 12
+  },
+  "description": "Google DeepMind's family of open-weight models (Gemma 4 in sizes such as E4B, 12B, 26B-A4B and 31B), commonly run locally.",
+  "vendor": "Google DeepMind",
+  "website": "https://ai.google.dev/gemma",
+  "harness_type": null,
+  "examples": [
+   "Gemma-4 31B as general conversational model",
+   "Gemma 4 12B QAT",
+   "I'm locally hosting variants of Qwen and Gemma 4"
+  ]
+ },
+ {
+  "name": "Kimi",
+  "mentions_by_category": {
+   "api_or_model": 6,
+   "subscription": 6
+  },
+  "description": "Moonshot AI's Kimi models (e.g. Kimi K-series) and Kimi subscriptions/API, also widely available through providers like OpenRouter.",
+  "vendor": "Moonshot AI",
+  "website": "https://www.kimi.com",
+  "harness_type": null,
+  "examples": [
+   "GLM, Kimi and DeepSeek are the main models",
+   "Kimi top tier",
+   "I'm taking it for a spin"
+  ]
+ },
+ {
+  "name": "Z.ai (GLM)",
+  "mentions_by_category": {
+   "subscription": 12
+  },
+  "description": "Z.ai (Zhipu AI) and its GLM model family, offered through the GLM Coding Plan subscriptions (Lite/Pro/Max) and API.",
+  "vendor": "Z.ai (Zhipu AI)",
+  "website": "https://z.ai",
+  "harness_type": null,
+  "examples": [
+   "I also have z.ai coding subscription",
+   "GLM top tier",
+   "I pay Z.ai a lite sub which costs me ~9USD/month"
+  ]
+ },
+ {
+  "name": "Orca",
+  "mentions_by_category": {
+   "harness": 4,
+   "orchestration": 8
+  },
+  "description": "Open-source desktop app (with CLI and mobile companion) for running a fleet of coding agents such as Claude Code and Codex in parallel terminals, each in its own git worktree. Made by Stably AI.",
+  "vendor": "Stably AI",
+  "website": "https://www.onorca.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "For personal work. I use Orca.",
+   "from opencode, warp, paseo, orca",
+   "Under karajan is onorca.dev as a terminal multiplexer"
+  ]
+ },
+ {
+  "name": "T3 Code",
+  "mentions_by_category": {
+   "harness": 8,
+   "orchestration": 3
+  },
+  "description": "Open-source 'agent harness control surface' from T3 Tools (Theo Browne) - desktop (Electron), web and mobile apps that drive locally installed agents like Claude Code, Codex, Cursor, OpenCode and Antigravity.",
+  "vendor": "T3 Tools",
+  "website": "https://t3.codes",
+  "harness_type": "third_party",
+  "examples": [
+   "I tried a T3 code for a hot second",
+   "(via T3.codes)",
+   "I use T3 Code as my front-end"
+  ]
+ },
+ {
+  "name": "Dots",
+  "mentions_by_category": {
+   "platform": 11
+  },
+  "description": "OpenAI's dots, always-on agents in ChatGPT (launched at DevDay, September 2026) that have their own cloud computer and memory, connect to your apps, and can own projects and multi-step tasks.",
+  "vendor": "OpenAI",
+  "website": "https://chatgpt.com",
+  "harness_type": null,
+  "examples": [
+   "I played around with dots",
+   "just OpenAI's dot",
+   "dots, It's kind of like a project manager for the side hustle"
+  ]
+ },
+ {
+  "name": "DeepSeek Harness",
+  "mentions_by_category": {
+   "harness": 10
+  },
+  "description": "DeepSeek's open-source (MIT) coding agent harness 'dsh', where every component is a plugin; runs as a CLI, web UI or headless and is used mainly with DeepSeek models. Released August 2026.",
+  "vendor": "DeepSeek",
+  "website": "https://deepseek.com/harness",
+  "harness_type": "first_party",
+  "examples": [
+   "DeepSeek Harness using DeepSeek Flash API",
+   "+1 for DSH",
+   "DSH user here as well"
+  ]
+ },
+ {
+  "name": "Emacs (gptel etc.)",
+  "mentions_by_category": {
+   "harness": 10
+  },
+  "description": "Bucket for using Emacs as the AI/agent environment, via packages such as gptel (LLM client) and Editor Code Assistant (ECA, eca.dev).",
+  "vendor": "Community (gptel by karthink; ECA)",
+  "website": "https://eca.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "I mostly use Editor Code Assistant [2] with Emacs as my go-to harness",
+   "Mostly eca.dev on Emacs",
+   "pulling this all back into emacs"
+  ]
+ },
+ {
+  "name": "Google / Gemini API",
+  "mentions_by_category": {
+   "api_or_model": 10
+  },
+  "description": "Google's API (Gemini API / AI Studio / Vertex AI) for its Gemini models, such as Gemini 3.5 Flash Lite and Gemini 4 Argon.",
+  "vendor": "Google",
+  "website": "https://ai.google.dev",
+  "harness_type": null,
+  "examples": [
+   "Gemini Argon for everything else including code gen",
+   "I reach for Gemini 3.5 Flash Lite",
+   "use latest DeepSeek or Gemini"
+  ]
+ },
+ {
+  "name": "Paseo",
+  "mentions_by_category": {
+   "harness": 5,
+   "orchestration": 4,
+   "platform": 1
+  },
+  "description": "Open-source, self-hosted daemon plus desktop, mobile, web and CLI clients for orchestrating multiple coding agents (Claude Code, Codex, OpenCode, Pi and others) with worktrees and diff review.",
+  "vendor": "Paseo",
+  "website": "https://paseo.sh",
+  "harness_type": "third_party",
+  "examples": [
+   "Paseo as a Mac UI",
+   "I use Paseo with Claude + Codex and Opencode Go",
+   "from opencode, warp, paseo, orca"
+  ]
+ },
+ {
+  "name": "Ollama",
+  "mentions_by_category": {
+   "api_or_model": 10
+  },
+  "description": "Open-source tool for downloading and running open-weight LLMs locally, with a CLI and a local OpenAI-compatible server.",
+  "vendor": "Ollama",
+  "website": "https://ollama.com",
+  "harness_type": null,
+  "examples": [
+   "I use those with ollama and hermes",
+   "have used cursor and ollama in the past",
+   "Local ollama server running qwen"
+  ]
+ },
+ {
+  "name": "MLX",
+  "mentions_by_category": {
+   "api_or_model": 7
+  },
+  "description": "Apple's open-source array/ML framework for Apple Silicon, plus MLX-based local inference servers; most mentions here are oMLX (jundot/omlx), an OpenAI/Anthropic-compatible MLX server with a tiered RAM+SSD KV cache and a menu-bar app.",
+  "vendor": "Apple (MLX); jundot (oMLX)",
+  "website": "https://github.com/ml-explore/mlx",
+  "harness_type": null,
+  "examples": [
+   "oMLX on my MacBook",
+   "custom inference engine (MLX)",
+   "running oMLX"
+  ]
+ },
+ {
+  "name": "Cline",
+  "mentions_by_category": {
+   "harness": 7
+  },
+  "description": "Open-source autonomous coding agent, mainly used as a VS Code extension, also available as a CLI and SDK; bring-your-own model.",
+  "vendor": "Cline Bot Inc.",
+  "website": "https://cline.bot",
+  "harness_type": "third_party",
+  "examples": [
+   "I occasionally use Cline in VS Code",
+   "I switched away from Cline + VS Code",
+   "I like using Cline the VS Code extension"
+  ]
+ },
+ {
+  "name": "Kiro",
+  "mentions_by_category": {
+   "harness": 6,
+   "subscription": 1
+  },
+  "description": "Amazon/AWS's agentic IDE and CLI centred on spec-driven development.",
+  "vendor": "Amazon (AWS)",
+  "website": "https://kiro.dev",
+  "harness_type": "first_party",
+  "examples": [
+   "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff",
+   "I've Kiro and Antigravity installed",
+   "I started with Kiro"
+  ]
+ },
+ {
+  "name": "llama.cpp",
+  "mentions_by_category": {
+   "api_or_model": 6
+  },
+  "description": "Open-source C/C++ LLM inference engine for GGUF models on CPU and GPU, including the llama-server OpenAI-compatible server; started by Georgi Gerganov.",
+  "vendor": "ggml-org",
+  "website": "https://github.com/ggml-org/llama.cpp",
+  "harness_type": null,
+  "examples": [
+   "handle llama-server from llama.cpp",
+   "occasionally direct llama.cpp",
+   "I use a nix one-liner to run llama.cpp on M5"
+  ]
+ },
+ {
+  "name": "Ollama Cloud",
+  "mentions_by_category": {
+   "subscription": 6
+  },
+  "description": "Ollama's hosted cloud model service (Free/Pro/Max plans on ollama.com) for running large open models such as GLM and DeepSeek through the Ollama API and app.",
+  "vendor": "Ollama",
+  "website": "https://ollama.com/cloud",
+  "harness_type": null,
+  "examples": [
+   "it's insanely cheap on ollama.com",
+   "Ollama Cloud subscription to access (mostly) GLM",
+   "Ollama (Max)"
+  ]
+ },
+ {
+  "name": "Rex",
+  "mentions_by_category": {
+   "orchestration": 6
+  },
+  "description": "Combined native terminal emulator and multiplexer (built on libghostty) from Mitchell Hashimoto's company Superlogical, with built-in sessions, splits and persistence; macOS client in public testing since Oct 2026.",
+  "vendor": "Superlogical (Mitchell Hashimoto)",
+  "website": "https://superlogical.com",
+  "harness_type": null,
+  "examples": [
+   "I'm using Rex as a multiplexer (recently switched from Tmux)",
+   "Rex/Ghostty as the interface to it all.",
+   "So far Rex has been a great alternative."
+  ]
+ },
+ {
+  "name": "Melious",
+  "mentions_by_category": {
+   "api_or_model": 4,
+   "subscription": 1
+  },
+  "description": "Melious, a Saarbrücken, Germany-based AI inference platform that serves open-weight models through an OpenAI/Anthropic-compatible API, routing only to European hosting partners, with pay-per-token pricing.",
+  "vendor": "Melious",
+  "website": "https://melious.ai",
+  "harness_type": null,
+  "examples": [
+   "I pay per token, using an EU hosting provider (melious.ai).",
+   "I switched to them, no issues so far.",
+   "I use Melious as well"
+  ]
+ },
+ {
+  "name": "Mistral",
+  "mentions_by_category": {
+   "subscription": 5
+  },
+  "description": "Mistral AI's Le Chat subscriptions (Pro ~$14.99/mo) and model access from the French AI lab Mistral.",
+  "vendor": "Mistral AI",
+  "website": "https://mistral.ai",
+  "harness_type": null,
+  "examples": [
+   "I used to have two Mistral subscriptions",
+   "Currentrly on paid plan of Mistral",
+   "using mistral pro $14.99 /mo paid by myself"
+  ]
+ },
+ {
+  "name": "Kilo Code",
+  "mentions_by_category": {
+   "harness": 5
+  },
+  "description": "Open-source agentic coding extension for VS Code and JetBrains IDEs (plus CLI) from Kilo, with access to many models.",
+  "vendor": "Kilo",
+  "website": "https://kilo.ai",
+  "harness_type": "third_party",
+  "examples": [
+   "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff",
+   "I install the KILO plugin to use as harness",
+   "I am using Kilo Code (https://kilo.ai) extension on VSCodium"
+  ]
+ },
+ {
+  "name": "Perplexity",
+  "mentions_by_category": {
+   "subscription": 5
+  },
+  "description": "Perplexity's AI answer engine and its Pro/Max subscriptions, which include multi-model access and the Perplexity Computer agent.",
+  "vendor": "Perplexity AI",
+  "website": "https://www.perplexity.ai",
+  "harness_type": null,
+  "examples": [
+   "I evaluated using Perplexity Pro for a while",
+   "Perplexity Pro $17/month",
+   "You're not the only one using Perplexity Pro at $17 per month"
+  ]
+ },
+ {
+  "name": "LM Studio",
+  "mentions_by_category": {
+   "api_or_model": 4
+  },
+  "description": "Desktop app for discovering, downloading and running local LLMs, with a built-in chat UI and a local OpenAI-compatible server.",
+  "vendor": "Element Labs (LM Studio)",
+  "website": "https://lmstudio.ai",
+  "harness_type": null,
+  "examples": [
+   "LM Studio",
+   "sometimes i connect to lm-studio",
+   "Ollama or LM Studio on the same machine"
+  ]
+ },
+ {
+  "name": "Goose",
+  "mentions_by_category": {
+   "harness": 4
+  },
+  "description": "Open-source, extensible AI agent with desktop app and CLI that works with any LLM; originally created by Block, now under the aaif-goose organization.",
+  "vendor": "Block / Agentic AI Foundation",
+  "website": "https://goose-docs.ai",
+  "harness_type": "third_party",
+  "examples": [
+   "I tried goose",
+   "At home I really like goose (TUI)",
+   "I am using Goose (https://goose-docs.ai) with OpenRouter"
+  ]
+ },
+ {
+  "name": "cmux",
+  "mentions_by_category": {
+   "orchestration": 4
+  },
+  "description": "Open-source Ghostty-based native macOS terminal for running multiple AI coding agents, with vertical workspace tabs, notifications when agents need input, and a CLI/socket API.",
+  "vendor": "Manaflow",
+  "website": "https://cmux.com",
+  "harness_type": "third_party",
+  "examples": [
+   "CMUX",
+   "CMUX with folders per project",
+   "I have been using cmux for a year before transitioning to Rex."
+  ]
+ },
+ {
+  "name": "Aider",
+  "mentions_by_category": {
+   "harness": 4
+  },
+  "description": "Open-source AI pair-programming tool for the terminal that edits code in a git repo using many model providers.",
+  "vendor": "Paul Gauthier / Aider-AI",
+  "website": "https://aider.chat",
+  "harness_type": "third_party",
+  "examples": [
+   "I use Aider for programming",
+   "gone aider, MetaGPT, gemini, pi, claude",
+   "I used Aider before Claude Code’s beta"
+  ]
+ },
+ {
+  "name": "Instinct",
+  "mentions_by_category": {
+   "platform": 4
+  },
+  "description": "Instinct, an invite-only personal AI agent that you text over iMessage/SMS to handle errands like bookings, email and planning, with its own email address and group-chat support.",
+  "vendor": "Instinct",
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "I use free instinct bot too",
+   "instinct: super simple tasks",
+   "Dots and Instinct"
+  ]
+ },
+ {
+  "name": "Gemini CLI",
+  "mentions_by_category": {
+   "harness": 4
+  },
+  "description": "Google's open-source terminal coding agent for Gemini models.",
+  "vendor": "Google",
+  "website": "https://geminicli.com",
+  "harness_type": "first_party",
+  "examples": [
+   "gone aider, MetaGPT, gemini, pi, claude",
+   "claude/codex/gemini",
+   "I also tried the Google and Anthropic CLI ones very early on"
+  ]
+ },
+ {
+  "name": "AWS Bedrock",
+  "mentions_by_category": {
+   "api_or_model": 4
+  },
+  "description": "Amazon Web Services' managed service for calling foundation models (Anthropic Claude, OpenAI, Meta, Mistral, Amazon Nova and others) through AWS APIs and billing.",
+  "vendor": "Amazon Web Services",
+  "website": "https://aws.amazon.com/bedrock/",
+  "harness_type": null,
+  "examples": [
+   "various models through Bedrock",
+   "Professionally I use an unlimited Claude via AWS Bedrock",
+   "At work I use AWS Bedrock w/ Anthropic + OpenAI models"
+  ]
+ },
+ {
+  "name": "VS Code",
+  "mentions_by_category": {
+   "harness": 4
+  },
+  "description": "Microsoft's open-source code editor, used here as the host for AI agents (Copilot, Claude Code, Cline etc.) and extensions.",
+  "vendor": "Microsoft",
+  "website": "https://code.visualstudio.com",
+  "harness_type": "third_party",
+  "examples": [
+   "I use VScode and claude code",
+   "in VS Code",
+   "VSCode + OpenRouter"
+  ]
+ },
+ {
+  "name": "Mercury",
+  "mentions_by_category": {
+   "api_or_model": 3
+  },
+  "description": "Inception's Mercury family of diffusion LLMs, which generate tokens in parallel for very high throughput; Mercury 3 (Oct 2026) is a closed-weights model available via Inception's API, OpenRouter and others.",
+  "vendor": "Inception",
+  "website": "https://www.inceptionlabs.ai",
+  "harness_type": null,
+  "examples": [
+   "mercury 3",
+   "I find mercury is very good at reading quickly",
+   "that I use for Mercury 3 at this point"
+  ]
+ },
+ {
+  "name": "Nemotron",
+  "mentions_by_category": {
+   "api_or_model": 3
+  },
+  "description": "NVIDIA's family of open-weight LLMs, e.g. Nemotron 3.5 Super VL 120B-A12B and Nemotron 3.5 Bolt 74B-A9B (Oct 2026), a 2-bit-quantized MoE built for local agents.",
+  "vendor": "NVIDIA",
+  "website": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/",
+  "harness_type": null,
+  "examples": [
+   "experimenting with Nemotron Bolt 74B-9B",
+   "nemotron-3.5.-super-vl.120b-a12b",
+   "Nemotron does the time insensitive stuff"
+  ]
+ },
+ {
+  "name": "Maki",
+  "mentions_by_category": {
+   "harness": 3
+  },
+  "description": "Open-source (MIT) Rust terminal coding agent by Tony Solomonik focused on low context usage (tree-sitter index, sandboxed code execution), extendable with Lua plugins; supports many providers and ACP.",
+  "vendor": "Tony Solomonik (tontinton)",
+  "website": "https://maki.sh",
+  "harness_type": "third_party",
+  "examples": [
+   "Maki[3], although quite customised",
+   "Maki as my harness",
+   "maki is great one"
+  ]
+ },
+ {
+  "name": "Devin",
+  "mentions_by_category": {
+   "harness": 3
+  },
+  "description": "Cognition's autonomous AI software engineer, used through a web app (with IDE/desktop and Slack integrations).",
+  "vendor": "Cognition",
+  "website": "https://devin.ai",
+  "harness_type": "third_party",
+  "examples": [
+   "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff",
+   "Using Codex/GPT and Devin",
+   "devin"
+  ]
+ },
+ {
+  "name": "Strata",
+  "mentions_by_category": {
+   "api_or_model": 3
+  },
+  "description": "MIT-licensed local inference engine (built on llama.cpp/ggml) that runs the 125B Qwen3.8-Flash-Next on consumer PCs by splitting work across GPU, RAM, CPU and SSD, with OpenAI/Anthropic-compatible local APIs.",
+  "vendor": "Niko1221",
+  "website": "https://github.com/Niko1221/Strata",
+  "harness_type": null,
+  "examples": [
+   "via Strata",
+   "Qwen 3.8 Flash Next, Strata, and OpenCode/OpenChamber",
+   "through Strata"
+  ]
+ },
+ {
+  "name": "OpenRig",
+  "mentions_by_category": {
+   "orchestration": 3
+  },
+  "description": "Open-source tool for building persistent teams of Claude Code, Codex and Pi agents with roles, shared context and owned work, running in tmux.",
+  "vendor": "Mike Schwarz (mvschwarz)",
+  "website": "https://openrig.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "my new favorite, OpenRig",
+   "On my saas projects I've done with openrig",
+   "Orchestration: OpenRig"
+  ]
+ },
+ {
+  "name": "Kimi Code",
+  "mentions_by_category": {
+   "harness": 3
+  },
+  "description": "Moonshot AI's open-source terminal coding agent (Kimi Code CLI, successor to Kimi CLI) for Kimi models.",
+  "vendor": "Moonshot AI",
+  "website": "https://www.kimi.com/code/docs/",
+  "harness_type": "first_party",
+  "examples": [
+   "I'm using Codex, Claude Code, Kimi Code for different things",
+   "I run Claude Code, Codex, Pi and Kimi Code",
+   "Kimi CLI"
+  ]
+ },
+ {
+  "name": "Parakeet",
+  "mentions_by_category": {
+   "api_or_model": 3
+  },
+  "description": "NVIDIA's Parakeet family of open speech-recognition (ASR) models, commonly run locally for speech-to-text (e.g. via Handy or ONNX).",
+  "vendor": "NVIDIA",
+  "website": "https://huggingface.co/nvidia",
+  "harness_type": null,
+  "examples": [
+   "parakeet-ulta for ASR",
+   "patching onnx myself to run parakeet model",
+   "local voice-to-text w/Parakeet Unified EN 0.6B via Handy"
+  ]
+ },
+ {
+  "name": "Muse Code",
+  "mentions_by_category": {
+   "harness": 3
+  },
+  "description": "Meta's terminal coding agent powered by its Muse Spark models, launched August 2026 with plans from $5/month.",
+  "vendor": "Meta",
+  "website": "https://developer.meta.com/ai/lp/muse-code/",
+  "harness_type": "first_party",
+  "examples": [
+   "I use Muse Code $5 month",
+   "I've tried muse, grok, gemini, codex, and pi w/ openrouter",
+   "Muse CLI"
+  ]
+ },
+ {
+  "name": "MiMo",
+  "mentions_by_category": {
+   "api_or_model": 2
+  },
+  "description": "Xiaomi's MiMo family of LLMs (e.g. MiMo-V2.6-Flash), offered as open weights and via API.",
+  "vendor": "Xiaomi",
+  "website": "https://huggingface.co/XiaomiMiMo",
+  "harness_type": null,
+  "examples": [
+   "mimo 2.6 flash and glm 5.3 flash seem to finally be cheaper",
+   "mimo-v2.6-flash"
+  ]
+ },
+ {
+  "name": "Cloud agents",
+  "mentions_by_category": {
+   "orchestration": 1,
+   "platform": 1
+  },
+  "description": "Generic bucket for cloud-hosted coding agents that run in isolated remote environments (e.g. vendor cloud/background agents) or on schedules; the specific service was not named.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "If I've got 5 agents going at once, each is in their own dedicated, isolated cloud environment",
+   "I also use cloud agents to setup reoccurring jobs"
+  ]
+ },
+ {
+  "name": "Ctlflow",
+  "mentions_by_category": {
+   "orchestration": 1,
+   "platform": 1
+  },
+  "description": "System for running a self-defined fleet of AI agents locally that people talk to through Matrix chat rooms, with a server (crossfire), local controller (fleetd) and CLI (fleet).",
+  "vendor": "Jeswin P Kumar",
+  "website": "https://www.ctlflow.com",
+  "harness_type": null,
+  "examples": [
+   "This lets me run dozens of agents on tasks like equity analysis.",
+   "now I just use ctlflow.com"
+  ]
+ },
+ {
+  "name": "3code",
+  "mentions_by_category": {
+   "harness": 2
+  },
+  "description": "Open-source single-binary command-line coding agent by Carlo Capocasa, focused on token economy (chunked mode, goal files) and built-in sandboxing.",
+  "vendor": "Carlo Capocasa",
+  "website": "https://3code.capocasa.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "Ended up with 3code right now",
+   "I now switched to https://github.com/capocasa/3code"
+  ]
+ },
+ {
+  "name": "Exa",
+  "mentions_by_category": {
+   "api_or_model": 2
+  },
+  "description": "Web search API built for AI applications and agents, returning search results and page contents.",
+  "vendor": "Exa",
+  "website": "https://exa.ai",
+  "harness_type": null,
+  "examples": [
+   "exa for searching",
+   "Exa for web search"
+  ]
+ },
+ {
+  "name": "DeepInfra",
+  "mentions_by_category": {
+   "api_or_model": 2
+  },
+  "description": "Pay-per-token cloud inference provider hosting many open-weight models (DeepSeek, Qwen, Llama, etc.) behind an OpenAI-compatible API.",
+  "vendor": "DeepInfra",
+  "website": "https://deepinfra.com",
+  "harness_type": null,
+  "examples": [
+   "cheap models on DeepInfra",
+   "DS v4.1 Flash @ deepinfra.com"
+  ]
+ },
+ {
+  "name": "Whisper",
+  "mentions_by_category": {
+   "api_or_model": 2
+  },
+  "description": "OpenAI's open-source speech-recognition model, widely run locally (e.g. via whisper.cpp) for transcription.",
+  "vendor": "OpenAI",
+  "website": "https://github.com/openai/whisper",
+  "harness_type": null,
+  "examples": [
+   "I do use local specialty models for Whisper and Chatterbox",
+   "auxiliary services like whisper"
+  ]
+ },
+ {
+  "name": "Conductor",
+  "mentions_by_category": {
+   "orchestration": 2
+  },
+  "description": "Mac app for running parallel Claude Code, Codex and Cursor agents in isolated git-worktree workspaces and reviewing/merging their changes, by Melty Labs.",
+  "vendor": "Melty Labs",
+  "website": "https://www.conductor.build",
+  "harness_type": "third_party",
+  "examples": [
+   "I'm currently using https://www.conductor.build/",
+   "Workspace orchestration: Conductor.build (RIP)"
+  ]
+ },
+ {
+  "name": "Amp",
+  "mentions_by_category": {
+   "harness": 2
+  },
+  "description": "Agentic coding tool from Amp (spun out of Sourcegraph), available as a CLI and editor extension, with cloud runners.",
+  "vendor": "Amp (Sourcegraph)",
+  "website": "https://ampcode.com",
+  "harness_type": "third_party",
+  "examples": [
+   "Separately I'm evaluating https://ampcode.com/",
+   "rapidly increasing use of Amp"
+  ]
+ },
+ {
+  "name": "CodeBuddy",
+  "mentions_by_category": {
+   "subscription": 1,
+   "harness": 1
+  },
+  "description": "Tencent's AI coding assistant, offered as an IDE, editor plugins and CLI with free and Pro tiers and access to multiple models.",
+  "vendor": "Tencent",
+  "website": "https://www.codebuddy.ai",
+  "harness_type": "third_party",
+  "examples": [
+   "Codebuddy pro about $10",
+   "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff"
+  ]
+ },
+ {
+  "name": "Mistral Vibe",
+  "mentions_by_category": {
+   "harness": 2
+  },
+  "description": "Mistral AI's minimal open-source terminal coding agent for Mistral (and other) models.",
+  "vendor": "Mistral AI",
+  "website": "https://mistral.ai",
+  "harness_type": "first_party",
+  "examples": [
+   "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff",
+   "using mistral vibe to use GLM5.3 and Lechonk models"
+  ]
+ },
+ {
+  "name": "JetBrains Thinkrail",
+  "mentions_by_category": {
+   "harness": 2
+  },
+  "description": "JetBrains incubator project: an open-source agentic IDE (desktop and mobile) built as a thin layer around the pi coding agent, with per-chat git worktrees and SPEC.md-based project memory.",
+  "vendor": "JetBrains",
+  "website": "https://thinkrail.ai",
+  "harness_type": "third_party",
+  "examples": [
+   "I tried JetBrains experimental agent IDE, ThinkRail, and I love it",
+   "JetBrains Thinkrail"
+  ]
+ },
+ {
+  "name": "OpenChamber",
+  "mentions_by_category": {
+   "harness": 2
+  },
+  "description": "Open-source fan-made desktop, web/PWA and VS Code interface for the OpenCode agent.",
+  "vendor": "OpenChamber (community)",
+  "website": "https://openchamber.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "open chamber ui",
+   "the OpenChamber app is awesome"
+  ]
+ },
+ {
+  "name": "NodeCode",
+  "mentions_by_category": {
+   "harness": 2
+  },
+  "description": "Open-source self-modifying agent written in Common Lisp (SBCL) that runs as one long-lived process with a single 'evaluate Lisp' tool.",
+  "vendor": "nodecode-ai",
+  "website": "https://nodecode.ai",
+  "harness_type": "third_party",
+  "examples": [
+   "nodecode + dirge + deepseek superagent harness",
+   "I'll be trying it out as soon as I can get some time"
+  ]
+ },
+ {
+  "name": "DeepSeek Superagent",
+  "mentions_by_category": {
+   "harness": 1,
+   "orchestration": 1
+  },
+  "description": "DeepSeek's open-source research prototype of an autonomous Router/Worker 'super-agent' built on DeepSeek Harness that responds to and fixes issues in a repository; published October 2026.",
+  "vendor": "DeepSeek",
+  "website": "https://deepseek.com/harness",
+  "harness_type": "first_party",
+  "examples": [
+   "nodecode + dirge + deepseek superagent harness",
+   "4) deepseek superagent harness"
+  ]
+ },
+ {
+  "name": "NanoClaw",
+  "mentions_by_category": {
+   "platform": 2
+  },
+  "description": "Lightweight open-source alternative to OpenClaw that runs agents in isolated containers on the Claude Agent SDK and connects to WhatsApp, Telegram, Slack and other messengers.",
+  "vendor": "Qwibit AI",
+  "website": "https://nanoclaw.dev",
+  "harness_type": null,
+  "examples": [
+   "I do have a nanoclaw setup a while ago",
+   "Tried NanoClaw"
+  ]
+ },
+ {
+  "name": "JetBrains AI / Junie",
+  "mentions_by_category": {
+   "harness": 2
+  },
+  "description": "JetBrains' AI Assistant and Junie coding agent integrated into JetBrains IDEs.",
+  "vendor": "JetBrains",
+  "website": "https://www.jetbrains.com/junie/",
+  "harness_type": "third_party",
+  "examples": [
+   "I primarily use Zed and JetBrains IDEs",
+   "I tried IDE integrations with Jetbrains for a few months and hated it"
+  ]
+ },
+ {
+  "name": "MiniMax",
+  "mentions_by_category": {
+   "api_or_model": 2
+  },
+  "description": "Chinese AI lab MiniMax and its models: MiniMax-M LLMs (some open-weight) plus image/video generation models (e.g. Hailuo), available via API.",
+  "vendor": "MiniMax",
+  "website": "https://www.minimax.io",
+  "harness_type": null,
+  "examples": [
+   "minimax-m3.1-flash",
+   "moss-image/minimax h3"
+  ]
+ },
+ {
+  "name": "Atlas Cloud",
+  "mentions_by_category": {
+   "api_or_model": 2
+  },
+  "description": "Pay-as-you-go inference platform offering an OpenAI-compatible API for many models, including the DeepSeek lineup.",
+  "vendor": "Atlas Cloud",
+  "website": "https://www.atlascloud.ai",
+  "harness_type": null,
+  "examples": [
+   "Atlas and OpenRouter pay-as-you-go",
+   "DeepSeek via atlascloud"
+  ]
+ },
+ {
+  "name": "Warp",
+  "mentions_by_category": {
+   "harness": 2
+  },
+  "description": "Agentic development environment built around a modern terminal, with built-in agents, from Warp.",
+  "vendor": "Warp",
+  "website": "https://warp.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "from opencode, warp, paseo, orca",
+   "I used to use Warp"
+  ]
+ },
+ {
+  "name": "Gas Town",
+  "mentions_by_category": {
+   "orchestration": 2
+  },
+  "description": "Steve Yegge's open-source multi-agent workspace manager for coordinating many Claude Code-style agents on a codebase.",
+  "vendor": "Steve Yegge / Gas Town Hall",
+  "website": null,
+  "harness_type": "third_party",
+  "examples": [
+   "openclaw, gas town, munder difflin etc",
+   "have tried GasTown, its horrible imo"
+  ]
+ },
+ {
+  "name": "Open WebUI",
+  "mentions_by_category": {
+   "harness": 2
+  },
+  "description": "Open-source, self-hostable web chat interface for Ollama and OpenAI-compatible APIs, extensible with plugins.",
+  "vendor": "Open WebUI",
+  "website": "https://openwebui.com",
+  "harness_type": "chat_app",
+  "examples": [
+   "I use self hosted Open WebUI",
+   "or Open WebUI"
+  ]
+ },
+ {
+  "name": "CLI harness (unspecified)",
+  "mentions_by_category": {
+   "harness": 2
+  },
+  "description": "Bucket for unspecified terminal coding agents (vendor CLIs) without a named product.",
+  "vendor": null,
+  "website": null,
+  "harness_type": "custom",
+  "examples": [
+   "CLI harnesses",
+   "cli harnesses for coding"
+  ]
+ },
+ {
+  "name": "Raven",
+  "mentions_by_category": {
+   "orchestration": 2
+  },
+  "description": "EverMind AI's open-source 'harness of harnesses' that plans tasks as a dependency graph and delegates nodes to its own agents or to third-party harnesses like Claude Code and Codex (via ACP/CLI/APIs); pre-alpha.",
+  "vendor": "EverMind AI",
+  "website": "https://raven.evermind.ai",
+  "harness_type": "third_party",
+  "examples": [
+   "I'm currently on Raven as a sort of \"meta harness\"",
+   "codex under raven"
+  ]
+ },
+ {
+  "name": "Duet",
+  "mentions_by_category": {
+   "platform": 2
+  },
+  "description": "Claude Duet, Anthropic's proactive always-on agent app (research preview from October 2026, waitlist invitations for US Pro/Max users) that monitors connected apps and works on tasks in the background.",
+  "vendor": "Anthropic",
+  "website": "https://claude.com",
+  "harness_type": null,
+  "examples": [
+   "Waiting on a Duet invitation",
+   "I currently use Dots and Duet for little things"
+  ]
+ },
+ {
+  "name": "Juggler",
+  "mentions_by_category": {
+   "orchestration": 1,
+   "harness": 1
+  },
+  "description": "Open-source desktop/browser workbench for AI coding agents by Julian Storer (creator of JUCE), with tree-structured persistent sessions and a headless server for remote machines; vendor-neutral.",
+  "vendor": "Juggler (Julian Storer)",
+  "website": "https://juggler.studio",
+  "harness_type": "third_party",
+  "examples": [
+   "I run Juggler",
+   "I'm using https://github.com/juggler-ai/juggler"
+  ]
+ },
+ {
+  "name": "Argon",
+  "mentions_by_category": {
+   "api_or_model": 2
+  },
+  "description": "Gemini 4 Argon, Google's flagship Gemini 4 reasoning model announced Sept 30, 2026 and broadly available via API, Gemini app and Antigravity from Oct 13, 2026.",
+  "vendor": "Google",
+  "website": "https://ai.google.dev",
+  "harness_type": null,
+  "examples": [
+   "I’m giving Argon a try",
+   "I tried Argon but it really didn’t work for me"
+  ]
+ },
+ {
+  "name": "Jev",
+  "mentions_by_category": {
+   "api_or_model": 2
+  },
+  "description": "TypeSafe AI's non-generative 'decision model': it takes a state plus typed questions (boolean, choice, score) and returns answers with probabilities instead of text; hosted closed-weight API, launched Sept 2026.",
+  "vendor": "TypeSafe AI",
+  "website": "https://typesafe.ai",
+  "harness_type": null,
+  "examples": [
+   "+ Deepseek + JEV",
+   "previously used Jev"
+  ]
+ },
+ {
+  "name": "Various API providers",
+  "mentions_by_category": {
+   "api_or_model": 2
+  },
+  "description": "Bucket for unspecified pay-per-token API endpoints from assorted providers.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "I also use a few pay per token endpoints from various providers",
+   "+ API usage, <$100 total"
+  ]
+ },
+ {
+  "name": "Kilo Credits",
+  "mentions_by_category": {
+   "api_or_model": 2
+  },
+  "description": "Prepaid credits for Kilo Code's Kilo Gateway, which gives access to 500+ models at provider list prices on one bill.",
+  "vendor": "Kilo Code",
+  "website": "https://kilo.ai",
+  "harness_type": null,
+  "examples": [
+   "with Kilo credits that gives access to hundreds of models at API pricing",
+   "I'm doing that just to use a number of models without needing to manage separate accounts for the model providers"
+  ]
+ },
+ {
+  "name": "OpenBot",
+  "mentions_by_category": {
+   "platform": 2
+  },
+  "description": "Open-source, self-hosted platform for running a team of AI bots with tools, long-term memory and persistent inboxes in shared threads; created by GitHub user regnull as an open alternative to Grok Bot.",
+  "vendor": "regnull",
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "my attempt to create an open-source tool similar to Grok Bot",
+   "Made a OpenBot fork mainly as \"captains\" to control my t3 threads"
+  ]
+ },
+ {
+  "name": "agent-swarm.dev",
+  "mentions_by_category": {
+   "orchestration": 1,
+   "platform": 1
+  },
+  "description": "Agent Swarm: MIT-licensed, self-hostable multi-agent system where a lead agent delegates goals to worker agents such as Claude Code or Codex; a paid hosted cloud version also exists. By Desplega Labs.",
+  "vendor": "Desplega Labs",
+  "website": "https://agent-swarm.dev",
+  "harness_type": null,
+  "examples": [
+   "We use agent-swarm.dev (self-hosted OSS MIT)",
+   "5. See 4 :D"
+  ]
+ },
+ {
+  "name": "NVIDIA NIM",
+  "mentions_by_category": {
+   "api_or_model": 2
+  },
+  "description": "NVIDIA's inference microservices and hosted API catalog (build.nvidia.com), which includes free-tier access to many open models.",
+  "vendor": "NVIDIA",
+  "website": "https://build.nvidia.com",
+  "harness_type": null,
+  "examples": [
+   "nvidia nim",
+   "Nvivia NIM free tier models"
+  ]
+ },
+ {
+  "name": "Llama",
+  "mentions_by_category": {
+   "api_or_model": 2
+  },
+  "description": "Meta's family of open-weight LLMs (e.g. Llama 3.3), commonly run locally via Ollama or llama.cpp.",
+  "vendor": "Meta",
+  "website": "https://www.llama.com",
+  "harness_type": null,
+  "examples": [
+   "tried some llama stuff",
+   "Ollama (llama3.3) for local/offline work"
+  ]
+ },
+ {
+  "name": "LangGraph",
+  "mentions_by_category": {
+   "orchestration": 2
+  },
+  "description": "LangChain's open-source framework for building stateful, graph-structured LLM agents and multi-agent workflows.",
+  "vendor": "LangChain",
+  "website": "https://www.langchain.com/langgraph",
+  "harness_type": null,
+  "examples": [
+   "settled on LangGraph for anything serious",
+   "running a mix of LangGraph and CrewAI for internal tooling"
+  ]
+ },
+ {
+  "name": "Collie",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source iOS app for remotely controlling Herdr-managed coding agents (used over Tailscale).",
+  "vendor": "rbstp",
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "Collie for mobile access"
+  ]
+ },
+ {
+  "name": "Abliterated models",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Bucket for 'abliterated' open-weight models, i.e. community variants with refusal behavior removed via weight editing, used e.g. for red teaming.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "abliterated large v2 for red teaming"
+  ]
+ },
+ {
+  "name": "ZeroStack",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Lightweight open-source coding agent written in Rust by gi-dellav, optimized for low memory use, with multiple providers, prompt modes, worktrees and ACP support.",
+  "vendor": "gi-dellav",
+  "website": "https://gi-dellav.github.io/zerostack/",
+  "harness_type": "third_party",
+  "examples": [
+   "Also used by ZeroStack[1], which I quite like"
+  ]
+ },
+ {
+  "name": "Pendant",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Unidentified; mentioned once as something a commenter was trying alongside Pi via Paseo, likely an agent client/harness.",
+  "vendor": null,
+  "website": null,
+  "harness_type": "third_party",
+  "examples": [
+   "(and trying Pendant)"
+  ]
+ },
+ {
+  "name": "Osaurus",
+  "mentions_by_category": {
+   "platform": 1
+  },
+  "description": "Osaurus, an open-source native macOS (Apple Silicon) app for running local and cloud AI models with agents, memory and tools on your Mac.",
+  "vendor": "Osaurus (osaurus-ai)",
+  "website": "https://osaurus.ai",
+  "harness_type": null,
+  "examples": [
+   "I did some experiments with Osaurus"
+  ]
+ },
+ {
+  "name": "Contextify",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "macOS companion app for Claude Code and Codex CLI that monitors coding sessions with a timeline and LLM summaries, letting past session context be reused.",
+  "vendor": "Peter Pym",
+  "website": "https://contextify.sh",
+  "harness_type": null,
+  "examples": [
+   "contextify to share past sessions between them"
+  ]
+ },
+ {
+  "name": "Open Agent Harness (OAH)",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source multi-agent development harness for macOS and Windows that coordinates Claude Code and Codex, with file leases and task history.",
+  "vendor": "Ken Suh",
+  "website": "https://oah.rodeo",
+  "harness_type": "third_party",
+  "examples": [
+   "I maintain it as a free open source CLI"
+  ]
+ },
+ {
+  "name": "TensorX",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Dublin-based European inference provider offering zero-retention, OpenAI-compatible API access to 50+ open-source models on its own NVIDIA GPUs.",
+  "vendor": "TensorX",
+  "website": "https://tensorx.ai",
+  "harness_type": null,
+  "examples": [
+   "I was on tensorx.ai first"
+  ]
+ },
+ {
+  "name": "OpenCode swarm plugins",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Generic bucket for community plugins that add multi-agent/swarm orchestration to the OpenCode coding agent.",
+  "vendor": null,
+  "website": "https://opencode.ai",
+  "harness_type": null,
+  "examples": [
+   "I tried some of the opencode swarm plugins"
+  ]
+ },
+ {
+  "name": "yaac",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source tool by the commenter that auto-containerizes coding agents (gVisor containers) and provides inter-agent orchestration.",
+  "vendor": "bsklaroff",
+  "website": "https://yaac.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "I built something which auto-containerizes the agents for you"
+  ]
+ },
+ {
+  "name": "Letta",
+  "mentions_by_category": {
+   "platform": 1
+  },
+  "description": "Letta (formerly MemGPT), an open-source platform and cloud service for building stateful agents with long-term memory.",
+  "vendor": "Letta",
+  "website": "https://www.letta.com",
+  "harness_type": null,
+  "examples": [
+   "I tried OpenClaw and Letta"
+  ]
+ },
+ {
+  "name": "Entrim",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Serverless inference provider offering an OpenAI-compatible API for open models with low per-token pricing.",
+  "vendor": "Entrim",
+  "website": "https://entrim.ai",
+  "harness_type": null,
+  "examples": [
+   "use Entrim pay-as-you-go API"
+  ]
+ },
+ {
+  "name": "LiteLLM",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Open-source Python SDK and proxy server that exposes 100+ LLM providers through one OpenAI-compatible interface, with keys, budgets and logging.",
+  "vendor": "BerriAI",
+  "website": "https://www.litellm.ai",
+  "harness_type": null,
+  "examples": [
+   "I think it's litellm and a big enough nvidia card"
+  ]
+ },
+ {
+  "name": "Hax",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Minimalist open-source (MIT) terminal-native coding agent written in C by Oleksandr Chekhovskyi.",
+  "vendor": "Oleksandr Chekhovskyi",
+  "website": "https://usehax.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "Hax harness"
+  ]
+ },
+ {
+  "name": "Rakazo",
+  "mentions_by_category": {
+   "platform": 1
+  },
+  "description": "Rakazo, an open-source (Apache 2.0) self-hosted platform for persistent AI bots that sign into your tools and complete tasks with sandboxed browser/shell, memory and routines; built by Inbox Zero as an open alternative to Grok Bot.",
+  "vendor": "Inbox Zero Inc.",
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "Just gave Rakazo a try yesterday"
+  ]
+ },
+ {
+  "name": "Command Code",
+  "mentions_by_category": {
+   "subscription": 1
+  },
+  "description": "Command Code, a terminal-first AI coding agent from Langbase with low-cost model plans; GOAT is its $10/month tier with credits across many open and closed coding models.",
+  "vendor": "Langbase, Inc.",
+  "website": "https://commandcode.ai",
+  "harness_type": null,
+  "examples": [
+   "I use OpenCode Go and Command Code GOAT"
+  ]
+ },
+ {
+  "name": "FreeBuff",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Free, ad-supported terminal coding agent from the Codebuff team (YC F24) using open models.",
+  "vendor": "Codebuff",
+  "website": "https://freebuff.com",
+  "harness_type": "third_party",
+  "examples": [
+   "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff"
+  ]
+ },
+ {
+  "name": "Requesty",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Hosted LLM router/gateway giving one API across many model providers, with routing, fallbacks and cost tracking.",
+  "vendor": "Requesty",
+  "website": "https://www.requesty.ai",
+  "harness_type": null,
+  "examples": [
+   "connect to Requesty for my hobby projects"
+  ]
+ },
+ {
+  "name": "Discount provider (unnamed)",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Bucket for an unnamed third-party API reseller the commenter said offers about a 2/3 discount on model pricing.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "found a discount provider that offers a 2/3 discount"
+  ]
+ },
+ {
+  "name": "Agenta",
+  "mentions_by_category": {
+   "platform": 1
+  },
+  "description": "Agenta, an open-source LLMOps platform for prompt management, evaluation and observability of LLM applications; the commenter's own product.",
+  "vendor": "Agenta",
+  "website": "https://agenta.ai",
+  "harness_type": null,
+  "examples": [
+   "I mainly use Agenta"
+  ]
+ },
+ {
+  "name": "Kagi",
+  "mentions_by_category": {
+   "subscription": 1
+  },
+  "description": "Kagi, a paid ad-free search engine; the Ultimate plan adds the Kagi Assistant with access to multiple LLMs.",
+  "vendor": "Kagi Inc.",
+  "website": "https://kagi.com",
+  "harness_type": null,
+  "examples": [
+   "1) Kagi Ultimate."
+  ]
+ },
+ {
+  "name": "MetaGPT",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Open-source multi-agent framework that simulates a software company of LLM roles; from FoundationAgents/DeepWisdom.",
+  "vendor": "FoundationAgents (DeepWisdom)",
+  "website": "https://atoms.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "gone aider, MetaGPT, gemini, pi, claude"
+  ]
+ },
+ {
+  "name": "Dirge",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Minimal open-source Rust coding agent inspired by pi, opencode and maki, with role-based multi-provider routing, persistent memory and safeguards for cheaper models.",
+  "vendor": "dirge-code",
+  "website": "https://docs.rs/crate/dirge-agent",
+  "harness_type": "third_party",
+  "examples": [
+   "nodecode + dirge + deepseek superagent harness"
+  ]
+ },
+ {
+  "name": "Baseten",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Cloud inference platform for deploying and serving models, including hosted APIs for popular open-weight LLMs.",
+  "vendor": "Baseten",
+  "website": "https://www.baseten.co",
+  "harness_type": null,
+  "examples": [
+   "tried inference services such as baseten and novita"
+  ]
+ },
+ {
+  "name": "Novita",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Novita AI, a cloud provider offering pay-per-token APIs for open-weight LLMs plus GPU instances.",
+  "vendor": "Novita AI",
+  "website": "https://novita.ai",
+  "harness_type": null,
+  "examples": [
+   "tried inference services such as baseten and novita"
+  ]
+ },
+ {
+  "name": "MTPLX",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Apache-2.0 MLX-based runtime (Mac app and CLI) for Apple Silicon that speeds local inference using a model's built-in multi-token-prediction heads for speculative decoding, with an OpenAI-compatible server.",
+  "vendor": "Youssofal",
+  "website": "https://pypi.org/project/mtplx/",
+  "harness_type": null,
+  "examples": [
+   "serving with MTPLX"
+  ]
+ },
+ {
+  "name": "Together",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Together AI, a cloud platform offering pay-per-token APIs for open-weight models plus fine-tuning and GPU clusters.",
+  "vendor": "Together AI",
+  "website": "https://www.together.ai",
+  "harness_type": null,
+  "examples": [
+   "I have API usage via Together"
+  ]
+ },
+ {
+  "name": "IFM K2 Horizon",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "K2 Horizon, a family of fully open models from MBZUAI's Institute of Foundation Models (IFM); the 7B is a dense Apache-2.0 model with 512K context aimed at agentic coding, released Sept 2026.",
+  "vendor": "MBZUAI Institute of Foundation Models",
+  "website": "https://huggingface.co/IFM",
+  "harness_type": null,
+  "examples": [
+   "IFM K2 Horizon 7B with speculative decoding"
+  ]
+ },
+ {
+  "name": "Helyn Implement",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Unidentified; the commenter describes it as a multi-model agentic protocol/workflow used for coding. No public product found.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "Helyn Implement for coding"
+  ]
+ },
+ {
+  "name": "gpt-oss",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "OpenAI's open-weight models gpt-oss-120b and gpt-oss-20b (Apache 2.0), often run locally.",
+  "vendor": "OpenAI",
+  "website": "https://openai.com/index/introducing-gpt-oss/",
+  "harness_type": null,
+  "examples": [
+   "gpt-oss:120b"
+  ]
+ },
+ {
+  "name": "Kokoro",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Kokoro-82M, a small open-weight text-to-speech model popular for local TTS.",
+  "vendor": "hexgrad",
+  "website": "https://huggingface.co/hexgrad/Kokoro-82M",
+  "harness_type": null,
+  "examples": [
+   "bespoke g2p with kokoro"
+  ]
+ },
+ {
+  "name": "Venice",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Venice.ai, a privacy-focused AI chat app and API for open models; staking its DIEM token yields $1/day of API credit per token.",
+  "vendor": "Venice.ai",
+  "website": "https://venice.ai",
+  "harness_type": null,
+  "examples": [
+   "I use Venice.ai with its DIEM token"
+  ]
+ },
+ {
+  "name": "OpenHands",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Open-source AI software-development agent platform (formerly OpenDevin) with CLI, local GUI and cloud versions.",
+  "vendor": "All Hands AI",
+  "website": "https://openhands.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "yes i tested openhands, hermes, etc..."
+  ]
+ },
+ {
+  "name": "ZCode",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Z.ai (Zhipu AI)'s desktop coding-agent app for its GLM models, used with the GLM Coding Plan.",
+  "vendor": "Z.ai (Zhipu AI)",
+  "website": "https://docs.z.ai/devpack/tool/zcode",
+  "harness_type": "first_party",
+  "examples": [
+   "I use zcode as well rarely"
+  ]
+ },
+ {
+  "name": "Nous Research",
+  "mentions_by_category": {
+   "subscription": 1
+  },
+  "description": "Nous Research's Nous Portal subscription (Plus ~$20/month in credits) giving access to its Hermes models and hundreds of other models, used with the Hermes Agent.",
+  "vendor": "Nous Research",
+  "website": "https://portal.nousresearch.com",
+  "harness_type": null,
+  "examples": [
+   "I pay $20/month for Nous model access"
+  ]
+ },
+ {
+  "name": "Flux",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Black Forest Labs' FLUX family of text-to-image models, some with open weights, often run locally in ComfyUI.",
+  "vendor": "Black Forest Labs",
+  "website": "https://bfl.ai",
+  "harness_type": null,
+  "examples": [
+   "local ComfyUI + Flux + some LoRAs for image work"
+  ]
+ },
+ {
+  "name": "Munder Difflin",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source local multi-agent harness that runs an 'office' of Claude Code/Codex-style agents on your laptop or sandboxes using existing subscriptions.",
+  "vendor": "HarnessMD",
+  "website": "https://munderdiffl.in",
+  "harness_type": "third_party",
+  "examples": [
+   "openclaw, gas town, munder difflin etc"
+  ]
+ },
+ {
+  "name": "Muster",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source native macOS workspace for AI coding agents built on libghostty, with real splits, agent state at a glance, local and SSH agents, and sessions that outlive the app.",
+  "vendor": "amterp",
+  "website": null,
+  "harness_type": "third_party",
+  "examples": [
+   "crucially thru Muster[0]"
+  ]
+ },
+ {
+  "name": "Claude Cowork",
+  "mentions_by_category": {
+   "platform": 1
+  },
+  "description": "Claude Cowork, Anthropic's agent mode in the Claude desktop app (launched January 2026) that works on local files and connected apps to complete non-coding tasks.",
+  "vendor": "Anthropic",
+  "website": "https://claude.com",
+  "harness_type": null,
+  "examples": [
+   "ported my work to Claude Cowork"
+  ]
+ },
+ {
+  "name": "Scion",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Google Cloud's experimental open-source orchestrator that runs multiple coding agents (Claude Code, Gemini CLI, Codex) in parallel, each in its own container with separate credentials and git worktree.",
+  "vendor": "Google Cloud",
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "I've used Scion at work"
+  ]
+ },
+ {
+  "name": "OpenCode Big Pickle",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "'Big Pickle', a free stealth coding model served through OpenCode Zen (opencode/big-pickle); its underlying model is undisclosed.",
+  "vendor": "OpenCode (SST)",
+  "website": "https://opencode.ai/docs/zen",
+  "harness_type": null,
+  "examples": [
+   "OpenCode BigPickle and deepseek v1"
+  ]
+ },
+ {
+  "name": "clawpatrol",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Deno's open-source security firewall/proxy for AI agents that enforces action-approval rules and manages credentials.",
+  "vendor": "Deno",
+  "website": "https://clawpatrol.dev",
+  "harness_type": null,
+  "examples": [
+   "clawpatrol to manage action approvals rules"
+  ]
+ },
+ {
+  "name": "Paseo / Orca / Superset",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Group of 'harness aggregator' apps for running multiple coding agents in parallel: Paseo (desktop and mobile), Orca by Stably AI (desktop/mobile/remote, MIT) and Superset (superset.sh).",
+  "vendor": "Various",
+  "website": "https://paseo.sh",
+  "harness_type": "third_party",
+  "examples": [
+   "harness aggregators like Paseo, Orca and Superset"
+  ]
+ },
+ {
+  "name": "Other API models",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Bucket for unspecified additional models used via API keys for experimentation.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "I throw in other models in the mix when I want to play around"
+  ]
+ },
+ {
+  "name": "Other providers",
+  "mentions_by_category": {
+   "subscription": 1
+  },
+  "description": "Bucket for unspecified subscriptions to cheaper tiers of various other model providers.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "I also have subs to all other models as well. Cheaper tiers."
+  ]
+ },
+ {
+  "name": "Fizzy",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Kanban board app from 37signals/Basecamp, source-available and self-hostable; the commenter runs it locally to track and delegate work to agents.",
+  "vendor": "37signals (Basecamp)",
+  "website": "https://fizzy.do",
+  "harness_type": null,
+  "examples": [
+   "I use a locally running instance of Fizzy kanban board to manage and track all work"
+  ]
+ },
+ {
+  "name": "jotter (MCP)",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "A commenter's own small MCP server for handing off briefs between AI tools (Claude, ChatGPT, Gemini, Codex); not a public product.",
+  "vendor": "Commenter (personal project)",
+  "website": null,
+  "harness_type": "custom",
+  "examples": [
+   "i wrote a small MCP thing for it (jotter, mine)"
+  ]
+ },
+ {
+  "name": "API (work)",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Bucket for employer-paid, pay-per-token API usage at the commenter's day job (provider not specified).",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "At my day job I spend about $1000/mo at API prices"
+  ]
+ },
+ {
+  "name": "WanGP",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "WanGP (Wan2GP), an open-source low-VRAM web UI for local image/video generation models (Wan, Hunyuan Video, LTX, Flux, Qwen Image) with an internal API, by DeepBeepMeep.",
+  "vendor": "DeepBeepMeep",
+  "website": "https://github.com/deepbeepmeep/Wan2GP",
+  "harness_type": null,
+  "examples": [
+   "API operated locally through WanGP"
+  ]
+ },
+ {
+  "name": "Hangar",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source, self-hosted app that puts Claude Code, Codex, Pi, omp and Kimi Code agents in one place, on desktop and phone.",
+  "vendor": "jeffer1312",
+  "website": "https://hangar.dev.br",
+  "harness_type": "third_party",
+  "examples": [
+   "I built Hangar, open source and self-hosted"
+  ]
+ },
+ {
+  "name": "Command Center",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Commenter's own product; most likely Command Center, a desktop AI coding environment on top of Claude Code/Codex/OpenCode with review and parallel workspace management (founder Jimmy Koppel). Not definitively matched.",
+  "vendor": null,
+  "website": null,
+  "harness_type": "third_party",
+  "examples": [
+   "I'm the founder of Command Center"
+  ]
+ },
+ {
+  "name": "Bivia",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Articul8's multimodal 'decision model' available via API, returning calibrated typed decisions (choice, boolean, score, set, span) rather than generated text; positioned as a Jev competitor.",
+  "vendor": "Articul8",
+  "website": "https://www.articul8.ai",
+  "harness_type": null,
+  "examples": [
+   "APIs for Bivia (previously used Jev)"
+  ]
+ },
+ {
+  "name": "Pickle",
+  "mentions_by_category": {
+   "platform": 1
+  },
+  "description": "Likely Pickle (getpickle.ai), a startup offering AI clones/personal AI you can talk to, which the commenter uses to make calls while driving; exact product unverified.",
+  "vendor": "Pickle",
+  "website": "https://getpickle.ai",
+  "harness_type": null,
+  "examples": [
+   "Dots and Pickle to call while driving"
+  ]
+ },
+ {
+  "name": "Circus Chief",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source meta-harness for orchestrating Claude Code, OpenAI Codex and Gemini CLI agents, with subscription fallback tiers; published on npm.",
+  "vendor": "Lucas Ferris",
+  "website": "https://www.npmjs.com/package/circuschief",
+  "harness_type": "third_party",
+  "examples": [
+   "I use Circus Chief to orchestrate workflows"
+  ]
+ },
+ {
+  "name": "BYO API keys",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Bucket for users who bring their own API keys/credits to a tool rather than using a subscription.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "I bring my own API credits."
+  ]
+ },
+ {
+  "name": "Luna",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Most likely OpenAI's GPT-6 Luna, the low-cost, fast tier of the GPT-6 lineup released Sept 2026; listed by the commenter only as 'Luna' alongside OpenRouter and DeepSeek.",
+  "vendor": "OpenAI",
+  "website": "https://platform.openai.com",
+  "harness_type": null,
+  "examples": [
+   "OpenRouter, DeepSeek, Luna"
+  ]
+ },
+ {
+  "name": "Friendli",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "FriendliAI, an inference provider offering serverless and dedicated endpoints for open-weight models (e.g. GLM).",
+  "vendor": "FriendliAI",
+  "website": "https://friendli.ai",
+  "harness_type": null,
+  "examples": [
+   "GLM 5.3 @ friendli.ai"
+  ]
+ },
+ {
+  "name": "Codealong",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Free, open-source macOS/Linux app that shows every coding agent you run (Claude Code, Codex, OpenCode, Antigravity, Cursor) in one window across accounts and machines.",
+  "vendor": "Codealong",
+  "website": "https://www.codealong.com",
+  "harness_type": "third_party",
+  "examples": [
+   "using a variety of different harnesses managed by codealong"
+  ]
+ },
+ {
+  "name": "Agent Orchestrator",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Unspecified 'agent orchestrator' listed without detail; possibly a generic orchestrator or a product such as Agent Orchestrator (orchestrator.inc). Not identifiable from the comment.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "4) Agent orchestrator"
+  ]
+ },
+ {
+  "name": "Hugging Face API",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Hugging Face's hosted inference offerings (Inference Providers / Inference Endpoints) for calling models from the Hub.",
+  "vendor": "Hugging Face",
+  "website": "https://huggingface.co/inference",
+  "harness_type": null,
+  "examples": [
+   "Some HuggingFace API use when I need a specific model"
+  ]
+ },
+ {
+  "name": "Lynx",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Product at lynx.railcode.dev that a commenter uses in place of agent CLIs; the site gives no details, so its exact nature is unverified.",
+  "vendor": "Railcode",
+  "website": null,
+  "harness_type": "third_party",
+  "examples": [
+   "Lynx (lynx.railcode.dev)"
+  ]
+ },
+ {
+  "name": "Hetzner Inference API",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Experimental OpenAI-compatible inference API from Hetzner, free while in experimental status (now limited to small Qwen models).",
+  "vendor": "Hetzner",
+  "website": "https://docs.hetzner.com/de/general/company-and-policy/experiments/inference/",
+  "harness_type": null,
+  "examples": [
+   "(currently free) Hetzner Inference API"
+  ]
+ },
+ {
+  "name": "freellmapi",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Self-hostable MIT-licensed router that puts many free-tier LLM providers behind one OpenAI-compatible endpoint with automatic failover.",
+  "vendor": "Tashfeen Ahmed",
+  "website": "https://github.com/tashfeenahmed/freellmapi",
+  "harness_type": null,
+  "examples": [
+   "I use freellmapi"
+  ]
+ },
+ {
+  "name": "Meta AI",
+  "mentions_by_category": {
+   "subscription": 1
+  },
+  "description": "Meta's Meta AI assistant and its paid AI subscription tiers (introduced 2026 under the Meta One brand, $7.99/$19.99 per month).",
+  "vendor": "Meta",
+  "website": "https://www.meta.ai",
+  "harness_type": null,
+  "examples": [
+   "I use meta ai pro subscription."
+  ]
+ },
+ {
+  "name": "OpenSWE",
+  "mentions_by_category": {
+   "platform": 1
+  },
+  "description": "Open SWE, LangChain's open-source framework for internal asynchronous coding agents, built on LangGraph/Deep Agents and invokable from Slack or GitHub to open PRs.",
+  "vendor": "LangChain",
+  "website": "https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents",
+  "harness_type": null,
+  "examples": [
+   "We have an OpenSWE agent on Slack at work but it seems horribly expensive and slow"
+  ]
+ },
+ {
+  "name": "DevArch",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Commercial layer for Claude Code that adds directives, agents, hooks and skills to enforce engineering discipline (quality gates, session continuity, ADRs), by David Cornelson; paid annual license.",
+  "vendor": "David Cornelson",
+  "website": "https://devarch.ai",
+  "harness_type": "third_party",
+  "examples": [
+   "My own engineering harness: https://devarch.ai/"
+  ]
+ },
+ {
+  "name": "agentcron.ai",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "AgentCron, a team collaboration workspace (chat, projects/kanban, docs, files) usable with AI agents such as ChatGPT, Claude and Grok, e.g. via MCP.",
+  "vendor": "AgentCron",
+  "website": "https://agentcron.ai",
+  "harness_type": null,
+  "examples": [
+   "It connects to agentcron.ai mcp for kanban boards."
+  ]
+ },
+ {
+  "name": "Mistral / Devstral",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Mistral AI's models and API, including the Devstral coding models.",
+  "vendor": "Mistral AI",
+  "website": "https://mistral.ai",
+  "harness_type": null,
+  "examples": [
+   "Currently using Mistral."
+  ]
+ },
+ {
+  "name": "Ori",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "OpenRouter's family of agent tools: Ori Code, a native terminal coding agent, and Ori Harness, which runs existing agents (Claude Code, Codex, OpenCode) through OpenRouter models.",
+  "vendor": "OpenRouter",
+  "website": "https://openrouter.ai/ori",
+  "harness_type": "third_party",
+  "examples": [
+   "lately I started using openrouter's ori coding agent"
+  ]
+ },
+ {
+  "name": "Vercel AI Gateway",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Vercel's hosted gateway giving one API and bill for many model providers, with no token markup.",
+  "vendor": "Vercel",
+  "website": "https://vercel.com/ai-gateway",
+  "harness_type": null,
+  "examples": [
+   "Pay-per-token for work through Vercel AI Gateway"
+  ]
+ },
+ {
+  "name": "llm-desktop-electron",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Small open-source Electron app by mkornreich for running a Claude Desktop-style chat UI with non-Claude models (e.g. via OpenRouter).",
+  "vendor": "mkornreich",
+  "website": null,
+  "harness_type": "chat_app",
+  "examples": [
+   "https://github.com/mkornreich/llm-desktop-electron with OpenRouter"
+  ]
+ },
+ {
+  "name": "Abliterated.ai",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Likely abliteration.ai, a paid OpenAI-compatible API serving uncensored (abliterated) open-weight models.",
+  "vendor": "abliteration.ai",
+  "website": "https://abliteration.ai",
+  "harness_type": null,
+  "examples": [
+   "Abliterated.ai as needed"
+  ]
+ },
+ {
+  "name": "epiq",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source, Git-native distributed issue tracker and workflow manager for agentic teams, with a terminal UI and no server or account needed.",
+  "vendor": "ljtn",
+  "website": "https://epiq.sh",
+  "harness_type": null,
+  "examples": [
+   "Exploring https://epiq.sh"
+  ]
+ },
+ {
+  "name": "Belfry",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source native macOS/iOS front-end for tmux showing hosts, sessions and windows in a sidebar with the live terminal, locally or over SSH; by Rob Gough.",
+  "vendor": "Rob Gough",
+  "website": "https://belfry.robgough.net",
+  "harness_type": null,
+  "examples": [
+   "I built https://belfry.robgough.net"
+  ]
+ },
+ {
+  "name": "Paperclip",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source app for managing AI agents at work, coordinating multiple agents on tasks.",
+  "vendor": "Paperclip",
+  "website": "https://paperclip.ing",
+  "harness_type": null,
+  "examples": [
+   "other than Paperclip earlier this year"
+  ]
+ },
+ {
+  "name": "Corgi",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Open-source terminal multiplexer/agent manager built on Ghostty and inspired by herdr, for running Claude Code, Codex, Pi and OpenCode sessions.",
+  "vendor": "Tal (tals)",
+  "website": "https://corgi.computer",
+  "harness_type": "third_party",
+  "examples": [
+   "corgi + claude at work"
+  ]
+ },
+ {
+  "name": "Grok CLI",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Terminal coding agent for xAI's Grok models; most likely xAI's official Grok Build CLI (an unofficial open-source grok-cli by superagent-ai also exists).",
+  "vendor": "xAI",
+  "website": "https://x.ai",
+  "harness_type": "first_party",
+  "examples": [
+   "Claude Code, Codex CLI, Grok CLI"
+  ]
+ },
+ {
+  "name": "Desert Ant / Laya",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Small self-hostable models: Desert Ant Labs' on-device audio/vision/text models (source-available license, Sept 2026) and Convai Innovations' Laya, an open-weight ~421M-parameter ModernBERT-based decision model (pip install laya).",
+  "vendor": "Desert Ant Labs; Convai Innovations",
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "serve small models like Desert Ant, Laya"
+  ]
+ },
+ {
+  "name": "Kepler",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "GitKraken's agentic development environment that turns issues from trackers (Jira, Linear, GitHub etc.) into tasks run by ACP agents in worktrees, with a Kanban view.",
+  "vendor": "GitKraken",
+  "website": "https://gitkraken.com/lp/project-kepler",
+  "harness_type": "third_party",
+  "examples": [
+   "Kepler (cool ticketing system integration, but the UI wasn't very pleasant)"
+  ]
+ },
+ {
+  "name": "Xiaomi MiMo",
+  "mentions_by_category": {
+   "subscription": 1
+  },
+  "description": "Xiaomi's MiMo model family (e.g. MiMo-V2.5/V2.6 Pro) and its Token Plan subscriptions for use in coding tools.",
+  "vendor": "Xiaomi",
+  "website": "https://mimo.mi.com",
+  "harness_type": null,
+  "examples": [
+   "Xiaomi Mimo Pro"
+  ]
+ },
+ {
+  "name": "Tailscale Aperture",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Aperture by Tailscale, an AI gateway (built on Vercel AI Gateway) for centralizing LLM access, keys and spending across a tailnet, with purchasable token credits.",
+  "vendor": "Tailscale",
+  "website": "https://tailscale.com/docs/aperture",
+  "harness_type": null,
+  "examples": [
+   "I purchase periodic credits through Tailscale Aperture"
+  ]
+ },
+ {
+  "name": "MiMo Code",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Xiaomi's open-source terminal coding agent (an OpenCode fork tuned for MiMo models), released June 2026.",
+  "vendor": "Xiaomi",
+  "website": "https://mimo.xiaomi.com/mimocode",
+  "harness_type": "first_party",
+  "examples": [
+   "MiMocode for working with Mimo"
+  ]
+ },
+ {
+  "name": "Charm Hyper",
+  "mentions_by_category": {
+   "subscription": 1
+  },
+  "description": "Hyper, Charm's model inference service for coding (initially private beta), usable from Charm's Crush terminal agent or other tools.",
+  "vendor": "Charm",
+  "website": "https://hyper.charm.land",
+  "harness_type": null,
+  "examples": [
+   "$10 subscriptions through Charm Hyper and Synthetic"
+  ]
+ },
+ {
+  "name": "Synthetic",
+  "mentions_by_category": {
+   "subscription": 1
+  },
+  "description": "Synthetic (synthetic.new), a subscription/pay-per-use provider hosting open models (GLM, Kimi, DeepSeek, Qwen) for coding agents.",
+  "vendor": "Synthetic",
+  "website": "https://synthetic.new",
+  "harness_type": null,
+  "examples": [
+   "$10 subscriptions through Charm Hyper and Synthetic"
+  ]
+ },
+ {
+  "name": "Termic",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source (AGPL) Conductor.build alternative that runs the real Claude, Gemini and Codex CLIs in real terminals for switching between parallel agents.",
+  "vendor": "Simion",
+  "website": "https://termic.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "Termic for UX to switch between parallel agents running both Claude and Pi"
+  ]
+ },
+ {
+  "name": "Halogen",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "halogen-flash-server, a single-model inference server from Peonist that runs Qwen3.8-Flash-Next on AMD Strix Halo hardware, shipped as a container with an OpenAI-compatible API.",
+  "vendor": "Peonist",
+  "website": "https://github.com/peonist-ai/halogen-flash-server",
+  "harness_type": null,
+  "examples": [
+   "with Halogen inference server"
+  ]
+ },
+ {
+  "name": "Clef",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Cloudflare's open-weight (Apache-2.0) decision models, Clef (27B) and Clef-flash (9B), built on Qwen and Jev-API-compatible; they answer typed questions with probabilities and can run locally or on Workers AI.",
+  "vendor": "Cloudflare",
+  "website": "https://developers.cloudflare.com/workers-ai/",
+  "harness_type": null,
+  "examples": [
+   "Clef (for model routing and decisions)"
+  ]
+ },
+ {
+  "name": "Ornith",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Ornith-1.5, an MIT-licensed open-weight model family released Aug 2026; Ornith-1.5-35B-A3B is a MoE aimed at coding agents and tool use.",
+  "vendor": "Ornith AI (DeepReinforce)",
+  "website": "https://huggingface.co/ornith-ai",
+  "harness_type": null,
+  "examples": [
+   "Qwen-35B-A3B and Ornith-1.5-35B"
+  ]
+ },
+ {
+  "name": "Swival",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Small open-source (MIT) Python CLI coding agent aimed at open and local models, with memory, review loops, MCP and A2A support.",
+  "vendor": "Swival",
+  "website": "https://swival.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "I use Swival.dev"
+  ]
+ },
+ {
+  "name": "Comet",
+  "mentions_by_category": {
+   "platform": 1
+  },
+  "description": "Comet, Perplexity's AI-powered web browser with a built-in agent that can browse and act on websites for the user.",
+  "vendor": "Perplexity AI",
+  "website": "https://www.perplexity.ai/comet",
+  "harness_type": null,
+  "examples": [
+   "I can't live without Comet anymore"
+  ]
+ },
+ {
+  "name": "NBClaw",
+  "mentions_by_category": {
+   "platform": 1
+  },
+  "description": "NBClaw, a small Python daemon (on PyPI) that puts a Swival agent behind a Signal conversation via signal-cli, giving an OpenClaw-like assistant that can run shell commands and edit files.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "As for an OpenClaw-like tool, I'm using NBClaw"
+  ]
+ },
+ {
+  "name": "exe.dev",
+  "mentions_by_category": {
+   "subscription": 1
+  },
+  "description": "exe.dev, a subscription service for fast persistent Linux cloud VMs for developers and coding agents, with a built-in web coding agent (Shelley).",
+  "vendor": "exe.dev",
+  "website": "https://exe.dev",
+  "harness_type": null,
+  "examples": [
+   "Personal exe.dev subscription."
+  ]
+ },
+ {
+  "name": "Volt",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Open-source (MIT) fork of the Pi coding agent by Jordan Hans: a terminal coding agent with planning, code review, subagents, Pi-compatible extensions and an iOS companion.",
+  "vendor": "volt-hq (Jordan Hans)",
+  "website": "https://volt-cli.dev",
+  "harness_type": "third_party",
+  "examples": [
+   "and Volt"
+  ]
+ },
+ {
+  "name": "Kapitsa",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Apache-2.0 local inference engine for Apple Silicon by Nace AI, aimed at coding agents; serves OpenAI/Anthropic-compatible APIs, uses tree speculative decoding and can launch Claude Code, Codex, OpenCode or Pi on a local model.",
+  "vendor": "Nace AI",
+  "website": "https://github.com/nace-ai/kapitsa",
+  "harness_type": null,
+  "examples": [
+   "kapitsa is the inference engine"
+  ]
+ },
+ {
+  "name": "Claude Desktop",
+  "mentions_by_category": {
+   "platform": 1
+  },
+  "description": "Anthropic's Claude desktop app (macOS/Windows) with MCP connectors, used by the commenter as an agent platform.",
+  "vendor": "Anthropic",
+  "website": "https://claude.com/download",
+  "harness_type": null,
+  "examples": [
+   "I use Claude desktop as an agent platform"
+  ]
+ },
+ {
+  "name": "GPT Luna",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "GPT-6 Luna, OpenAI's low-cost, fast tier of the GPT-6 lineup (released Sept 22, 2026), available via API, ChatGPT and Codex.",
+  "vendor": "OpenAI",
+  "website": "https://platform.openai.com",
+  "harness_type": null,
+  "examples": [
+   "I've been using GPT Luna 6 a lot"
+  ]
+ },
+ {
+  "name": "Briefkin",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Hosted dashboard and notification service where coding agents (Claude Code, Codex, Cursor, scripts) report progress and blockers to a card board, with Telegram alerts when input is needed; in open beta.",
+  "vendor": "Petar",
+  "website": "https://briefkin.dev",
+  "harness_type": null,
+  "examples": [
+   "The card board is Briefkin, which I built"
+  ]
+ },
+ {
+  "name": "ElevenLabs",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "ElevenLabs, a commercial voice AI company offering text-to-speech, voice cloning and speech-to-text APIs.",
+  "vendor": "ElevenLabs",
+  "website": "https://elevenlabs.io",
+  "harness_type": null,
+  "examples": [
+   "ElevenLabs for voice"
+  ]
+ },
+ {
+  "name": "Fal.ai",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "fal, a generative media platform with pay-per-use APIs for image, video and audio models.",
+  "vendor": "fal",
+  "website": "https://fal.ai",
+  "harness_type": null,
+  "examples": [
+   "fal.ai for images and video"
+  ]
+ },
+ {
+  "name": "Chinese open-weight models",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Bucket for open-weight models from Chinese labs (Qwen, DeepSeek, GLM, Kimi, MiniMax, etc.) evaluated as a group.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "Last month we tested 6 Chinese models on a real coding job"
+  ]
+ },
+ {
+  "name": "Kiro Crew",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source companion to Amazon's Kiro providing a persistent, self-improving workspace with background subagents, scheduled jobs and persistent memory that continues beyond one session.",
+  "vendor": "Amazon (Kiro)",
+  "website": "https://kiro.dev/crew/",
+  "harness_type": "first_party",
+  "examples": [
+   "Kiro Crew (https://github.com/kirodotdev/kirocrew) on top"
+  ]
+ },
+ {
+  "name": "llama-swap",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Open-source proxy that fronts multiple local inference servers (llama.cpp, vLLM, etc.) behind one OpenAI-compatible endpoint, swapping models on demand.",
+  "vendor": "mostlygeek",
+  "website": "https://github.com/mostlygeek/llama-swap",
+  "harness_type": null,
+  "examples": [
+   "llama-swap fronts several engines behind one endpoint"
+  ]
+ },
+ {
+  "name": "LoopX",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source, local-first control plane and research workbench for long-running agent teams that span multiple sessions and runtimes.",
+  "vendor": "LoopX project",
+  "website": "https://loopx-project.github.io/loopx/",
+  "harness_type": null,
+  "examples": [
+   "with LoopX for work spanning multiple long-running sessions"
+  ]
+ },
+ {
+  "name": "Lyre",
+  "mentions_by_category": {
+   "harness": 1
+  },
+  "description": "Lyre Studio's AI workspace for running coding agents across your own computers, with live app previews on phones; builds on Paseo's open-source code.",
+  "vendor": "Lyre Studio",
+  "website": "https://lyrestudio.net",
+  "harness_type": "third_party",
+  "examples": [
+   "Lyre runs the agent and the preview as separate lifecycles"
+  ]
+ },
+ {
+  "name": "Azure AI Foundry",
+  "mentions_by_category": {
+   "api_or_model": 1
+  },
+  "description": "Microsoft Azure's platform for deploying and calling AI models (OpenAI and others) with pay-as-you-go billing.",
+  "vendor": "Microsoft",
+  "website": "https://azure.microsoft.com/en-us/products/ai-foundry",
+  "harness_type": null,
+  "examples": [
+   "it runs on Azure AI Foundry, pay-as-you-go"
+  ]
+ },
+ {
+  "name": "CrewAI",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "Open-source Python framework (and commercial platform) for orchestrating role-playing autonomous AI agents that collaborate on tasks.",
+  "vendor": "CrewAI Inc.",
+  "website": "https://crewai.com",
+  "harness_type": null,
+  "examples": [
+   "running a mix of LangGraph and CrewAI for internal tooling"
+  ]
+ },
+ {
+  "name": "Vantegrate",
+  "mentions_by_category": {
+   "platform": 1
+  },
+  "description": "Unidentified; per the comment, a tool/platform used to run production agents on Salesforce.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "grok bot, vantegrate"
+  ]
+ },
+ {
+  "name": "agent-chat",
+  "mentions_by_category": {
+   "orchestration": 1
+  },
+  "description": "The commenter's own (unreleased or unpublicized) product in which writer agents and cross-model-family reviewer agents collaborate; no public listing found.",
+  "vendor": null,
+  "website": null,
+  "harness_type": null,
+  "examples": [
+   "in agent-chat, which we build"
+  ]
+ },
+ {
+  "name": "LongCat",
+  "mentions_by_category": {
+   "subscription": 1
+  },
+  "description": "Meituan's LongCat model family (e.g. LongCat-Flash, LongCat 2.0), available via Meituan's API and third-party providers.",
+  "vendor": "Meituan",
+  "website": "https://longcat.ai",
+  "harness_type": null,
+  "examples": [
+   "claude,codex,gemini,longcat,glm"
+  ]
+ }
+]

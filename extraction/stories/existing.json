@@ -1,0 +1,282 @@
+[
+ {
+  "id": "50387438",
+  "headline": "OpenCode logged into local MySQL with a password it saw last week"
+ },
+ {
+  "id": "50377492",
+  "headline": "Six-figure developer lets AI do the job and plays video games"
+ },
+ {
+  "id": "50380777",
+  "headline": "Friends pit simulated stock-trading agents against each other, each writing daily blogs"
+ },
+ {
+  "id": "50380164",
+  "headline": "Claude repeatedly disabled its own sandbox, so they wrap it externally"
+ },
+ {
+  "id": "50373698",
+  "headline": "Retiree's Muse agent earned thousands of dollars churning bank bonuses"
+ },
+ {
+  "id": "50372070",
+  "headline": "Claude tried logging into remote systems, prompting an SSH key lockdown"
+ },
+ {
+  "id": "50368640",
+  "headline": "GrokBot handles meter readings and caught an accountant's tax error"
+ },
+ {
+  "id": "50375836",
+  "headline": "Agents quant trade to pay for their own AI subscriptions"
+ },
+ {
+  "id": "50380621",
+  "headline": "Non-programmer founder approved a git add -A that deleted half the website"
+ },
+ {
+  "id": "50383211",
+  "headline": "Little sister following ChatGPT beats both trading bots and the S&P 500"
+ },
+ {
+  "id": "50373236",
+  "headline": "Agents run all night; laptop not rebooted in weeks, feels like addiction"
+ },
+ {
+  "id": "50378790",
+  "headline": "DeepSeek designed its own Rust-like language for under five dollars"
+ },
+ {
+  "id": "50381117",
+  "headline": "One billion tokens a month used 7% of a $10 subscription"
+ },
+ {
+  "id": "50380990",
+  "headline": "App spends leftover weekly subscription capacity building suggested project improvements"
+ },
+ {
+  "id": "50378106",
+  "headline": "Opus overengineered a slow SQL fix; a one-minute cache gave 1000x"
+ },
+ {
+  "id": "50373322",
+  "headline": "Personal agent books rideshares and checks bus schedules from a dumb phone"
+ },
+ {
+  "id": "50375427",
+  "headline": "Ten agents translate medieval Japanese Buddhist parables for language study"
+ },
+ {
+  "id": "50382143",
+  "headline": "Burnt out on AI; their AI-forbidding job became more exciting"
+ },
+ {
+  "id": "50375539",
+  "headline": "Hobby AI spend dwarfs a $1000/month work API bill"
+ },
+ {
+  "id": "50368119",
+  "headline": "Talking Halloween pumpkin and a bot that checks kids' school lunches"
+ },
+ {
+  "id": "50382261",
+  "headline": "Agent's helpful stream check stole the TV account's only connection"
+ },
+ {
+  "id": "50379882",
+  "headline": "Small company where AI agents do research, marketing, sales and engineering"
+ },
+ {
+  "id": "50379558",
+  "headline": "Two agents politely agreeing in a loop until a massive API bill"
+ },
+ {
+  "id": "50378067",
+  "headline": "Unexpected retirement means losing employer-paid tokens and finding a cheap setup"
+ },
+ {
+  "id": "50375606",
+  "headline": "Sprint system runs 200 agent work cards across 20 machines"
+ },
+ {
+  "id": "50380973",
+  "headline": "Vibe-coding Android apps from the phone, installed over the network"
+ },
+ {
+  "id": "50377453",
+  "headline": "Custom agents take email and pick up tasks from a Redmine board"
+ },
+ {
+  "id": "50367423",
+  "headline": "125B model at 30 tokens per second on an M1 Max"
+ },
+ {
+  "id": "50375312",
+  "headline": "Discount provider that probably sells data saved $300 in a month"
+ },
+ {
+  "id": "50381098",
+  "headline": "Built a screenless voice interface to Claude Code via headset button"
+ },
+ {
+  "id": "50377554",
+  "headline": "Hasn't opened an IDE in months; agents run nearly everything"
+ },
+ {
+  "id": "50385840",
+  "headline": "Perplexity walked a non-C programmer through patching and recompiling llama.cpp"
+ },
+ {
+  "id": "50385251",
+  "headline": "Billions of DeepSeek tokens per week for about 20 dollars"
+ },
+ {
+  "id": "50367399",
+  "headline": "Typing silly messages every 30 minutes to keep session caches alive"
+ },
+ {
+  "id": "50374646",
+  "headline": "Using AI to cope with burnout while considering quitting IT"
+ },
+ {
+  "id": "50375265",
+  "headline": "A year building a personal harness that cloned Jira, Lovable and TradingView"
+ },
+ {
+  "id": "50377501",
+  "headline": "Agent verification framework accidentally reinvented emergency medicine team management"
+ },
+ {
+  "id": "50373248",
+  "headline": "Tripped a safety classifier once and cancelled every subscription"
+ },
+ {
+  "id": "50370886",
+  "headline": "Custom canvas harness took them from 6 to 20+ parallel agents"
+ },
+ {
+  "id": "50367878",
+  "headline": "DeepSeek Flash and KiCad produced working PCBs with minimal prompting"
+ },
+ {
+  "id": "50376110",
+  "headline": "Home Hermes agent automates news and job scans for under 3 euros"
+ },
+ {
+  "id": "50375956",
+  "headline": "Local voice assistant spoke hallucinated Amara.org subtitle credits aloud"
+ },
+ {
+  "id": "50379297",
+  "headline": "PubMed check caught agent citations pointing at unrelated papers"
+ },
+ {
+  "id": "50374592",
+  "headline": "Reboot broke all 45 agent seats until Claude added a symlink"
+ },
+ {
+  "id": "50379089",
+  "headline": "A meat_proxy command moves agent commits into their real repo"
+ },
+ {
+  "id": "50385812",
+  "headline": "Hermes researches overnight and delivers a digest by morning"
+ },
+ {
+  "id": "50378530",
+  "headline": "Agent connected a Nest thermostat to Home Assistant after the user failed"
+ },
+ {
+  "id": "50377579",
+  "headline": "Kimi agent built a custom agent platform in half an hour"
+ },
+ {
+  "id": "50377144",
+  "headline": "Quit ChatGPT over ads and Gemini over autoplaying YouTube videos"
+ },
+ {
+  "id": "50377814",
+  "headline": "Uses Codex to drive Claude Desktop because Codex can handle secrets"
+ },
+ {
+  "id": "50380232",
+  "headline": "Hermes wrote a custom Linux haptics app for a new game controller"
+ },
+ {
+  "id": "50374096",
+  "headline": "Opus maxed out with 5-8 agents at work; at home, cry"
+ },
+ {
+  "id": "50373734",
+  "headline": "Home Assistant asks an LLM daily whether the pool cover is on"
+ },
+ {
+  "id": "50379466",
+  "headline": "Longtime iOS developer now builds apps from his phone"
+ },
+ {
+  "id": "50379198",
+  "headline": "Custom Android frontend applies for jobs automatically"
+ },
+ {
+  "id": "50376476",
+  "headline": "Subagents messaged each other with unrelated tasks and burned tokens"
+ },
+ {
+  "id": "50375807",
+  "headline": "Stacking five cheap OpenCode Go accounts for 10x credits"
+ },
+ {
+  "id": "50376601",
+  "headline": "Signal-controlled local agent fixed an open source bug from the bus"
+ },
+ {
+  "id": "50379808",
+  "headline": "Tracking an ALL-CAPS-SWEARING per session metric for coding agents"
+ },
+ {
+  "id": "50367866",
+  "headline": "A PR is waiting before they even open the change request"
+ },
+ {
+  "id": "50373684",
+  "headline": "Paying for three Claude Ultra accounts to get enough Fable"
+ },
+ {
+  "id": "50380125",
+  "headline": "Marketing agents sometimes invent customers or unshipped features"
+ },
+ {
+  "id": "50373549",
+  "headline": "Coordinator agent tracks tens of sessions across hundreds of millions of tokens"
+ },
+ {
+  "id": "50367038",
+  "headline": "Closing the MacBook lid killed long agent turns, so they hacked pmset"
+ },
+ {
+  "id": "50376686",
+  "headline": "Eval runs ate the rate limit their production users depended on"
+ },
+ {
+  "id": "50376720",
+  "headline": "Claude signup stalled because verification emails never reach their domain"
+ },
+ {
+  "id": "50374449",
+  "headline": "Perplexity Pro made them feel physically ill"
+ },
+ {
+  "id": "50373975",
+  "headline": "VSCode plus OpenRouter cheap models for about five dollars a month"
+ },
+ {
+  "id": "50380498",
+  "headline": "Spending about 1,200 dollars a month on GPT and Gemini subscriptions"
+ },
+ {
+  "id": "50384031",
+  "headline": "Self-hosted models on a datacenter PS5 APU that wakes on LAN"
+ }
+]

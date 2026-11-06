@@ -1,0 +1,632 @@
+[
+ {
+  "id": "50374816",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Muse",
+    "sentiment": "positive",
+    "point": "easier than any custom setup, trivial cost",
+    "quote": "Muse and cursor. It beats every custom setup I had by far on ease of use. The cost is trivial."
+   },
+   {
+    "i": 1,
+    "name": "Cursor",
+    "sentiment": "positive",
+    "point": "easier than any custom setup, trivial cost",
+    "quote": "Muse and cursor. It beats every custom setup I had by far on ease of use. The cost is trivial."
+   }
+  ]
+ },
+ {
+  "id": "50376056",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "Qwen",
+    "sentiment": "positive",
+    "point": "capable locally, too limited to overbuild",
+    "quote": "I have a 4090 which runs Qwen3.8-27b q4 fine with 180k ctx at q8. The model is capable enough to do things, but dumb enough to not be able to build elaborate nonsense like the bigger models love to do"
+   },
+   {
+    "i": 2,
+    "name": "Juggler",
+    "sentiment": "mixed",
+    "point": "good control and insight, but feels vibecoded",
+    "quote": "I'm using https://github.com/juggler-ai/juggler which is alright. It could be a bit less vibecoded… but, generally, the opinions shaping it seem decent, and I like just how much control over and insight into what happens it gives you."
+   },
+   {
+    "i": 3,
+    "name": "OpenCode",
+    "sentiment": "negative",
+    "point": "a total mess",
+    "quote": "I initially tried OpenCode, and, holy hell, what a mess. Do not ever use OpenCode."
+   },
+   {
+    "i": 4,
+    "name": "Goose",
+    "sentiment": "negative",
+    "point": "too agentic for their taste",
+    "quote": "I initially tried OpenCode, and, holy hell, what a mess… I also tried goose but it was too agentic for my taste."
+   }
+  ]
+ },
+ {
+  "id": "50367878",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "DeepSeek",
+    "sentiment": "positive",
+    "point": "produced working PCBs with minimal prompting",
+    "quote": "DeepSeek Flash with kicad + autorouting churned out a couple of working PCBs with minimal prompting, and customized ZMK itself for some custom input devices. At least for casual stuff this is a solved problem"
+   }
+  ]
+ },
+ {
+  "id": "50382261",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "mixed",
+    "point": "drives real TV, but misses device-only issues",
+    "quote": "I've been building a Samsung TV app with Claude Code, and the agent drives the real TV over the network… What it can't do is notice the things only the device shows you."
+   }
+  ]
+ },
+ {
+  "id": "50374626",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "Anthropic API",
+    "sentiment": "positive",
+    "point": "no other models seem reasonable since Anthropic 5.5",
+    "quote": "Yes, Anthropic models usually, at work. Pay as you go API… Since the Anthropic 5.5 models none [of the alternatives] seem reasonable to use any longer (for now at least)"
+   },
+   {
+    "i": 3,
+    "name": "Aider",
+    "sentiment": "negative",
+    "point": "failed to read context; manual file loading",
+    "quote": "Tried Aider early on and it failed to even read its initial context… I dropped it dead after that - unusable if you need me to specifically \"load\" and point our files. That's not agentic coding, sorry."
+   },
+   {
+    "i": 5,
+    "name": "Gemma",
+    "sentiment": "negative",
+    "point": "local models unusable on the work codebase",
+    "quote": "Used `pi` w/ local models (some gemma and qwen that'd run on my hardware. nothing usable w/ the work code base - or much anything for that matter"
+   },
+   {
+    "i": 6,
+    "name": "Qwen",
+    "sentiment": "negative",
+    "point": "local models unusable on the work codebase",
+    "quote": "Used `pi` w/ local models (some gemma and qwen that'd run on my hardware. nothing usable w/ the work code base - or much anything for that matter"
+   }
+  ]
+ },
+ {
+  "id": "50373740",
+  "opinions": [
+   {
+    "i": 9,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "best for large projects, manages many subagents",
+    "quote": "For very large projects I've found Claude Code to be the best -- it can very easily manage many subagents."
+   },
+   {
+    "i": 17,
+    "name": "OpenClaw",
+    "sentiment": "negative",
+    "point": "couldn't find great use cases",
+    "quote": "I've tried OpenClaw, Hermes, Dots, and Muse. I really just haven't found great use cases for these tools"
+   },
+   {
+    "i": 18,
+    "name": "Hermes Agent",
+    "sentiment": "negative",
+    "point": "couldn't find great use cases",
+    "quote": "I've tried OpenClaw, Hermes, Dots, and Muse. I really just haven't found great use cases for these tools"
+   },
+   {
+    "i": 19,
+    "name": "Dots",
+    "sentiment": "negative",
+    "point": "couldn't find great use cases",
+    "quote": "I've tried OpenClaw, Hermes, Dots, and Muse. I really just haven't found great use cases for these tools"
+   },
+   {
+    "i": 20,
+    "name": "Muse",
+    "sentiment": "negative",
+    "point": "couldn't find great use cases",
+    "quote": "I've tried OpenClaw, Hermes, Dots, and Muse. I really just haven't found great use cases for these tools"
+   }
+  ]
+ },
+ {
+  "id": "50378157",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Custom orchestration",
+    "sentiment": "positive",
+    "point": "most productive and fun ever, and safe",
+    "quote": "[With my custom nix-defined workflows,] I never was able to get so much stuff done and had so much fun getting a project build. And fucking safe - no more fear when updating dependencies."
+   }
+  ]
+ },
+ {
+  "id": "50374764",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "GLM",
+    "sentiment": "positive",
+    "point": "taking over the work Codex was meant for",
+    "quote": "Probably going to drop Codex soon, GLM is gradually taking on what I intended it for."
+   }
+  ]
+ },
+ {
+  "id": "50380334",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Parakeet",
+    "sentiment": "positive",
+    "point": "way better than Whisper for voice input",
+    "quote": "So I made my own. Including patching onnx myself to run parakeet model (way better than whisper)"
+   }
+  ]
+ },
+ {
+  "id": "50380583",
+  "opinions": [
+   {
+    "i": 4,
+    "name": "Hermes Agent",
+    "sentiment": "negative",
+    "point": "shut down over security concerns",
+    "quote": "also killed my hermes web setup (also via talescale) for security reasons. not interested in having something online like that with all the vulns popping up"
+   }
+  ]
+ },
+ {
+  "id": "50380509",
+  "opinions": [
+   {
+    "i": 5,
+    "name": "Hermes Agent",
+    "sentiment": "mixed",
+    "point": "fun for automation, but chat gateways buggy",
+    "quote": "Just Hermes… - Fun at home, build, automate, disabled gateways for online chatting becauese of bugs"
+   },
+   {
+    "i": 6,
+    "name": "Claude",
+    "sentiment": "negative",
+    "point": "too expensive for personal use",
+    "quote": "Hermes, OpenRouter, . No Claude/Codex sub too expensive. Use them at work instead."
+   },
+   {
+    "i": 7,
+    "name": "ChatGPT / Codex",
+    "sentiment": "negative",
+    "point": "too expensive for personal use",
+    "quote": "Hermes, OpenRouter, . No Claude/Codex sub too expensive. Use them at work instead."
+   }
+  ]
+ },
+ {
+  "id": "50379808",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "OpenRouter",
+    "sentiment": "mixed",
+    "point": "nice alternative models, but fewer tokens",
+    "quote": "Previously yes (esp. to try out new models on OpenRouter… Wrote about them on my blog, seemed like nice alternatives to OpenAI and Ant, but didn't give me as many tokens"
+   },
+   {
+    "i": 5,
+    "name": "OpenCode",
+    "sentiment": "mixed",
+    "point": "nice CLI, barebones web and desktop UI",
+    "quote": "also tried out OpenCode (really nice CLI, but barebones web UI/desktop versions)"
+   },
+   {
+    "i": 6,
+    "name": "Paseo",
+    "sentiment": "mixed",
+    "point": "pleasant, but sub-agent status updates hung",
+    "quote": "additional ADEs like Paseo (really pleasant, but sub-agent status updates hanged sometimes)"
+   },
+   {
+    "i": 7,
+    "name": "Kepler",
+    "sentiment": "mixed",
+    "point": "cool ticketing integration, unpleasant UI",
+    "quote": "Kepler (cool ticketing system integration, but the UI wasn't very pleasant), before just going back to the two in the end."
+   },
+   {
+    "i": 8,
+    "name": "Git worktrees",
+    "sentiment": "positive",
+    "point": "worktrees are all you need for parallel work",
+    "quote": "near-SOTA models are good enough to automate long form work and work in parallel well enough, all you need are Git worktrees and a decent OS environment to work in."
+   }
+  ]
+ },
+ {
+  "id": "50374806",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "Qwen",
+    "sentiment": "negative",
+    "point": "struggled on old GPU, not very useful",
+    "quote": "I tried a local Qwen model but my poor old 1660 Ti did not enjoy it, and it wasn't all that useful."
+   }
+  ]
+ },
+ {
+  "id": "50375205",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "ChatGPT / Codex",
+    "sentiment": "positive",
+    "point": "good at features and research, token efficient",
+    "quote": "Codex is better at feature implementation and research from what I've found… GPT 6.1 Sol is very token efficient that I pretty much never run out before the end of the week anyways."
+   },
+   {
+    "i": 1,
+    "name": "Claude",
+    "sentiment": "positive",
+    "point": "better at frontend and debugging",
+    "quote": "In general, Claude's better at frontend and debug and Codex is better at feature implementation and research from what I've found, which is why I have both."
+   }
+  ]
+ },
+ {
+  "id": "50367866",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "ChatGPT / Codex",
+    "sentiment": "positive",
+    "point": "5.6-Sol reliable enough to stop supervising",
+    "quote": "That changed wth 5.6-Sol and a handful of skill files. I stopped needing to watch closely to keep it from fucking up the codebase. With the right request, that combination will get the job done 9/10 times."
+   },
+   {
+    "i": 2,
+    "name": "Custom orchestration",
+    "sentiment": "positive",
+    "point": "custom solutions are cheap and fit exactly",
+    "quote": "So I have a custom solution in place to manage a handful of agents… Custom solutions are so cheap and easy now... it's really hard to put up with solutions that are only mostly right for the job."
+   }
+  ]
+ },
+ {
+  "id": "50377715",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "negative",
+    "point": "can't use own client without API pricing",
+    "quote": "With Anthropic, you cannot access their inference servers without going through one their client software or paying the API pricing. It is really annoying"
+   },
+   {
+    "i": 1,
+    "name": "ChatGPT / Codex",
+    "sentiment": "positive",
+    "point": "allows using subscription from any client",
+    "quote": "OpenAI allows you to do that, so I have a proxy running on my computer which connects to OpenAI's servers… with the requests counting towards my subscription."
+   },
+   {
+    "i": 2,
+    "name": "OpenRouter",
+    "sentiment": "positive",
+    "point": "great product for exploring new models",
+    "quote": "I also have an OpenRouter account, I use it regularly but mostly to explore new models… OpenRouter has a great product and there is so much possiblity in this space."
+   },
+   {
+    "i": 3,
+    "name": "Chat UI (web/app)",
+    "sentiment": "mixed",
+    "point": "web version handy, desktop app too heavy",
+    "quote": "I either use the web-based version of ChatGPT for quick questions and analytical work (the desktop version is unnecessarily heavy)"
+   },
+   {
+    "i": 5,
+    "name": "Zed",
+    "sentiment": "positive",
+    "point": "prefers IDE with agents added on",
+    "quote": "For coding, I mostly use Zed. I like the traditional development environment and tooling… I prefer an IDE on top of which agents were added."
+   },
+   {
+    "i": 6,
+    "name": "OpenCode",
+    "sentiment": "positive",
+    "point": "OpenCode Web has improved, good for scripting",
+    "quote": "OpenCode Web has evolved a lot, I have been using it for quick scripting as well."
+   }
+  ]
+ },
+ {
+  "id": "50370419",
+  "opinions": [
+   {
+    "i": 3,
+    "name": "Codex",
+    "sentiment": "mixed",
+    "point": "liked most, until bugs and the daemon",
+    "quote": "I've personally used OpenCode, Claude Code and Codex and of those, I liked Codex the most, till bugs kept on accumulating and they started doing all kinds of shit like that daemon recently."
+   },
+   {
+    "i": 4,
+    "name": "3code",
+    "sentiment": "positive",
+    "point": "small, simple, built-in sandbox, responsive author",
+    "quote": "I now switched to https://github.com/capocasa/3code which is a small, simple agent harness but with built-in sandbox… I really like this one, plus the author is very responsive to feedback"
+   }
+  ]
+ },
+ {
+  "id": "50367667",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude Code",
+    "sentiment": "positive",
+    "point": "all you need",
+    "quote": "Claude code is all you need"
+   }
+  ]
+ },
+ {
+  "id": "50377761",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Qwen",
+    "sentiment": "positive",
+    "point": "runs four concurrent agents on low power",
+    "quote": "I am running Qwen Flash Next on Strix Halo with Halogen inference server. This is great setup that can get you 4 concurrent agents for 300W of power"
+   },
+   {
+    "i": 1,
+    "name": "Halogen",
+    "sentiment": "positive",
+    "point": "runs four concurrent agents on low power",
+    "quote": "I am running Qwen Flash Next on Strix Halo with Halogen inference server. This is great setup that can get you 4 concurrent agents for 300W of power with 1k prefill and 30-80tk/s decode."
+   }
+  ]
+ },
+ {
+  "id": "50376601",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "MLX",
+    "sentiment": "positive",
+    "point": "really nice for music and pictures",
+    "quote": "For music, pictures, etc. MLX-Serve is all I use, with the recommended models. It's really nice."
+   },
+   {
+    "i": 7,
+    "name": "Perplexity",
+    "sentiment": "mixed",
+    "point": "loves it, but Computer is expensive",
+    "quote": "I absolutely love Perplexity. This is by far the AI produce I use the most… It's a little bit sad that they are forcing people to use Perplexity Computer, because it's so expensive. But it works incredibly well."
+   },
+   {
+    "i": 8,
+    "name": "Comet",
+    "sentiment": "positive",
+    "point": "indispensable for agentic web browsing",
+    "quote": "For agentic web browsing, I can't live without Comet anymore. So many websites are painful to use… So, I frequently just ask Comet to do it for me."
+   },
+   {
+    "i": 9,
+    "name": "NBClaw",
+    "sentiment": "mixed",
+    "point": "initially exciting, now mostly just summaries",
+    "quote": "As for an OpenClaw-like tool, I'm using NBClaw. I was initially very excited about it… But eventually, I used it less and less. Nowadays, I still enjoy the fact that it's sending me a summary of cool things"
+   }
+  ]
+ },
+ {
+  "id": "50375020",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Custom assistant",
+    "sentiment": "positive",
+    "point": "rarely so inspired by a project",
+    "quote": "I've made a multiplayer environment for me and a few friends, where we can prompt (currently three) emergents… I've rarely been so inspired by a project."
+   }
+  ]
+ },
+ {
+  "id": "50374994",
+  "opinions": [
+   {
+    "i": 3,
+    "name": "Muse",
+    "sentiment": "negative",
+    "point": "would never use it as a personal agent",
+    "quote": "I would never use Muse, Grok Bot, etc as a personal agent."
+   },
+   {
+    "i": 4,
+    "name": "Grok bot",
+    "sentiment": "negative",
+    "point": "would never use it as a personal agent",
+    "quote": "I would never use Muse, Grok Bot, etc as a personal agent."
+   }
+  ]
+ },
+ {
+  "id": "50374502",
+  "opinions": [
+   {
+    "i": 2,
+    "name": "Parakeet",
+    "sentiment": "positive",
+    "point": "awesome local voice-to-text",
+    "quote": "Mostly local voice-to-text w/Parakeet Unified EN 0.6B via Handy[0] (awesome; use it!). Not for coding, but for note taking, AI interfacing, and general typing reduction and RSI avoidance."
+   },
+   {
+    "i": 3,
+    "name": "Pi",
+    "sentiment": "negative",
+    "point": "harness interfaces don't fit their work",
+    "quote": "I tried Pi and after much kerfuffle I don't like any of the harness interfaces. I find the type of work I do they are not very useful"
+   }
+  ]
+ },
+ {
+  "id": "50373485",
+  "opinions": [
+   {
+    "i": 1,
+    "name": "maki",
+    "sentiment": "positive",
+    "point": "a great harness",
+    "quote": "different harnesses depending on the task, maki is great one, but I use others"
+   },
+   {
+    "i": 2,
+    "name": "Herdr",
+    "sentiment": "negative",
+    "point": "never clicked",
+    "quote": "I tried most of the tools like herdr or paseo or desktop clients but they never clicked with me"
+   },
+   {
+    "i": 3,
+    "name": "Paseo",
+    "sentiment": "negative",
+    "point": "never clicked",
+    "quote": "I tried most of the tools like herdr or paseo or desktop clients but they never clicked with me"
+   }
+  ]
+ },
+ {
+  "id": "50367207",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "OpenClaw",
+    "sentiment": "mixed",
+    "point": "powerful and fun, but plumbing is a chore",
+    "quote": "Openclaw is the answer to question \"do X if Y happens\"… It is a very powerful model I am having lots of fun with it. the plumbing is a chore though"
+   }
+  ]
+ },
+ {
+  "id": "50373357",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Cursor",
+    "sentiment": "mixed",
+    "point": "happy until forced to use Grok",
+    "quote": "Been using Cursor for a long time and happy with it until they started to force Grok down our throats. I was happy with Composer 2."
+   },
+   {
+    "i": 2,
+    "name": "Cursor",
+    "sentiment": "negative",
+    "point": "pushed Grok on users; left",
+    "quote": "I've switched out of Cursor because A. they've been bullying us into using grok for everything"
+   },
+   {
+    "i": 5,
+    "name": "OpenCode Go/Zen",
+    "sentiment": "positive",
+    "point": "$40 tier usually enough for the month",
+    "quote": "Besides my Opencode GO subscription, I sometimes add a few bucks to use Zen. It's rare: my USD40 is usually fine for the month."
+   },
+   {
+    "i": 8,
+    "name": "Qwen",
+    "sentiment": "negative",
+    "point": "local model not useful on shared laptop",
+    "quote": "I have a Qwen model available on my Mac (M1 PRO 64GB) but haven't found it to be useful, as I need my laptop for everything else"
+   },
+   {
+    "i": 9,
+    "name": "GLM",
+    "sentiment": "mixed",
+    "point": "incredible tool caller, insufferable prose",
+    "quote": "GLM 5.3 Flash and Deepseek 4.1 Flash do most of the work for my personal stuff… GLM, Qwen and Deepseek are incredible tool callers, but their prose is insufferable."
+   },
+   {
+    "i": 10,
+    "name": "DeepSeek",
+    "sentiment": "mixed",
+    "point": "incredible tool caller, insufferable prose",
+    "quote": "GLM 5.3 Flash and Deepseek 4.1 Flash do most of the work for my personal stuff… GLM, Qwen and Deepseek are incredible tool callers, but their prose is insufferable."
+   },
+   {
+    "i": 12,
+    "name": "GPT Luna",
+    "sentiment": "positive",
+    "point": "cheap and communicates much better",
+    "quote": "I've been using GPT Luna 6 a lot because it's currently cheap as hell… I find that Luna communicates MUCH better than the Chinese models"
+   },
+   {
+    "i": 15,
+    "name": "Hermes Agent",
+    "sentiment": "mixed",
+    "point": "generally happy, but unstable with regressions",
+    "quote": "5) Hermes. Generally happy with it - despite it being extremely unstable between updates, with frequent regressions, weird UI bugs and half assed features (bot mode, anyone?)."
+   }
+  ]
+ },
+ {
+  "id": "50373697",
+  "opinions": [
+   {
+    "i": 4,
+    "name": "Codex",
+    "sentiment": "negative",
+    "point": "became unwakable in multi-agent setup",
+    "quote": "I am still refining how they all communicate, currently codex became unwakable at some point while claude can be woken with a message just fine."
+   }
+  ]
+ },
+ {
+  "id": "50376110",
+  "opinions": [
+   {
+    "i": 0,
+    "name": "Claude",
+    "sentiment": "positive",
+    "point": "amazing speed and code quality, but overwhelming",
+    "quote": "I have a Claude Code pro subscription, and mostly have Opus as a thinking buddy… I mean the speed is amazing, the code quality is also amazing, but the amount of information I get to process is just insane"
+   },
+   {
+    "i": 2,
+    "name": "Mistral",
+    "sentiment": "negative",
+    "point": "falls short of Claude Opus",
+    "quote": "For the company… we have a Mistral Team subscription, I find it hard to work with anything other than Claude Opus, I really force myself to do it but I often think: Pff, Opus would have gotten this right."
+   },
+   {
+    "i": 3,
+    "name": "Hermes Agent",
+    "sentiment": "positive",
+    "point": "handy automations and searchable notes, cheap",
+    "quote": "I also have HermesAgent on a nuc here in front of me, it makes small automations… stores notes and articles with I can interrogate as a \"body of work\" <- love that btw"
+   }
+  ]
+ }
+]

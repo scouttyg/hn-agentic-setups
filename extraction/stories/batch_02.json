@@ -1,0 +1,65 @@
+[
+  {
+    "id": "50373698",
+    "author": "mgiampapa",
+    "headline": "Retiree's Muse agent earned thousands of dollars churning bank bonuses",
+    "summary": "A retired user has Muse scrape churning forums; it made a few thousand dollars in a month on bank and brokerage bonuses, with them sanity-checking.",
+    "kind": "win",
+    "score": 8,
+    "evidence": "It also does a really good job at scraping churning forums and blogs and has made a few thousand dollars in the last month just on bank and brokerage bonuses. It does all the record keeping and I just sanity check the dates, hold periods and do the account opening / transfer work."
+  },
+  {
+    "id": "50378106",
+    "author": "flaburgan",
+    "headline": "Opus overengineered a slow SQL fix; a one-minute cache gave 1000x",
+    "summary": "Opus proposed forcing execution plans for a slow prod query; the user simply cached the result for a minute, getting 1000x speedup with three lines.",
+    "kind": "other",
+    "score": 7,
+    "evidence": "Just yesterday I pointed it to a queue suddenly being twice slower to be processed in prod. A select SQL query called thousands of times per minute became slower because of a data increased. Opus proposed several non trivial ways to optimize the query by forcing some execution plan. I just kept the result in a variable for one minute, as the data don't change often. x1000 perf with 3 lines of code."
+  },
+  {
+    "id": "50375312",
+    "author": "noahbp",
+    "headline": "Discount provider that probably sells data saved $300 in a month",
+    "summary": "They moved non-sensitive game decompilation work to a provider offering a two-thirds discount, accepting their data is probably sold, and saved $300 last month.",
+    "kind": "cost",
+    "score": 6,
+    "evidence": "I typically stay with OpenRouter, but I've found a discount provider that offers a 2/3 discount and have migrated to them. The catch is the data is probably sold, but given that it has saved me $300 this past month for non-sensitive work (game decompilation), the tradeoff is worth it."
+  },
+  {
+    "id": "50381098",
+    "author": "robviren",
+    "headline": "Built a screenless voice interface to Claude Code via headset button",
+    "summary": "They built a bespoke voice pipeline with an Android app so a Bluetooth headset button triggers their turn, letting them use Claude Code without a screen.",
+    "kind": "funny",
+    "score": 6,
+    "evidence": "Made my very own voice interface where I don't even need to look at a screen. Use a combination of my own bespoke g2p with kokoro, parakeet-ulta for ASR, hooks into claude code where each project gets it's own session. Had to make an Android app so the bluetooth headset multi-function button could trigger my \"turn\"."
+  },
+  {
+    "id": "50378530",
+    "author": "nfriedly",
+    "headline": "Agent connected a Nest thermostat to Home Assistant after the user failed",
+    "summary": "Using OpenChamber's controllable browser, an agent connected their Nest thermostat to Home Assistant after several failed solo attempts; separately, Muse auto-lowers their Marketplace prices.",
+    "kind": "win",
+    "score": 5,
+    "evidence": "For example, this was how I got it to connect my Nest thermostat to my Home Assistant instance after I had tried and failed several times on my own.)\n\nOh, and separate from all that, I have Facebook muse set to automatically lower prices on a couple things I have on FB marketplace."
+  },
+  {
+    "id": "50377579",
+    "author": "vidarh",
+    "headline": "Kimi agent built a custom agent platform in half an hour",
+    "summary": "Instead of using agent platforms, a Kimi agent built a small auditable failover system in thirty minutes; their agents now read email, handle finances and run websites.",
+    "kind": "win",
+    "score": 5,
+    "evidence": "I don't use any of the agent platforms you list as it took a Kimi agent about half an hour to build something small and auditable that handles what I want it to do and load-balances/fails over between several providers for the backend.\n\nThey handle my finances (read-only), acts as a general assistant (and reads my e-mail), plan out my projects, manages my soon-to-launch podcast setup, runs several websites autonomously."
+  },
+  {
+    "id": "50374449",
+    "author": "Zambyte",
+    "headline": "Perplexity Pro made them feel physically ill",
+    "summary": "After paying for Kagi and Perplexity Pro side by side for months, they dropped Perplexity, saying using it made them feel physically ill.",
+    "kind": "funny",
+    "score": 4,
+    "evidence": "I evaluated using Perplexity Pro for a while, paying for both subscriptions at the same time for a few months. I find it hard to describe the experience of using Perplexity Pro beyond making me feel physically ill when I used it."
+  }
+]

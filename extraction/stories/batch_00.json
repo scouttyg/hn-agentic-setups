@@ -1,0 +1,74 @@
+[
+ {
+  "id": "50380777",
+  "author": "chasd00",
+  "headline": "Friends pit simulated stock-trading agents against each other, each writing daily blogs",
+  "summary": "Their portfolio agent trades a fake account each morning and writes a daily blog, which sometimes admits things like \"well I got that one wrong\".",
+  "kind": "funny",
+  "score": 8,
+  "evidence": "My friend and I have built portfolio management agents and pit them against each other to see who can make the most money (not real money just a simulated bank account and stock portfolio). So mine runs every morning to read the news and do analaysis and all that. I have it write a daily blog that I read to keep track of what it’s doing.\n\nA daily blog for status and reasons for decision making works pretty well for tracking an agent that works unattended. It’s also kind of funny when it writes things like “well I got that one wrong” and “this is not what I expected to happen” hah"
+ },
+ {
+  "id": "50383211",
+  "author": "chasd00",
+  "headline": "Little sister following ChatGPT beats both trading bots and the S&P 500",
+  "summary": "After months, neither friend's trading agent beats the index, while their sister, who just does what ChatGPT says, tops the leaderboard.",
+  "kind": "funny",
+  "score": 7,
+  "evidence": "They've been running for a few months, my friend's was beating SPY (VSP500) for a few days but not any more. Mine never beat SPY or VOO (Vanguard SP500 index). Now, let me tell you about my little sister. She says she just does what ChatGPT tells her to do and she's #1 on the leaderboard beating everyone including the SP500."
+ },
+ {
+  "id": "50373236",
+  "author": "thefourthchime",
+  "headline": "Agents run all night; laptop not rebooted in weeks, feels like addiction",
+  "summary": "With a $200 plan since March, they juggle up to eight projects, tell agents to keep working overnight, and worry it has become an addiction.",
+  "kind": "personal",
+  "score": 7,
+  "evidence": "I've had a personal $200 plan from one of the AI providers since March 2026. I'm never not making things now, I haven't rebooted my laptop for weeks because there is always an agent building something.\n\nI cycle between 4-5 work projects and 2-3 personal projects. Every night I tell me agents I'll be going to bed and to not ask questions and keep going. I've always loved building things, but this feels more like an addiction than healthy sometimes."
+ },
+ {
+  "id": "50378790",
+  "author": "Kuyawa",
+  "headline": "DeepSeek designed its own Rust-like language for under five dollars",
+  "summary": "They asked DeepSeek to design a token-efficient language; it produced a simplified Rust without a borrow checker in a couple of hours for under $5.",
+  "kind": "funny",
+  "score": 7,
+  "evidence": "I asked DeepSeek to design a language [1] that she would use for better token optimization. She gave me all pros and cons of all current top languages and told me Rust makes her hallucinate a lot so she optimized it and removed the borrow checker, added named function arguments and merged if/switch into a single branch statement. Sort of like a simplified Rust with better syntax (all for less than $5 in just a couple of hours)"
+ },
+ {
+  "id": "50381117",
+  "author": "ggregoire",
+  "headline": "One billion tokens a month used 7% of a $10 subscription",
+  "summary": "Using DeepSeek 4.1 flash through OpenCode Go, a billion tokens in a month consumed only 7% of their $10 subscription.",
+  "kind": "cost",
+  "score": 7,
+  "evidence": "Are they? (genuine question, i've got no experience with Claude) This month I used 1 billion tokens (including cache) with DS4.1 flash and it cost me 7% of my $10 opencode go sub."
+ },
+ {
+  "id": "50378067",
+  "author": "eamonnsullivan",
+  "headline": "Unexpected retirement means losing employer-paid tokens and finding a cheap setup",
+  "summary": "Retiring soon, they are rebuilding an affordable pay-as-you-go setup for Emacs hacking, small websites and apps for a food bank they help run.",
+  "kind": "personal",
+  "score": 6,
+  "evidence": "I'm (somewhat unexpectedly) retiring [1] soon and need to come up with an affordable setup for when I no longer have an organisation paying for my tokens."
+ },
+ {
+  "id": "50375606",
+  "author": "glennfiedler",
+  "headline": "Sprint system runs 200 agent work cards across 20 machines",
+  "summary": "A netcode veteran coordinates many models over a Redis message bus and sprint cards, running 200 cards wide across 20 tailscale-linked machines.",
+  "kind": "win",
+  "score": 6,
+  "evidence": "With this sprint system I'm able to work 200 cards wide (each card is around 30-60 minutes of LLM work in a session) across a fleet of 20 machines linked together with tailscale and ssh."
+ },
+ {
+  "id": "50376720",
+  "author": "Animats",
+  "headline": "Claude signup stalled because verification emails never reach their domain",
+  "summary": "Ready to try Claude for graphics work, they are stuck at signup because Anthropic's Constant Contact verification emails are blocked for their domain.",
+  "kind": "other",
+  "score": 4,
+  "evidence": "I'm currently stalled signing up for Claude because their verification email system can't get to my inbox. (Some problem with their using Constant Contact, a spam system, to send transactional emails to my own domain, which, long ago, I had blocked at the Constant Contact end. I think. The verification email never touches the inbound mail server.)"
+ }
+]

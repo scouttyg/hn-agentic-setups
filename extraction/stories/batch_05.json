@@ -1,0 +1,74 @@
+[
+ {
+  "id": "50377492",
+  "author": "OSaMaBiNLoGiN",
+  "headline": "Six-figure developer lets AI do the job and plays video games",
+  "summary": "They tell the computer to do their job and play games all day; the employer knows, but they mourn a field that no longer fulfills them.",
+  "kind": "personal",
+  "score": 9,
+  "evidence": "I tell the computer to do my job for me and then I play videogames all day.\n\nI am salaried making > six figures and all I do is press the think button on the funny little screen."
+ },
+ {
+  "id": "50368640",
+  "author": "robgough",
+  "headline": "GrokBot handles meter readings and caught an accountant's tax error",
+  "summary": "Their GrokBot handles chores like emailing building management for meter photos, and it spotted a tax mistake by their accountant, saving money.",
+  "kind": "win",
+  "score": 8,
+  "evidence": "I use this for everything that's not coding or design... so marketing, email reading, right now it's currently inputting my meter readings to my electricity company after emailing the building management company and getting photos back. It's super useful at little chores that eat up time. I have it daily check the status of my various projects and services. I love it tbh. I've also built my own version, which I might move to... though now it's all set up it's quite sticky, and it already spotted an error my accountant made on some taxes so it's already saving me money and I'm feeling quite positive about it."
+ },
+ {
+  "id": "50368119",
+  "author": "patwolf",
+  "headline": "Talking Halloween pumpkin and a bot that checks kids' school lunches",
+  "summary": "They built a talking pumpkin for trick-or-treaters, and Grok Bot logs into the school lunch site each morning to say whether to pack lunches.",
+  "kind": "funny",
+  "score": 7,
+  "evidence": "As an example, there's a website where I order lunch for my kids. I like to know each morning if I need to pack their lunch, so I have grok bot log into the website and sync it to my calendar."
+ },
+ {
+  "id": "50377501",
+  "author": "Asmod4n",
+  "headline": "Agent verification framework accidentally reinvented emergency medicine team management",
+  "summary": "Building a framework for agents to check their own work, after 30 days they realized they had copied emergency-medicine team practices.",
+  "kind": "funny",
+  "score": 6,
+  "evidence": "After around 30 days I’ve implemented around 90% of how you manage a team in emergency medicine by accident and then applied the rest of it to it."
+ },
+ {
+  "id": "50373248",
+  "author": "Quibblingeek",
+  "headline": "Tripped a safety classifier once and cancelled every subscription",
+  "summary": "After hitting a safety classifier on an innocuous task, they dropped all frontier subscriptions for a local-first DGX Spark setup and a Hermes Mac Mini.",
+  "kind": "personal",
+  "score": 6,
+  "evidence": "No. I moved off of subscriptions earlier this year. I don't trust the subscription model from any frontier lab. Just look at what Anthropic has done. The first time I tripped a safety classifier on a seemingly irrelevant task, I canceled everything."
+ },
+ {
+  "id": "50370886",
+  "author": "sadilek",
+  "headline": "Custom canvas harness took them from 6 to 20+ parallel agents",
+  "summary": "Overwhelmed by walls of text, they built a voice-first canvas harness with chat-bubble agents and video demos, scaling to over 20 parallel agents.",
+  "kind": "win",
+  "score": 6,
+  "evidence": "I used to work with up to 6 Claude CLIs in parallel and couldn't go further. With my custom UX, I can do 20+ with fun. Now the bottleneck is actually my machine, so I added remote worker support to my harness to distribute the load to more machines."
+ },
+ {
+  "id": "50376476",
+  "author": "joegibbs",
+  "headline": "Subagents messaged each other with unrelated tasks and burned tokens",
+  "summary": "Letting sessions message each other created chaos, and agents spent hours on slow self-written tools; subagents only compounded the token burn.",
+  "kind": "agent_went_too_far",
+  "score": 5,
+  "evidence": "Yeah, the ability of the sessions to message each other turns it into a mess. They all start messaging each other with unrelated tasks and you end up not knowing what each thread is meant to be working on."
+ },
+ {
+  "id": "50375807",
+  "author": "Footprint0521",
+  "headline": "Stacking five cheap OpenCode Go accounts for 10x credits",
+  "summary": "They stack five OpenCode Go accounts, paying $50 a month for $500 of DeepSeek credits.",
+  "kind": "cost",
+  "score": 5,
+  "evidence": "I am currently stacking 5 opencode go accounts, spending $50 a month for $500 in deepseek v4.1 flash credits, using OMP as my harness"
+ }
+]

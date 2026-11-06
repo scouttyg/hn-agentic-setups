@@ -1,0 +1,350 @@
+{
+ "Claude": {
+  "weights": "closed",
+  "license": "Proprietary (Anthropic commercial terms)",
+  "note": "API/app only; no weights released.",
+  "sources": [
+   "https://www.anthropic.com/claude",
+   "https://www.anthropic.com/legal/commercial-terms"
+  ],
+  "confidence": "high"
+ },
+ "DeepSeek": {
+  "weights": "permissive",
+  "license": "MIT",
+  "note": "V4/V4.1 weights MIT; no V4.1 Pro weights found on Hugging Face yet.",
+  "sources": [
+   "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+   "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+  ],
+  "confidence": "high"
+ },
+ "Qwen": {
+  "weights": "mixed",
+  "license": "Apache-2.0; Qwen Community License 1.0",
+  "note": "3.6/3.8 27B Apache-2.0; 3.8 Flash Next needs separate license for MaaS/coding-assistant businesses, naming at scale.",
+  "sources": [
+   "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+   "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/blob/main/LICENSE"
+  ],
+  "confidence": "high"
+ },
+ "GPT": {
+  "weights": "closed",
+  "license": "Proprietary (OpenAI terms)",
+  "note": "API/ChatGPT only; OpenAI's open weights are the separate gpt-oss family.",
+  "sources": [
+   "https://openai.com/policies/terms-of-use",
+   "https://platform.openai.com/docs/models"
+  ],
+  "confidence": "high"
+ },
+ "GLM": {
+  "weights": "mixed",
+  "license": "MIT; GLM-5.3 License",
+  "note": "5.2 and 5.3 Flash MIT; GLM-5.3 requires Z.AI security review for MaaS firms over $10B revenue.",
+  "sources": [
+   "https://huggingface.co/zai-org/GLM-5.3/blob/main/LICENSE",
+   "https://huggingface.co/zai-org/GLM-5.3-Flash",
+   "https://huggingface.co/zai-org/GLM-5.2"
+  ],
+  "confidence": "high"
+ },
+ "Gemini": {
+  "weights": "closed",
+  "license": "Proprietary (Google terms)",
+  "note": "API/app only; Google's open weights are the separate Gemma family.",
+  "sources": [
+   "https://ai.google.dev/gemini-api/terms",
+   "https://deepmind.google/models/gemini/"
+  ],
+  "confidence": "high"
+ },
+ "Gemma": {
+  "weights": "permissive",
+  "license": "Apache-2.0",
+  "note": "Gemma 4 moved from Gemma Terms of Use to Apache-2.0.",
+  "sources": [
+   "https://huggingface.co/google/gemma-4-31B-it",
+   "https://huggingface.co/google/gemma-4-12B-it",
+   "https://ai.google.dev/gemma/docs/gemma_4_license"
+  ],
+  "confidence": "high"
+ },
+ "Kimi": {
+  "weights": "restricted",
+  "license": "Modified MIT (K2.6); Kimi K3.1-Pro License",
+  "note": "Naming required above 100M MAU/$20M monthly revenue; K3.1 Pro: MaaS firms over $20M need agreement.",
+  "sources": [
+   "https://huggingface.co/moonshotai/Kimi-K2.6/blob/main/LICENSE",
+   "https://huggingface.co/moonshotai/Kimi-K3.1-Pro/blob/main/LICENSE"
+  ],
+  "confidence": "high"
+ },
+ "Grok": {
+  "weights": "closed",
+  "license": "Proprietary (xAI terms)",
+  "note": "Grok 4.7 API-only; only old Grok 1/2 weights released.",
+  "sources": [
+   "https://epoch.ai/models/grok-4-7",
+   "https://huggingface.co/xai-org/grok-2"
+  ],
+  "confidence": "high"
+ },
+ "Muse": {
+  "weights": "mixed",
+  "license": "Apache-2.0 (Glimmer); Muse Model License (Spark Open); proprietary",
+  "note": "Glimmer Apache-2.0; Spark Open restricted ($20M cap, naming); Spark 1.3 and Wonder closed.",
+  "sources": [
+   "https://www.deeplearning.ai/the-batch/meta-releases-wonder-opens-spark/",
+   "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+   "https://www.trendingtopics.eu/muse-spark-open-meta-open-weight-license/"
+  ],
+  "confidence": "medium"
+ },
+ "Mistral": {
+  "weights": "restricted",
+  "license": "Mistral Ecosystem Open-Weight License (modified MIT)",
+  "note": "Large 4: MaaS businesses need separate commercial license from Mistral.",
+  "sources": [
+   "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/blob/main/LICENSE"
+  ],
+  "confidence": "high"
+ },
+ "Xiaomi MiMo": {
+  "weights": "permissive",
+  "license": "MIT",
+  "note": "",
+  "sources": [
+   "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+   "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL"
+  ],
+  "confidence": "high"
+ },
+ "Nemotron": {
+  "weights": "permissive",
+  "license": "OpenMDW-1.1",
+  "note": "Nemotron 3.5 uses Linux Foundation OpenMDW; older Nemotron used NVIDIA Open Model License.",
+  "sources": [
+   "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+   "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
+   "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006125.html"
+  ],
+  "confidence": "high"
+ },
+ "Mercury": {
+  "weights": "closed",
+  "license": "Proprietary (Inception)",
+  "note": "Mercury 3 API-only; no weights.",
+  "sources": [
+   "https://thenextweb.com/news/inception-mercury-3-diffusion-llm",
+   "https://www.llmreference.com/model/mercury-3"
+  ],
+  "confidence": "medium"
+ },
+ "Ornith": {
+  "weights": "permissive",
+  "license": "MIT",
+  "note": "",
+  "sources": [
+   "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF",
+   "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B/blob/main/LICENSE"
+  ],
+  "confidence": "high"
+ },
+ "IFM": {
+  "weights": "permissive",
+  "license": "Apache-2.0",
+  "note": "",
+  "sources": [
+   "https://huggingface.co/IFM/K2-Horizon-7B"
+  ],
+  "confidence": "high"
+ },
+ "Parakeet": {
+  "weights": "mixed",
+  "license": "NVIDIA Open Model License; CC-BY-4.0",
+  "note": "Unified EN 0.6B under NVIDIA Open Model License; older TDT Parakeets CC-BY-4.0.",
+  "sources": [
+   "https://huggingface.co/nvidia/parakeet-unified-en-0.6b",
+   "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3"
+  ],
+  "confidence": "high"
+ },
+ "Llama": {
+  "weights": "restricted",
+  "license": "Llama 3.3 Community License",
+  "note": "700M MAU cap, AUP, 'Built with Llama' naming; gated download.",
+  "sources": [
+   "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
+  ],
+  "confidence": "high"
+ },
+ "Whisper": {
+  "weights": "permissive",
+  "license": "MIT (code, large-v3-turbo); Apache-2.0 (some HF cards)",
+  "note": "",
+  "sources": [
+   "https://github.com/openai/whisper",
+   "https://huggingface.co/openai/whisper-large-v3-turbo",
+   "https://huggingface.co/openai/whisper-large-v3"
+  ],
+  "confidence": "high"
+ },
+ "MiniMax": {
+  "weights": "restricted",
+  "license": "MiniMax Community License; MiniMax H3 Community License Agreement",
+  "note": "M3.1 Flash: attribution, notice/authorization for commercial use; H3 excludes US, EU, UK, Korea.",
+  "sources": [
+   "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash/blob/main/LICENSE",
+   "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE"
+  ],
+  "confidence": "high"
+ },
+ "OpenCode": {
+  "weights": "closed",
+  "license": "Proprietary (OpenCode Zen stealth model)",
+  "note": "Big Pickle is a free hosted model on OpenCode Zen; no weights; origin undisclosed.",
+  "sources": [
+   "https://custom.typingmind.com/tools/estimate-llm-usage-costs/opencode/big-pickle",
+   "https://zeli.app/story/49315563"
+  ],
+  "confidence": "medium"
+ },
+ "MAI": {
+  "weights": "closed",
+  "license": "Proprietary (Microsoft)",
+  "note": "MAI Transcribe 2 via Azure/Foundry API only; MAI Translate 2 not verified.",
+  "sources": [
+   "https://openrouter.ai/microsoft/mai-transcribe-2",
+   "https://www.channelinsider.com/ai/news-microsoft-mai-transcribe-2-ai-transcription/"
+  ],
+  "confidence": "medium"
+ },
+ "Jev": {
+  "weights": "closed",
+  "license": "Proprietary (TypeSafe AI)",
+  "note": "TypeSafe's Jev is API-only; unrelated AutoTrust JEV models are Apache-2.0.",
+  "sources": [
+   "https://www.gradually.ai/en/ai-models/laya/",
+   "https://huggingface.co/autotrust/JEV-35B"
+  ],
+  "confidence": "medium"
+ },
+ "Composer": {
+  "weights": "closed",
+  "license": "Proprietary (Cursor)",
+  "note": "Cursor-only; built on Kimi K2.5 but weights not released.",
+  "sources": [
+   "https://www.implicator.ai/cursor-acknowledges-kimi-k2-5-as-composer-2-base-after-developer-spots-model-id",
+   "https://codepick.dev/en/guides/cursor-composer-2/"
+  ],
+  "confidence": "high"
+ },
+ "Abliterated": {
+  "weights": "closed",
+  "license": "Proprietary (Abliteration AI hosted)",
+  "note": "Hosted refusal-removed GLM-5.3 via API; no weights released.",
+  "sources": [
+   "https://developer.puter.com/ai/abliteration-ai/abliterated-model-large-v2/",
+   "https://aiwiki.ai/wiki/abliterated_model_large_v2"
+  ],
+  "confidence": "medium"
+ },
+ "Chatterbox": {
+  "weights": "permissive",
+  "license": "MIT",
+  "note": "",
+  "sources": [
+   "https://huggingface.co/ResembleAI/chatterbox"
+  ],
+  "confidence": "high"
+ },
+ "gpt-oss": {
+  "weights": "permissive",
+  "license": "Apache-2.0",
+  "note": "Plus a light gpt-oss usage policy.",
+  "sources": [
+   "https://huggingface.co/openai/gpt-oss-120b"
+  ],
+  "confidence": "high"
+ },
+ "Kokoro": {
+  "weights": "permissive",
+  "license": "Apache-2.0",
+  "note": "",
+  "sources": [
+   "https://huggingface.co/hexgrad/Kokoro-82M"
+  ],
+  "confidence": "high"
+ },
+ "Flux": {
+  "weights": "mixed",
+  "license": "Apache-2.0; FLUX Non-Commercial License",
+  "note": "Schnell and FLUX.2 Klein 4B Apache-2.0; Dev and Klein 9B non-commercial.",
+  "sources": [
+   "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+   "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+   "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B"
+  ],
+  "confidence": "high"
+ },
+ "Lechonk": {
+  "weights": "restricted",
+  "license": "Mistral Ecosystem Open-Weight License (modified MIT)",
+  "note": "'Le Chonk' is Mistral Large 4's nickname; MaaS needs commercial license.",
+  "sources": [
+   "https://www.newsbytesapp.com/news/science/mistral-unveils-le-chonk-a-1-trillion-parameter-open-weight-cybersecurity-model/tldr",
+   "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/blob/main/LICENSE"
+  ],
+  "confidence": "high"
+ },
+ "Bivia": {
+  "weights": "closed",
+  "license": "Proprietary (Articul8)",
+  "note": "Articul8 decision model, API/platform only.",
+  "sources": [
+   "https://cxotoday.com/media-coverage/articul8-launches-bivia-to-bring-domain-specific-decision-intelligence-to-enterprise-ai-agents/",
+   "https://www.orcarouter.ai/blog/articul8-bivia-decision-model-explained"
+  ],
+  "confidence": "medium"
+ },
+ "Poolside": {
+  "weights": "permissive",
+  "license": "Apache-2.0; OpenMDW-1.1",
+  "note": "Laguna models; 2.1 releases use OpenMDW-1.1, earlier Apache-2.0.",
+  "sources": [
+   "https://huggingface.co/poolside/Laguna-XS.2",
+   "https://huggingface.co/poolside/Laguna-S-2.1"
+  ],
+  "confidence": "medium"
+ },
+ "Helmcode": {
+  "skip": true,
+  "note": "Helmcode is an open-model inference provider, not a model family.",
+  "sources": [
+   "https://es.linkedin.com/company/helmcode"
+  ]
+ },
+ "Desert": {
+  "weights": "restricted",
+  "license": "Desert Ant Labs Source-Available License v1.1",
+  "note": "Free under 100K monthly licenses; mandatory license check, visible attribution, no competing-model training.",
+  "sources": [
+   "https://license.desertant.com/",
+   "https://huggingface.co/desert-ant-labs/title"
+  ],
+  "confidence": "high"
+ },
+ "Laya": {
+  "weights": "permissive",
+  "license": "Apache-2.0",
+  "note": "",
+  "sources": [
+   "https://huggingface.co/convaiinnovations/laya",
+   "https://huggingface.co/convaiinnovations/laya-multilingual"
+  ],
+  "confidence": "high"
+ }
+}

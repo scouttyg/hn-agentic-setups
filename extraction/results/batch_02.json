@@ -1,0 +1,3242 @@
+[
+ {
+  "id": "50376062",
+  "is_answer": true,
+  "summary": "Claude $100 plan plus DeepSeek API (off-peak), mostly DS flash in the DeepSeek harness.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "$100/mo",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "the $100/m Claude subscription"
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "platform API, DS-4-1-flash, off-peak pricing",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "platform.deepseek.com (hooray off-peak pricing)"
+   },
+   {
+    "category": "harness",
+    "name": "DeepSeek Harness",
+    "detail": "with DS-4-1-flash",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Deepseek Harness + DS-4-1-flash combo"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50373351",
+  "is_answer": true,
+  "summary": "OpenCode Go ($10) for personal projects, employer-provided Codex at work, no personal agents.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "OpenCode Go/Zen",
+    "detail": "$10, personal projects",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "I subscribe to OpenCode Go"
+   },
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "employer-provided",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "using Codex with the subscription they give me"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "at work",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "At work, I'm using Codex"
+   },
+   {
+    "category": "platform",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I'm not using any personal agents"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50376778",
+  "is_answer": true,
+  "summary": "Local Flash-Next model via Pi on dual RTX 3060s, plus prepaid DeepSeek V4 Flash API in OpenCode; no orchestration or platforms.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "Pi",
+    "detail": "local agent",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Local Agent on PC via PI Coding agent"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Qwen",
+    "detail": "Flash-Next IQ3_XXS, local on 2x RTX 3060",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Model Flash-Next (IQ3_XXS, 75.8 GB)"
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "V4-Flash, prepaid tokens, ~$4/mo",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Deepseek-V4-Flash on Opencode via Deepseek.com with prepaid Tokens"
+   },
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "3. Opencode and PI"
+   },
+   {
+    "category": "orchestration",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "4. no"
+   },
+   {
+    "category": "platform",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "5. no"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50379352",
+  "is_answer": true,
+  "summary": "Claude $200 and Codex $100 (partly employer-paid), OpenRouter, desktop apps, and own Workforce harness/orchestrator and Clara assistant.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "$200 plan",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I have a $200 Claude and a $100 Codex"
+   },
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "$100 plan",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I have a $200 Claude and a $100 Codex"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenRouter",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I generally run everything through openrouter"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Whisper",
+    "detail": "local specialty models (Whisper, Chatterbox)",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I do use local specialty models for Whisper and Chatterbox"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "desktop app",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "If I'm using Codex or Claude directly, I'm using the desktop apps"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "desktop app",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "If I'm using Codex or Claude directly, I'm using the desktop apps"
+   },
+   {
+    "category": "harness",
+    "name": "Custom harness",
+    "detail": "own agent factory",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I'm switching to my own harnesses via my own agent factory"
+   },
+   {
+    "category": "orchestration",
+    "name": "Custom orchestration",
+    "detail": "Workforce",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "My own, called Workforce"
+   },
+   {
+    "category": "platform",
+    "name": "Custom assistant",
+    "detail": "Clara personal assistant (and Workforce)",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "running a personal assistant I'm building called Clara"
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "moving to own harnesses to make agents work exactly how they want",
+    "evidence": "build your own and make them work how YOU want"
+   },
+   {
+    "text": "prefers desktop apps over the command line",
+    "evidence": "The apps are MUCH more useful than doing everything on the command line now"
+   }
+  ],
+  "platform_use_cases": [
+   {
+    "text": "coding agents and a personal assistant",
+    "evidence": "My main use cases are code and running a personal assistant"
+   }
+  ]
+ },
+ {
+  "id": "50367546",
+  "is_answer": true,
+  "summary": "Conductor with git worktrees on a Claude subscription; evaluating Amp.",
+  "items": [
+   {
+    "category": "orchestration",
+    "name": "Conductor",
+    "detail": "multiple projects at once",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I'm currently using https://www.conductor.build/"
+   },
+   {
+    "category": "orchestration",
+    "name": "Git worktrees",
+    "detail": "via Conductor",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "with git worktrees and my Claude subscription"
+   },
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "my Claude subscription"
+   },
+   {
+    "category": "harness",
+    "name": "Amp",
+    "detail": "evaluating",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "Separately I'm evaluating https://ampcode.com/"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50367876",
+  "is_answer": true,
+  "summary": "Claude Code with one session per repo messaging each other, no orchestration tools.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "one session per repo, sessions message each other",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I just run one session per repo and they talk to each other directly"
+   },
+   {
+    "category": "orchestration",
+    "name": "None",
+    "detail": "sessions talk directly",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "eliminated the need for orchestration tools"
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "dropped orchestration tools because sessions can message each other",
+    "evidence": "This has removed most of that back and forth for me and eliminated the need for orchestration tools"
+   }
+  ],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50373785",
+  "is_answer": false,
+  "summary": "",
+  "items": [],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50393227",
+  "is_answer": true,
+  "summary": "Claude Pro with Claude Code in terminal, free Codex/OpenCode tiers as fallback, building own ADE for parallel tasks.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "Pro",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "I am paying for Claude (pro plan) only"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "terminal",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I prefer to use claude code in terminal"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "free tier fallback",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "use the free limit of codex and opencode"
+   },
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "free tier fallback",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "use the free limit of codex and opencode"
+   },
+   {
+    "category": "orchestration",
+    "name": "Custom orchestration",
+    "detail": "building own ADE for the team",
+    "stance": "planned",
+    "paid_by": null,
+    "evidence": "we are building an ADE for our team"
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "building own ADE for parallel task visibility",
+    "evidence": "because of large number of task running in parallel and less visibility"
+   }
+  ],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50391332",
+  "is_answer": true,
+  "summary": "Codex $100 daily driver, Claude $20, CodeBuddy Pro, Grok bot deal and Instinct bot for job applications and emails.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "$100, daily driver",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "Codex $100- daily driver"
+   },
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "$20",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "Claude $20- gives me the supreme intelligence"
+   },
+   {
+    "category": "subscription",
+    "name": "CodeBuddy",
+    "detail": "Pro ~$10",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "Codebuddy pro about $10"
+   },
+   {
+    "category": "subscription",
+    "name": "Grok",
+    "detail": "Grok bot deal $30 for three months",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I got it for like $30 for three months"
+   },
+   {
+    "category": "platform",
+    "name": "Grok bot",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Grok bot had a deal on"
+   },
+   {
+    "category": "platform",
+    "name": "Instinct bot",
+    "detail": "free",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I use free instinct bot too"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": [
+   {
+    "text": "job applications and emails",
+    "evidence": "shit hot for applications for jobs, emails"
+   },
+   {
+    "text": "finding deals",
+    "evidence": "to find if it would find better deals"
+   }
+  ]
+ },
+ {
+  "id": "50385108",
+  "is_answer": true,
+  "summary": "Claude Pro for orchestration with Opus, OpenCode Go and Command Code GOAT, many free tiers; Copilot and Codex Pro at work.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "Pro, Opus 5.5 for orchestration",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "I use a Claude Pro subscription for orchestration with Opus 5.5"
+   },
+   {
+    "category": "subscription",
+    "name": "OpenCode Go/Zen",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "I use OpenCode Go and Command Code GOAT"
+   },
+   {
+    "category": "subscription",
+    "name": "Command Code",
+    "detail": "GOAT",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "I use OpenCode Go and Command Code GOAT"
+   },
+   {
+    "category": "orchestration",
+    "name": "Custom orchestration",
+    "detail": "Opus orchestrating, adversarial validation patterns",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "agentic patterns involving adversarial validation"
+   },
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "free tier",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff"
+   },
+   {
+    "category": "harness",
+    "name": "Kiro",
+    "detail": "free tier",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "free tier",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff"
+   },
+   {
+    "category": "harness",
+    "name": "Antigravity",
+    "detail": "free tier",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff"
+   },
+   {
+    "category": "harness",
+    "name": "Kilo Code",
+    "detail": "free tier",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff"
+   },
+   {
+    "category": "harness",
+    "name": "Mistral Vibe",
+    "detail": "free tier",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff"
+   },
+   {
+    "category": "harness",
+    "name": "Cursor",
+    "detail": "free tier",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff"
+   },
+   {
+    "category": "harness",
+    "name": "CodeBuddy",
+    "detail": "free tier",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff"
+   },
+   {
+    "category": "harness",
+    "name": "Devin",
+    "detail": "free tier",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff"
+   },
+   {
+    "category": "harness",
+    "name": "FreeBuff",
+    "detail": "free tier",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "all the available free tiers: OpenCode, Kiro, Codex, Antigravity, Kilo, Vibe, Cursor, CodeBuddy, Devin, and FreeBuff"
+   },
+   {
+    "category": "subscription",
+    "name": "GitHub Copilot",
+    "detail": "work, 10K AI credits",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "provided with 10K AI credits for GitHub Copilot and Codex Pro"
+   },
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "Codex Pro, work",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "provided with 10K AI credits for GitHub Copilot and Codex Pro"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50376352",
+  "is_answer": true,
+  "summary": "Work Anthropic/Copilot/Google subs; moved from Claude Code Desktop to JetBrains ThinkRail with worktrees, Requesty for hobby models, custom k8s agent framework.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "work Anthropic subscription",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "At work we have both Anthropic and Copilot subscriptions"
+   },
+   {
+    "category": "subscription",
+    "name": "GitHub Copilot",
+    "detail": "work",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "At work we have both Anthropic and Copilot subscriptions"
+   },
+   {
+    "category": "subscription",
+    "name": "Gemini",
+    "detail": "Google AI included in business plan",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "plus Google AI as it"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "Desktop App, previously",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "I have personally been using the Claude Code Desktop App"
+   },
+   {
+    "category": "harness",
+    "name": "ThinkRail",
+    "detail": "JetBrains experimental agent IDE",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I tried JetBrains experimental agent IDE, ThinkRail, and I love it"
+   },
+   {
+    "category": "orchestration",
+    "name": "Git worktrees",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Super easy to start worktrees from any branch"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Requesty",
+    "detail": "router for hobby projects; Haiku 5, Opus 5.5, Google Argon 4",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "connect to Requesty for my hobby projects"
+   },
+   {
+    "category": "orchestration",
+    "name": "Custom orchestration",
+    "detail": "internal framework launching Claude in Kubernetes devcontainers",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "a framework that lets us launch Claude"
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "left Claude Code Desktop because picking a branch per worktree got harder",
+    "evidence": "was happy with it until they made it harder to pick a branch for each worktree"
+   },
+   {
+    "text": "moved to smaller models (Haiku 5) for speed and price",
+    "evidence": "using smaller models you can get much faster work, and the difference in price is dramatic"
+   }
+  ],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50376216",
+  "is_answer": true,
+  "summary": "Codex $20 and OpenCode Go $10 (DeepSeek flash) via OpenCode with OpenChamber UI, free ChatGPT for planning.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "$20",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I have had a $20 codex subscription"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "Codex cloud, initially",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "I initially just used codex cloud"
+   },
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "with OpenChamber UI",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "using opencode with the open chamber ui over the top of it"
+   },
+   {
+    "category": "harness",
+    "name": "OpenChamber",
+    "detail": "UI over OpenCode, task plugin",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "open chamber ui"
+   },
+   {
+    "category": "subscription",
+    "name": "OpenCode Go/Zen",
+    "detail": "$10, mostly DeepSeek 4.1 flash",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "$10 opencode go subscription"
+   },
+   {
+    "category": "harness",
+    "name": "Chat UI (web/app)",
+    "detail": "free ChatGPT for feature discussion",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I discuss features with chat gpt"
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "added OpenCode Go because Codex usage limits declined",
+    "evidence": "Codex usage limits have really gone down hill"
+   }
+  ],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50380849",
+  "is_answer": true,
+  "summary": "Claude Code and Codex in Docker Sandboxes; moving to cloud VM + LXC.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "in Docker Sandbox",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "My work is mostly just Claude Code and Codex"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "in Docker Sandbox",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "My work is mostly just Claude Code and Codex"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50376357",
+  "is_answer": true,
+  "summary": "OpenRouter-only (GLM, Kimi, DeepSeek), formerly oh-my-pi now trying Hermes, tmux sessions, open-webui.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "Pi",
+    "detail": "oh-my-pi, previously",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "I was using oh-my-pi"
+   },
+   {
+    "category": "platform",
+    "name": "Hermes Agent",
+    "detail": "trying as alternative",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "currently playing around with Hermes as an alternative"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenRouter",
+    "detail": "exclusive, for ZDR",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Exclusively using open router at the moment"
+   },
+   {
+    "category": "api_or_model",
+    "name": "GLM",
+    "detail": "via OpenRouter",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "GLM, Kimi and DeepSeek are the main models"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Kimi",
+    "detail": "via OpenRouter",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "GLM, Kimi and DeepSeek are the main models"
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "via OpenRouter",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "GLM, Kimi and DeepSeek are the main models"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenAI API",
+    "detail": "some usage",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "with some OpenAI usage"
+   },
+   {
+    "category": "orchestration",
+    "name": "tmux / zellij",
+    "detail": "remote access and session durability",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Tmux for remote access and session durability"
+   },
+   {
+    "category": "orchestration",
+    "name": "Herdr",
+    "detail": "planning to look at it",
+    "stance": "planned",
+    "paid_by": null,
+    "evidence": "I'm going to take a look at Hedr"
+   },
+   {
+    "category": "harness",
+    "name": "Chat UI (web/app)",
+    "detail": "open-webui",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I make a lot of use of open-webui"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50375773",
+  "is_answer": true,
+  "summary": "Free models in OpenCode (DeepSeek) and local Qwen3.8 flash via Strata in a customized Pi; no orchestration.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "free models",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I use free models in opencode, mainly DeepSeek"
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "free models in OpenCode",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I use free models in opencode, mainly DeepSeek"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Qwen",
+    "detail": "Qwen3.8 flash next local at 60 tok/s",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "my laptop can run Qwen3.8 flash next at 60 tok/s via Strata"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Strata",
+    "detail": "local inference",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "via Strata"
+   },
+   {
+    "category": "harness",
+    "name": "Pi",
+    "detail": "customized",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "in a customized version of pi"
+   },
+   {
+    "category": "orchestration",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I don't use any orchestration"
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "moved to local Qwen in Pi once laptop could run it",
+    "evidence": "So I mostly use Qwen now in a customized version of pi"
+   }
+  ],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50376670",
+  "is_answer": false,
+  "summary": "",
+  "items": [],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50375312",
+  "is_answer": true,
+  "summary": "Claude Ultra in Claude Code with subagents; DeepSeek/GLM via OpenRouter and a discount provider in Oh My Pi; no platforms.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "Ultra",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "1. Claude Ultra."
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "v4.1-flash for tasks Claude refuses",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Deepseek-v4.1-flash or GLM-5.3"
+   },
+   {
+    "category": "api_or_model",
+    "name": "GLM",
+    "detail": "GLM-5.3",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Deepseek-v4.1-flash or GLM-5.3"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenRouter",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I typically stay with OpenRouter"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Discount provider (unnamed)",
+    "detail": "2/3 discount",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "found a discount provider that offers a 2/3 discount"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "for Claude",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "3. Claude Code for Claude."
+   },
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "previously, for API usage",
+    "stance": "rejected",
+    "paid_by": null,
+    "evidence": "I used to use OpenCode for my API usage"
+   },
+   {
+    "category": "harness",
+    "name": "Pi",
+    "detail": "Oh my Pi",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "so I switched to Oh my Pi"
+   },
+   {
+    "category": "orchestration",
+    "name": "Subagents (built-in)",
+    "detail": "Claude Code subagents, queuing >200, 8 at a time",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Claude Code's subagent feature and workflow"
+   },
+   {
+    "category": "orchestration",
+    "name": "Custom orchestration",
+    "detail": "bespoke script managing many OpenCode instances",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I had Claude build some bespoke workflow orchestration tool"
+   },
+   {
+    "category": "platform",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I don't have a use case for them, so no."
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "left OpenCode for Oh my Pi due to unfixed issues",
+    "evidence": "there are too many issues which have gone unfixed"
+   },
+   {
+    "text": "moved from OpenRouter to a cheaper discount provider",
+    "evidence": "it has saved me $300 this past month"
+   }
+  ],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50377473",
+  "is_answer": false,
+  "summary": "",
+  "items": [],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50378479",
+  "is_answer": true,
+  "summary": "Claude $100 + Codex $20, Gemini Flash Lite for bulk, cmux with Stream Deck, Opus subagents, Hermes as 24/7 assistant.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "$100",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "Claude ($100) + Codex ($20)"
+   },
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "$20, images and reviews",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "Claude ($100) + Codex ($20)"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Google / Gemini API",
+    "detail": "Gemini 3.5 Flash Lite for summaries at scale",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I reach for Gemini 3.5 Flash Lite"
+   },
+   {
+    "category": "orchestration",
+    "name": "cmux",
+    "detail": "folders per project + Stream Deck agent status",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "CMUX with folders per project"
+   },
+   {
+    "category": "orchestration",
+    "name": "Subagents (built-in)",
+    "detail": "Opus 5.5 orchestrating",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Just Opus 5.5 orchestrating its subagents"
+   },
+   {
+    "category": "platform",
+    "name": "Hermes Agent",
+    "detail": "24/7 machine",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "5) Hermes."
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": [
+   {
+    "text": "24/7 personal assistant reachable from anywhere",
+    "evidence": "you can reach from anywhere to be worth it. As your personal assistant"
+   }
+  ]
+ },
+ {
+  "id": "50378651",
+  "is_answer": true,
+  "summary": "Claude $100 paired with Codex $20; downgraded from Codex $200.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "$100",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "+1 for Claude $100 paired with Codex $20"
+   },
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "$20 (previously $200)",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "+1 for Claude $100 paired with Codex $20"
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "downgraded from $200 Codex plan, felt like wasting money",
+    "evidence": "I was a $200 codex plan person not that long ago"
+   }
+  ],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50378415",
+  "is_answer": true,
+  "summary": "GitHub Copilot max plan with the Local harness in VS Code, plus ChatGPT desktop via a Teams/Business plan; gave up on Codex cloud.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "GitHub Copilot",
+    "detail": "Local harness in VS Code",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I use the Local harness in vs code"
+   },
+   {
+    "category": "subscription",
+    "name": "GitHub Copilot",
+    "detail": "max plan; Sol 6.1, Astra, Opus 5.5",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "GitHub copilot max plan"
+   },
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "Teams/Business plan",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "through a chatgpt teams/business plan"
+   },
+   {
+    "category": "harness",
+    "name": "Chat UI (web/app)",
+    "detail": "ChatGPT desktop",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I also use chatgpt desktop for some tasks"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "Codex cloud, gave up",
+    "stance": "rejected",
+    "paid_by": null,
+    "evidence": "I briefly tried to set up codex cloud and it was a mess"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50373255",
+  "is_answer": true,
+  "summary": "Claude $20 at home and $200 at work via Claude Code Desktop; Gemini/ChatGPT web; no API, orchestration, or platforms.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "$20, home",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "Home - Claude $20"
+   },
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "$200, work",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "Work - Claude $200"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "Claude Code Desktop on Windows",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Claude Code Desktop on Windows: I like it."
+   },
+   {
+    "category": "harness",
+    "name": "Chat UI (web/app)",
+    "detail": "Gemini web, ChatGPT web",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Cut and paste when using Gemini or ChatGPT"
+   },
+   {
+    "category": "orchestration",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "4) No"
+   },
+   {
+    "category": "platform",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "5) No."
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50378890",
+  "is_answer": true,
+  "summary": "Two Claude subs, ChatGPT, OpenRouter (DeepSeek), via own Agenta platform switching Codex/Claude/Pi for founder automations.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "2 subscriptions",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I have two Claude subscriptions"
+   },
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "a ChatGPT subscription"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenRouter",
+    "detail": "mainly DeepSeek",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Openrouter (mainly deepseek)"
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "via OpenRouter, simpler tasks",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "deepseek for simpler tasks"
+   },
+   {
+    "category": "platform",
+    "name": "Agenta",
+    "detail": "own product",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I mainly use Agenta"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "via Agenta",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "switch between codex/claude/pi"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "via Agenta",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "switch between codex/claude/pi"
+   },
+   {
+    "category": "harness",
+    "name": "Pi",
+    "detail": "via Agenta",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "switch between codex/claude/pi"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": [
+   {
+    "text": "founder work automation: outreach, analytics, exec assistant, SEO, QA loops",
+    "evidence": "Build agents to automate parts of my work as a founder"
+   },
+   {
+    "text": "scheduled automations",
+    "evidence": "Build automations on schedule"
+   },
+   {
+    "text": "agents in Slack and Telegram shared with team",
+    "evidence": "Integrate the agents into Slack and Telegram"
+   }
+  ]
+ },
+ {
+  "id": "50375302",
+  "is_answer": true,
+  "summary": "Employer Cursor $1k/mo (Opus/auto), OpenRouter pay-as-you-go (DeepSeek/Gemini), and own Jira-driven sandboxed harness.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Cursor",
+    "detail": "$1k/month, Opus 5.5 / auto",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "$1k/month subscription from cursor for work"
+   },
+   {
+    "category": "harness",
+    "name": "Cursor",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I select between opus 5.5 and auto"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenRouter",
+    "detail": "pay-as-you-go",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "pay-as-you go on openrouter"
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "via OpenRouter",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "use latest DeepSeek or Gemini"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Google / Gemini API",
+    "detail": "via OpenRouter",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "use latest DeepSeek or Gemini"
+   },
+   {
+    "category": "harness",
+    "name": "Custom harness",
+    "detail": "Jira-driven, sandboxed Docker",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I created my own minimalist/task based harness"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50377449",
+  "is_answer": true,
+  "summary": "Claude Ultra with Claude Code and subagents, dabbles in Codex, OpenRouter in-product, orchestrates via OpenRig.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "Ultra",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I've had the Claude Ultra tier for awhile"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "occasionally",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "sometimes dabble in Codex"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenRouter",
+    "detail": "model access within the product",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I also use OpenRouter for model access"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "raw",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "raw Claude Code and subagents"
+   },
+   {
+    "category": "orchestration",
+    "name": "Subagents (built-in)",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "raw Claude Code and subagents"
+   },
+   {
+    "category": "orchestration",
+    "name": "OpenRig",
+    "detail": "product and engineering rigs",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "my new favorite, OpenRig"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50385555",
+  "is_answer": true,
+  "summary": "OpenRig (author) for SaaS projects with dogfood rigs.",
+  "items": [
+   {
+    "category": "orchestration",
+    "name": "OpenRig",
+    "detail": "own product, dogfood rigs",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "On my saas projects I've done with openrig"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50374449",
+  "is_answer": true,
+  "summary": "Kagi Ultimate, local Qwen 3.8 flash on R9700, OpenRouter escape hatch, Pi with extensions, Herdr to manage agents; no platforms.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Kagi",
+    "detail": "Ultimate, search only",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "1) Kagi Ultimate."
+   },
+   {
+    "category": "subscription",
+    "name": "Perplexity",
+    "detail": "Pro, evaluated a few months",
+    "stance": "rejected",
+    "paid_by": "self",
+    "evidence": "I evaluated using Perplexity Pro for a while"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Qwen",
+    "detail": "3.8 flash q2 on R9700, 4x256k context",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Qwen 3.8 flash q2 on an R9700"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenRouter",
+    "detail": "credits as escape hatch",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "some Openrouter credits as an escape hatch"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Whisper",
+    "detail": "local on 7900 XTX",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "auxiliary services like whisper"
+   },
+   {
+    "category": "harness",
+    "name": "Pi",
+    "detail": "custom extensions, openspec",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "3) Pi[1] with a suite of extensions"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "previously",
+    "stance": "rejected",
+    "paid_by": null,
+    "evidence": "I switched to Pi from Codex"
+   },
+   {
+    "category": "orchestration",
+    "name": "Herdr",
+    "detail": "TUI to manage Pi agents",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I use Herdr (tui)[3] to manage Pi agents"
+   },
+   {
+    "category": "platform",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "5) No."
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "Codex to Pi for minimalism and smaller default prompts with limited local context",
+    "evidence": "I liked the minimalist philosophy behind it"
+   },
+   {
+    "text": "Codex default prompts consumed local context",
+    "evidence": "The default prompts of Codex ate into that a lot"
+   }
+  ],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50375705",
+  "is_answer": true,
+  "summary": "Claude Code and Codex on a cloud VM via SSH, Zed SSH to view code.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "on cloud VM via ssh",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "i run claude code and codex via ssh"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "on cloud VM via ssh",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "i run claude code and codex via ssh"
+   },
+   {
+    "category": "harness",
+    "name": "Zed",
+    "detail": "SSH remote to view code",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "ssh connection feature to take a look at the code"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50386408",
+  "is_answer": false,
+  "summary": "",
+  "items": [],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50389805",
+  "is_answer": true,
+  "summary": "Paseo managing Claude, Codex and OpenCode Go with a model-selection classifier.",
+  "items": [
+   {
+    "category": "orchestration",
+    "name": "Paseo",
+    "detail": "organizes agents",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I use Paseo with Claude + Codex and Opencode Go"
+   },
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I use Paseo with Claude + Codex and Opencode Go"
+   },
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I use Paseo with Claude + Codex and Opencode Go"
+   },
+   {
+    "category": "subscription",
+    "name": "OpenCode Go/Zen",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I use Paseo with Claude + Codex and Opencode Go"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50387654",
+  "is_answer": true,
+  "summary": "No subscription; pay-as-you-go DeepSeek V4 Pro with nodecode + dirge + DeepSeek superagent harness in a keyless VM.",
+  "items": [
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "V4 Pro pay-as-you-go",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "pay go deepseek v4 pro"
+   },
+   {
+    "category": "harness",
+    "name": "Aider",
+    "detail": "earlier",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "gone aider, MetaGPT, gemini, pi, claude"
+   },
+   {
+    "category": "harness",
+    "name": "MetaGPT",
+    "detail": "earlier",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "gone aider, MetaGPT, gemini, pi, claude"
+   },
+   {
+    "category": "harness",
+    "name": "Gemini CLI",
+    "detail": "earlier",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "gone aider, MetaGPT, gemini, pi, claude"
+   },
+   {
+    "category": "harness",
+    "name": "Pi",
+    "detail": "earlier",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "gone aider, MetaGPT, gemini, pi, claude"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "earlier",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "gone aider, MetaGPT, gemini, pi, claude"
+   },
+   {
+    "category": "harness",
+    "name": "Dirge",
+    "detail": "current",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "nodecode + dirge + deepseek superagent harness"
+   },
+   {
+    "category": "harness",
+    "name": "Nodecode",
+    "detail": "current",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "nodecode + dirge + deepseek superagent harness"
+   },
+   {
+    "category": "harness",
+    "name": "DeepSeek Superagent",
+    "detail": "current harness",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "nodecode + dirge + deepseek superagent harness"
+   },
+   {
+    "category": "orchestration",
+    "name": "DeepSeek Superagent",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "4) deepseek superagent harness"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50374774",
+  "is_answer": true,
+  "summary": "Locally hosted Qwen and Gemma 4, own harness/orchestrator, sometimes Pi; left Cline + VS Code.",
+  "items": [
+   {
+    "category": "api_or_model",
+    "name": "Qwen",
+    "detail": "local variants",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I'm locally hosting variants of Qwen and Gemma 4"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Gemma",
+    "detail": "Gemma 4 local",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I'm locally hosting variants of Qwen and Gemma 4"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Baseten",
+    "detail": "inconsistent performance/pricing",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "tried inference services such as baseten and novita"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Novita",
+    "detail": "inconsistent performance/pricing",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "tried inference services such as baseten and novita"
+   },
+   {
+    "category": "harness",
+    "name": "Custom harness",
+    "detail": "own harness/orchestrator",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I primarily use my own harness/orchestrator"
+   },
+   {
+    "category": "orchestration",
+    "name": "Custom orchestration",
+    "detail": "kanban dev-team model",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I primarily use my own harness/orchestrator"
+   },
+   {
+    "category": "harness",
+    "name": "Pi",
+    "detail": "sometimes",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "and sometimes Pi"
+   },
+   {
+    "category": "harness",
+    "name": "Cline",
+    "detail": "with VS Code, previously",
+    "stance": "rejected",
+    "paid_by": null,
+    "evidence": "I switched away from Cline + VS Code"
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "left Cline + VS Code to optimize for reviewing fast-generated code",
+    "evidence": "code is being generated so fast that I needed to optimize for review"
+   }
+  ],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50385925",
+  "is_answer": true,
+  "summary": "DeepSeek API and z.ai coding plan, moving to self-hosted Qwen on M5 Max via MTPLX with oh-my-pi; no orchestration or platforms.",
+  "items": [
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "v4.1 flash and pro, heavier work",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "deepseek v4.1 flash and pro"
+   },
+   {
+    "category": "subscription",
+    "name": "Z.ai (GLM)",
+    "detail": "coding subscription, moving away",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "I also have z.ai coding subscription"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Qwen",
+    "detail": "3.8 27B/Flash Next, 3.5 35B A3B self-hosted on M5 Max",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "settling with the Qwen series models"
+   },
+   {
+    "category": "api_or_model",
+    "name": "MTPLX",
+    "detail": "serving runtime",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "serving with MTPLX"
+   },
+   {
+    "category": "harness",
+    "name": "Pi",
+    "detail": "oh-my-pi main, bare pi for drop-in",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Mostly Pi (oh-my-pi for main coding env"
+   },
+   {
+    "category": "platform",
+    "name": "NanoClaw",
+    "detail": "set up a while ago, porting to Pi",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "I do have a nanoclaw setup a while ago"
+   },
+   {
+    "category": "platform",
+    "name": "None",
+    "detail": "never to be trusted",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "5. No"
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "moving from APIs/subscriptions to self-hosting on new Mac Studio",
+    "evidence": "I just got a M5 Max 128G mac studio and self-hosting models now"
+   },
+   {
+    "text": "Pi's small footprint suits self-hosted models",
+    "evidence": "Its small footprint is really important for self hosted models"
+   }
+  ],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50379596",
+  "is_answer": true,
+  "summary": "Hermes on a homelab VM using OpenRouter with DeepSeek flash v4.1.",
+  "items": [
+   {
+    "category": "platform",
+    "name": "Hermes Agent",
+    "detail": "dedicated homelab VM",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "My main personal agentic workflow is hermes"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenRouter",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I use Openrouter for the LLM"
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "flash v4.1 via OpenRouter",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "mainly deepseek flash v4.1"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": [
+   {
+    "text": "homelab monitoring of Proxmox and access to Nextcloud/GitHub",
+    "evidence": "restricted access to my Nexcloud, Github and the Proxmox VE / Proxmox PBS servers"
+   }
+  ]
+ },
+ {
+  "id": "50373698",
+  "is_answer": true,
+  "summary": "Claude Pro with Claude Code, Together API for kid toys, Muse as personal assistant for research and bank bonuses.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "Pro $20/mo",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "1) Claude Pro $20/mo"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Together",
+    "detail": "API for toys built for kid",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I have API usage via Together"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "vibe coding",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Claude Code letting it do the work"
+   },
+   {
+    "category": "orchestration",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "4) No"
+   },
+   {
+    "category": "platform",
+    "name": "Muse",
+    "detail": "personal assistant",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "5) Muse"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": [
+   {
+    "text": "basic research, waiting on ticket windows, personal assistant",
+    "evidence": "basic research, waiting on ticket windows and just being a personal assistant"
+   },
+   {
+    "text": "scraping churning forums for bank/brokerage bonuses with record keeping",
+    "evidence": "scraping churning forums and blogs"
+   }
+  ]
+ },
+ {
+  "id": "50373866",
+  "is_answer": false,
+  "summary": "",
+  "items": [],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50367618",
+  "is_answer": false,
+  "summary": "",
+  "items": [],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50373335",
+  "is_answer": false,
+  "summary": "",
+  "items": [],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50373887",
+  "is_answer": true,
+  "summary": "One Claude Max plan with Opus and occasionally Fable.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "Max; Opus, occasionally Fable",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "one max Claude plan with Opus and occasionally Fable"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50367673",
+  "is_answer": false,
+  "summary": "",
+  "items": [],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50378907",
+  "is_answer": true,
+  "summary": "ChatGPT $20 and OpenCode Go $10, rotating models, using Zed and JetBrains IDEs; no orchestration.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "$20, prefers Sol",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "I have a $20 ChatGPT subscription"
+   },
+   {
+    "category": "subscription",
+    "name": "OpenCode Go/Zen",
+    "detail": "$10",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "a $10 OpenCode Go subscription"
+   },
+   {
+    "category": "harness",
+    "name": "Zed",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I primarily use Zed and JetBrains IDEs"
+   },
+   {
+    "category": "harness",
+    "name": "JetBrains AI / Junie",
+    "detail": "JetBrains IDEs",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I primarily use Zed and JetBrains IDEs"
+   },
+   {
+    "category": "orchestration",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I don't use any orchestration tools"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50378106",
+  "is_answer": true,
+  "summary": "Zed IDE with Claude Pro (Opus 5.5); previously Max with Fable.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "Zed",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I use the Zed IDE with Opus 5.5 pro subscription"
+   },
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "Pro, Opus 5.5 (previously Max with Fable)",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I use the Zed IDE with Opus 5.5 pro subscription"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50367744",
+  "is_answer": true,
+  "summary": "Claude $20 with Claude Code, Pi with API providers for review, DeepSeek harness with API, Muse $5 backup; dropped Codex.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "Orca",
+    "detail": "personal work",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "For personal work. I use Orca."
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "Opus 5.5 medium",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Claude Code with $20 Claude subscription"
+   },
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "$20, Opus 5.5 medium",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "Claude Code with $20 Claude subscription"
+   },
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "canceled",
+    "stance": "rejected",
+    "paid_by": "unknown",
+    "evidence": "recently I canceled it"
+   },
+   {
+    "category": "harness",
+    "name": "Pi",
+    "detail": "second opinion via API providers",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I use Pi with other model providers and just pay API prices"
+   },
+   {
+    "category": "harness",
+    "name": "DeepSeek Harness",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Deepseek harness with a deepseek API key"
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "API key, batch runs",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Deepseek harness with a deepseek API key"
+   },
+   {
+    "category": "subscription",
+    "name": "Muse",
+    "detail": "$5/month backup",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I have a Muse $5/month subscription"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenAI API",
+    "detail": "GPT-6-luna batch API",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "GPT-6-luna using their batch API"
+   },
+   {
+    "category": "platform",
+    "name": "Cloud agents",
+    "detail": "recurring jobs",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I also use cloud agents to setup reoccurring jobs"
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "canceled Codex because of hitting limits",
+    "evidence": "recently I canceled it cause I kept reaching my limits"
+   }
+  ],
+  "platform_use_cases": [
+   {
+    "text": "recurring scheduled jobs",
+    "evidence": "cloud agents to setup reoccurring jobs"
+   }
+  ]
+ },
+ {
+  "id": "50374135",
+  "is_answer": true,
+  "summary": "Own Conductor-like CLI around Claude Code terminal, Herdr for sessions, Beads, multi-repo support.",
+  "items": [
+   {
+    "category": "orchestration",
+    "name": "Custom orchestration",
+    "detail": "own tool modeled on Conductor",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "modeled on conductor but uses Claude code terminal"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "terminal",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "uses Claude code terminal"
+   },
+   {
+    "category": "orchestration",
+    "name": "Herdr",
+    "detail": "sessions",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Herdr for sessions"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50380633",
+  "is_answer": true,
+  "summary": "OpenCode with DeepSeek V4.1 Flash and local IFM K2 Horizon on custom MLX engine, Helyn Implement protocol; building custom orchestrator.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "OpenCode + DeepSeek V4.1 Flash 1017"
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "V4.1 Flash 1017",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "OpenCode + DeepSeek V4.1 Flash 1017"
+   },
+   {
+    "category": "api_or_model",
+    "name": "IFM K2 Horizon",
+    "detail": "7B with speculative decoding",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "IFM K2 Horizon 7B with speculative decoding"
+   },
+   {
+    "category": "api_or_model",
+    "name": "MLX",
+    "detail": "custom inference engine",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "custom inference engine (MLX)"
+   },
+   {
+    "category": "orchestration",
+    "name": "Helyn Implement",
+    "detail": "multi-model agentic protocol",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Helyn Implement for coding"
+   },
+   {
+    "category": "orchestration",
+    "name": "Custom orchestration",
+    "detail": "for STEM problems",
+    "stance": "planned",
+    "paid_by": null,
+    "evidence": "Currently developing a custom agent orchestration system"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50373811",
+  "is_answer": true,
+  "summary": "No subscriptions; many free/trial models, eca.dev in Emacs, Claude Code at work, trying OpenCode; no orchestration or platforms.",
+  "items": [
+   {
+    "category": "api_or_model",
+    "name": "MiMo",
+    "detail": "mimo-v2.6-flash free/trial",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "mimo-v2.6-flash"
+   },
+   {
+    "category": "api_or_model",
+    "name": "MiniMax",
+    "detail": "minimax-m3.1-flash",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "minimax-m3.1-flash"
+   },
+   {
+    "category": "api_or_model",
+    "name": "GLM",
+    "detail": "glm-5.3-flash",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "glm-5.3-flash"
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "deepseek-v4.1-flash",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "deepseek-v4.1-flash"
+   },
+   {
+    "category": "api_or_model",
+    "name": "gpt-oss",
+    "detail": "120b",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "gpt-oss:120b"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Nemotron",
+    "detail": "3.5 super vl 120b",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "nemotron-3.5.-super-vl.120b-a12b"
+   },
+   {
+    "category": "harness",
+    "name": "Emacs (gptel etc.)",
+    "detail": "eca.dev",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Mostly eca.dev on Emacs"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "at work",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Claude Code at work"
+   },
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "trying",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "Now trying the OpenCode one too"
+   },
+   {
+    "category": "orchestration",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "4) No."
+   },
+   {
+    "category": "platform",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "5) No."
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50377579",
+  "is_answer": true,
+  "summary": "Top-tier Claude, GLM, Kimi, Codex team; Atlas and OpenRouter; claw-like self-built agents on Matrix as assistants.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "top tier, maxed weekly",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "Claude (top tier)"
+   },
+   {
+    "category": "subscription",
+    "name": "Z.ai (GLM)",
+    "detail": "top tier, fallback",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "GLM top tier"
+   },
+   {
+    "category": "subscription",
+    "name": "Kimi",
+    "detail": "top tier",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "Kimi top tier"
+   },
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "team plan, family logins",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "Codex team w/logins for the whole family"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Atlas Cloud",
+    "detail": "pay-as-you-go",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Atlas and OpenRouter pay-as-you-go"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenRouter",
+    "detail": "pay-as-you-go",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Atlas and OpenRouter pay-as-you-go"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I'm using Codex, Claude Code, Kimi Code for different things"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I'm using Codex, Claude Code, Kimi Code for different things"
+   },
+   {
+    "category": "harness",
+    "name": "Kimi Code",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I'm using Codex, Claude Code, Kimi Code for different things"
+   },
+   {
+    "category": "platform",
+    "name": "Custom assistant",
+    "detail": "claw-like agents on self-hosted Matrix",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "claw-like agents hanging off a self-hosted Matrix server"
+   },
+   {
+    "category": "orchestration",
+    "name": "Custom orchestration",
+    "detail": "agents self-organize via shared wiki",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "The agents have their own wiki for orchestration"
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "built own small auditable agent instead of listed platforms",
+    "evidence": "it took a Kimi agent about half an hour to build something small and auditable"
+   }
+  ],
+  "platform_use_cases": [
+   {
+    "text": "read-only finances",
+    "evidence": "They handle my finances (read-only)"
+   },
+   {
+    "text": "general assistant reading email",
+    "evidence": "acts as a general assistant (and reads my e-mail)"
+   },
+   {
+    "text": "project planning, podcast setup, running websites",
+    "evidence": "plan out my projects, manages my soon-to-launch podcast setup, runs several websites autonomously"
+   }
+  ]
+ },
+ {
+  "id": "50378946",
+  "is_answer": true,
+  "summary": "Claude Code via Herdr on nonprofit team Claude plan, git worktrees, Bedrock for batch; experimenting with OpenCode/OpenRouter.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "Opus or Sonnet",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Claude Code (Opus or Sonnet) via Herdr"
+   },
+   {
+    "category": "orchestration",
+    "name": "Herdr",
+    "detail": "4-5 parallel tasks",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Claude Code (Opus or Sonnet) via Herdr"
+   },
+   {
+    "category": "orchestration",
+    "name": "Git worktrees",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "maybe two git work trees"
+   },
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "Nonprofit Premium team license",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "team \"Nonprofit Premium\" allowances"
+   },
+   {
+    "category": "api_or_model",
+    "name": "AWS Bedrock",
+    "detail": "batch tasks and automated systems",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "various models through Bedrock"
+   },
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "experimenting",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "I'm experimenting with Opencode"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenRouter",
+    "detail": "experimenting",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "I'm experimenting with Opencode and Openrouter/Bedrock"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50376782",
+  "is_answer": true,
+  "summary": "Local Qwen/Gemma on 7900 XTX, Ollama Cloud for GLM, OpenWebUI, OpenCode, experimenting with Pi; Claude Code at work.",
+  "items": [
+   {
+    "category": "api_or_model",
+    "name": "Qwen",
+    "detail": "27B local on XTX7900",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Qwen 27B and Gemma"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Gemma",
+    "detail": "local",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Qwen 27B and Gemma"
+   },
+   {
+    "category": "subscription",
+    "name": "Ollama Cloud",
+    "detail": "mostly GLM",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "Ollama Cloud subscription to access (mostly) GLM"
+   },
+   {
+    "category": "harness",
+    "name": "Chat UI (web/app)",
+    "detail": "OpenWebUI server",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I have a server with OpenWebUI"
+   },
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "for harnesses I use OpenCode"
+   },
+   {
+    "category": "harness",
+    "name": "Pi",
+    "detail": "RUP-style workflow experiment",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "experimenting with pi.dev"
+   },
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "work, Opus",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "At work: Claude Code subscription"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "work",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "At work: Claude Code subscription, mostly with Opus."
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50378016",
+  "is_answer": true,
+  "summary": "Claude Ultra (up to 3 accounts), cheap OpenAI sub for Codex, own Lab frontend and Hivemind collaboration layer; no platforms.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "Ultra, up to 3 accounts",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "1) Claude ultra."
+   },
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "cheap sub, small tasks",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I have a cheap OpenAI sub I sometimes use codex on"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "small tasks when out of Claude tokens",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I sometimes use codex on"
+   },
+   {
+    "category": "harness",
+    "name": "Custom harness",
+    "detail": "Lab, own multi-chat frontend",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Lab - a frontend I made"
+   },
+   {
+    "category": "orchestration",
+    "name": "Custom orchestration",
+    "detail": "Hivemind collaboration layer",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Hivemind - another one of mine"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "under Lab",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "loads of Claude + Hivemind sessions under the hood"
+   },
+   {
+    "category": "platform",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "5) No, 100% of my work takes place in Lab"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50381098",
+  "is_answer": true,
+  "summary": "Own voice interface (kokoro TTS, parakeet ASR) hooked into Claude Code per-project sessions.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "Custom harness",
+    "detail": "voice interface",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Made my very own voice interface"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "per-project sessions via hooks",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "hooks into claude code"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Kokoro",
+    "detail": "TTS with bespoke g2p",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "bespoke g2p with kokoro"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Parakeet",
+    "detail": "ASR",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "parakeet-ulta for ASR"
+   },
+   {
+    "category": "harness",
+    "name": "Chat UI (web/app)",
+    "detail": "official app for text",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "can use the official app for text interface"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50378530",
+  "is_answer": true,
+  "summary": "Employer Claude; personally Qwen 3.8 Flash Next via Strata on home server with OpenCode/OpenChamber; Facebook Muse for marketplace.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "day job account",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "My day job has a Claude account"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Qwen",
+    "detail": "3.8 Flash Next on home server",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Qwen 3.8 Flash Next, Strata, and OpenCode/OpenChamber"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Strata",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Qwen 3.8 Flash Next, Strata, and OpenCode/OpenChamber"
+   },
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Qwen 3.8 Flash Next, Strata, and OpenCode/OpenChamber"
+   },
+   {
+    "category": "harness",
+    "name": "OpenChamber",
+    "detail": "phone and desktop apps",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "the OpenChamber app is awesome"
+   },
+   {
+    "category": "platform",
+    "name": "Muse",
+    "detail": "Facebook Muse",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I have Facebook muse set to automatically lower prices"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": [
+   {
+    "text": "automatically lowering FB Marketplace prices",
+    "evidence": "set to automatically lower prices on a couple things I have on FB marketplace"
+   }
+  ]
+ },
+ {
+  "id": "50373936",
+  "is_answer": true,
+  "summary": "Cline in VS Code with Claude, plus local Qwen or Gemma for small tasks.",
+  "items": [
+   {
+    "category": "harness",
+    "name": "Cline",
+    "detail": "VS Code extension, read-only permissions",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I like using Cline the VS Code extension"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Qwen",
+    "detail": "local, small tasks",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I might use a local Qwen or Gemma model"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Gemma",
+    "detail": "local, small tasks",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I might use a local Qwen or Gemma model"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50377263",
+  "is_answer": true,
+  "summary": "OpenAI open source grant for GPT 6 Astra light; APIs for Claude, GPT6 and DeepSeek via AtlasCloud; formerly Claude grant; no Gemini.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "open source grant, gpt 6 Astra light",
+    "stance": "uses",
+    "paid_by": "unknown",
+    "evidence": "I have an open source grant from OpenAI so I use gpt 6 Astra light"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Anthropic API",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "use APIs for Claude, gpt6 or DeepSeek via atlascloud"
+   },
+   {
+    "category": "api_or_model",
+    "name": "OpenAI API",
+    "detail": "gpt6",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "use APIs for Claude, gpt6 or DeepSeek via atlascloud"
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "via AtlasCloud",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "use APIs for Claude, gpt6 or DeepSeek via atlascloud"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Atlas Cloud",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "DeepSeek via atlascloud"
+   },
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "previous open source grant",
+    "stance": "tried",
+    "paid_by": "unknown",
+    "evidence": "I previously had an open source grant for Claude"
+   },
+   {
+    "category": "subscription",
+    "name": "Gemini",
+    "detail": "",
+    "stance": "rejected",
+    "paid_by": "unknown",
+    "evidence": "I don't use Gemini."
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50380254",
+  "is_answer": true,
+  "summary": "Client-provided Copilot and Claude Code via default CLIs; no outside models, orchestration or platforms.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "GitHub Copilot",
+    "detail": "client-provided, up to $1500 credits",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "Client 1: Copilot"
+   },
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "client-provided, unlimited Claude Code",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "Client 2: Claude Code - unlimited usage"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "default CLI",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Client 2: Claude Code"
+   },
+   {
+    "category": "harness",
+    "name": "GitHub Copilot",
+    "detail": "default CLI",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "3-Answered above, default CLIs"
+   },
+   {
+    "category": "orchestration",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "4-Never got the time"
+   },
+   {
+    "category": "platform",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "5-Not using any of those"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50385740",
+  "is_answer": true,
+  "summary": "Venice.ai credits for DeepSeek V4.1 Flash (also Opus, Sol, Kimi) in OpenCode; considering Claude Pro and Hermes.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "considering Pro",
+    "stance": "planned",
+    "paid_by": "unknown",
+    "evidence": "considering Claude Pro"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Venice",
+    "detail": "DIEM token daily credits",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I use Venice.ai with its DIEM token"
+   },
+   {
+    "category": "api_or_model",
+    "name": "DeepSeek",
+    "detail": "V4.1 Flash 1017 via Venice",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "My main driver is DeepSeek V4.1 Flash 1017"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Kimi",
+    "detail": "3.1 Pro via Venice, trying",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "I'm taking it for a spin"
+   },
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "latest version",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "3) Opencode (latest version)"
+   },
+   {
+    "category": "orchestration",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "4) No orchestration."
+   },
+   {
+    "category": "platform",
+    "name": "Hermes Agent",
+    "detail": "planned on homelab",
+    "stance": "planned",
+    "paid_by": null,
+    "evidence": "planning on Hermes running on my homelab"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50368106",
+  "is_answer": true,
+  "summary": "Claude monthly plus Anthropic API, Bedrock at work, local Qwen with Ollama, Claude Code CLI/VS Code and Hermes Agent.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "monthly",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "Personally? Claude monthly"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Anthropic API",
+    "detail": "prepaid credits for apps",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I also keep money in the API service"
+   },
+   {
+    "category": "api_or_model",
+    "name": "AWS Bedrock",
+    "detail": "unlimited Claude at work",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Professionally I use an unlimited Claude via AWS Bedrock"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Qwen",
+    "detail": "3.6 35b-a3b and 3.8 27b on MacBook Pro",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "qwen 3.6 35b-a3b and qwen 3.8 27b on my Macbook Pro"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Ollama",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I use those with ollama and hermes"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "CLI and VS Code",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Claude CLI and Claude in VS Code"
+   },
+   {
+    "category": "platform",
+    "name": "Hermes Agent",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "5. Hermes Agent"
+   },
+   {
+    "category": "orchestration",
+    "name": "None",
+    "detail": "",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "4. No"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50379350",
+  "is_answer": true,
+  "summary": "Employer Copilot, ChatGPT Plus, and Hermes on a NAS using local Qwen3.6 via oMLX on a Mac mini.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "GitHub Copilot",
+    "detail": "company issued",
+    "stance": "uses",
+    "paid_by": "employer",
+    "evidence": "I use company issued Copilot"
+   },
+   {
+    "category": "subscription",
+    "name": "ChatGPT / Codex",
+    "detail": "Plus $20",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "I use ChatGPT Plus (the 20USD one)"
+   },
+   {
+    "category": "api_or_model",
+    "name": "MLX",
+    "detail": "oMLX on Mac mini M6",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "running oMLX"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Qwen",
+    "detail": "Qwen3.6-35B-A3B",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Jundot/Qwen3.6-35B-A3B-oQ4e-mtp"
+   },
+   {
+    "category": "platform",
+    "name": "Hermes Agent",
+    "detail": "on Celeron NAS/homelab",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Hermes on my Celeron openmediavault NAS/homelab"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50381059",
+  "is_answer": false,
+  "summary": "",
+  "items": [],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ },
+ {
+  "id": "50376810",
+  "is_answer": true,
+  "summary": "Claude Pro with Claude Code; local Gemma via oMLX and Qwen via Strata; Hermes for health/appointments; trialing OpenCode/Pi at work.",
+  "items": [
+   {
+    "category": "subscription",
+    "name": "Claude",
+    "detail": "Pro $20/mo",
+    "stance": "uses",
+    "paid_by": "self",
+    "evidence": "Personal: Claude Pro 20$/mo"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Gemma",
+    "detail": "local via oMLX",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Mostly using Gemma through oMLX"
+   },
+   {
+    "category": "api_or_model",
+    "name": "MLX",
+    "detail": "oMLX",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Mostly using Gemma through oMLX"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Qwen",
+    "detail": "Qwen-flash-next via Strata",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "experimenting with Qwen-flash-next through Strata"
+   },
+   {
+    "category": "api_or_model",
+    "name": "Strata",
+    "detail": "",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "through Strata"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "mobile remote integration",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "Harness: Claude code, mostly"
+   },
+   {
+    "category": "harness",
+    "name": "OpenCode",
+    "detail": "trialing at work",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "I am trialing opencode and pi harness"
+   },
+   {
+    "category": "harness",
+    "name": "Pi",
+    "detail": "trialing at work",
+    "stance": "tried",
+    "paid_by": null,
+    "evidence": "I am trialing opencode and pi harness"
+   },
+   {
+    "category": "platform",
+    "name": "Hermes Agent",
+    "detail": "local chat interface",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "For local I mostly use Hermes"
+   }
+  ],
+  "switch_reasons": [
+   {
+    "text": "Hermes over OpenWebUI because tool integration was easier",
+    "evidence": "getting OpenWebUI have search tool was pain"
+   }
+  ],
+  "platform_use_cases": [
+   {
+    "text": "talking through health problems and organizing appointments",
+    "evidence": "I am mostly talking through my health problems and trying to get my appointments in order"
+   }
+  ]
+ },
+ {
+  "id": "50377582",
+  "is_answer": true,
+  "summary": "Own Next.js orchestrator launching headless Claude/Codex sessions reacting to GitLab and Linear.",
+  "items": [
+   {
+    "category": "orchestration",
+    "name": "Custom orchestration",
+    "detail": "Next.js UI, headless sessions, GitLab/Linear",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "I've vibed my own orchestrator"
+   },
+   {
+    "category": "harness",
+    "name": "Claude Code",
+    "detail": "headless and CLI",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "refining linear tickets in a claude / codex cli"
+   },
+   {
+    "category": "harness",
+    "name": "Codex",
+    "detail": "headless and CLI",
+    "stance": "uses",
+    "paid_by": null,
+    "evidence": "refining linear tickets in a claude / codex cli"
+   }
+  ],
+  "switch_reasons": [],
+  "platform_use_cases": []
+ }
+]
